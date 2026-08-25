@@ -14,8 +14,7 @@ Para plasmar estos hallazgos de forma atractiva, interactiva y rigurosa, propong
 "La Radiografía Geopolítica de la Estatuilla" (Mapa de calor e itinerario del talento internacional)**  
   Crear una plataforma visual interactiva que mapee el origen geográfico de cada intérprete nominado a las categorías principales por década. Este recurso no solo mostrará el país de nacimiento, sino el viaje profesional de los actores internacionales: cuántos lograron la nominación trabajando en películas de su idioma y país de origen versus cuántos debieron migrar a producciones de estudios norteamericanos habladas en inglés. La historia se apoyará en un gráfico de área apilada que contraponga el porcentaje de nominados estadounidenses frente al resto del mundo entre 1975 y 2026.
 
--
-### Idea 2: "El Techo de Cristal del Idioma: ¿Globalización o Asimilación en Hollywood?"
+- **Idea 2: "El Techo de Cristal del Idioma: ¿Globalización o Asimilación en Hollywood?"
 
 Esta propuesta investiga si la apertura de los Premios Oscar hacia el cine internacional es real o si existe una barrera lingüística invisible en las categorías principales. 
 
