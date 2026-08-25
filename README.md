@@ -1,5 +1,5 @@
-# Propuesta de Investigación Periodística: La Globalización de los Oscar
 
+<<<<<<< HEAD
 
 ## 1. Presentación de la propuesta
 
@@ -90,3 +90,5 @@ Abordar el fenómeno de la globalización del entretenimiento a partir de las ca
 - **Resultado Máximo:** Una plataforma interactiva que combine mapas geográficos de origen, análisis del idioma de la película y un modelo de correlación entre la masificación del streaming/plataformas globales y la aceleración de nominaciones internacionales en la última década.
 
 ## 2. Base de datos incial 
+=======
+>>>>>>> d76aa5a67fb8dc72cb76f41cd39c4b52b44b496f
