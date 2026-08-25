@@ -46,6 +46,8 @@ En el contexto de la globalización del entretenimiento, ha aumentado de forma s
 - **Datos existentes vs. por conseguir:**
   - *Existentes:* Registro oficial de nominados/ganadores de la Cineteca/Academia y dataset base de Kaggle con demografía histórica.
   - *Por conseguir:* Normalización de nacionalidades (diferenciar país de nacimiento de país de nacionalidad/carrera), idioma de la película e identificación de casos de doble nacionalidad.
+  Datos de la edición 2026 (98°) sobre los nominados/ganadores de la Cineteca/Academia. 
+
 - **Datos inexistentes y forma de obtención:**
   - No existe un dataset público consolidado que clasifique específicamente el "origen del talento" (si la carrera se consolidó fuera de EE. UU. antes de la nominación). Se obtendrá construyendo una matriz propia mediante extracción automatizada (web scraping de Wikipedia/IMDb API) y verificación manual.
 - **Datos públicos vs. no públicos:**
@@ -70,7 +72,7 @@ En el contexto de la globalización del entretenimiento, ha aumentado de forma s
 
 
 ### Historia visual
-Abordar el fenómeno de la globalización del entretenimiento a partir de las categorías "Mejor Actor" y "Mejor Actriz" de los premios Oscar. La intención es averiguar si es que, gracias a la globalización, los Oscar comenzaron a incluir a más actores y/o actrices de otras nacionalidades diferentes a las no anglófonas. Asimismo, explicaremos a grandes rasgos cómo se han visto más representadas ciertas nacionalidades en las votaciones de estos premios.
+Abordar el fenómeno de la globalización del entretenimiento a partir de las categorías "Mejor Actor" y "Mejor Actriz" de los premios Oscar. La intención es averiguar si es que, gracias a la globalización, los Oscar comenzaron a incluir a más actores y/o actrices de otras nacionalidades diferentes a las no estadounidenses. Asimismo, explicaremos a grandes rasgos cómo se han visto más representadas ciertas nacionalidades en las votaciones de estos premios.
 
 
 - **Lo nuevo:** Desplazar el foco de la discusión racial/étnica estadounidense para analizar la diversidad desde una perspectiva de **geografía, nacionalidad y descentralización de la industria global del entretenimiento**.
