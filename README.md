@@ -38,7 +38,7 @@ En el contexto de la globalización del entretenimiento, ha aumentado de forma s
 ---
 
 
-### Datos
+### Datos 
 - **Datos necesarios para probar la hipótesis:**
   - Lista de todos los nominados y ganadores en "Mejor Actor" y "Mejor Actriz" de los últimos 50 años (1975-2026).
   - País de nacimiento y nacionalidad(es) de cada intérprete nominado.
@@ -88,3 +88,5 @@ Abordar el fenómeno de la globalización del entretenimiento a partir de las ca
 ### Resultados
 - **Resultado Mínimo:** Un reporte descriptivo con gráficos de líneas y barras que contabilice el porcentaje de actores extranjeros nominados por década desde 1975 a la fecha, respondiendo si hubo o no un incremento.
 - **Resultado Máximo:** Una plataforma interactiva que combine mapas geográficos de origen, análisis del idioma de la película y un modelo de correlación entre la masificación del streaming/plataformas globales y la aceleración de nominaciones internacionales en la última década.
+
+## 2. Base de datos incial 
