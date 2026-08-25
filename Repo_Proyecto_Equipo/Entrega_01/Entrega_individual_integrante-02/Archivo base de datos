@@ -1,0 +1,20 @@
+
+
+---
+updatedAt: 2025-10-27T15:56:42.000Z
+---
+
+Fetch the complete documentation index at: https://developer.themoviedb.org/llms.txt. Use this file to discover all available pages before exploring further. Append .md to any documentation page URL to get its markdown version.
+
+# JSON & JSONP
+
+The only response format we support is JSON.
+
+If you are using a JavaScript library and need to make requests from another public domain, you can use the `callback` parameter which will encapsulate the JSON response in a JavaScript function for you.
+
+```curl Example JSONP Request
+curl --request GET \
+     --url 'https://api.themoviedb.org/3/search/movie?query=Batman&callback=test' \
+     --header 'Authorization: Bearer <<access_token>>' \
+     --header 'accept: application/json'
+```
