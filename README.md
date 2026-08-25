@@ -18,7 +18,6 @@ Esta investigación busca medir cuantitativamente el alcance de la globalizació
 
 
 ### Pregunta de investigación (~ hipótesis)
-- En los últimos 50 años, ¿han aumentado los protagonistas no estadounidenses en los filmes nominados a mejor película?
 - En los últimos 50 años, ¿han aumentado los artistas no estadounidenses nominados en las categorías "Mejor Actriz" y "Mejor Actor" de los premios Oscar?
 
 
