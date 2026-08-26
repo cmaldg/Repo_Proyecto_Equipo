@@ -1,0 +1,10 @@
+En nuestra historia *"La Globalización de los Oscar"* espero que podamos identificar el aumento de actores no-estadounidenses en las premiaciones en las categorías de mejor actor y actriz en los premios Oscar. Esto en consecuencia del fenómeno de la globalización, particularmente intensificado en el último tiempo a causa de la hiperconectividad, generando mayor representación internacional en los premios de la academia, ampliando el repertorio de artistas a lo largo del mundo y así abriendo las puertas a la representación a más países y etnias. 
+Ya que además la representación en premios prestigiosos es importante para el desarollo cultural de los países, generando mayores oportunidades de progreso en estas áreas a los países a lo largo del mundo.
+
+Espero que podamos encontrar una correlación entre los períodos temporales de dicho aumento. Por ejemplo, si observamos que la globalización se intensificó como fenómeno en los años 80's observar en los datos si desde esa decada en adelante comenzaron a aumentar las nominaciones para actrices y actores internacionales en los premios Oscar. 
+
+* Como primera idea, me gustaría hacer una webstory visualmente llamativa y visualmente fácil de comprender, que con gráficos de líneas pueda mostrar el paralelismo entre ambos fenómenos y si existe realmente una correlación entre ellos.
+
+* En segundo lugar, me gustaría poder incluir un listado con lás películas nominadas con mayor representación internacional en su reparto y producción. Así, aquellos que navegen a lo largo de la webstory puedan observar cuales películas salen un poco más del círculo estadounidense y anglosajón, además de integrar el año de su lanzamiento para así reforzar la hipotesís -en caso de ser correcta- que a medida avanzan las decadas va aumentando el mercado laboral para actrices y actores de todo el mundo.
+
+Nuestra historia pertenece al arquetipo de **observación** debido a que se enfoca en la evolución de un fenómeno a lo largo del tiempo. Por lo que analizaremos los datos para ver si logramos identificar una correlación y un crecimiento de los actores no-anglosajones en las peliculas nominadas a los premios de la academia.
