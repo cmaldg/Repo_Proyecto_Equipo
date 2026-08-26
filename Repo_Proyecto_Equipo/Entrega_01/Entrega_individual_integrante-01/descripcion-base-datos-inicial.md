@@ -7,5 +7,8 @@
   - *Periodo:* 1975 a 2026 (50 años).
 - **Pertinencia:** otorga el registro de datos cuantitativos necesarios para medir la cantidad de artistas locales e internacionales, además permite calcular la tendencia por décadas.
 - **Metodología y recolección:**
-  - *Método:* se extraería la base de datos existente desde Kaggle y se filtraría por las categorías "Mejor actor" y "Mejor actriz". Asimismo, se utilizaría la metodología de *web scraping* en el sitio web de los Oscar (`oscars.org`) para poder incorporar la última ceremonia de premiación (2026).
+  - *Método:* extracción de la base existente en CSV desde Kaggle, filtrada por las categorías de actuación principal. Los datos se actualizan mediante *web scraping* en Python sobre el buscador oficial de los Oscar (`oscars.org`) para incorporar la última ceremonia de premiación.
+  
+  
+ 
 
