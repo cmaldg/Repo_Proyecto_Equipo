@@ -10,6 +10,4 @@ Con la historia de La globalización en los Oscar, espero que logremos evidencia
 
 ## Arquetipo de La globalización de los Oscar
 
-### ¿Por qué la historia se ajusta a este arquetipo?
 
-### ¿Qué elementos de la historia se relacionan con este arquetipo?
