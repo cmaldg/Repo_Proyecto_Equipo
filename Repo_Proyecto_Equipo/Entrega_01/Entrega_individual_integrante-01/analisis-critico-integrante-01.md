@@ -9,7 +9,7 @@ Con la historia _La Globalización de los Oscar_, espero que logremos evidenciar
 
     * _Imagen de referencia:_
 <p align="center">
-  <img src="pines.jpg" width="360">
+  <img src="pines.jpg" width="300">
 </p>
 
 2. ### **Visualización de las banderas de países extranjeros con más nominaciones:** 
