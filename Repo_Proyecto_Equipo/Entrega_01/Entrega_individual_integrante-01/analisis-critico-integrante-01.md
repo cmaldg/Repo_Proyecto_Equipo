@@ -5,11 +5,11 @@ Con la historia _La Globalización de los Oscar_, espero que logremos evidenciar
 
 ## Ideas que me gustaría realizar para contar la historia
 1. ### **Recopilación de discursos de actores y actrices no estadounidenses:** 
-* Esta idea se basa en recopilar algunos discursos de actores y actrices extranjeros que ganaron el Oscar. De esta manera, si nuestra hipótesis es correcta, podríamos reforzar nuestra historia a través de videos con artistas no locales que lograron obtener la estatuilla entre 1975 y 2026. A su vez, estos se ordenarían según los años y se conectarían mediante pines para ser mostrados desde el inicio hasta el final de la web. El objetivo es que quede, visualmente, como un mapeo. 
+* Esta idea se basa en recopilar algunos discursos de actores y actrices extranjeros que ganaron el Oscar. De esta manera, si nuestra hipótesis es correcta, podríamos reforzar nuestra historia a través de videos con artistas no locales que lograron obtener la estatuilla entre 1975 y 2026. A su vez, estos se ordenarían según los años y se conectarían mediante pines para ser mostrados desde el inicio hasta el final de la web. El objetivo es que quede, visualmente, como un mapeo.
 
-Imagen de referencia: 
+    * _Imagen de referencia:_
 <p align="center">
-  <img src="pines.jpg" width="300">
+  <img src="pines.jpg" width="360">
 </p>
 
 2. ### **Visualización de las banderas de países extranjeros con más nominaciones:** 
