@@ -1,7 +1,7 @@
 # Análisis crítico individual: La Globalización de los Oscar
 
 ## ¿Qué espero contar y/o revelar el tema?
-Con la historia _La Globalización de los Oscar_, espero que logremos evidenciar la existencia de una mayor cantidad de artistas no locales nominados en las categorías “Mejor actor” y “Mejor actriz” en los años correspondientes a la investigación (1975-2026). Asimismo, me gustaría que pudiéramos identificar una tendencia en este aumento para determinar si existe alguna correlación con hitos claves de la industria cinematográfica en la era de la globalización. De esta manera, podríamos contar cómo la digitalización u otras instancias en Hollywood han sido influyentes para la internacionalización de actores y actrices en los Premios Oscar. 
+Con la historia _La Globalización de los Oscar_, espero que logremos evidenciar la existencia de una mayor cantidad de artistas no locales nominados en las categorías “Mejor actor” y “Mejor actriz” en los años correspondientes a la investigación (1975-2026). Asimismo, me gustaría que pudiéramos identificar una tendencia en este aumento para determinar si existe alguna correlación con hitos claves de la industria cinematográfica en la era de la globalización. De esta manera, podríamos contar cómo la digitalización u otras instancias importantes en Hollywood han sido influyentes para la internacionalización de los Premios Oscar. 
 
 ## Ideas que me gustaría realizar para contar la historia
 1. ### **Recopilación de discursos de actores y actrices no estadounidenses:** 
