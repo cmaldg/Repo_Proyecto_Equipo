@@ -3,7 +3,7 @@
  
 - **Autor y publicación de los datos:** Kaggle (*The Oscar Award Demographics 1928-2025* por Valettel) combinado con el registro oficial de la Academia de Artes y Ciencias Cinematográficas ([Oscars.org Official Database](https://www.oscars.org/oscars/ceremonies)).
 - **Contenido:** registro de todos los actores y actrices nominados y nominadas a "Mejor Actor" y "Mejor Actriz" entre 1975 y 2026.
-  - *Variables:* `id_nominacion`, `ano_ceremonia`, `categoria`, `nombre_actor`, `pelicula`, `resultado_oscar` (Ganador/Nominado), `pais_nacimiento`, `nacionalidad_principal`, `es_estadounidense` (Booleano: Sí/No), `continente_origen`.
+  - *Variables:* `id_nominacion`, `ano_ceremonia`, `categoria`, `nombre_actor`, `pelicula`, `resultado_oscar` (ganador/nominado), `pais_nacimiento`, `nacionalidad_principal`, `es_estadounidense` (sí/no), `continente_origen`.
   - *Periodo:* 1975 a 2026 (50 años).
 - **Pertinencia:** otorga el registro de datos cuantitativos necesarios para medir la cantidad de artistas locales e internacionales, además permite calcular la tendencia por décadas.
 - **Metodología y recolección:**
