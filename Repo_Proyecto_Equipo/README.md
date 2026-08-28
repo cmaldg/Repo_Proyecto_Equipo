@@ -21,6 +21,9 @@ En el contexto de la globalización del entretenimiento, ha aumentado de forma s
 
 ### Antecedentes del tema
 **¿Qué se ha publicado antes sobre el tema y con qué enfoque?**
+
+Respecto al tema, se han publicado análisis sobre la demografía y etnia de los nominados y ganadores de los Premios Oscar. El enfoque de gran parte de la información expone la relación entre el historial de los premios y su diversidad racial. 
+
 - [Kaggle: The Oscar Award Demographics 1928-2025](https://www.kaggle.com/datasets/valettel/the-oscar-award-demographics-1928-2025)
 - [American Immigration Council: Immigrant Nominees & Winners in the Oscars](https://www.americanimmigrationcouncil.org/blog/oscars-2026-immigrant-nominees-winners/)
 - [Autostraddle: Análisis de Diversidad y Equidad en los Oscar](https://www.autostraddle.com/2016-oscars-so-so-so-white-329290/)
@@ -33,7 +36,7 @@ En el contexto de la globalización del entretenimiento, ha aumentado de forma s
   - País de nacimiento y nacionalidad(es) de cada intérprete nominado.
   - Idioma original y país de origen de la producción de la película por la que fueron nominados.
 - **Datos existentes vs. por conseguir:**
-  - *Existentes:* Registro oficial de nominados/ganadores de la Cineteca/Academia y dataset base de Kaggle con demografía histórica.
+  - *Existentes:* Registro oficial de nominados/ganadores de la Cineteca/Academia y dataset base de Kaggle con demografía histórica. xxx
   - *Por conseguir:* Normalización de nacionalidades (diferenciar país de nacimiento de país de nacionalidad/carrera), idioma de la película e identificación de casos de doble nacionalidad.
 - **Datos inexistentes y forma de obtención:**
   - No existe un dataset público consolidado que clasifique específicamente el "origen del talento" (si la carrera se consolidó fuera de EE. UU. antes de la nominación). Se obtendrá construyendo una matriz propia mediante extracción automatizada (web scraping de Wikipedia/IMDb API) y verificación manual.
