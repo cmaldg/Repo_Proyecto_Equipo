@@ -45,7 +45,7 @@ Respecto al tema, se han publicado análisis sobre la demografía y etnia de los
   - *No públicos:* las votaciones individuales o los desgloses de porcentajes de votos de los miembros de la Academia (no requeridos para esta investigación).
 - **Datos confiables y no confiables:**
   - *Confiables:* base de datos oficial de la Academia (`oscars.org`), IMDb Pro, censos de cine y registros biográficos verificados.
-  - *No confiables / por verificar:* foros de fans, especulaciones sobre antecedentes biográficos en sitios no oficiales.
+  - *No confiables/por verificar:* foros de fans, antecedentes biográficos en sitios no oficiales.
 
 ---
 
@@ -64,7 +64,7 @@ Abordar el fenómeno de la globalización del entretenimiento a partir de las ca
 - **Elementos digitales sugeridos:**
   - *Mapa interactivo (Datawrapper):* mapeo del origen de cada nominado por década, permitiendo hacer clic para ver su ficha y película.
   - *Gráfico de área apilada o líneas interactivas (Flourish):* evolución porcentual década a década entre actores nacidos en EE. UU. vs. Resto del Mundo.
-  - *Buscador interactivo / Tarjetas de datos:* Una tabla/tarjetario filtrable donde el lector explore la nacionalidad, idioma y resultado de cada actor nominado desde 1975.
+  - *Buscador interactivo/tarjetas de datos:* una tabla/tarjetario filtrable donde el lector explore la nacionalidad, idioma y resultado de cada actor nominado desde 1975.
 
 ---
 
