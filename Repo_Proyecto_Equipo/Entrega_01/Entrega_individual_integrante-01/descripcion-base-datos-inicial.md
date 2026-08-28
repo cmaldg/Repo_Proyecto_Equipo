@@ -2,7 +2,7 @@
 **Registro Histórico de Nominaciones y Demografía de Actores (1928-2025) y Oscar**
  
 - **Autor y publicación de los datos:** Kaggle (*[The Oscar Award Demographics 1928-2025](https://www.kaggle.com/datasets/valettel/the-oscar-award-demographics-1928-2025)* por Valettel).
- Registro oficial de la Academia de Artes y Ciencias Cinematográficas ([Oscars.org Official](https://www.oscars.org/oscars/ceremonies)) para completar los datos faltantes (2026).
+ Registro oficial de la Academia de Artes y Ciencias Cinematográficas ([Oscars.org](https://www.oscars.org/oscars/ceremonies)) para completar los datos faltantes (2026).
 - **Contenido:** los datos de Kaggle registran la demografía de los actores y actrices nominados y nominadas en las categorías "Mejor Actor" y "Mejor Actriz" entre 1928 y 2025. También contiene las categorías "Mejor actor/Actriz de Reparto" y "Mejor dirección". 
   - *Variables de Kaggle:* `nombre`, `categoría`, `pelicula`, `ganó un Oscar`, `año de la ceremonia`, `fecha de nacimiento`, `lugar de nacimiento`, `género`, `raza o etnia`, `orientación sexual`, `religión`.
 
