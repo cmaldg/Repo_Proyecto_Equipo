@@ -1,5 +1,5 @@
 ## Base de datos 1 
-**Registro Histórico de Nominaciones y Demografía de Actores (1975-2026)**
+**Registro Histórico de Nominaciones y Demografía de Actores (1975-2025)**
  
 - **Autor y publicación de los datos:** Kaggle (*The Oscar Award Demographics 1928-2025* por Valettel) combinado con el registro oficial de la Academia de Artes y Ciencias Cinematográficas ([Oscars.org Official Database](https://www.oscars.org/oscars/ceremonies)).
 - **Contenido:** registro de todos los actores y actrices nominados y nominadas a "Mejor Actor" y "Mejor Actriz" entre 1975 y 2026.
