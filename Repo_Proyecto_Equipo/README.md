@@ -14,7 +14,7 @@ Esta investigación busca medir cuantitativamente el alcance de la globalizació
 ### Pregunta de investigación (~ hipótesis)
 - En los últimos 50 años, ¿cómo han cambiado los nominados no estadounidenses en las categorías "Mejor actor" y "Mejor actriz" de los premios Oscar?
 
-**¿Qué se quiere demostrar o revelar?**  
+**Hipótesis**
 En el contexto de la globalización del entretenimiento, ha aumentado de forma sostenida la presencia de actores y actrices no estadounidenses nominados en las categorías principales de los Premios Oscar.
 
 ---
