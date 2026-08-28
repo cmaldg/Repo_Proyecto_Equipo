@@ -1,5 +1,5 @@
 ## Base de datos 1 
-**Registro Histórico de Nominaciones y Demografía de Actores (1928-2025)**
+**Registro Histórico de Nominaciones y Demografía de Actores (1928-2025) y recopilación propia**
  
 - **Autor y publicación de los datos:** Kaggle (*[The Oscar Award Demographics 1928-2025](https://www.kaggle.com/datasets/valettel/the-oscar-award-demographics-1928-2025)* por Valettel).
  Registro oficial de la Academia de Artes y Ciencias Cinematográficas ([Oscars.org Official Database](https://www.oscars.org/oscars/ceremonies)) para completar los datos faltantes (2026).
