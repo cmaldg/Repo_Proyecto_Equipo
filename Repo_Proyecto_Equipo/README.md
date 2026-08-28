@@ -22,7 +22,7 @@ En el contexto de la globalización del entretenimiento, ha aumentado de forma s
 ### Antecedentes del tema
 **¿Qué se ha publicado antes sobre el tema y con qué enfoque?**
 
-Respecto al tema, se han publicado análisis sobre la demografía y etnia de los nominados y ganadores de los Premios Oscar. El enfoque de gran parte de la información expone la relación entre el historial de los premios y su diversidad racial. 
+Respecto al tema, se han publicado análisis sobre la demografía y etnia de los nominados y ganadores de los Premios Oscar. El enfoque de gran parte de la información expone la relación entre el historial de los premios y su poca diversidad racial.
 
 - [Kaggle: The Oscar Award Demographics 1928-2025](https://www.kaggle.com/datasets/valettel/the-oscar-award-demographics-1928-2025)
 - [American Immigration Council: Immigrant Nominees & Winners in the Oscars](https://www.americanimmigrationcouncil.org/blog/oscars-2026-immigrant-nominees-winners/)
@@ -35,22 +35,22 @@ Respecto al tema, se han publicado análisis sobre la demografía y etnia de los
   - Lista de todos los nominados y ganadores en "Mejor Actor" y "Mejor Actriz" de los últimos 50 años (1975-2026).
   - País de nacimiento y nacionalidad(es) de cada intérprete nominado.
   - Idioma original y país de origen de la producción de la película por la que fueron nominados.
-- **Datos existentes vs. por conseguir:**
-  - *Existentes:* Registro oficial de nominados/ganadores de la Cineteca/Academia y dataset base de Kaggle con demografía histórica. 
-  - *Por conseguir:* Normalización de nacionalidades (diferenciar país de nacimiento de país de nacionalidad/carrera), idioma de la película e identificación de casos de doble nacionalidad.
+- **Datos existentes y por conseguir:**
+  - *Existentes:* registro oficial de nominados/ganadores de la Cineteca/Academia y dataset base de Kaggle con demografía histórica. 
+  - *Por conseguir:* normalización de nacionalidades (diferenciar país de nacimiento de país de nacionalidad/carrera), idioma de la película e identificación de casos de doble nacionalidad.
 - **Datos inexistentes y forma de obtención:**
   - No existe un dataset público consolidado que clasifique específicamente el "origen del talento" (si la carrera se consolidó fuera de EE. UU. antes de la nominación). Se obtendrá construyendo una matriz propia mediante extracción automatizada (web scraping de Wikipedia/IMDb API) y verificación manual.
-- **Datos públicos vs. no públicos:**
-  - *Públicos:* Todos los datos biográficos, historial de nominaciones, fichas de IMDb y registros de la Academia son 100% de acceso público.
-  - *No públicos:* Las votaciones individuales o los desgloses de porcentajes de votos de los miembros de la Academia (no requeridos para esta investigación).
-- **Datos confiables vs. no confiables:**
-  - *Confiables:* Base de datos oficial de la Academia (`oscars.org`), IMDb Pro, censos de cine y registros biográficos verificados.
-  - *No confiables / A verificar:* Foros de fans, especulaciones sobre antecedentes biográficos en sitios no oficiales.
+- **Datos públicos y no públicos:**
+  - *Públicos:* todos los datos biográficos, historial de nominaciones, fichas de IMDb y registros de la Academia son 100% de acceso público.
+  - *No públicos:* las votaciones individuales o los desgloses de porcentajes de votos de los miembros de la Academia (no requeridos para esta investigación).
+- **Datos confiables y no confiables:**
+  - *Confiables:* base de datos oficial de la Academia (`oscars.org`), IMDb Pro, censos de cine y registros biográficos verificados.
+  - *No confiables / por verificar:* foros de fans, especulaciones sobre antecedentes biográficos en sitios no oficiales.
 
 ---
 
 ### Preguntas a responder
-1. ¿Qué porcentaje del total de nominados a Mejor Actor y Mejor Actriz en cada década (1975-1984, 1985-1994, ..., 2015-2026) ha sido no estadounidense?
+1. ¿Qué porcentaje del total de nominados a Mejor Actor y Mejor Actriz en cada década (1975-1984, 1985-1994,..., 2015-2026) ha sido no estadounidense?
 2. ¿De qué regiones geográficas o continentes provienen los intérpretes internacionales que logran llegar a las categorías principales?
 3. ¿Ha aumentado la presencia de actuaciones en idiomas distintos al inglés en las categorías principales o los nominados internacionales siguen actuando en películas de estudio hollywoodense?
 4. ¿Existe disparidad en la tasa de conversión a "ganador" entre nominados estadounidenses e internacionales?
@@ -58,16 +58,16 @@ Respecto al tema, se han publicado análisis sobre la demografía y etnia de los
 ---
 
 ### Historia visual
-Abordar el fenómeno de la globalización del entretenimiento a partir de las categorías "Mejor Actor" y "Mejor Actriz" de los premios Oscar. La intención es averiguar si es que, gracias a la globalización, los Oscar comenzaron a incluir a más actores y/o actrices de otras nacionalidades diferentes a las no anglófonas. Asimismo, explicaremos a grandes rasgos cómo se han visto más representadas ciertas nacionalidades en las votaciones de estos premios.
+Abordar el fenómeno de la globalización del entretenimiento a partir de las categorías "Mejor Actor" y "Mejor Actriz" de los premios Oscar. La intención es averiguar si es que, gracias a la globalización, los Oscar comenzaron a incluir a más actores y/o actrices de otras nacionalidades diferentes a la estadounidense. Asimismo, explicaremos a grandes rasgos cómo se han visto más representadas ciertas nacionalidades en las votaciones de estos premios.
 
-- **Lo nuevo:** Desplazar el foco de la discusión racial/étnica estadounidense para analizar la diversidad desde una perspectiva de **geografía, nacionalidad y descentralización de la industria global del entretenimiento**.
+- **Lo novedoso:** desplazar el foco de la discusión racial/étnica estadounidense para analizar la diversidad desde una perspectiva de **geografía, nacionalidad y descentralización de la industria global del entretenimiento**.
 - **Elementos digitales sugeridos:**
-  - *Mapa interactivo (Datawrapper / Mapbox):* Mapeo del origen de cada nominado por década, permitiendo hacer clic para ver su ficha y película.
-  - *Gráfico de área apilada o líneas interactivas (Flourish):* Evolución porcentual década a década entre actores nacidos en EE. UU. vs. Resto del Mundo.
+  - *Mapa interactivo (Datawrapper):* mapeo del origen de cada nominado por década, permitiendo hacer clic para ver su ficha y película.
+  - *Gráfico de área apilada o líneas interactivas (Flourish):* evolución porcentual década a década entre actores nacidos en EE. UU. vs. Resto del Mundo.
   - *Buscador interactivo / Tarjetas de datos:* Una tabla/tarjetario filtrable donde el lector explore la nacionalidad, idioma y resultado de cada actor nominado desde 1975.
 
 ---
 
 ### Resultados
-- **Resultado Mínimo:** Un reporte descriptivo con gráficos de líneas y barras que contabilice el porcentaje de actores extranjeros nominados por década desde 1975 a la fecha, respondiendo si hubo o no un incremento.
-- **Resultado Máximo:** Una plataforma interactiva que combine mapas geográficos de origen, análisis del idioma de la película y un modelo de correlación entre la masificación del streaming/plataformas globales y la aceleración de nominaciones internacionales en la última década.
+- **Resultado mínimo:** esperamos que nuestra webstory logre ser descriptiva. Para eso, tendría gráficos de líneas y barras que contabilice el porcentaje de actores extranjeros nominados por década desde 1975 hasta la actualidad, que respondan si hubo un incremento o no.
+- **Resultado máximo:** una plataforma interactiva que combine mapas geográficos de origen, análisis de la industria cinematográfica  y un modelo de correlación entre la masificación del streaming/plataformas globales y la aceleración de nominaciones internacionales en la última década.
