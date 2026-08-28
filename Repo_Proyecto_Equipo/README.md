@@ -14,7 +14,7 @@ Esta investigación busca medir cuantitativamente el alcance de la globalizació
 ### Pregunta de investigación (~ hipótesis)
 - En los últimos 50 años, ¿cómo han cambiado los nominados no estadounidenses en las categorías "Mejor actor" y "Mejor actriz" de los premios Oscar?
 
-**¿Qué se quiere demostrar o revelar?**  
+**Hipótesis**  
 En el contexto de la globalización del entretenimiento, ha aumentado de forma sostenida la presencia de actores y actrices no estadounidenses nominados en las categorías principales de los Premios Oscar.
 
 ---
@@ -36,7 +36,7 @@ Respecto al tema, se han publicado análisis sobre la demografía y etnia de los
   - País de nacimiento y nacionalidad(es) de cada intérprete nominado.
   - Idioma original y país de origen de la producción de la película por la que fueron nominados.
 - **Datos existentes vs. por conseguir:**
-  - *Existentes:* Registro oficial de nominados/ganadores de la Cineteca/Academia y dataset base de Kaggle con demografía histórica. xxx
+  - *Existentes:* Registro oficial de nominados/ganadores de la Cineteca/Academia y dataset base de Kaggle con demografía histórica. 
   - *Por conseguir:* Normalización de nacionalidades (diferenciar país de nacimiento de país de nacionalidad/carrera), idioma de la película e identificación de casos de doble nacionalidad.
 - **Datos inexistentes y forma de obtención:**
   - No existe un dataset público consolidado que clasifique específicamente el "origen del talento" (si la carrera se consolidó fuera de EE. UU. antes de la nominación). Se obtendrá construyendo una matriz propia mediante extracción automatizada (web scraping de Wikipedia/IMDb API) y verificación manual.
