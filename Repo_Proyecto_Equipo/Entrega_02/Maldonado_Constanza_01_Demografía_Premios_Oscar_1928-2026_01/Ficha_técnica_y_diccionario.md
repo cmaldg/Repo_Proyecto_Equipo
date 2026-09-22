@@ -30,7 +30,7 @@ La estructura de la base de datos 1 () se pensó para complementarse con la base
 
 | **Nombre de la variable** | **Descripción** | **Tipo de dato** | **Valores posibles** | **Observaciones editoriales** |
 | :--- | :--- | :---: | :--- | :--- |
-| `nombre_nominados_y_nominadas` | Nombre artístico de los artistas nominados a los Oscar. | Texto (`string`). | Nombres de los actores y las actrices.| Se arreglaron caracteres "raros" o no encontrados y se corrigió la ortografía. |
+| `nombre_nominados_y_nominadas` | Nombre artístico de los artistas nominados a los Oscar. | Texto (`string`). | Nombres de los actores y las actrices.| Se arreglaron caracteres "raros" y se corrigió la ortografía. |
 | `genero` | Género de los artistas nominados a los Oscar. | Categórico (`string`). | Femenino o Masculino. | Se tradujeron todos los valores al español y se modificó el género de Elliot Page (anteriormente, aparecía como "Femenino").|
 | `lugar_de_nacimiento` | Lugar de nacimiento de los artistas nominados a los Oscar. | Texto (`string`). | Ciudad y país de nacimiento. | Se tradujeron los valores que correspondían al español y se actualizaron algunos lugares (ej. "Alemania Oriental" se modificó a "Alemania"). |
 | `nacionalidad_1` | País de nacimiento u origen de los artistas nominados a los Oscar. | Texto (`string`). | Nacionalidad de nacimiento (ej. "Estadounidense", "Irlandesa", "Mexicana", etc.) | Esta nueva variable se recolectó de forma manual con información de internet.|
