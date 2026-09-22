@@ -80,16 +80,16 @@ Recopilación e ingreso manual directo utilizando artículos de prensa especiali
 ---
 
 ### **Características de los datos**
-* **Nivel de agregación:** Cada fila representa una actuación individual galardonada en una edición y certamen específico.
-* **Estructura y Dimensiones:** Matriz de 791 filas y 9 columnas.
-* **Estandarización Geográfica:** Uso del término normado `Reino Unido` para la nacionalidad británica.
-* **Formato de almacenamiento:** Hoja de cálculo Excel (`.xlsx`) y archivo plano separado por comas CSV (`.csv`) codificado en UTF-8.
+* **Nivel de agregación:** Unidad de observación individualizada donde cada fila representa una actuación protagónica premiada en un certamen y año específico.
+* **Dimensiones de la matriz:** 922 filas por 9 columnas.
+* **Completitud:** 100% de datos completos en 8 de las 9 variables. En `fue_nominado_oscar` existen 6 registros pendientes asociados a estrenos recientes de 2026 en festivales europeos cuyas ceremonias del Oscar aún no han tenido lugar.
+* **Formato de almacenamiento:** Archivo ejecutable Excel (`.xlsx`) y archivo plano estructurado CSV (`.csv`) codificado en UTF-8 con delimitador coma.
 
 ---
 
 ### **Otras observaciones sobre la base**
 * La inclusión de actores locales (estadounidenses y británicos) junto con intérpretes internacionales es intencional e indispensable para constituir el "grupo de control" de la investigación, permitiendo comparar proporciones reales en las tablas dinámicas sin sesgo de selección.
-
+* **Justificación Teórica:** La selección de estos cinco certámenes combina la **"Tríada Dorada" (Big Three)** del cine europeo de autor acreditada por la **FIAPF** (*Cannes, Venecia y Berlín*) con los dos mayores predictores de la industria anglosajona (*Globos de Oro y BAFTA*). Esta articulación permite construir un grupo de control heterogéneo que evita el sesgo de selección.
 ---
 
 ## 2. Diccionario de Datos
