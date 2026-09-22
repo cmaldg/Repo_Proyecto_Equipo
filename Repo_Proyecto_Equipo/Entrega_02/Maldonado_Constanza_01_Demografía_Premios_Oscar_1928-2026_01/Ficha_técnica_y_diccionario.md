@@ -1,5 +1,6 @@
-# Ficha Técnica y Diccionario de Datos
-**Base de datos 1: Demografía de los premios Oscar 1928-2026**
+# *Ficha Técnica y Diccionario de Datos*
+### **Base de datos 1: Demografía de los premios Oscar 1928-2026**
+
 ## 1. Fuente de los datos
 Se utilizó una base de datos extraída de Kaggle sobre la demografía de los nominados y ganadores de los Oscar (1928-2025). Para añadir los datos de los nominados y ganadores de las categorías “Mejor actor” y “Mejor actriz” del 2026, se consultó la página oficial de los premios (Oscar.org). Asimismo, se recopiló información del IMDb para conocer las filmografías de los actores y las actrices. Además, para corroborar datos, se consultó este mismo sitio y otros como Wikipedia, Hollywood Walk of Fame, People, Biografías y Vidas, junto a medios de comunicación (CNN, El País, La Vanguardia).
 
