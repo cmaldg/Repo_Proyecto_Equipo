@@ -1,4 +1,4 @@
-# *Ficha Técnica y Diccionario de datos*
+# *Ficha técnica y Diccionario de datos*
 ### **Base de datos 1: Demografía de los premios Oscar 1928-2026**
 
 ## 1. Fuente de los datos
@@ -7,11 +7,11 @@ Se utilizó una base de datos extraída de Kaggle sobre la [demografía de los n
 También se visitó: [Anexo: Oscar al mejor actor](https://es.wikipedia.org/wiki/Anexo:%C3%93scar_al_mejor_actor) y [Anexo: Oscar a la mejor actriz](https://es.wikipedia.org/wiki/Anexo:%C3%93scar_a_la_mejor_actriz).
 
 ## 2. Metodología de la construcción de la base
-Se descartaron todos los datos de las filas relacionados a las categorías “Mejor dirección”, "Mejor actor de reparto” y “Mejor actriz de reparto” de la database original que no servían para la investigación.  
+Se descartaron todos los datos de las filas relacionados a las categorías *Mejor dirección*, *Mejor actor de reparto* y *Mejor actriz de reparto* de la database original que no servían para la investigación.  
 
 De las 12 columnas iniciales, se dejaron únicamente 8, tituladas:`"name"`, `"gender"`, `"birth_place"`, `"race or ethnicity"`, `"category"`, `"film"`, `"year_ceremony"` y `"win_Oscar?"`. Por otra parte, se eliminaron las variables `"sexual orientation"`, `"religion"`, `"birth_date"` de los artistas nominados a Mejor actor y Mejor actriz, junto con la columna `"link"`. 
 
-Algunas variables fueron traducidas y renombradas por temas de practicidad/coherencia. Además, se agregaron otras nuevas como: `nacionalidad`, `su_debut_fue_ estadounidense`, `nombre_original_pelicula_debut`. También se optó por traducir el contenido de las filas, reordenar las columnas iniciales.
+Algunas variables fueron traducidas y renombradas por temas de practicidad/coherencia. Además, se agregaron otras nuevas como: `nacionalidad`, `su_debut_fue_ estadounidense`, `nombre_original_pelicula_debut`. También se optó por traducir el contenido de las filas y reordenar las columnas iniciales.
 
 Asimismo, todo el contenido de las nuevas columnas fue recolectado de forma manual tras visitar los perfiles de los actores y actrices en IMDb.
 
@@ -30,15 +30,15 @@ La estructura de la base de datos 1 está pensada para complementarse con la bas
 
 | **Nombre de la variable** | **Descripción** | **Tipo de dato** | **Valores posibles** | **Observaciones editoriales** |
 | :--- | :--- | :---: | :--- | :--- |
-| `nombre_nominados_nominadas` | Nombre artístico de los artistas nominados a los Oscar. | Texto (`string`). | Nombres de los actores y las actrices.| Se arreglaron caracteres "raros" y se corrigió la ortografía. |
-| `genero` | Género de los artistas nominados a los Oscar. | Categórico (`string`). | Femenino o Masculino. | Se tradujeron todos los valores al español y se modificó el género de Elliot Page (anteriormente, aparecía como "Femenino").|
-| `lugar_de_nacimiento` | Lugar de nacimiento de los artistas nominados a los Oscar. | Texto (`string`). | Ciudad y país de nacimiento. | Se tradujeron los valores que correspondían al español y se actualizaron algunos lugares (ej. "Alemania Oriental" se modificó a "Alemania"). |
-| `nacionalidad_1` | País de nacimiento u origen de los artistas nominados a los Oscar. | Texto (`string`). | Nacionalidad de nacimiento (ej. "Estadounidense", "Irlandesa", "Mexicana", etc.). | Esta nueva variable se recolectó de forma manual con información de internet.|
-| `nacionalidad_2` | Nacionalidad adquirida por nacionalización o doble ciudadanía. | Texto (`string`). | Segunda nacionalidad o No aplica. | El valor "No aplica" se le colocó a los artistas que solo registran una nacionalidad |
-| `raza_o_etnia` | Raza o etnia de los artistas nominados a los Oscar. | Categórico (`string`). | Categorías como "Blanca", "Negra", "Asiática", etc. | Se estandarizó la etnia "Hispana" a los artistas provinientes de países hispanoamericanos y se optó por no incluir la etnia "Latina" a los nominados de Latinoamérica. También se tradujeron las filas al español. |
-| `su_debut_fue_estadounidense` | Señala si la primera cinta cinematográfica del artista nominado tuvo origen en Estados Unidos. | Categórico binario (`booleano`). | Sí o No. | Esta nueva variable se recolectó de forma manual con información de internet (IMDb). Se descartaron series de TV, videos musicales y se aceptaron los cortometrajes de artistas que iniciaron su actuación antes de la estandarización de los largometrajes. |
-| `titulo_original_pelicula_debut` | Nombre original de la película debut de los artistas nominados. | Texto (`string`). | Títulos cinematógraficos. | Esta nueva variable se recolectó de forma manual con información de internet (IMDb). El título se encuentra en inglés. |
-| `categoria_nominacion_oscar` | Categoría principal en la que fueron nominados/as los actores y las actrices. | Categórico (`string`). | Mejor actor o Mejor actriz. | Se excluyen categorías de reparto y mejor dirección. También se tradujeron los valores al español y se corrió la utilización de mayúsculas. |
-| `fue_ganador_o_ganadora` | Señala si los artistas nominados fueron ganadores en su categoría.  | Categórico binario (`booleano`). | Sí o No. | Se tradujeron los valores al español y se corrió la utilización de mayúsculas. |
-| `ano_ceremonia` | Año de la ceremonia de los Premios Oscar en la se que recibió la nominación. | Numérico entero (`int`). | 1928 a 2026. | Señala el año en el que se llevó a cabo el certamen. |
-| `titulo_original_pelicula_nominada` | Nombre original del filme por el cual se obtuvo la nominación al Oscar. | Texto (`string`). | Títulos cinematográficos. | El título se encuentra en inglés. |
+| `nombre_nominados_nominadas` | Nombre artístico de los artistas nominados a los Oscar. | Texto (string). | Nombres de los actores y las actrices.| Se arreglaron caracteres "raros" y se corrigió la ortografía. |
+| `genero` | Género de los artistas nominados a los Oscar. | Categórico (string). | Femenino o Masculino. | Se tradujeron todos los valores al español y se modificó el género de Elliot Page (anteriormente, aparecía como "Femenino").|
+| `lugar_de_nacimiento` | Lugar de nacimiento de los artistas nominados a los Oscar. | Texto (string). | Ciudad y país de nacimiento. | Se tradujeron los valores que correspondían al español y se actualizaron algunos lugares (por ejemplo, "Alemania Oriental" se modificó a "Alemania"). |
+| `nacionalidad_1` | País de nacimiento u origen de los artistas nominados a los Oscar. | Texto (string). | Nacionalidad de nacimiento ("Estadounidense", "Irlandesa", "Mexicana", etc.). | Esta nueva variable se recolectó de forma manual con información de internet.|
+| `nacionalidad_2` | Nacionalidad adquirida por nacionalización o doble ciudadanía. | Texto (string). | Segunda nacionalidad o No aplica. | El valor "No aplica" se le colocó a los artistas que solo registran una nacionalidad. |
+| `raza_o_etnia` | Raza o etnia de los artistas nominados a los Oscar. | Categórico (string). | Categorías como "Blanca", "Negra", "Asiática", etc. | Se estandarizó la etnia "Hispana" a los artistas provinientes de países hispanoamericanos y se optó por no incluir la etnia "Latina" a los nominados de Latinoamérica. También se tradujeron las filas al español. |
+| `su_debut_fue_estadounidense` | Señala si la primera cinta cinematográfica del artista nominado tuvo origen en Estados Unidos. | Categórico binario (booleano). | Sí o No. | Esta nueva variable se recolectó de forma manual con información de internet (IMDb). Se descartaron series de TV, videos musicales y se aceptaron los cortometrajes de artistas que iniciaron su actuación antes de la estandarización de los largometrajes. |
+| `titulo_original_pelicula_debut` | Nombre original de la película debut de los artistas nominados. | Texto (string). | Títulos cinematógraficos. | Esta nueva variable se recolectó de forma manual con información de internet (IMDb). El título se encuentra en inglés. |
+| `categoria_nominacion_oscar` | Categoría principal en la que fueron nominados/as los actores y las actrices. | Categórico (string). | Mejor actor o Mejor actriz. | Se excluyeron las categorías de reparto y mejor dirección. También se tradujeron los valores al español y se corrió la utilización de mayúsculas. |
+| `fue_ganador_o_ganadora` | Señala si los artistas nominados fueron ganadores en su categoría.  | Categórico binario (booleano). | Sí o No. | Se tradujeron los valores al español y se corrió la utilización de mayúsculas. |
+| `ano_ceremonia` | Año de la ceremonia de los Premios Oscar en la se que recibió la nominación. | Numérico entero (int). | 1928 a 2026. | Señala el año en el que se llevó a cabo el certamen. |
+| `titulo_original_pelicula_nominada` | Nombre original del filme por el cual se obtuvo la nominación al Oscar. | Texto (string). | Títulos cinematográficos. | El título se encuentra en inglés. |
