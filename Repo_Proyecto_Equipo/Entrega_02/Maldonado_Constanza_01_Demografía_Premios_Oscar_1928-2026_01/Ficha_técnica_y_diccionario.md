@@ -7,11 +7,11 @@ Se utilizó una base de datos extraída de Kaggle sobre la [demografía de los n
 También se visitó: [Anexo: Oscar al mejor actor](https://es.wikipedia.org/wiki/Anexo:%C3%93scar_al_mejor_actor) y [Anexo: Oscar a la mejor actriz](https://es.wikipedia.org/wiki/Anexo:%C3%93scar_a_la_mejor_actriz).
 
 ## 2. Metodología de la construcción de la base
-Se descartaron todos los datos de las filas relacionados a las categorías “Mejor dirección”, "Mejor actor de reparto” y “Mejor actriz de reparto” de la database original que no servían para la investigación.  
+Se descartaron todos los datos de las filas relacionados a las categorías *Mejor dirección*, *Mejor actor de reparto* y *Mejor actriz de reparto* de la database original que no servían para la investigación.  
 
 De las 12 columnas iniciales, se dejaron únicamente 8, tituladas:`"name"`, `"gender"`, `"birth_place"`, `"race or ethnicity"`, `"category"`, `"film"`, `"year_ceremony"` y `"win_Oscar?"`. Por otra parte, se eliminaron las variables `"sexual orientation"`, `"religion"`, `"birth_date"` de los artistas nominados a Mejor actor y Mejor actriz, junto con la columna `"link"`. 
 
-Algunas variables fueron traducidas y renombradas por temas de practicidad/coherencia. Además, se agregaron otras nuevas como: `nacionalidad`, `su_debut_fue_ estadounidense`, `nombre_original_pelicula_debut`. También se optó por traducir el contenido de las filas, reordenar las columnas iniciales.
+Algunas variables fueron traducidas y renombradas por temas de practicidad/coherencia. Además, se agregaron otras nuevas como: `nacionalidad`, `su_debut_fue_ estadounidense`, `nombre_original_pelicula_debut`. También se optó por traducir el contenido de las filas y reordenar las columnas iniciales.
 
 Asimismo, todo el contenido de las nuevas columnas fue recolectado de forma manual tras visitar los perfiles de los actores y actrices en IMDb.
 
