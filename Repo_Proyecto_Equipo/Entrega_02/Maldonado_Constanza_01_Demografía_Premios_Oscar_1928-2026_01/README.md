@@ -2,7 +2,7 @@
 
 ## 1. Explicación proceso de limpieza de datos
 
-Se extrajo la base de datos **“Datos demográficos de los nominados y ganadores del Oscar (1928-2025)”** en formato csv desde [Kaggle](https://www.kaggle.com/datasets/valettel/the-oscar-award-demographics-1928-2025). La database original tenía **2232 filas** y **12 columnas** con las variables `“name”`, `“category”`, `“film”`, `“win_Oscar?”`, `“year_ceremony”`, `“birth_date”`, `“birth_place”`, `“gender”`, `“race or ethnicity”`, `“sexual orientation”`, `“religion”` y `“link”`. 
+Se extrajo la base de datos **“Datos demográficos de los nominados y ganadores del Oscar (1928-2025)”** en formato .csv desde [Kaggle](https://www.kaggle.com/datasets/valettel/the-oscar-award-demographics-1928-2025). La database original tenía **2232 filas** y **12 columnas** con las variables `“name”`, `“category”`, `“film”`, `“win_Oscar?”`, `“year_ceremony”`, `“birth_date”`, `“birth_place”`, `“gender”`, `“race or ethnicity”`, `“sexual orientation”`, `“religion”` y `“link”`. 
 
 Para obtener una base de datos limpia que se ajuste a la investigación, se filtraron los valores de la columna “category” para eliminar todo lo relacionado con las categorías “Directing”, “Actor in a supporting role” y “Actress in a supporting role”. De esta manera, quedó únicamente la información de las categorías “Actor” y “Actress” de 1928 hasta 2025. 
 
