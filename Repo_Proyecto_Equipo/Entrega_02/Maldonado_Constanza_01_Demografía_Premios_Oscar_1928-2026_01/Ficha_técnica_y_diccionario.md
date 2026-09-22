@@ -24,7 +24,7 @@ La base de datos limpia presenta 12 columnas: `nombres_nominados_nominadas`, `ge
 Estas contienen 969 filas debido a la cantidad de actores y actrices que recibieron al menos una nominación en el periodo 1928-2026. También, existen múltiples valores duplicados debido a los artistas que fueron nominados más de una vez a los Oscar. 
 
 ## 5. Otras observaciones sobre la base
-La estructura de la base de datos 1 está pensada para complementarse con la base de datos 2. Después de la variable `titulo_original_de la_pelicula`, se agregará todo lo relacionado con el filme correspondiente- Por lo tanto, se trabajaría con un total de 18 variables. 
+La estructura de la base de datos 1 está pensada para complementarse con la base de datos 2. Después de la variable `titulo_original_de la_pelicula`, se agregará todo lo relacionado con el filme correspondiente. Por lo tanto, se trabajaría con un total de 18 variables. 
 
 ## 6. Diccionario de datos
 
