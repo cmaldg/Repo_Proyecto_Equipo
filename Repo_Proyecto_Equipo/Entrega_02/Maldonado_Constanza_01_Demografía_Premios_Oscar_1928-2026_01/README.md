@@ -12,6 +12,11 @@ También se eliminaron las columnas “birth_place”, “sexual orientation”,
 
 Con el comando “Ctrl+L” y la opción “coincidir con el contenido de toda celda”, se reemplazaron los valores de las columnas **categoría_nominacion_oscar**, **fue_ganador_o_ganadora** y **raza_o_etnia**.  Las filas de la columna "nominación Oscar" pasaron de “Actor” y “Actriz” a *“Mejor actor”* y *“Mejor actriz”*. Asimismo, las filas de la variable "ganador o ganadora" se convirtió en *“Sí”/”No”* tras reemplazar el “Falso”/”Verdadero” original. Por último, se actualizaron las filas de “raza o etnia" para que tuvieran coherencia con el nombre de la columna. Los datos cambiaron de “blanco”, “negro”, “asiático”, etc. a *“blanca”, “negra”, “asiática”*, etc.
 
+Luego de este proceso, se añadiadieron las filas de los nominados y ganadores de 2026 en las categorías "Mejor actor" y "Mejor Actriz". Se sumaron 10 nombres nuevos y las filas quedaron en un total de 969.
+
+Asimismo, se recopiló información de *Wikipedia* y *IMDb* para actualizar de forma manual los lugares de nacimiento de los actores y las actrices. Al ser una base de datos de origen inglés, las lugares de nacimiento de los artistas de Estados Unidos figuraban como "ciudad, Estado (abreviado)". Los nominados extranjeros aparecían con formato diferente: "ciudad, país". Todo esto se corrigió y se estandarizó "ciudad, país". Por ejemplo, la localidad de la actriz estadounidense Gloria Swanson pasó de **"Chicago, IL"** a **Chicago, Estados Unidos"**.
+
+
 ## 2. Lista fuentes de datos
 
 ## 3. Ejemplos de preguntas que se pueden responder con la base de datos limpia
