@@ -54,35 +54,42 @@ Recopilación e ingreso manual directo utilizando artículos de prensa especiali
 3. **Fase 3: Construcción e Ingreso Manual de las Temporadas 2025 y 2026:**  
    Los registros correspondientes a los años 2025 y 2026 fueron investigados, codificados e ingresados de manera **100% manual**, utilizando como insumos reportajes periodísticos, notas de prensa de festivales y sitios de la industria cinematográfica.
 
-4. **Fase 4: Depuración, Binarización y Estandarización:**  
+4. **Fase 4: Binarización y Estandarización:**  
    * **Binarización:** Se binarizaron las variables `carrera_previa_hollywood` y `fue_nominado_oscar` (`Sí`/`No`), evaluando de forma estricta que la nominación al Oscar haya sido **por la misma película e interpretación**.
    * **Estandarización Categórica:** Se unificó la nomenclatura formal de género (`Femenino`/`Masculino`) y se estandarizó la nacionalidad utilizando la etiqueta normada **`Reino Unido`** para evitar dispersión estadística.
    * **Orden Cronológico:** Se ordenó la matriz de manera cronológica estricta por año de edición (1932–2026).
 
 ---
 
-### **Alcance de los datos y Desglose Temporal Detallado**
-* **Alcance General:** Cobertura histórica desde la inauguración del Festival Internacional de Cine de Venecia en 1932 hasta las adiciones manuales de 2026 (**791 registros en total**).
-* **Desglose de Temporalidad por Certamen:**
-  * **Festival de Venecia (1932 – 2026 | 128 registros):** Certamen más antiguo de la base. Presenta interrupciones por la SGM (1943–1946) y reestructuración (1969–1987).
-  * **Premios Globo de Oro (1944 – 2026 | 322 registros):** Inicia en 1944. A partir de 1951 incorpora 4 ganadores protagónicos anuales (Drama y Comedia/Musical).
-  * **Festival de Cannes (1946 – 2026 | 163 registros):** Inicia en 1946. Presenta interrupciones puntuales (1948, 1950, mayo del 68 y 2020) y premios corales (ej. *Emilia Pérez* en 2024).
-  * **Premios BAFTA (1953 – 2026 | 178 registros):** Inicia en 1953. Registra las categorías separadas de Británico/Extranjero (1953–1967) y la categoría unificada (1968–2026).
-* **Alcance Geográfico y Temático:** Cobertura global (actores de más de 30 países de América, Europa, Asia, Oceanía y África) acotada a categorías protagónicas de interpretación cinematográfica.
+### **Alcance de los datos**
+* **Alcance General:** Matriz histórica compuesta por **922 registros** que abarcan desde la edición inaugural del Festival de Venecia en 1932 hasta la temporada cinematográfica de 2026.
+* **Desglose de Registros por Certamen:**
+  * **Premios Globo de Oro (1944 – 2026):** 322 registros (40,7% de la base).
+  * **Premios BAFTA (1953 – 2026):** 178 registros (22,5% de la base).
+  * **Festival de Cannes (1946 – 2026):** 163 registros (20,6% de la base).
+  * **Festival de Berlín (1956 – 2026):** 131 registros (16,2% de la base).
+  * **Festival de Venecia (1932 – 2026):** 128 registros (16,2% de la base).
+* **Alcance Geográfico Detallado:** La base de datos cuenta con representación de intérpretes provenientes de **57 países y territorios autónomos** agrupados en 6 grandes regiones continentales:
+  * **Mercado Anglosajón e Industria Hegemónica (620 registros | 67,2%):** Encabezado por Estados Unidos (397), Reino Unido (168), Australia (27), Irlanda (15), Canadá (10) y Nueva Zelanda (3).
+  * **Europa Continental, Nórdica y Oriental (226 registros | 24,5%):** Con fuerte presencia de Francia (85), Italia (46), Alemania (24), España (17), Suecia (9), Austria (6), Rusia / ex Unión Soviética (9), Polonia (5), Bélgica (5), Dinamarca (4), Suiza, Portugal, Finlandia, Grecia, Hungría e Islandia.
+  * **Asia y Asia-Pacífico (32 registros | 3,5%):** Representado por Japón (10), China (8), Hong Kong (4), Corea del Sur (4), Filipinas (2), India (1), Malasia (1), Camboya (1) y Kazajistán (1).
+  * **América Latina y el Caribe (20 registros | 2,2%):** Integrado por Brasil (6), México (3), Argentina (3), Puerto Rico (3), Chile (2), Paraguay (1), Colombia (1) y Uruguay (1).
+  * **Medio Oriente (17 registros | 1,8%):** Con participación de Israel (6), Irán (5), Turquía (4) y Palestina (2).
+  * **África Continental (7 registros | 0,8%):** Con representantes de Nigeria (1), República Democrática del Congo (1), Malí (1), Túnez (1), Sudáfrica (1), Egipto (1) y Marruecos.
 
 ---
 
 ### **Características de los datos**
-* **Nivel de agregación:** Cada fila representa una actuación individual galardonada en una edición y certamen específico.
-* **Estructura y Dimensiones:** Matriz de 791 filas y 9 columnas.
-* **Estandarización Geográfica:** Uso del término normado `Reino Unido` para la nacionalidad británica.
-* **Formato de almacenamiento:** Hoja de cálculo Excel (`.xlsx`) y archivo plano separado por comas CSV (`.csv`) codificado en UTF-8.
+* **Nivel de agregación:** Unidad de observación individualizada donde cada fila representa una actuación protagónica premiada en un certamen y año específico.
+* **Dimensiones de la matriz:** 922 filas por 9 columnas.
+* **Completitud:** 100% de datos completos en 8 de las 9 variables. En `fue_nominado_oscar` existen 6 registros pendientes asociados a estrenos recientes de 2026 en festivales europeos cuyas ceremonias del Oscar aún no han tenido lugar.
+* **Formato de almacenamiento:** Archivo ejecutable Excel (`.xlsx`) y archivo plano estructurado CSV (`.csv`) codificado en UTF-8 con delimitador coma.
 
 ---
 
 ### **Otras observaciones sobre la base**
 * La inclusión de actores locales (estadounidenses y británicos) junto con intérpretes internacionales es intencional e indispensable para constituir el "grupo de control" de la investigación, permitiendo comparar proporciones reales en las tablas dinámicas sin sesgo de selección.
-
+* **Justificación Teórica:** La selección de estos cinco certámenes combina la **"Tríada Dorada" (Big Three)** del cine europeo de autor acreditada por la **FIAPF** (*Cannes, Venecia y Berlín*) con los dos mayores predictores de la industria anglosajona (*Globos de Oro y BAFTA*). Esta articulación permite construir un grupo de control heterogéneo que evita el sesgo de selección.
 ---
 
 ## 2. Diccionario de Datos
