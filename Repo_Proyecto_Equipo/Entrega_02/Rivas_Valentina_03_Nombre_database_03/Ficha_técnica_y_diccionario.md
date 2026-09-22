@@ -54,7 +54,7 @@ Recopilación e ingreso manual directo utilizando artículos de prensa especiali
 3. **Fase 3: Construcción e Ingreso Manual de las Temporadas 2025 y 2026:**  
    Los registros correspondientes a los años 2025 y 2026 fueron investigados, codificados e ingresados de manera **100% manual**, utilizando como insumos reportajes periodísticos, notas de prensa de festivales y sitios de la industria cinematográfica.
 
-4. **Fase 4: Depuración, Binarización y Estandarización:**  
+4. **Fase 4:Binarización y Estandarización:**  
    * **Binarización:** Se binarizaron las variables `carrera_previa_hollywood` y `fue_nominado_oscar` (`Sí`/`No`), evaluando de forma estricta que la nominación al Oscar haya sido **por la misma película e interpretación**.
    * **Estandarización Categórica:** Se unificó la nomenclatura formal de género (`Femenino`/`Masculino`) y se estandarizó la nacionalidad utilizando la etiqueta normada **`Reino Unido`** para evitar dispersión estadística.
    * **Orden Cronológico:** Se ordenó la matriz de manera cronológica estricta por año de edición (1932–2026).
