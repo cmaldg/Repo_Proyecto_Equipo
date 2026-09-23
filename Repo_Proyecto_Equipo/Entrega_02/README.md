@@ -11,5 +11,7 @@ La internacionalización de las dos principales categorías de los Oscar ("Mejor
 ## 3. Avance del proyecto en relación con la hipótesis y preguntas de investigación
 
 
+A nivel general y, por tanto, grupal, cómo las bases de datos les ayudarán a avanzar en la construcción de la historia hasta ahora. Cómo modificaron o reforzaron estos elementos lo que tenían planteado como historia.
+
 
 ## 4. Síntesis de la historia
