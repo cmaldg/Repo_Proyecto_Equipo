@@ -14,7 +14,7 @@ Con el comando “Ctrl+L” y la opción “Coincidir con el contenido de toda c
 
 Luego de este proceso, se añadiadieron las filas de los nominados y ganadores de 2026 en las categorías "Mejor actor" y "Mejor Actriz". Se sumaron 10 nombres nuevos y las filas quedaron en un total de 969.
 
-Asimismo, se recopiló información de *Wikipedia* y *IMDb* para actualizar de forma manual los lugares de nacimiento de los actores y las actrices. Al ser una base de datos de origen inglés, las lugares de nacimiento de los artistas de Estados Unidos figuraban como "ciudad, Estado (abreviado)". Los nominados extranjeros aparecían con formato diferente: "ciudad, país". Todo esto se corrigió y se estandarizó "ciudad, país". Por ejemplo, la localidad de la actriz estadounidense Gloria Swanson pasó de **"Chicago, IL"** a **Chicago, Estados Unidos"**.
+Asimismo, se recopiló información de *Wikipedia* y *IMDb* para actualizar de forma manual los lugares de nacimiento de los actores y las actrices. Al ser una base de datos de origen inglés, las lugares de nacimiento de los artistas de Estados Unidos figuraban como "ciudad, Estado (abreviado)". Los nominados extranjeros aparecían con formato diferente: "ciudad, país". Todo esto se corrigió y se estandarizó "ciudad, país". Por ejemplo, la localidad de la actriz estadounidense Gloria Swanson se corrigió de **"Chicago, IL"** a **Chicago, Estados Unidos"**.
 
 
 
