@@ -4,7 +4,7 @@
 La internacionalización de las dos principales categorías actorales de los Oscar ("Mejor actor" y "Mejor actriz") no consiste solamente en un aumento de intérpretes nacidos fuera de Estados Unidos, sino en una creciente entrada de películas, idiomas y carreras desarrolladas fuera de Hollywood.
 
 ## 2. Preguntas de investigación actuales
-* ¿Hollywood se globalizó o simplemente aprendió a importar talento?
+* ¿Los Premios Oscar se internacionalizaron o simplemente aprendieron a importar talento?
 
 * ¿Funcionan los festivales de Cannes, Venecia y Berlín, y otros premios de la industria como un filtro de selección para los Oscar? 
 
