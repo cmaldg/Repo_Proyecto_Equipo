@@ -24,8 +24,6 @@ Esta clasificación permite examinar objetivamente el comportamiento de la carre
 
 Para profundizar en esta dinámica, estructuramos la Base de Datos 3, la cual integra a los tres grandes festivales internacionales de cine (Venecia, Cannes y Berlín), junto con dos galardones clave de la industria(Globos de Oro y BAFTA). El objetivo es determinar si los reconocimientos en estos certámenes funcionan como un filtro previo y trampolín necesario para que actores extranjeros ingresen al circuito de Hollywood o alcancen una nominación al Oscar.
 
-
-
 ## 4. Síntesis de la historia
 
 Debido a la reciente aclamación de *Wild Horse Nine* en el Festival Internacional de Cine de Venecia y la posible nominación de la actriz chilena Mariana Di Girolamo a los Oscar por este mismo filme, nos preguntamos: **¿Los Premios Oscar realmente se internacionalizaron o simplemente comenzaron a importar talento?**
