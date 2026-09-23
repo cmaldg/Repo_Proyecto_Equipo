@@ -10,6 +10,4 @@ La internacionalización de las dos principales categorías actorales de los Osc
 
 
 
-
-
 ## 4. Síntesis de la historia
