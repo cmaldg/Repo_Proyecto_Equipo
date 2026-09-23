@@ -10,8 +10,15 @@ La internacionalización de las dos principales categorías de los Oscar ("Mejor
 
 ## 3. Avance del proyecto en relación con la hipótesis y preguntas de investigación
 
+La historia que esperamos contar 
 
 A nivel general y, por tanto, grupal, cómo las bases de datos les ayudarán a avanzar en la construcción de la historia hasta ahora. Cómo modificaron o reforzaron estos elementos lo que tenían planteado como historia.
 
+
+(1) talento estadounidense + película estadounidense en inglés 
+(2) talento internacional + película estadounidense/inglesa 
+(3) talento internacional + coproducción 
+(4) talento internacional + película producida fuera de EE.UU. 
+(5) actuación en idioma no inglés*
 
 ## 4. Síntesis de la historia
