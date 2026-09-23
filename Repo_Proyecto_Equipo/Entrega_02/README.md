@@ -23,7 +23,7 @@ Para verificar nuestra nueva hipótesis, unificamos las base de datos 1 y 2 en u
 
 Esta clasificación permite examinar el comportamiento de las carreras de los intérpretes al llegar a los premios. 
 
-Para profundizar en esta dinámica, estructuramos la base de datos 3, la cual integra a los tres grandes festivales internacionales de cine (Cannes, Venecia y Berlín), junto con dos galardones clave de la industria (Globos de Oro y BAFTA). Nuestro objetivo es determinar si los reconocimientos en estos certámenes funcionan como un filtro previo y trampolín necesario para que actores extranjeros ingresen al circuito de Hollywood o alcancen una nominación al Oscar.
+Para profundizar en esta dinámica, estructuramos la base de datos 3, la cual integra a los tres grandes festivales internacionales de cine (Cannes, Venecia y Berlín), junto con dos galardones clave de la industria (Globos de Oro y BAFTA). Nuestro objetivo es determinar si los reconocimientos en estos otros premios funcionan como un filtro previo o un trampolín necesario para que actores extranjeros alcancen una nominación al Oscar.
 
 ## 4. Síntesis de la historia
 Debido a la reciente aclamación de *Wild Horse Nine* en el Festival Internacional de Cine de Venecia y la posible nominación de la actriz chilena **Mariana Di Girolamo** a los Oscar por este mismo filme, nos preguntamos: ¿Los Premios Oscar realmente se internacionalizaron o simplemente comenzaron a importar talento?
@@ -32,8 +32,8 @@ Tomamos este caso como referencia para intentar comprender la evolución de la i
 
 Para responder esta interrogante, nuestra historia se centra en el análisis de dos bases de datos. Por una parte, a través del análisis de años de nominaciones y variables como lugar de nacimiento de los actores y actrices, nacionalidad, debut, idioma de actuación y país de producción de la cinta nominada, buscamos exponer que la importación de talento en los Premios Oscar ha cambiado.
 
-Los datos demuestran que, durante los años, la Academia no premiaba obras ni carreras internacionales como tal. Para que un actor o actriz extranjero lograra ser nominado/a en dos de las principales categorías ("Mejor actor" o "Mejor actriz"), debía construir una carrera en la industria estadounidense y actuar en inglés.
+Los datos demuestran que, durante los años, la Academia no premiaba obras ni carreras internacionales como tal. Para que un actor o actriz extranjero/a lograra ser nominado/a en dos de las principales categorías ("Mejor actor" o "Mejor actriz"), debía construir una carrera en la industria estadounidense y actuar en inglés.
 
 La revelación de nuestro reportaje aparece al conectar este patrón con nuestra segunda base de datos. Mediante esta conexión, hallamos que los festivales internacionales de cine (Cannes, Venecia y Berlín), junto con otros certámenes clave en la temporada de premios, operan como un filtro previo para los Oscar.
  
-Es en estos escenarios internacionales donde las producciones gestadas fuera de Estados Unidos y habladas en idiomas distintos al inglés consiguen validación y visibilidad para intentar romper estos patrones. De este modo, nuestra historia busca demostrar este cambio: ahora no es necesario trabajar en Hollywood para llegar a los Oscar.
+Es en estos escenarios internacionales donde las producciones gestadas fuera de Estados Unidos y las películas habladas en idiomas distintos al inglés consiguen validación y visibilidad para intentar romper estos patrones. De este modo, nuestra historia busca demostrar este cambio: actualmente no es necesario trabajar en Hollywood para llegar a los Oscar.
