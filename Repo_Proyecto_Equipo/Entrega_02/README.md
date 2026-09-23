@@ -24,7 +24,7 @@ Esta clasificación permite examinar objetivamente el comportamiento de la carre
 
 Para profundizar en esta dinámica, estructuramos la Base de Datos 3, la cual integra a los tres grandes festivales internacionales de cine (Venecia, Cannes y Berlín), junto con dos galardones clave de la industria(Globos de Oro y BAFTA). El objetivo es determinar si los reconocimientos en estos certámenes funcionan como un filtro previo y trampolín necesario para que actores extranjeros ingresen al circuito de Hollywood o alcancen una nominación al Oscar.
 
-Los hallazgos preliminares de esta integración evidencian que, a partir del año 2020 aproximadamente, se incrementaron las victorias de intérpretes no estadounidenses actuando en sus idiomas nativos dentro del circuito de festivales y premios de la industria; sin embargo, sigue siendo una minoría muy reducida la que logra dar el salto posterior hacia una nominación en los Premios de la Academia.
+
 
 ## 4. Síntesis de la historia
 Iniciamos el reportaje situando a la audiencia en un momento de alta expectativa para el cine chileno y latinoamericano: el impacto mediático y la conversación pública generada tras el paso de la actriz Mariana Di Girolamo por el Festival Internacional de Cine de Venecia. Este hito no solo marcó un reconocimiento clave en su carrera, sino que encendió de inmediato una serie de preguntas ¿estamos ante la antesala de la primera nominación de una actriz chilena al Oscar en la categoría de Mejor Actriz de Reparto? 
