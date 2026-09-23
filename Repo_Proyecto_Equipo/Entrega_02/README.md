@@ -27,6 +27,13 @@ Para profundizar en esta dinámica, estructuramos la Base de Datos 3, la cual in
 
 
 ## 4. Síntesis de la historia
+Debido a la reciente aclamación de *Wild Horse Nine* en el Festival Internacional de Cine de Venecia y la posible nominación de la actriz chilena Mariana Di Girolamo a los Oscar por este mismo filme, nos preguntamos: **¿Los Premios Oscar realmente se internacionalizaron o simplemente comenzaron a importar talento?**
+
+Nos basamos en este caso mediático para intentar comprender la evolución de la industria cinematográfica. ¿Será que los premios Oscar se están volviendo más inclusivos, o simplemente reconocen el talento internacional dentro de sus propios esquemas?
+
+Para responder esta interrogante, la historia se centra en el análisis de nuestra base de datos principal.
+
+
 Iniciamos el reportaje situando a la audiencia en un momento de alta expectativa para el cine chileno y latinoamericano: el impacto mediático y la conversación pública generada tras el paso de la actriz Mariana Di Girolamo por el Festival Internacional de Cine de Venecia. Este hito no solo marcó un reconocimiento clave en su carrera, sino que encendió de inmediato una serie de preguntas ¿estamos ante la antesala de la primera nominación de una actriz chilena al Oscar en la categoría de Mejor Actriz de Reparto? 
 Utilizamos este caso de alta resonancia contemporánea como nuestro gancho periodístico central para interpelar el estado actual de la industria del entretenimiento y formular la interrogante de fondo que guía toda nuestra investigación: ¿ Los premios Oscars se limitan a importar y asimilar talento internacional dentro de sus propios esquemas o están empezando a reconocer al talento internacional sin exigirle abandonar su país de origen, su idioma nativo o sus dinámicas de producción locales?
 
