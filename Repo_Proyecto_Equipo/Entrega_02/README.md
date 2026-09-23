@@ -15,11 +15,11 @@ Asimismo, con internalización nos referimos a que los Premios Oscar empezaron a
 
 Para verificar nuestra nueva hipótesis, unificamos las base de datos 1 y 2 en una gran base orientada a las categorías de "Mejor Actor" y "Mejor Actriz". Este cruce nos permite analizar la evolución de las nominaciones a través de variables como el idioma de la interpretación o el debut de los actores/actrices. Con esta database, esperamos clasificar los resultados de las variables en la siguiente tipología de internacionalización:
 
-1. Talento estadounidense + Película estadounidense en inglés = Talento nacional.
-2. Talento internacional + Película estadounidense/inglesa = Talento importado.
-3. Talento internacional + Película estadounidense/coproducción internacional = Talento importado.
-4. Talento internacional + Película producida fuera de Estados Unidos = Internalización.
-5. Actuación en idioma no inglés + Película nativa/producción nacional = Internalización. 
+1. Talento estadounidense + Película estadounidense en inglés = **Talento nacional**.
+2. Talento internacional + Película estadounidense/inglesa = **Talento importado**.
+3. Talento internacional + Película estadounidense/coproducción internacional = **Talento importado**.
+4. Talento internacional + Película producida fuera de Estados Unidos = **Internalización**.
+5. Actuación en idioma no inglés + Película nativa/producción nacional = **Internalización**. 
 
 Esta clasificación permite examinar el comportamiento de las carreras de los intérpretes al llegar a los premios. 
 
