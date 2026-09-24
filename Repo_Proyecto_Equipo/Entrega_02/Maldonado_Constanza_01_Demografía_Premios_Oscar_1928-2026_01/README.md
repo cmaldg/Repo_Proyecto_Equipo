@@ -1,4 +1,4 @@
-# *Documentación*
+# Documentación
 
 ## 1. Explicación proceso de limpieza de datos
 
@@ -39,5 +39,6 @@ Por último, se incluyeron las variables `su_debut_fue_estadounidense` ("Sí"/"N
 1. ¿Debutar en el cine estadounidense aumenta las probabilidades de que actores y actrices ganen el Oscar?
 2. ¿Qué porcentaje de nominados/as extranjeros/as debutaron en Estados Unidos?, ¿qué porcentaje de nominados/as extranjeros/as debutaron en su país de origen?
 3. ¿Ha aumentado la presencia de actores y actrices extranjeros/as en las últimas ediciones de los Premios Oscar o esta se ha mantenido a lo largo de los años?
+
 
 

@@ -1,4 +1,4 @@
-# *Ficha técnica y Diccionario de datos*
+# Ficha técnica y Diccionario de datos
 ### **Base de datos 1: Demografía de los premios Oscar 1928-2026**
 
 ## 1. Fuente de los datos
