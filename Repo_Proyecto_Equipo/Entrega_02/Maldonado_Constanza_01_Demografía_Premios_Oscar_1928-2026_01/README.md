@@ -14,13 +14,18 @@ Con el comando “Ctrl+L” y la opción “Coincidir con el contenido de toda c
 
 Luego de este proceso, se añadiadieron las filas de los nominados y ganadores de 2026 en las categorías "Mejor actor" y "Mejor Actriz". Se sumaron 10 nombres nuevos y las filas quedaron en un total de 969.
 
-Asimismo, se recopiló información de *Wikipedia* y *IMDb* para actualizar de forma manual los lugares de nacimiento de los actores y las actrices. Al ser una base de datos de origen inglés, las lugares de nacimiento de los artistas de Estados Unidos figuraban como "ciudad, Estado" (abreviado). Los nominados extranjeros aparecían con formato diferente: "ciudad, país". Todos estos errores se estandarizaron en "ciudad, país". Por ejemplo, la localidad de la actriz estadounidense Gloria Swanson se corrigió de **"Chicago, IL"** a **Chicago, Estados Unidos"**.
+Asimismo, se recopiló información de *Wikipedia* y *IMDb* para actualizar de forma manual los lugares de nacimiento de los actores y las actrices. Al ser una base de datos de origen inglés, las lugares de nacimiento de los artistas de Estados Unidos figuraban como "ciudad, Estado" (abreviado). Los nominados extranjeros aparecían con formato diferente: "ciudad, país". Todos estos errores se estandarizaron como "ciudad, país". Por ejemplo, la localidad de la actriz estadounidense Gloria Swanson se corrigió de **"Chicago, IL"** a **Chicago, Estados Unidos"**.
 
-Además, se añadió la variable nacionalidad (1 y 2). Los datos de estas nuevas columnas se recopilaron de forma manual con información de *IMDb* y *Wikipedia*. También se decidió que `nacionalidad_1` correspondería al origen y `nacionalidad_2` a la obtenida por ciudadanía.
+Además, se añadió la variable nacionalidad (1 y 2). Los datos de estas nuevas columnas se recopilaron de forma manual con información de *IMDb* y *Wikipedia*. También se decidió que `nacionalidad_1` correspondería al origen y `nacionalidad_2` a la obtenida por ciudadanía. Respecto a la nacionalidad 2, se aplicaron los valores "No aplica" a los artistas que no cuentan o no contaban con doble nacionalidad. 
 
-Por último, se incluyeron las variables `su_debut_fue_estadounidense`
+Por último, se incluyeron las variables `su_debut_fue_estadounidense` ("Sí"/"No") y `titulo_original_pelicula_debut`. Los datos se recopilaron a través del sitio oficial de *IMDb*. Asimismo, se agregaron algunas nominaciones faltantes y se corrigieron los años de realización del certamen en el periodo 1929-1934.
 
 ## 2. Lista fuentes de datos
+1. 
+2.
+3.
+4.
+5.
 
 ## 3. Ejemplos de preguntas que se pueden responder con la base de datos limpia
 
