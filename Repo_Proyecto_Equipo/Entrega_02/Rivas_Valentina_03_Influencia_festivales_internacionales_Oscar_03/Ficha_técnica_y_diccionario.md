@@ -60,22 +60,22 @@ Recopilación e ingreso manual directo utilizando artículos de prensa especiali
    * **Orden Cronológico:** Se ordenó la matriz de manera cronológica estricta por año de edición (1932–2026).
 
 ---
-
 ### **Alcance de los datos**
-* **Alcance General:** Matriz histórica compuesta por **922 registros** que abarcan desde la edición inaugural del Festival de Venecia en 1932 hasta la temporada cinematográfica de 2026.
+* **Alcance General:** Matriz histórica compuesta por **933 registros** que abarcan desde la edición inaugural de los certámenes europeos en la década de 1930 hasta la temporada cinematográfica de 2026.
 * **Desglose de Registros por Certamen:**
-  * **Premios Globo de Oro (1944 – 2026):** 322 registros (40,7% de la base).
-  * **Premios BAFTA (1953 – 2026):** 178 registros (22,5% de la base).
-  * **Festival de Cannes (1946 – 2026):** 163 registros (20,6% de la base).
-  * **Festival de Berlín (1956 – 2026):** 131 registros (16,2% de la base).
-  * **Festival de Venecia (1932 – 2026):** 128 registros (16,2% de la base).
-* **Alcance Geográfico Detallado:** La base de datos cuenta con representación de intérpretes provenientes de **57 países y territorios autónomos** agrupados en 6 grandes regiones continentales:
-  * **Mercado Anglosajón e Industria Hegemónica (620 registros | 67,2%):** Encabezado por Estados Unidos (397), Reino Unido (168), Australia (27), Irlanda (15), Canadá (10) y Nueva Zelanda (3).
-  * **Europa Continental, Nórdica y Oriental (226 registros | 24,5%):** Con fuerte presencia de Francia (85), Italia (46), Alemania (24), España (17), Suecia (9), Austria (6), Rusia / ex Unión Soviética (9), Polonia (5), Bélgica (5), Dinamarca (4), Suiza, Portugal, Finlandia, Grecia, Hungría e Islandia.
-  * **Asia y Asia-Pacífico (32 registros | 3,5%):** Representado por Japón (10), China (8), Hong Kong (4), Corea del Sur (4), Filipinas (2), India (1), Malasia (1), Camboya (1) y Kazajistán (1).
-  * **América Latina y el Caribe (20 registros | 2,2%):** Integrado por Brasil (6), México (3), Argentina (3), Puerto Rico (3), Chile (2), Paraguay (1), Colombia (1) y Uruguay (1).
-  * **Medio Oriente (17 registros | 1,8%):** Con participación de Israel (6), Irán (5), Turquía (4) y Palestina (2).
-  * **África Continental (7 registros | 0,8%):** Con representantes de Nigeria (1), República Democrática del Congo (1), Malí (1), Túnez (1), Sudáfrica (1), Egipto (1) y Marruecos.
+  * **Premios Globo de Oro (1944 – 2026):** 322 registros (34,5% de la base).
+  * **Premios BAFTA (1952 – 2026):** 178 registros (19,1% de la base).
+  * **Festival de Cannes (1946 – 2026):** 173 registros (18,5% de la base).
+  * **Festival de Berlín (1956 – 2026):** 132 registros (14,1% de la base).
+  * **Festival de Venecia (1933 – 2026):** 128 registros (13,7% de la base).
+* **Alcance Geográfico Detallado:** La base de datos cuenta con representación de intérpretes provenientes de **60 países y territorios autónomos** agrupados en 6 grandes regiones continentales:
+  * **Mercado Anglosajón e Industria Hegemónica (623 registros | 66,77%):** Encabezado por Estados Unidos (399), Reino Unido (169), Australia (27), Irlanda (15), Canadá (10) y Nueva Zelanda (3).
+  * **Europa Continental, Nórdica y Oriental (232 registros | 24,87%):** Con fuerte presencia de Francia (84), Italia (46), Alemania (24), España (21), Suecia (9), Austria (6), Bélgica (6), Rusia / ex Unión Soviética (9), Polonia (5), Dinamarca (4), Hungría (2), Noruega (2), Finlandia (2), Grecia (2), República Checa (1), Suiza (1), Portugal (1), Islandia (1), Yugoslavia (1) y Rumania (1).
+  * **Asia y Asia-Pacífico (32 registros | 3,43%):** Representado por Japón (10), China (8), Corea del Sur (4), Hong Kong (3), Filipinas (2), Camboya (1), Malasia (1), Kazajistán (1) e India (1).
+  * **América Latina y el Caribe (22 registros | 2,36%):** Integrado por Brasil (7), México (3), Argentina (3), Puerto Rico (3), Chile (2), Paraguay (1), Colombia (1) y Uruguay (1).
+
+  * **Medio Oriente (17 registros | 1,82%):** Con participación de Israel (6), Irán (5), Turquía (4) y Palestina (2: Hiam Abbass).
+  * **África Continental (7 registros | 0,75%):** Con representantes de Sudáfrica (2), Nigeria (1), República Democrática del Congo (1), Túnez (1), Malí (1) y Egipto (1).
 
 ---
 
