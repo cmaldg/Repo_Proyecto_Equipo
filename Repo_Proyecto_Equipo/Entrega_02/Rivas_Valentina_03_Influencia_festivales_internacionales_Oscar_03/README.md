@@ -1,35 +1,10 @@
 # Documentación del Proceso, Limpieza de Datos y Análisis (README)
-**Análisis de efecto trampolín de  Festivales Internacionales (Cannes, Venecia, Berlín), Globos de Oro y Premios BAFTA (1933–2026)**  
+**Análisis Influencia  Festivales Internacionales (Cannes, Venecia, Berlín), Globos de Oro y Premios BAFTA (1933–2026)**  
 **Entrega Individual y Grupal - Integrante 03: Valentina Rivas Aguirre**
 
 ---
 
-## 1. Gancho Periodístico y Contextualización
-
-El análisis de este reportaje parte de un hito de alta relevancia y oportunidad periodística para la industria cinematográfica nacional e internacional: la proyección y recepción crítica de la actriz chilena **Mariana Di Girolamo** de cara a la próxima temporada de premios por su interpretación en la película *Wild Horse Nine*. Este fenómeno local sirve como prisma y punto de partida para problematizar un debate de alcance global: ¿qué significa realmente para una figura de la periferia cinematográfica ser nominada o reconocida por la Academia de Artes y Ciencias Cinematográficas de Hollywood? 
-
-El proyecto cuestiona si el aumento de nombres internacionales en la temporada de premios anglosajona representa una verdadera descentralización de la industria audiovisual mundial, o si responde a una estrategia perfeccionada de cooptación, donde Hollywood actúa como un filtro que importa el talento de otros países bajo la condición de asimilarlo a sus propios esquemas de producción, distribución e idioma.
-
----
-
-## 2. Hipótesis Actual
-
-> **La internacionalización de las categorías actorales de los Oscar no consiste solamente en un aumento de intérpretes nacidos fuera de EE.UU., sino en una creciente entrada de películas, idiomas y carreras desarrolladas fuera de Hollywood. Durante décadas, la industria estadounidense importó talento internacional sin internacionalizar realmente las obras premiadas, exigiendo la asimilación al sistema hollywoodense; sin embargo, en los años recientes comenzó una ruptura donde los artistas ya no necesitan "entrar a Hollywood" para ser reconocidos por la Academia.**
-
----
-
-## 3. Preguntas de Investigación Actuales
-
-Las preguntas periodísticas y analíticas que guían el trabajo de procesamiento y cruce de datos son:
-
-1. **¿Los Oscar tienen simplemente más intérpretes nacidos fuera de Estados Unidos o la industria realmente se globalizó en las obras y producciones premiadas?**
-2. **¿Existe una brecha histórica entre la 'importación de talento' (actores extranjeros trabajando en producciones anglosajonas habladas en inglés) y la 'internacionalización de obras' (actuaciones en idiomas no ingleses y películas producidas íntegramente fuera de Estados Unidos)?**
-3. **¿Funcionan los festivales de cine Clase A (*Cannes, Venecia y Berlín*) y los galardones de la industria (*Globos de Oro y BAFTA*) como un trampolín de impulso o como un filtro de selección previo a la nominación al Oscar?**
-4. **¿A partir de qué hito o momento histórico específico comenzó la ruptura donde un artista internacional ya no necesita 'migrar a Hollywood' ni adoptar el idioma inglés para acceder al máximo reconocimiento de la Academia?**
-
----
-
-## 4. Explicación del Proceso de Limpieza y Depuración de Datos
+### 1. Explicación del Proceso de Limpieza y Depuración de Datos
 
 El proceso de limpieza y construcción de la **Base de Datos 3** se desarrolló a través de un flujo metódico de cuatro etapas orientadas a garantizar la transparencia, integridad y replicabilidad periodística. La matriz final consolidada consta de **933 registros** y **9 variables**.
 
@@ -58,24 +33,54 @@ El proceso de limpieza y construcción de la **Base de Datos 3** se desarrolló 
   * **Python (Pandas & OpenPyXL):** Utilizado para el procesamiento estructurado, la eliminación de duplicados, la ordenación cronológica (`ano_premio`) y la generación de archivos exportables en formato `.xlsx` y `.csv` UTF-8.
   * **Microsoft Excel / Google Sheets:** Utilizados para la auditoría visual rápida y el armado de tablas dinámicas de verificación.
 
----
 
-## 5. Fuentes de Datos Utilizadas y Justificación de Selección
-
-| Fuente de Datos | Tipo de Fuente | Justificación Metodológica y Teórica de su Selección |
-| :--- | :--- | :--- |
-| **Festival de Cannes Archives** | Primaria / Oficial | Representa el festival de cine más prestigioso del mundo. Clasificado como certamen "Clase A" por la **FIAPF**, constituye el principal polo de validación de la crítica y el cine de autor internacional (*English, 2005*). |
-| **La Biennale di Venezia Archives** | Primaria / Oficial | Fundado en 1932, es el festival de cine más antiguo de la historia (otorgante de la *Coppa Volpi*). Su inclusión aporta la serie histórica más longeva de la investigación. |
-| **Berlinale Official Archives** | Primaria / Oficial | Junto con Cannes y Venecia, completa la **"Tríada Dorada" (Big Three)** del cine europeo de autor acreditada por la FIAPF, aportando una mirada centrada en el cine político, independiente y global. |
-| **Golden Globes Official Repository** | Primaria / Oficial | Otorga reconocimientos divididos entre Drama y Comedia/Musical. La literatura empírica (*Deuchert et al., 2012*) lo identifica como el mayor predictor mediático e industrial temprano hacia los Oscar. |
-| **BAFTA Awards Database** | Primaria / Oficial | Es el principal premio de una academia nacional no estadounidense. Actúa como el puente cultural definitivo entre el circuito anglo-europeo y la industria hollywoodense. |
-| **IMDb & BFI Filmographic Database** | Secundaria / Auditoría | Proporcionan el catálogo técnico estandarizado global sobre créditos de rodaje, países de producción, lenguas de grabación y biografías verificadas de los intérpretes. |
 
 ---
+## 2. Lista de las Fuentes de Datos 
 
-## 6. Avance del Proyecto y Tablas Dinámicas (Pivot Tables)
+Para la construcción, auditoría y actualización de la **Base de Datos 3**, se utilizaron fuentes primarias y secundarias de alcance internacional, estructuradas en tres niveles:
 
-A partir de la base de datos limpia de **933 registros**, se estructuraron tres tablas dinámicas para responder a las preguntas centrales del reportaje periodístico:
+### 1. Fuentes Primarias (Palmarés Histórico hasta 2024)
+Se recurrió a los anexos documentales e inventarios históricos oficiales disponibles en Wikipedia como punto de partida para la extracción de listas de ganadores en categorías protagónicas:
+* **Festival de Cannes (Mejor Actriz):** [Anexo:Premio del Festival de Cannes a la mejor actriz](https://es.wikipedia.org/wiki/Anexo:Premio_del_Festival_de_Cannes_a_la_mejor_actriz)
+* **Festival de Cannes (Mejor Actor):** [Anexo:Premio del Festival de Cannes al mejor actor](https://es.wikipedia.org/wiki/Anexo:Premio_del_Festival_de_Cannes_al_mejor_actor)
+* **Festival de Venecia (Mejor Actriz - Coppa Volpi):** [Volpi Cup for Best Actress](https://en.wikipedia.org/wiki/Volpi_Cup_for_Best_Actress)
+* **Festival de Venecia (Mejor Actor - Coppa Volpi):** [Volpi Cup for Best Actor](https://en.wikipedia.org/wiki/Volpi_Cup_for_Best_Actor)
+* **Festival de Berlín (Oso de Plata a la Mejor Interpretación Masculina):** [Anexo:Oso de Plata a la mejor interpretación masculina](https://es.wikipedia.org/wiki/Anexo:Oso_de_Plata_a_la_mejor_interpretaci%C3%B3n_masculina)
+* **Festival de Berlín (Oso de Plata a la Mejor Interpretación Femenina):** [Anexo:Oso de Plata a la mejor interpretación femenina](https://es.wikipedia.org/wiki/Anexo:Oso_de_Plata_a_la_mejor_interpretaci%C3%B3n_femenina)
+* **Premios Globo de Oro (Mejor Actriz - Drama):** [Anexo:Globo de Oro a la mejor actriz - Drama](https://es.wikipedia.org/wiki/Anexo:Globo_de_Oro_a_la_mejor_actriz_-_Drama)
+* **Premios Globo de Oro (Mejor Actriz - Comedia o Musical):** [Anexo:Globo de Oro a la mejor actriz - Comedia o musical](https://es.wikipedia.org/wiki/Anexo:Globo_de_Oro_a_la_mejor_actriz_-_Comedia_o_musical)
+* **Premios Globo de Oro (Mejor Actor - Drama):** [Anexo:Globo de Oro al mejor actor - Drama](https://es.wikipedia.org/wiki/Anexo:Globo_de_Oro_al_mejor_actor_-_Drama)
+* **Premios Globo de Oro (Mejor Actor - Comedia o Musical):** [Anexo:Globo de Oro al mejor actor - Comedia o musical](https://es.wikipedia.org/wiki/Anexo:Globo_de_Oro_al_mejor_actor_-_Comedia_o_musical)
+* **Premios BAFTA (Mejor Actriz):** [Anexo:BAFTA a la mejor actriz](https://es.wikipedia.org/wiki/Anexo:BAFTA_a_la_mejor_actriz)
+* **Premios BAFTA (Mejor Actor):** [Anexo:BAFTA al mejor actor](https://es.wikipedia.org/wiki/Anexo:BAFTA_al_mejor_actor)
+
+### 2. Fuentes de Verificación Manual de Idioma y Nacionalidad (1932–2024)
+Para corregir errores de origen y verificar la lengua real interpretada en cada papel, se consultaron repositorios técnicos cinematográficos:
+* **Internet Movie Database (IMDb):** [IMDb Official Database](https://www.imdb.com/) (Verificación de fichas técnicas de rodaje, *Original Language* y nacionalidades).
+* **British Film Institute (BFI):** [BFI Filmographic Database](https://www.bfi.org.uk/) (Registros cinematográficos oficiales).
+* **Archivos Oficiales:** [Festival de Cannes Archives](https://www.festival-cannes.com/) y [La Biennale di Venezia Archives](https://www.labiennale.org/).
+
+### 3. Fuentes de Construcción Manual (Temporadas 2025 y 2026)
+Dado que las temporadas recientes no estaban consolidadas en anexos únicos, se recopilaron e ingresaron los datos mediante cobertura de medios especializados y fichas de distribución:
+* **Demi Moore & *La sustancia*:** [Wikipedia - Demi Moore](https://es.wikipedia.org/wiki/Demi_Moore), [Premios Óscar - Sitio Oficial](https://www.oscars.org/), [Wikipedia - La sustancia](https://es.wikipedia.org/wiki/The_Substance).
+* **Fernanda Torres & *Aún estoy aquí*:** [Vogue España - Quién es Fernanda Torres](https://www.vogue.es/), [Wikipedia - Fernanda Torres](https://es.wikipedia.org/wiki/Fernanda_Torres), [El País - Brasil busca su primer Óscar](https://elpais.com/).
+* **Sebastian Stan & *A Different Man* / *El aprendiz*:** [A24 - A Different Man](https://a24films.com/), [Golden Globes Official](https://goldenglobes.com/), [Meristation - Nominación](https://as.com/meristation/).
+* **Robert Aramayo & *I Swear*:** [Variety - Robert Aramayo BAFTA Winner](https://variety.com/), [GoldDerby - Meet Robert Aramayo](https://www.goldderby.com/), [SelectaVisión](https://www.selecta-vision.com/).
+* **Jessie Buckley & *Hamnet*:** [Wikipedia - Jessie Buckley](https://es.wikipedia.org/wiki/Jessie_Buckley), [Wikipedia - Hamnet Film](https://en.wikipedia.org/wiki/Hamnet_(film)).
+* **Virginie Efira, Tao Okamoto & *All of a Sudden*:** [The Hollywood Reporter - Awards Campaign](https://www.hollywoodreporter.com/), [Wikipedia - Tao Okamoto](https://en.wikipedia.org/wiki/Tao_Okamoto).
+* **Emmanuel Macchia, Valentin Campagne & *Coward*:** [Yahoo Vida y Estilo](https://es-us.vida-estilo.yahoo.com/), [Deadline - Belgium Selects Coward](https://deadline.com/).
+* **John Malkovich & *Wild Horse Nine*:** [Chile Travel - Rodaje en Rapa Nui](https://chile.travel/).
+* **Mathilde Arcel & *Woman Unknown*:** [The Guardian - Venice Best Actress Winner](https://www.theguardian.com/).
+* **Rose Byrne & *If I Had Legs I'd Kick You*:** [Wikipedia - Rose Byrne](https://en.wikipedia.org/wiki/Rose_Byrne).
+* **Timothée Chalamet & *Marty Supreme*:** [A24 - Marty Supreme](https://a24films.com/).
+
+---
+
+
+## 3. Ejemplos de preguntas que se pueden responder con la base de datos limpia
+
+A partir de la base de datos limpia de **933 registros**, se estructuraron tres tablas dinámicas para responder a las preguntas centrales del reportaje periodístico, mediante IA( Gemini) se construyeron los porcentajes compartiendo la base de datos limpia.
 
 ### **Pregunta 1: ¿Funcionan los festivales de cine y premios de la industria como un trampolín de impulso o como un filtro de selección previo a la nominación al Oscar?**
 
@@ -136,21 +141,3 @@ A partir de la base de datos limpia de **933 registros**, se estructuraron tres 
   2. Los festivales europeos de autor destacan por su función de **descubrimiento e internacionalización de nuevos talentos**: Berlín encabeza esta dimensión con un **68,18%** de ganadores sin carrera previa en EE. UU., seguido por Cannes (**66,47%**) y Venecia (**59,38%**).
   3. Los Globos de Oro, en cambio, operan mayoritariamente sobre actores consolidados en el circuito comercial norteamericano, registrando únicamente un **14,29%** de intérpretes sin carrera previa en Hollywood.
 
----
-
-## 7. Síntesis de la Historia
-
-**Título del reportaje:** *La ilusión de la globalización: De la importación de talentos al reconocimiento del cine en su propio idioma.*
-
-El reportaje arranca con el análisis del fenómeno proyectado de la actriz chilena **Mariana Di Girolamo** por *En el rayo*, utilizándolo como ventana periodística para indagar en la transformación del camino hacia el Oscar. A través del análisis de casi un siglo de datos (1933–2026), la investigación demuestra que, durante décadas, Hollywood funcionó bajo un modelo de cooptación: abría sus puertas a intérpretes nacidos fuera de Estados Unidos (desde Sophia Loren y Roberto Benigni hasta Marion Cotillard), pero exigiendo su asimilación a través de la migración a la industria estadounidense, la firma con grandes estudios y la actuación en idioma inglés.
-
-Finalmente, el trabajo pone en evidencia la reciente grieta en este sistema. El verdadero hallazgo periodístico no es la suma de pasaportes diversos en las ceremonias, sino la ruptura contemporánea donde producciones gestadas fuera de Hollywood y habladas en sus idiomas nativos (como *Parasite*, *Drive My Car* o *Ainda Estou Aqui*) lograron derribar el filtro de asimilación, permitiendo que el talento internacional alcance el reconocimiento global sin renunciar a su idioma ni a su industria de origen.
-
----
-
-## 8. Estructura y Archivos del Repositorio Individual y Grupal
-
-1. `Base de datos 3_Influencia de Festivales Internacionales_2.xlsx`: Archivo original estructurado en Excel con la base completa limpia (933 filas).
-2. `base3_festivales_globos_bafta_y_berlin_completa.csv`: Archivo plano limpio en formato CSV codificado en UTF-8.
-3. `FICHA_TECNICA.md`: Documento formal de ficha técnica y diccionario de datos actualizado con los 933 registros y 60 países.
-4. `README.md`: Este documento explicativo de la metodología, justificación teórica, fuentes y tablas dinámicas.
