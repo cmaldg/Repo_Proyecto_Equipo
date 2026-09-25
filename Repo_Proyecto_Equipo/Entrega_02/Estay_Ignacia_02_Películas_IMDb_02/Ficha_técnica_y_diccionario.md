@@ -1,24 +1,17 @@
 # Ficha técnica y diccionario de datos
 
-**Nombre de la base de datos:** `base_oficial_completa.csv`
-**Autor(es):** _[COMPLETAR: nombre(s) del/de los autor(es)]_
-**Fecha de última actualización:** _[COMPLETAR: fecha]_
-**Curso / proyecto:** _[COMPLETAR: si corresponde]_
-
----
-
 ## 1. Fuente de los datos
 
 Esta base de datos se construyó fusionando dos fuentes:
 
 1. **Base principal:** contiene los datos demográficos y de trayectoria de las personas nominadas y ganadoras a los premios Oscar en las categorías de Mejor Actor y Mejor Actriz (nombre, género, lugar de nacimiento, nacionalidad, raza o etnia, película de debut, categoría y resultado de la nominación, año de la ceremonia). _[COMPLETAR: nombre exacto de la fuente/dataset y enlace, por ejemplo si proviene de Kaggle, del sitio oficial de la Academy of Motion Picture Arts and Sciences, o de una base propia recopilada manualmente]_
-2. **Base de películas de IMDb:** contiene los datos técnicos de cada película (idioma original, idiomas hablados, país(es) de producción, compañía(s) productora(s) y géneros). _[COMPLETAR: nombre exacto del dataset y enlace, por ejemplo un dataset de Kaggle basado en IMDb/TMDB]_
+2. **Base de películas de IMDb:** Contiene información completa de las películas, desde los links de los posters, popularidad, presupuestos, etc. Pero se eliminaron las columnas que no se iban a utilizar y se dejaron solamente las que contenían los datos técnicos de cada película: (idioma original, idiomas hablados, país(es) de producción, compañía(s) productora(s) y géneros). [Kaggle Full TMDB Movies Dataset](https://www.kaggle.com/datasets/asaniczka/tmdb-movies-dataset-2023-930k-movies)
 
 Ambas bases se cruzaron por **título original de la película** y **año de la película nominada**. De 975 registros de nominaciones, 117 no encontraron coincidencia automática en la base de IMDb (por diferencias de título, año o ediciones especiales). Esas 117 películas se completaron manualmente mediante búsqueda web, verificando cada dato contra fuentes públicas antes de incorporarlo a la base.
 
 ## 2. Metodología de construcción de la base
 
-1. Se tomó la base principal de nominaciones (975 filas, una fila por nominación individual).
+1. Se tomó la base principal de nominaciones creada por Constanza (975 filas, una fila por nominación individual).
 2. Se cruzó cada fila con la base de IMDb usando como clave el título original y el año de la película.
 3. Las 117 filas que no cruzaron automáticamente se identificaron y exportaron a una planilla aparte.
 4. Para esas 117 películas se investigó manualmente, en fuentes públicas, el idioma original, los idiomas hablados, el/los país(es) de producción, la(s) compañía(s) productora(s) y el/los género(s), siguiendo el mismo formato que ya usaban las columnas provenientes de IMDb.
@@ -69,7 +62,3 @@ Ambas bases se cruzaron por **título original de la película** y **año de la 
 | `production_companies` | Compañía(s) productora(s) de la película. Puede tener más de un valor separado por comas. | Texto (lista separada por comas) | Ej. `Fox Film Corporation`; `DeMille Pictures Corporation, Pathé Exchange`. 627 valores únicos. | — |
 | `production_countries` | País(es) de producción de la película. Puede tener más de un valor separado por comas. | Texto (lista separada por comas) | Ej. `Estados Unidos`; `Reino Unido, Estados Unidos`. 100 valores únicos. | Formato mixto: la mayoría en español, pero algunos valores de IMDb quedaron sin traducir (ej. `Greece`, `Soviet Union`). Revisar antes de agrupar por país. |
 | `spoken_languages` | Idioma(s) hablado(s) en la película. Puede tener más de un valor separado por comas. | Texto (lista separada por comas) | Ej. `Ingles, Frances`; `Sin Lenguaje` / `Sin idioma` (para películas mudas). 146 valores únicos. 1 valor faltante. | Mismo problema de formato mixto que `original_language` y `genres`, además de dos variantes para "sin idioma" (`Sin Lenguaje` / `Sin idioma`) según el origen del dato. |
-
----
-
-_Este documento acompaña al archivo `base_oficial_completa.csv` y debe actualizarse si se modifica la estructura o el contenido de la base._
