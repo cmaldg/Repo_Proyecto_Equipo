@@ -1,12 +1,12 @@
 # Documentación del Proceso, Limpieza de Datos y Análisis (README)
-**Análisis del Palmarés Histórico de Interpretación en Festivales Internacionales (Cannes, Venecia, Berlín), Globos de Oro y Premios BAFTA (1933–2026)**  
+**Análisis de efecto trampolín de  Festivales Internacionales (Cannes, Venecia, Berlín), Globos de Oro y Premios BAFTA (1933–2026)**  
 **Entrega Individual y Grupal - Integrante 03: Valentina Rivas Aguirre**
 
 ---
 
 ## 1. Gancho Periodístico y Contextualización
 
-El análisis de este reportaje parte de un hito de alta relevancia y oportunidad periodística para la industria cinematográfica nacional e internacional: la proyección y recepción crítica de la actriz chilena **Mariana Di Girolamo** de cara a la próxima temporada de premios por su interpretacióN de reparto en la película *Wild Horse Nine*. Este fenómeno local sirve como prisma y punto de partida para problematizar un debate de alcance global: ¿qué significa realmente para una figura de la periferia cinematográfica ser nominada o reconocida por la Academia de Artes y Ciencias Cinematográficas de Hollywood? 
+El análisis de este reportaje parte de un hito de alta relevancia y oportunidad periodística para la industria cinematográfica nacional e internacional: la proyección y recepción crítica de la actriz chilena **Mariana Di Girolamo** de cara a la próxima temporada de premios por su interpretación en la película *Wild Horse Nine*. Este fenómeno local sirve como prisma y punto de partida para problematizar un debate de alcance global: ¿qué significa realmente para una figura de la periferia cinematográfica ser nominada o reconocida por la Academia de Artes y Ciencias Cinematográficas de Hollywood? 
 
 El proyecto cuestiona si el aumento de nombres internacionales en la temporada de premios anglosajona representa una verdadera descentralización de la industria audiovisual mundial, o si responde a una estrategia perfeccionada de cooptación, donde Hollywood actúa como un filtro que importa el talento de otros países bajo la condición de asimilarlo a sus propios esquemas de producción, distribución e idioma.
 
