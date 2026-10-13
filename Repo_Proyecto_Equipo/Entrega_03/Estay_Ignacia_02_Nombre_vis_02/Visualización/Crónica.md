@@ -1,4 +1,6 @@
-## Subhistoria: ¿Cuáles son los géneros que más predominan en las películas nominadas, tanto extranjeras como estadounidenses?
+## Subhistoria: ¿Qué géneros dominan en las películas nominadas al Oscar? Estadounidenses vs. extranjeras
+
+### _Cuáles son los géneros que más predominan en las películas estadounidenses y en las extranjeras nominadas al Oscar, y cómo han cambiado con el tiempo?_
 
 ![alt text](<visualizacion_generos.jpg>)
 
