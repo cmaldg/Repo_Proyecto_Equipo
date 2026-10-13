@@ -42,4 +42,4 @@ Dos casillas de la catégoria "idioma" estaban vacias, junto con unas películas
 
 **Librerías:** `pandas`, `altair`, `vl-convert-python`, `Pillow` (todas disponibles en Colab salvo `vl-convert-python`).
 
-**Se utilizó como herramienta la Inteligencia Artificial Claude como apoyo en generación de códigos para la visualización y a Gemini integrada en Google Collab al momento de solucionar errores**
+**Se utilizó como herramienta la Inteligencia Artificial Claude como apoyo en generación de códigos para la visualización y a Gemini integrada en Google Colab al momento de solucionar errores**
