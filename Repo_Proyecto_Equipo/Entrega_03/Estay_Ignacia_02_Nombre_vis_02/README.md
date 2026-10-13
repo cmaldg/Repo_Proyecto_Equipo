@@ -1,6 +1,6 @@
 # ¿Qué géneros dominan en las películas nominadas al Oscar? Estadounidenses vs. extranjeras
 
-**Pregunta:** ¿Cuáles son los géneros que más predominan en las películas estadounidenses y en las extranjeras nominadas al Oscar, y cómo han cambiado con el tiempo?
+## Pregunta: ¿Cuáles son los géneros que más predominan en las películas estadounidenses y en las extranjeras nominadas al Oscar, y cómo han cambiado con el tiempo?
 
 **Tipo de visualización:** dos gráficos de líneas hechos con Altair, uno por origen. Muestran, para cada década, el porcentaje de películas que tienen cada uno de los seis géneros más frecuentes del grupo. Elegí líneas para tener una mejor visualización de las tendencias a lo largo del tiempo, y dos gráficos separados porque cada grupo tiene sus propios géneros principales. Que luego uní en un mismo gráfico.
 
@@ -41,3 +41,5 @@ Dos casillas de la catégoria "idioma" estaban vacias, junto con unas películas
 4. Para exportar: `!pip install -q vl-convert-python` y luego `grafico.save("nombre.png", scale_factor=3)` (se convierte a JPG con Pillow). Para HTML: `grafico.save("nombre.html")`.
 
 **Librerías:** `pandas`, `altair`, `vl-convert-python`, `Pillow` (todas disponibles en Colab salvo `vl-convert-python`).
+
+**Se utilizó como herramienta la Inteligencia Artificial Claude como apoyo en generación de códigos para la visualización y a Gemini integrada en Google Collab al momento de solucionar errores**
