@@ -1,6 +1,6 @@
 ## Subhistoria: ¿Cuáles son los géneros que más predominan en las películas nominadas, tanto extranjeras como estadounidenses?
 
-(/image/visualizacion_generos.jpg)
+![alt text](<visualizacion_generos.jpg>)
 
 Se catalogaron como extranjeras todas las películas que no fueron producidas en fuera Estados Unidos. 
 
