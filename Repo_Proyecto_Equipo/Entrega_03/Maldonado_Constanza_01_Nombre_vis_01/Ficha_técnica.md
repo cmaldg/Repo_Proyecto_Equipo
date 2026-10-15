@@ -26,6 +26,6 @@ Se corrigieron errores de limpieza de la base de datos de la entrega anterior. S
 | `idiomas_hablados` | Idiomas que se hablan en el filme nominado |
 
 ### 2. Observaciones sobre la base de datos
-
+La base de datos se convirtió en una gran base al combinar la base de datos 1 (The Oscar Award Demographics 1928-2025 ) y base de datos 2 (TMDB Movie Dataset) que se extrajeron desde Kaggle. Esta quedó de 975 filas y 18 columnas. 
 
 
