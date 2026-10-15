@@ -2,6 +2,10 @@
 
 
 
+https://github.com/user-attachments/assets/31e2fb56-024a-4bdb-a116-c3ec223bf0a6
+
+
+
 3 de septiembre de 2026. Termina la proyección de *Wild Horse Nine*, la comedia negra de Martin McDonagh ambientada en Rapa Nui y producida entre el Reino Unido, Estados Unidos y Chile. El público se pone de pie y ovaciona sin interrupción durante casi 14 minutos. Entre las figuras del elenco que sonríen en la sala está la actriz chilena Mariana Di Girolamo. 
 
 Nueve días después, en la ceremonia de clausura, la Copa Volpi al mejor actor es para su compañero de reparto, el estadounidense John Malkovich. En el mapa de premiados de Venecia, Malkovich se convierte en un nuevo círculo turquesa. Di Girolamo, en cambio, no obtiene ningún punto: no ganó. Sin embargo, la revista *Variety* la incluye poco después entre las potenciales candidatas al Óscar y la selecciona en su codiciada lista de los «10 actores a seguir» de 2026.
@@ -13,12 +17,13 @@ La película es indiscutiblemente internacional. Pero ¿lo es también el camino
 ### La paradoxa de los festivales europeos
 
 A primera vista, triunfar en Europa parece el salto natural hacia la Academia. Sin embargo, la distribución por idioma en los certámenes continentales revela una realidad muy distinta a la de la temporada de premios anglosajona.
+<img width="3256" height="1913" alt="grafico_2_idioma_por_festival (3)" src="https://github.com/user-attachments/assets/e4202636-3321-40cc-8423-f06367486cea" />
 
-![Distribución del Idioma en las Películas por Certamen](grafico_2_idioma_por_festival%20(3).png)
 
 Mientras festivales como Cannes (58%), Berlín (59%) y Venecia (52%) sirven de vitrina principal para producciones en idiomas distintos al inglés[cite: 1], su efectividad directa como trampolín a una nominación al Óscar es acotada[cite: 2]:
 
-![Efecto Trampolín a Nominación al Óscar por Certamen](grafico_2_idioma_por_festival%20(2).png)
+<img width="2968" height="1762" alt="grafico_2_idioma_por_festival (2)" src="https://github.com/user-attachments/assets/8761e77c-96cd-4c83-9048-fadf7b6d2cc9" />
+
 
 * **Festival de Cannes:** 21,4% de tasa de conversión a nominación al Óscar[cite: 2].
 * **Festival de Venecia:** 21,1% de tasa de conversión[cite: 2].
