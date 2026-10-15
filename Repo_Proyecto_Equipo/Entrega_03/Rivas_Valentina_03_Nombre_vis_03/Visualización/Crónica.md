@@ -1,6 +1,6 @@
 # La verdadera llave de Hollywood
 
-<video src="Wild Horse Nine  Standing Ovation @ 83rd Venice International Film Festival.mp4" controls width="100%"></video>
+
 
 3 de septiembre de 2026. Termina la proyección de *Wild Horse Nine*, la comedia negra de Martin McDonagh ambientada en Rapa Nui y producida entre el Reino Unido, Estados Unidos y Chile. El público se pone de pie y ovaciona sin interrupción durante casi 14 minutos. Entre las figuras del elenco que sonríen en la sala está la actriz chilena Mariana Di Girolamo. 
 
