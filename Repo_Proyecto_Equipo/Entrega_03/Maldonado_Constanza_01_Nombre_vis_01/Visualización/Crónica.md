@@ -19,4 +19,5 @@ La década de los 60s ha sido, hasta ahora, la década con menor porcentaje de n
 ## Desde los 2000s hasta la actualidad
 
 Hasta el momento, no se pueden detectar patrones en las nominaciones, solo se puede asegurar que los artistas estadounidenses que debutaron en Estados Unidos predominan en las categorías “Mejor actor” y “Mejor actriz”. Con relación a los 2000s, actores y actrices estadounidenses obtuvieron 63 nominaciones de un total de 100. Números muy similares se evidenciaron en la década de 2010. En la década de 2020, actualmente, se evidencia una disminución en este tipo de artistas: las nominaciones extranjeras están alcanzando el 45,71%. 
-Ahora falta ver de qué manera los cambios en el reglamento de la Academia de Artes y Ciencias Cinematográficas en los próximos años se reflejarán en los datos correspondiente a la década de 2020. Estos comenzarán a regir en marzo de 2027 (99° edición).
+
+Ahora solo falta ver de qué manera los cambios en el reglamento de la Academia de Artes y Ciencias Cinematográficas en los próximos años se reflejarán en los datos correspondiente a la década de 2020. Estos comenzarán a regir en marzo de 2027 (99° edición).
