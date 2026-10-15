@@ -22,7 +22,8 @@ A primera vista, triunfar en Europa parece el salto natural hacia la Academia. S
 
 
 
-<img width="3256" height="1913" alt="grafico_2_idioma_por_festival (3)" src="https://github.com/user-attachments/assets/e4202636-3321-40cc-8423-f06367486cea" />
+<img width="1668" height="1034" alt="grafico_2" src="https://github.com/user-attachments/assets/f7f4dcd7-fb57-4d6d-a18a-6c22988054b9" />
+
 
 
 
@@ -33,7 +34,7 @@ Mientras festivales como Cannes (58%), Berlín (59%) y Venecia (52%) sirven de v
 
 
 
-<img width="2968" height="1762" alt="grafico_2_idioma_por_festival (2)" src="https://github.com/user-attachments/assets/8761e77c-96cd-4c83-9048-fadf7b6d2cc9" />
+<img width="1854" height="870" alt="grafico_1" src="https://github.com/user-attachments/assets/98cbe943-4ac5-496c-8e2d-2b62b4479d85" />
 
 
 
