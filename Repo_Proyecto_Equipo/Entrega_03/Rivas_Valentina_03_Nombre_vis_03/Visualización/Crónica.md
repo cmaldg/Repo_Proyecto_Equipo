@@ -19,20 +19,29 @@ La película es indiscutiblemente internacional. Pero ¿lo es también el camino
 A primera vista, triunfar en Europa parece el salto natural hacia la Academia. Sin embargo, la distribución por idioma en los certámenes continentales revela una realidad muy distinta a la de la temporada de premios anglosajona.
 
 
+
+
+
 <img width="3256" height="1913" alt="grafico_2_idioma_por_festival (3)" src="https://github.com/user-attachments/assets/e4202636-3321-40cc-8423-f06367486cea" />
+
+
 
 
 Mientras festivales como Cannes (58%), Berlín (59%) y Venecia (52%) sirven de vitrina principal para producciones en idiomas distintos al inglés[cite: 1], su efectividad directa como trampolín a una nominación al Óscar es acotada.
 
 
+
+
+
 <img width="2968" height="1762" alt="grafico_2_idioma_por_festival (2)" src="https://github.com/user-attachments/assets/8761e77c-96cd-4c83-9048-fadf7b6d2cc9" />
 
 
-* **Festival de Cannes:** 21,4% de tasa de conversión a nominación al Óscar[cite: 2].
-* **Festival de Venecia:** 21,1% de tasa de conversión[cite: 2].
-* **Festival de Berlín:** 17,4% de tasa de conversión[cite: 2].
 
-En contraste, los Globos de Oro (79,2%) y los BAFTA (71,9%) actúan como los verdaderos embudos hacia el Óscar[cite: 2], pero lo hacen bajo una hegemonía lingüística abrumadora: el 95% de las películas premiadas en los Globos de Oro y el 91% en los BAFTA son producciones rodadas exclusivamente en inglés[cite: 1].
+* **Festival de Cannes:** 21,4% de tasa de conversión a nominación al Óscar.
+* **Festival de Venecia:** 21,1% de tasa de conversión.
+* **Festival de Berlín:** 17,4% de tasa de conversión.
+
+En contraste, los Globos de Oro (79,2%) y los BAFTA (71,9%) actúan como los verdaderos embudos hacia el Óscar[cite: 2], pero lo hacen bajo una hegemonía lingüística abrumadora: el 95% de las películas premiadas en los Globos de Oro y el 91% en los BAFTA son producciones rodadas exclusivamente en inglés.
 
 ---
 
