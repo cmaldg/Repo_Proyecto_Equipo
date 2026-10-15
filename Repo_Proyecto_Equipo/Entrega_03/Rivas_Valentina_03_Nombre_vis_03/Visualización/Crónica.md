@@ -17,10 +17,13 @@ La película es indiscutiblemente internacional. Pero ¿lo es también el camino
 ### La paradoxa de los festivales europeos
 
 A primera vista, triunfar en Europa parece el salto natural hacia la Academia. Sin embargo, la distribución por idioma en los certámenes continentales revela una realidad muy distinta a la de la temporada de premios anglosajona.
+
+
 <img width="3256" height="1913" alt="grafico_2_idioma_por_festival (3)" src="https://github.com/user-attachments/assets/e4202636-3321-40cc-8423-f06367486cea" />
 
 
-Mientras festivales como Cannes (58%), Berlín (59%) y Venecia (52%) sirven de vitrina principal para producciones en idiomas distintos al inglés[cite: 1], su efectividad directa como trampolín a una nominación al Óscar es acotada[cite: 2]:
+Mientras festivales como Cannes (58%), Berlín (59%) y Venecia (52%) sirven de vitrina principal para producciones en idiomas distintos al inglés[cite: 1], su efectividad directa como trampolín a una nominación al Óscar es acotada.
+
 
 <img width="2968" height="1762" alt="grafico_2_idioma_por_festival (2)" src="https://github.com/user-attachments/assets/8761e77c-96cd-4c83-9048-fadf7b6d2cc9" />
 
