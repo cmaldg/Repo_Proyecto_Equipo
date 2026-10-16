@@ -107,8 +107,22 @@ Juntos muestran que los certámenes donde casi todo es en inglés (Globo de Oro 
 1. **Elección de variables:**  
    * **Gráfico 1:** certamen y `nominado_oscar_protagonico`.  
    * **Gráfico 2:** certamen e `idioma_actuacion` (convertido en `tipo_idioma`).
-2. **Diseño:**  
-   *(⚠️ COMPLETAR con tus propias palabras: por qué elegiste barras horizontales para el gráfico 1 y barras apiladas al 100% para el gráfico 2, y por qué elegiste la paleta de los Óscar [negro, dorado, rojo alfombra, crema], destacando el rojo para «otro idioma»).*
+2. **Diseño:** 
+### 2. Diseño
+
+* **Gráfico 1(Barras apiladas al 100%):**  
+Opté por barras apiladas al 100% para representar la composición del idioma en las actuaciones premiadas. Este tipo de gráfico es idóneo para visualizar proporciones de un todo, haciendo evidente a primera vista la abrumadora dominancia del idioma inglés en relación con el conjunto de todas las demás lenguas nativas dentro de la muestra histórica.
+  
+
+* **Gráfico 2 (Barras horizontales):**  
+Elegí un gráfico de barras horizontales porque los nombres de los cinco certámenes (*Festival de Cannes*, *Festival de Venecia*, *Festival de Berlín*, *Globo de Oro*, *BAFTA*) tienen extensiones de texto variables. Este formato permite leer las etiquetas categóricas de forma limpia, fluida y legible en pantallas digitales y dispositivos móviles, facilitando la comparación visual directa de las proporciones sin saturar el espacio.
+  
+* **Paleta de Colores (Inspirada en la estética de los Óscar):**  
+    **Gemini**  entrego la paleta de colores.
+  * **Negro, Dorado y Crema:** Utilizados para representar la industria hegemónica y el idioma inglés, evocando la estética formal de la estatuilla y la gala de los Premios Óscar.
+  * **Rojo Alfombra:** Utilizado intencionalmente como tono de alto contraste para destacar la categoría **«Otro idioma»** (lenguas no anglófonas). Este resalte cromático genera un punto focal inmediato, dirigiendo la atención del lector hacia el núcleo de la hipótesis: la irrupción y resistencia del cine en su idioma nativo dentro del circuito de premios.
+
+  
 3. **Revisión ética y de responsabilidad:** Revisé mis primeras versiones y las corregí en cuatro puntos:
    * Los nombres de premios decían «Palma de Oro», «León de Oro» y «Oso de Oro», pero la base solo tiene premios de actuación. Los reemplacé por nombres exactos.
    * El título «Efecto trampolín» sugería causalidad que los datos no permiten. Lo cambié por un título descriptivo.

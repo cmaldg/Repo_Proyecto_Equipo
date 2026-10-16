@@ -2,7 +2,7 @@
 
 ### _¿Cuáles son los géneros que más predominan en las películas estadounidenses y en las extranjeras nominadas al Oscar, y cómo han cambiado con el tiempo?_
 
-![alt text](<visualizacion_generos.jpg>)
+![alt text](<grafico_generos.jpg>)
 
 Se catalogaron como extranjeras todas las películas que no fueron producidas en fuera Estados Unidos. 
 
@@ -28,8 +28,10 @@ A diferencia de Estados Unidos, el romance se posiciona como uno de los géneros
 
 La década de 2020 rompe el patrón: el romance cae a 0% y el crimen sube al 20%. Es el cambio más brusco del gráfico, pero también el más frágil, como veremos a continuación.
 
-Los porcentajes de las películas extranjeras deben leerse con cuidado. Hay pocas por década, sobre todo antes de 1960, y una sola película puede mover la línea 20 puntos. Aquí "extranjera" significa que Estados Unidos no figura entre los países de producción, y en la práctica son sobre todo películas británicas. Además, una película puede tener varios géneros, por lo que los porcentajes de cada década no suman 100%. Cada película se cuenta una sola vez, aunque tenga varias nominaciones.
+Los porcentajes de las películas extranjeras deben leerse con cuidado. Hay pocas por década, sobre todo antes de 1960, y una sola película puede mover la línea 20 puntos. Al ser una muestra más pequeña, creando porcentajes más grandes en proporción a la cantidad de películas nominadas. Aquí "extranjera" significa que Estados Unidos no figura entre los países de producción, y en la práctica son sobre todo películas británicas. Además, una película puede tener varios géneros, por lo que los porcentajes de cada década no suman 100%. Cada película se cuenta una sola vez, aunque tenga varias nominaciones.
 
 ## Conclusión
 
-Para ambos grupos, el género predominante es el drama, y por mucho. Lo que distingue a Estados Unidos y al resto del mundo es lo que ocurre detrás: Hollywood fue pasando del romance y la comedia hacia la historia y el suspenso, mientras que en el cine extranjero el romance resistió durante más de medio siglo.
+Para ambos grupos, el género predominante es el drama, y por mucho. Mostrando así que la academia tiene una tendencia a nominar algunos géneros por sobre otros, como resultado, ambas categorías (internacionales vs estadounidenses) se presentan a los premios con peliculas principalmente dramáticas.
+
+Además, los porcentajes de los géneros se mantienen bastante similares en tendencias, ya que nuevamente coinciden como el romance como segundo género mayormente nominado. 
