@@ -1,7 +1,7 @@
 # Propuesta de investigación periodística: Internacionalización en los Oscar
 
 ## 1. Hipótesis actual
-La internacionalización de los Oscar no consiste en un aumento de nominados extranjeros en las categorías "Mejor actor" y "Mejor actriz", sino en una creciente entrada de películas, idiomas y carreras desarrolladas fuera de Hollywood. 
+La internacionalización de las categorías "Mejor actor" y "Mejor actriz" no consiste en un aumento de nominados extranjeros ... , sino en una creciente entrada de películas, idiomas y carreras desarrolladas fuera de Hollywood.
 
 ## 2. Preguntas de investigación actuales
 * ¿Los Premios Oscar realmente se internacionalizaron o simplemente comenzaron a importar talento?
@@ -21,11 +21,11 @@ Para verificar nuestra nueva hipótesis, unificamos las base de datos 1 y 2 en u
 4. Talento internacional + Película producida fuera de Estados Unidos = **internacionalización**.
 5. Actuación en idioma no inglés + Película nativa/producción nacional = **internacionalización**. 
 
-Esta clasificación permite examinar el comportamiento de las carreras de los intérpretes al llegar a los premios. Al respecto, la visualización 1 ayuda a comprender la presencia de actores y actrices estadounidenses y extranjeros a lo largo de los Premios. Los resultados son evidentes: los artistas estadounidenses tienen el mayor porcentaje de nominaciones desde la primera edición de los Oscar hasta ahora. En tanto, la visualización 2... 
+Esta clasificación permite examinar el comportamiento de las carreras de los intérpretes al llegar a los premios. Al respecto, la visualización 1 ayuda a comprender la presencia de actores y actrices estadounidenses y extranjeros a lo largo de los Premios. Los resultados son evidentes: los artistas estadounidenses tienen el mayor porcentaje de nominaciones desde la primera edición de los Oscar hasta ahora. 
 
 Para profundizar en esta dinámica, estructuramos la base de datos 3, la cual integra a los tres grandes festivales internacionales de cine (Cannes, Venecia y Berlín), junto con dos galardones clave de la industria (Globos de Oro y BAFTA). Nuestro objetivo es determinar si los reconocimientos en estos otros premios funcionan como un filtro previo o un trampolín necesario para que actores extranjeros alcancen una nominación al Oscar.
 
-A partir del análisis de esta base de datos, identificamos que los certámenes europeos actúan como un "efecto trampolín" o filtro de legitimación internacional para el cine en idioma no inglés: mientras que los Globos de Oro (79,2%) y los BAFTA (71,9%) muestran una alta tasa de conversión directa a nominaciones al Óscar en categorías protagónicas dominadas por el inglés (más del 90%), los festivales de Cannes (21,4%), Venecia (21,1%) y Berlín (17,4%) concentran más del 50% de sus producciones en idiomas distintos al inglés. De este modo, los festivales europeos funcionan como el principal escaparate global para que interpretaciones en idioma nativo o producciones fuera de Hollywood logren la visibilidad necesaria para dar el salto y alcanzar una nominación al Óscar.
+A partir del análisis de esta base de datos, identificamos que los certámenes europeos actúan como un "efecto trampolín" o filtro de legitimación internacional para el cine en idioma no inglés: mientras que los Globos de Oro (79,2%) y los BAFTA (71,9%) muestran una alta tasa de conversión directa a nominaciones al Oscar en categorías protagónicas dominadas por el inglés (más del 90%), los festivales de Cannes (21,4%), Venecia (21,1%) y Berlín (17,4%) concentran más del 50% de sus producciones en idiomas distintos al inglés.
 
 ## 4. Síntesis de la historia
 Debido a la reciente aclamación de *Wild Horse Nine* en el Festival Internacional de Cine de Venecia y la posible nominación de la actriz chilena **Mariana Di Girolamo** a los Oscar por este mismo filme, nos preguntamos: ¿Los Premios Oscar realmente se internacionalizaron o simplemente comenzaron a importar talento?
