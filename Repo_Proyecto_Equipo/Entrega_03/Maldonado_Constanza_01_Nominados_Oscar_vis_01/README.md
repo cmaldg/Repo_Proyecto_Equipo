@@ -10,7 +10,7 @@ Posteriormente, combinamos por fila según las dos variables a trabajar **(“na
 
 Luego se clasificaron las filas y se convirtieron los años de las ceremonias de los Oscar en décadas. En este proceso se utilizó Claude y las correcciones de Gemini desde Google Colab para añadirle la “s” final a las décadas, que posteriormente se convirtieron en el eje Y. Una vez hecho esto, se calculó el porcentaje por década. Después de definió el orden de las 4 clasificaciones y sus respectivos colores. Se usó una paleta acorde a los Premios Oscar y se utilizaron códigos HEX de [HTML Color Codes](https://htmlcolorcodes.com/) a partir de los colores que utilizó Valentina en sus gráficos. 
 
-La creación del gráfico se hizo en base al código del *“Gráfico de barras apiladas horizontales" de Vega-Altair*. Por último, se utilizó tooltip para que la visualización quedara interactiva. Al pasar el cursor por encima se muestra: la cantidad de nominaciones, la cantidad de clasificaciones de la década y el porcentaje específico de la clasificación. Este proceso se verificó con Gemini y CLaude.
+La creación del gráfico se hizo en base al código del *“Gráfico de barras apiladas horizontales" de Vega-Altair*. Por último, se utilizó tooltip para que la visualización quedara interactiva. Al pasar el cursor por encima se muestra: la cantidad de nominaciones, la cantidad de clasificaciones de la década y el porcentaje específico de la clasificación.
 
 Una vez finalizado, las clasificaciones que se ubican al lado derecho del gráfico se cortaban, quedando información con puntos suspensivos. Se utilizó Claude para probar nuevas proporciones y así el gráfico pudiera visualizarse de forma correcta. 
 
