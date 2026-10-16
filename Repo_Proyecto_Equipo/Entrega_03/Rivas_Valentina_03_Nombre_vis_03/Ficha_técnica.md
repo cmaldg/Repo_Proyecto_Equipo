@@ -12,11 +12,21 @@
 | **Columnas** | 20 (12 originales o corregidas y 8 derivadas) |
 | **Cobertura temporal** | 1933–2026 |
 | **Unidad de observación** | Una persona premiada por su interpretación protagonista en un certamen y año |
-| **Origen** | Base construida por el equipo. *(⚠️ COMPLETAR: fuentes originales de cada certamen)* |
+| **Origen** | Base construida por Valentina Rivas * **Festival de Cannes (Mejor Actriz):** [Anexo:Premio del Festival de Cannes a la mejor actriz](https://es.wikipedia.org/wiki/Anexo:Premio_del_Festival_de_Cannes_a_la_mejor_actriz)
+* **Festival de Cannes (Mejor Actor):** [Anexo:Premio del Festival de Cannes al mejor actor](https://es.wikipedia.org/wiki/Anexo:Premio_del_Festival_de_Cannes_al_mejor_actor)
+* **Festival de Venecia (Mejor Actriz - Coppa Volpi):** [Volpi Cup for Best Actress](https://en.wikipedia.org/wiki/Volpi_Cup_for_Best_Actress)
+* **Festival de Venecia (Mejor Actor - Coppa Volpi):** [Volpi Cup for Best Actor](https://en.wikipedia.org/wiki/Volpi_Cup_for_Best_Actor)
+* **Festival de Berlín (Oso de Plata a la Mejor Interpretación Masculina):** [Anexo:Oso de Plata a la mejor interpretación masculina](https://es.wikipedia.org/wiki/Anexo:Oso_de_Plata_a_la_mejor_interpretaci%C3%B3n_masculina)
+* **Festival de Berlín (Oso de Plata a la Mejor Interpretación Femenina):** [Anexo:Oso de Plata a la mejor interpretación femenina](https://es.wikipedia.org/wiki/Anexo:Oso_de_Plata_a_la_mejor_interpretaci%C3%B3n_femenina)
+* **Premios Globo de Oro (Mejor Actriz - Drama):** [Anexo:Globo de Oro a la mejor actriz - Drama](https://es.wikipedia.org/wiki/Anexo:Globo_de_Oro_a_la_mejor_actriz_-_Drama)
+* **Premios Globo de Oro (Mejor Actriz - Comedia o Musical):** [Anexo:Globo de Oro a la mejor actriz - Comedia o musical](https://es.wikipedia.org/wiki/Anexo:Globo_de_Oro_a_la_mejor_actriz_-_Comedia_o_musical)
+* **Premios Globo de Oro (Mejor Actor - Drama):** [Anexo:Globo de Oro al mejor actor - Drama](https://es.wikipedia.org/wiki/Anexo:Globo_de_Oro_al_mejor_actor_-_Drama)
+* **Premios Globo de Oro (Mejor Actor - Comedia o Musical):** [Anexo:Globo de Oro al mejor actor - Comedia o musical](https://es.wikipedia.org/wiki/Anexo:Globo_de_Oro_al_mejor_actor_-_Comedia_o_musical)
+* **Premios BAFTA (Mejor Actriz):** [Anexo:BAFTA a la mejor actriz](https://es.wikipedia.org/wiki/Anexo:BAFTA_a_la_mejor_actriz)
+* **Premios BAFTA (Mejor Actor):** [Anexo:BAFTA al mejor actor](https://es.wikipedia.org/wiki/Anexo:BAFTA_al_mejor_actor) *
 | **Original sin modificar** | `base3_festivales_globos_bafta_y_berlin_completa.csv` |
-| **Trazabilidad** | `id_fila_original` (posición en el CSV original, desde 0), `registro_cambios.csv` y `limpieza.py` |
 
-> 💡 **Nota:** Si abres el CSV en Excel y los acentos se ven mal, usa **Datos → Desde texto/CSV** y elige codificación **UTF-8**.
+
 
 ---
 
@@ -52,23 +62,10 @@
 | `pelicula` | Sí | Película por la que ganó |
 | `idioma_actuacion` | Sí | Idioma(s) de la actuación; si son varios, separados por « / » |
 | `carrera_previa_hollywood` | Sí | Sí / No / Por verificar. El criterio no está documentado; pendiente de definir por el equipo |
-| `nominado_oscar_protagonico` | Sí | Sí / No / Pendiente / Desconocido. Nominación al Óscar como protagonista (mejor actor o actriz) por esa película |
+
 | `fue_nominado_oscar_original` | Sí | Valor original con formato normalizado, para comparar. Incluye nominaciones de reparto |
 | `grupo_certamen` | Sí | Industria anglosajona (Globo de Oro, BAFTA) / Festivales europeos |
-| `habla_ingles` | No | Derivada. Verdadero si `idioma_actuacion` incluye inglés |
-| `tipo_idioma` | No | Derivada. Solo inglés / Inglés y otro idioma / Otro idioma |
-| `idioma_principal` | No | Derivada. Primer idioma listado |
-| `familia_idioma` | No | Derivada. Inglés; Español y portugués; Francés; Italiano; Alemán; Otras lenguas europeas; Asia oriental y sudeste asiático; Medio Oriente y Asia occidental; Sin diálogo o lengua de señas |
-| `pais_principal` | No | Derivada. Primera nacionalidad listada |
-| `es_eeuu` | No | Derivada. Verdadero si la nacionalidad principal es Estados Unidos |
-| `nacionalidad` | No | Derivada. Estados Unidos / Otra nacionalidad |
-| `decada` | No | Derivada. Década del premio |
 
-### Significado de `nominado_oscar_protagonico`
-* **Sí:** Nominado a mejor actor o actriz por esa película.
-* **No:** No nominado como protagonista (incluye a quienes fueron nominados solo como reparto).
-* **Pendiente:** Película de festival 2026; las nominaciones al Óscar 2027 aún no se anuncian.
-* **Desconocido:** No se pudo determinar (hoy no hay casos).
 
 ---
 
@@ -114,10 +111,3 @@
 11. **Tratamiento del idioma:** `tipo_idioma` mide el idioma de la actuación, no el de toda la película.
 
 ---
-
-## 7. Archivos relacionados
-
-* `registro_cambios.csv`
-* `por_verificar.csv`
-* `limpieza.py`
-* `datos_complementarios.csv` *(datos de prensa de la escena inicial de la crónica, con fuente y fecha)*
