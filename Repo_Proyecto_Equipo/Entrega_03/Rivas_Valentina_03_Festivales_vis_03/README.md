@@ -59,7 +59,7 @@ Juntos muestran que los certámenes donde casi todo es en inglés (Globo de Oro 
 
 ## Base de datos utilizada y por qué la seleccioné
 
-* **Archivo:** `base_limpia.csv` (933 filas, 20 columnas, UTF-8). Es el resultado de limpiar la base original del equipo con `limpieza.py`. El Excel `Base_de_datos_limpia_original.xlsx`, que usé para graficar, contiene las primeras 12 columnas de ese mismo CSV (se comprobó que los datos son idénticos).
+* **Archivo:** `base_limpia.csv` (933 filas, 20 columnas, UTF-8). Es el resultado de limpiar la base 3 con `limpieza.py`. El Excel `Base_de_datos_limpia_original.xlsx`, que usé para graficar, contiene las primeras 12 columnas de ese mismo CSV (se comprobó que los datos son idénticos).
 * **Qué contiene:** Una fila por persona premiada por su interpretación protagonista en el Globo de Oro, BAFTA, Festival de Cannes, Berlín y Venecia, entre 1933 y 2026.
 * **Origen:** Base construida por el equipo.  
   Se recurrió a los anexos documentales e inventarios históricos oficiales disponibles en Wikipedia como punto de partida para la extracción de listas de ganadores en categorías protagónicas:
@@ -105,9 +105,9 @@ Juntos muestran que los certámenes donde casi todo es en inglés (Globo de Oro 
 ## Cómo hice las visualizaciones (pasos y decisiones)
 
 1. **Elección de variables:**  
-   * **Gráfico 1:** certamen y `nominado_oscar_protagonico`.  
-   * **Gráfico 2:** certamen e `idioma_actuacion` (convertido en `tipo_idioma`).
-2. **Diseño:** 
+   * **Gráfico 1:** certamen e `idioma_actuacion` (convertido en `tipo_idioma`). 
+   * **Gráfico 2:**  certamen y `nominado_oscar_protagonico`. 
+
 ### 2. Diseño
 
 * **Gráfico 1(Barras apiladas al 100%):**  
@@ -165,6 +165,8 @@ Elegí un gráfico de barras horizontales porque los nombres de los cinco certá
 ## Datos de otras fuentes
 
 * **`datos_complementarios.csv`:** Información de prensa usada en la escena inicial de la crónica (el aplauso a *Wild Horse Nine* en Venecia 2026, la Copa Volpi a John Malkovich, las menciones de *Variety* a Mariana Di Girolamo), con fuente, URL y fecha de consulta.
+[Mariana Di Girolamo en The Clinic: Elección de Variety 2026](https://www.theclinic.cl/2026/10/01/en-su-camino-a-los-oscar-mariana-di-girolamo-es-elegida-por-variety-dentro-de-su-lista-de-los-10-actores-a-seguir-en-2026/)
+
 * **Palmarés oficiales y prensa:** Usados para verificar premios (ver columna `fuente` de `registro_cambios.csv`).
 
 ---

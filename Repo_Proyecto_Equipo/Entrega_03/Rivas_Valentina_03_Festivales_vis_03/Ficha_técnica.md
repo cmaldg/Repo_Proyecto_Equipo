@@ -2,7 +2,7 @@
 
 ---
 
-## 1. Identificación
+## Identificación
 
 | Campo | Detalle |
 | :--- | :--- |
@@ -12,25 +12,13 @@
 | **Columnas** | 20 (12 originales o corregidas y 8 derivadas) |
 | **Cobertura temporal** | 1933–2026 |
 | **Unidad de observación** | Una persona premiada por su interpretación protagonista en un certamen y año |
-| **Origen** | Base construida por Valentina Rivas * **Festival de Cannes (Mejor Actriz):** [Anexo:Premio del Festival de Cannes a la mejor actriz](https://es.wikipedia.org/wiki/Anexo:Premio_del_Festival_de_Cannes_a_la_mejor_actriz)
-* **Festival de Cannes (Mejor Actor):** [Anexo:Premio del Festival de Cannes al mejor actor](https://es.wikipedia.org/wiki/Anexo:Premio_del_Festival_de_Cannes_al_mejor_actor)
-* **Festival de Venecia (Mejor Actriz - Coppa Volpi):** [Volpi Cup for Best Actress](https://en.wikipedia.org/wiki/Volpi_Cup_for_Best_Actress)
-* **Festival de Venecia (Mejor Actor - Coppa Volpi):** [Volpi Cup for Best Actor](https://en.wikipedia.org/wiki/Volpi_Cup_for_Best_Actor)
-* **Festival de Berlín (Oso de Plata a la Mejor Interpretación Masculina):** [Anexo:Oso de Plata a la mejor interpretación masculina](https://es.wikipedia.org/wiki/Anexo:Oso_de_Plata_a_la_mejor_interpretaci%C3%B3n_masculina)
-* **Festival de Berlín (Oso de Plata a la Mejor Interpretación Femenina):** [Anexo:Oso de Plata a la mejor interpretación femenina](https://es.wikipedia.org/wiki/Anexo:Oso_de_Plata_a_la_mejor_interpretaci%C3%B3n_femenina)
-* **Premios Globo de Oro (Mejor Actriz - Drama):** [Anexo:Globo de Oro a la mejor actriz - Drama](https://es.wikipedia.org/wiki/Anexo:Globo_de_Oro_a_la_mejor_actriz_-_Drama)
-* **Premios Globo de Oro (Mejor Actriz - Comedia o Musical):** [Anexo:Globo de Oro a la mejor actriz - Comedia o musical](https://es.wikipedia.org/wiki/Anexo:Globo_de_Oro_a_la_mejor_actriz_-_Comedia_o_musical)
-* **Premios Globo de Oro (Mejor Actor - Drama):** [Anexo:Globo de Oro al mejor actor - Drama](https://es.wikipedia.org/wiki/Anexo:Globo_de_Oro_al_mejor_actor_-_Drama)
-* **Premios Globo de Oro (Mejor Actor - Comedia o Musical):** [Anexo:Globo de Oro al mejor actor - Comedia o musical](https://es.wikipedia.org/wiki/Anexo:Globo_de_Oro_al_mejor_actor_-_Comedia_o_musical)
-* **Premios BAFTA (Mejor Actriz):** [Anexo:BAFTA a la mejor actriz](https://es.wikipedia.org/wiki/Anexo:BAFTA_a_la_mejor_actriz)
-* **Premios BAFTA (Mejor Actor):** [Anexo:BAFTA al mejor actor](https://es.wikipedia.org/wiki/Anexo:BAFTA_al_mejor_actor) *
+| **Origen** | Base construida por Valentina Rivas.<br><br>• **Festival de Cannes (Mejor Actriz):** [Anexo:Premio del Festival de Cannes a la mejor actriz](https://es.wikipedia.org/wiki/Anexo:Premio_del_Festival_de_Cannes_a_la_mejor_actriz)<br>• **Festival de Cannes (Mejor Actor):** [Anexo:Premio del Festival de Cannes al mejor actor](https://es.wikipedia.org/wiki/Anexo:Premio_del_Festival_de_Cannes_al_mejor_actor)<br>• **Festival de Venecia (Mejor Actriz - Coppa Volpi):** [Volpi Cup for Best Actress](https://en.wikipedia.org/wiki/Volpi_Cup_for_Best_Actress)<br>• **Festival de Venecia (Mejor Actor - Coppa Volpi):** [Volpi Cup for Best Actor](https://en.wikipedia.org/wiki/Volpi_Cup_for_Best_Actor)<br>• **Festival de Berlín (Oso de Plata a la Mejor Interpretación Masculina):** [Anexo:Oso de Plata a la mejor interpretación masculina](https://es.wikipedia.org/wiki/Anexo:Oso_de_Plata_a_la_mejor_interpretaci%C3%B3n_masculina)<br>• **Festival de Berlín (Oso de Plata a la Mejor Interpretación Femenina):** [Anexo:Oso de Plata a la mejor interpretación femenina](https://es.wikipedia.org/wiki/Anexo:Oso_de_Plata_a_la_mejor_interpretaci%C3%B3n_femenina)<br>• **Premios Globo de Oro (Mejor Actriz - Drama):** [Anexo:Globo de Oro a la mejor actriz - Drama](https://es.wikipedia.org/wiki/Anexo:Globo_de_Oro_a_la_mejor_actriz_-_Drama)<br>• **Premios Globo de Oro (Mejor Actriz - Comedia o Musical):** [Anexo:Globo de Oro a la mejor actriz - Comedia o musical](https://es.wikipedia.org/wiki/Anexo:Globo_de_Oro_a_la_mejor_actriz_-_Comedia_o_musical)<br>• **Premios Globo de Oro (Mejor Actor - Drama):** [Anexo:Globo de Oro al mejor actor - Drama](https://es.wikipedia.org/wiki/Anexo:Globo_de_Oro_al_mejor_actor_-_Drama)<br>• **Premios Globo de Oro (Mejor Actor - Comedia o Musical):** [Anexo:Globo de Oro al mejor actor - Comedia o musical](https://es.wikipedia.org/wiki/Anexo:Globo_de_Oro_al_mejor_actor_-_Comedia_o_musical)<br>• **Premios BAFTA (Mejor Actriz):** [Anexo:BAFTA a la mejor actriz](https://es.wikipedia.org/wiki/Anexo:BAFTA_a_la_mejor_actriz)<br>• **Premios BAFTA (Mejor Actor):** [Anexo:BAFTA al mejor actor](https://es.wikipedia.org/wiki/Anexo:BAFTA_al_mejor_actor) |
 | **Original sin modificar** | `base3_festivales_globos_bafta_y_berlin_completa.csv` |
-
 
 
 ---
 
-## 2. Características de los datos
+## Características de los datos
 
 | Certamen | Registros |
 | :--- | :--- |
@@ -49,7 +37,7 @@
 
 ---
 
-## 3. Variables
+## Variables
 
 | Variable | En el Excel | Descripción |
 | :--- | :---: | :--- |
@@ -69,7 +57,7 @@
 
 ---
 
-## 4. Variables usadas en las visualizaciones
+## Variables usadas en las visualizaciones
 
 | Gráfico | Variables |
 | :--- | :--- |
@@ -78,7 +66,7 @@
 
 ---
 
-## 5. Cómo se procesó (resumen)
+## Cómo se procesó (resumen)
 
 > Detalle completo en `README_personal.md`, `limpieza.py` y `registro_cambios.csv`.
 
@@ -96,7 +84,7 @@
 
 ---
 
-## 6. Observaciones y limitaciones
+## Observaciones y limitaciones
 
 1. **Solo ganadores:** No hay candidatos ni todos los nominados al Óscar.
 2. **Nacionalidad, no lugar de nacimiento:** La hipótesis del grupo habla de «nacidos fuera», y la base no lo mide directamente.
@@ -108,6 +96,6 @@
 8. **Cine mudo:** *The Artist* (Dujardin) figura como «Francés / Mudo» y cuenta como «otro idioma»; decisión pendiente.
 9. **Vacíos de cobertura:** Venecia no tiene registros en la década de 1970. Los certámenes cambian sus categorías con el tiempo.
 10. **Registros de otra base:** Richard Barthelmess y Gaynor/Jannings (1929), señalados por la profesora, no están en esta base.
-11. **Tratamiento del idioma:** `tipo_idioma` mide el idioma de la actuación, no el de toda la película.
+
 
 ---
