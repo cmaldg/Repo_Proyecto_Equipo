@@ -1,0 +1,934 @@
+id_fila_original,ano_premio,certamen,nombre_actor_actriz,genero,pais_origen_nacionalidad,pelicula,idioma_actuacion,carrera_previa_hollywood,nominado_oscar_protagonico,fue_nominado_oscar_original,grupo_certamen
+0,1933,Festival de Venecia,Fredric March,Masculino,Estados Unidos,Dr. Jekyll and Mr. Hyde,Inglés,Sí,Sí,Sí,Festivales europeos
+1,1933,Festival de Venecia,Helen Hayes,Femenino,Estados Unidos,The Sin of Madelon Claudet,Inglés,Sí,Sí,Sí,Festivales europeos
+2,1934,Festival de Venecia,Katharine Hepburn,Femenino,Estados Unidos,Little Women,Inglés,Sí,No,No,Festivales europeos
+3,1934,Festival de Venecia,Wallace Beery,Masculino,Estados Unidos,Viva Villa!,Inglés,Sí,No,No,Festivales europeos
+4,1935,Festival de Venecia,Paula Wessely,Femenino,Austria,Episode,Alemán,No,No,No,Festivales europeos
+5,1935,Festival de Venecia,Pierre Blanchar,Masculino,Francia,Crime et Châtiment,Francés,No,No,No,Festivales europeos
+6,1936,Festival de Venecia,Annabella,Femenino,Francia,Veille d'armes,Francés,No,No,No,Festivales europeos
+7,1936,Festival de Venecia,Paul Muni,Masculino,Estados Unidos,The Story of Louis Pasteur,Inglés,Sí,Sí,Sí,Festivales europeos
+8,1937,Festival de Venecia,Bette Davis,Femenino,Estados Unidos,Marked Woman / Kid Galahad,Inglés,Sí,No,No,Festivales europeos
+9,1937,Festival de Venecia,Emil Jannings,Masculino,Alemania,Der Herrscher,Alemán,Sí,No,No,Festivales europeos
+10,1938,Festival de Venecia,Leslie Howard,Masculino,Reino Unido,Pygmalion,Inglés,Sí,Sí,Sí,Festivales europeos
+11,1938,Festival de Venecia,Norma Shearer,Femenino,Canadá,Marie Antoinette,Inglés,Sí,Sí,Sí,Festivales europeos
+12,1944,Globo de Oro,Jennifer Jones,Femenino,Estados Unidos,The Song of Bernadette,Inglés,Sí,Sí,Sí,Industria anglosajona
+13,1944,Globo de Oro,Paul Lukas,Masculino,Hungría,Watch on the Rhine,Inglés,Sí,Sí,Sí,Industria anglosajona
+14,1945,Globo de Oro,Alexander Knox,Masculino,Canadá,Wilson,Inglés,Sí,Sí,Sí,Industria anglosajona
+15,1945,Globo de Oro,Ingrid Bergman,Femenino,Suecia,Gaslight,Inglés,Sí,Sí,Sí,Industria anglosajona
+16,1946,Festival de Cannes,Michèle Morgan,Femenino,Francia,La Symphonie pastorale,Francés,Sí,No,No,Festivales europeos
+17,1946,Festival de Cannes,Ray Milland,Masculino,Estados Unidos,The Lost Weekend,Inglés,Sí,Sí,Sí,Festivales europeos
+18,1946,Globo de Oro,Ingrid Bergman,Femenino,Suecia,The Bells of St. Mary's,Inglés,Sí,Sí,Sí,Industria anglosajona
+19,1946,Globo de Oro,Ray Milland,Masculino,Estados Unidos,The Lost Weekend,Inglés,Sí,Sí,Sí,Industria anglosajona
+20,1947,Festival de Cannes,Edward G. Robinson,Masculino,Estados Unidos,House of Strangers,Inglés,Sí,No,No,Festivales europeos
+21,1947,Festival de Venecia,Anna Magnani,Femenino,Italia,L'Onorevole Angelina,Italiano,No,No,No,Festivales europeos
+22,1947,Festival de Venecia,Pierre Fresnay,Masculino,Francia,Monsieur Vincent,Francés,No,No,No,Festivales europeos
+23,1947,Globo de Oro,Fredric March,Masculino,Estados Unidos,The Best Years of Our Lives,Inglés,Sí,Sí,Sí,Industria anglosajona
+24,1947,Globo de Oro,Rosalind Russell,Femenino,Estados Unidos,Sister Kenny,Inglés,Sí,Sí,Sí,Industria anglosajona
+25,1948,Festival de Venecia,Jean Simmons,Femenino,Reino Unido,Hamlet,Inglés,No,No,No,Festivales europeos
+26,1948,Festival de Venecia,John Wayne,Masculino,Estados Unidos,Red River,Inglés,Sí,No,No,Festivales europeos
+27,1948,Globo de Oro,Ronald Colman,Masculino,Reino Unido,A Double Life,Inglés,Sí,Sí,Sí,Industria anglosajona
+28,1948,Globo de Oro,Rosalind Russell,Femenino,Estados Unidos,Mourning Becomes Electra,Inglés,Sí,Sí,Sí,Industria anglosajona
+29,1949,Festival de Cannes,Isa Miranda,Femenino,Italia,Le mura di Malapaga,Italiano,No,No,No,Festivales europeos
+30,1949,Festival de Venecia,Olivia de Havilland,Femenino,Estados Unidos,The Snake Pit,Inglés,Sí,Sí,Sí,Festivales europeos
+31,1949,Globo de Oro,Jane Wyman,Femenino,Estados Unidos,Johnny Belinda,Inglés,Sí,Sí,Sí,Industria anglosajona
+32,1949,Globo de Oro,Laurence Olivier,Masculino,Reino Unido,Hamlet,Inglés,Sí,Sí,Sí,Industria anglosajona
+33,1950,Globo de Oro,Broderick Crawford,Masculino,Estados Unidos,All the King's Men,Inglés,Sí,Sí,Sí,Industria anglosajona
+34,1950,Globo de Oro,Olivia de Havilland,Femenino,Estados Unidos,The Heiress,Inglés,Sí,Sí,Sí,Industria anglosajona
+35,1951,Festival de Cannes,Bette Davis,Femenino,Estados Unidos,All About Eve,Inglés,Sí,Sí,Sí,Festivales europeos
+36,1951,Festival de Cannes,Michael Redgrave,Masculino,Reino Unido,The Browning Version,Inglés,No,No,No,Festivales europeos
+37,1951,Festival de Venecia,Vivien Leigh,Femenino,Reino Unido,A Streetcar Named Desire,Inglés,Sí,Sí,Sí,Festivales europeos
+38,1951,Globo de Oro,Fred Astaire,Masculino,Estados Unidos,Three Little Words,Inglés,Sí,No,No,Industria anglosajona
+39,1951,Globo de Oro,Gloria Swanson,Femenino,Estados Unidos,Sunset Boulevard,Inglés,Sí,Sí,Sí,Industria anglosajona
+40,1951,Globo de Oro,José Ferrer,Masculino,Puerto Rico,Cyrano de Bergerac,Inglés,Sí,Sí,Sí,Industria anglosajona
+41,1951,Globo de Oro,Judy Holliday,Femenino,Estados Unidos,Born Yesterday,Inglés,Sí,Sí,Sí,Industria anglosajona
+42,1952,Festival de Cannes,Lee Grant,Femenino,Estados Unidos,Detective Story,Inglés,Sí,No,Sí,Festivales europeos
+43,1952,Festival de Cannes,Marlon Brando,Masculino,Estados Unidos,Viva Zapata!,Inglés,Sí,Sí,Sí,Festivales europeos
+44,1952,Globo de Oro,Danny Kaye,Masculino,Estados Unidos,On the Riviera,Inglés,Sí,No,No,Industria anglosajona
+45,1952,Globo de Oro,Fredric March,Masculino,Estados Unidos,Death of a Salesman,Inglés,Sí,Sí,Sí,Industria anglosajona
+46,1952,Globo de Oro,Jane Wyman,Femenino,Estados Unidos,The Blue Veil,Inglés,Sí,Sí,Sí,Industria anglosajona
+47,1952,Globo de Oro,June Allyson,Femenino,Estados Unidos,Too Young to Kiss,Inglés,Sí,No,No,Industria anglosajona
+48,1952,BAFTA,Marlon Brando,Masculino,Estados Unidos,Viva Zapata!,Inglés,Sí,Sí,Sí,Industria anglosajona
+49,1952,BAFTA,Ralph Richardson,Masculino,Reino Unido,The Sound Barrier,Inglés,Sí,No,No,Industria anglosajona
+50,1953,BAFTA,Simone Signoret,Femenino,Francia,Casque d'Or,Francés,No,No,No,Industria anglosajona
+51,1953,BAFTA,Vivien Leigh,Femenino,Reino Unido,A Streetcar Named Desire,Inglés,Sí,Sí,Sí,Industria anglosajona
+52,1953,Festival de Cannes,Shirley Booth,Femenino,Estados Unidos,"Come Back, Little Sheba",Inglés,Sí,Sí,Sí,Festivales europeos
+53,1953,Festival de Venecia,Henri Vilbert,Masculino,Francia,Le Bon Dieu sans confession,Francés,No,No,No,Festivales europeos
+54,1953,Festival de Venecia,Lilli Palmer,Femenino,Alemania,The Four Poster,Inglés,Sí,No,No,Festivales europeos
+55,1953,Globo de Oro,Donald O'Connor,Masculino,Estados Unidos,Singin' in the Rain,Inglés,Sí,No,No,Industria anglosajona
+56,1953,Globo de Oro,Gary Cooper,Masculino,Estados Unidos,High Noon,Inglés,Sí,Sí,Sí,Industria anglosajona
+57,1953,Globo de Oro,Shirley Booth,Femenino,Estados Unidos,"Come Back, Little Sheba",Inglés,Sí,Sí,Sí,Industria anglosajona
+58,1953,Globo de Oro,Susan Hayward,Femenino,Estados Unidos,With a Song in My Heart,Inglés,Sí,Sí,Sí,Industria anglosajona
+59,1954,BAFTA,Audrey Hepburn,Femenino,Reino Unido,Roman Holiday,Inglés,No,Sí,Sí,Industria anglosajona
+60,1954,BAFTA,John Gielgud,Masculino,Reino Unido,Julius Caesar,Inglés,Sí,No,No,Industria anglosajona
+61,1954,BAFTA,Marlon Brando,Masculino,Estados Unidos,Julius Caesar,Inglés,Sí,Sí,Sí,Industria anglosajona
+62,1954,BAFTA,Shirley Booth,Femenino,Estados Unidos,"Come Back, Little Sheba",Inglés,Sí,Sí,Sí,Industria anglosajona
+63,1954,Festival de Cannes,Brenda de Banzie,Femenino,Reino Unido,Hobson's Choice,Inglés,No,No,No,Festivales europeos
+64,1954,Festival de Venecia,Jean Gabin,Masculino,Francia,Touchez pas au grisbi,Francés,No,No,No,Festivales europeos
+65,1954,Globo de Oro,Audrey Hepburn,Femenino,Reino Unido,Roman Holiday,Inglés,No,Sí,Sí,Industria anglosajona
+66,1954,Globo de Oro,David Niven,Masculino,Reino Unido,The Moon Is Blue,Inglés,Sí,No,No,Industria anglosajona
+67,1954,Globo de Oro,Ethel Merman,Femenino,Estados Unidos,Call Me Madam,Inglés,Sí,No,No,Industria anglosajona
+68,1954,Globo de Oro,Spencer Tracy,Masculino,Estados Unidos,The Actress,Inglés,Sí,No,No,Industria anglosajona
+69,1955,BAFTA,Cornell Borchers,Femenino,Alemania,The Divided Heart,Inglés,No,No,No,Industria anglosajona
+70,1955,BAFTA,Kenneth More,Masculino,Reino Unido,Doctor in the House,Inglés,No,No,No,Industria anglosajona
+71,1955,BAFTA,Marlon Brando,Masculino,Estados Unidos,On the Waterfront,Inglés,Sí,Sí,Sí,Industria anglosajona
+72,1955,BAFTA,Yvonne Mitchell,Femenino,Reino Unido,The Divided Heart,Inglés,No,No,No,Industria anglosajona
+73,1955,Festival de Cannes,Spencer Tracy,Masculino,Estados Unidos,Bad Day at Black Rock,Inglés,Sí,Sí,Sí,Festivales europeos
+74,1955,Festival de Venecia,Curd Jürgens,Masculino,Austria,Les héros sont fatigués,Francés,No,No,No,Festivales europeos
+75,1955,Globo de Oro,Grace Kelly,Femenino,Estados Unidos,The Country Girl,Inglés,Sí,Sí,Sí,Industria anglosajona
+76,1955,Globo de Oro,James Mason,Masculino,Reino Unido,A Star Is Born,Inglés,Sí,Sí,Sí,Industria anglosajona
+77,1955,Globo de Oro,Judy Garland,Femenino,Estados Unidos,A Star Is Born,Inglés,Sí,Sí,Sí,Industria anglosajona
+78,1955,Globo de Oro,Marlon Brando,Masculino,Estados Unidos,On the Waterfront,Inglés,Sí,Sí,Sí,Industria anglosajona
+79,1956,BAFTA,Betsy Blair,Femenino,Estados Unidos,Marty,Inglés,Sí,No,Sí,Industria anglosajona
+80,1956,BAFTA,Ernest Borgnine,Masculino,Estados Unidos,Marty,Inglés,Sí,Sí,Sí,Industria anglosajona
+81,1956,BAFTA,Katie Johnson,Femenino,Reino Unido,The Ladykillers,Inglés,No,No,No,Industria anglosajona
+82,1956,BAFTA,Laurence Olivier,Masculino,Reino Unido,Richard III,Inglés,Sí,Sí,Sí,Industria anglosajona
+83,1956,Festival de Berlín,Elsa Martinelli,Femenino,Italia,Donatella,Italiano,No,No,No,Festivales europeos
+84,1956,Festival de Berlín,Françoise Arnoul,Femenino,Francia,Des gens sans importance,Francés,No,No,No,Festivales europeos
+85,1956,Festival de Cannes,Susan Hayward,Femenino,Estados Unidos,I'll Cry Tomorrow,Inglés,Sí,Sí,Sí,Festivales europeos
+86,1956,Festival de Venecia,Bourvil,Masculino,Francia,La Traversée de Paris,Francés,No,No,No,Festivales europeos
+87,1956,Festival de Venecia,Maria Schell,Femenino,Suiza,Gervaise,Francés,No,No,No,Festivales europeos
+88,1956,Globo de Oro,Anna Magnani,Femenino,Italia,The Rose Tattoo,Inglés,No,Sí,Sí,Industria anglosajona
+89,1956,Globo de Oro,Ernest Borgnine,Masculino,Estados Unidos,Marty,Inglés,Sí,Sí,Sí,Industria anglosajona
+90,1956,Globo de Oro,Jean Simmons,Femenino,Reino Unido,Guys and Dolls,Inglés,Sí,No,No,Industria anglosajona
+91,1956,Globo de Oro,Tom Ewell,Masculino,Estados Unidos,The Seven Year Itch,Inglés,Sí,No,No,Industria anglosajona
+92,1957,BAFTA,Anna Magnani,Femenino,Italia,The Rose Tattoo,Inglés,No,Sí,Sí,Industria anglosajona
+93,1957,BAFTA,François Périer,Masculino,Francia,Gervaise,Francés,No,No,No,Industria anglosajona
+94,1957,BAFTA,Peter Finch,Masculino,Australia,A Town Like Alice,Inglés,No,No,No,Industria anglosajona
+95,1957,BAFTA,Virginia McKenna,Femenino,Reino Unido,A Town Like Alice,Inglés,No,No,No,Industria anglosajona
+96,1956,Festival de Berlín,Burt Lancaster,Masculino,Estados Unidos,Trapèze,Inglés,Sí,No,No,Festivales europeos
+97,1957,Festival de Berlín,Pedro Infante,Masculino,México,Tizoc,Español,No,No,No,Festivales europeos
+98,1957,Festival de Berlín,Siobhan McKenna,Femenino,Irlanda,Boy on a Dolphin,Inglés,No,No,No,Festivales europeos
+99,1957,Festival de Cannes,Giulietta Masina,Femenino,Italia,Le notti di Cabiria,Italiano,No,No,No,Festivales europeos
+100,1957,Festival de Cannes,John Kitzmiller,Masculino,Estados Unidos,Dolina miru,Esloveno,No,No,No,Festivales europeos
+101,1957,Festival de Venecia,Anthony Franciosa,Masculino,Estados Unidos,A Hatful of Rain,Inglés,Sí,Sí,Sí,Festivales europeos
+102,1957,Festival de Venecia,Dzintra Ritenberga,Femenino,Unión Soviética,Malva,Ruso,No,No,No,Festivales europeos
+103,1957,Globo de Oro,Mario Moreno,Masculino,México,Around the World in 80 Days,Inglés / Español,No,No,No,Industria anglosajona
+104,1957,Globo de Oro,Deborah Kerr,Femenino,Reino Unido,The King and I,Inglés,Sí,Sí,Sí,Industria anglosajona
+105,1957,Globo de Oro,Ingrid Bergman,Femenino,Suecia,Anastasia,Inglés,Sí,Sí,Sí,Industria anglosajona
+106,1957,Globo de Oro,Kirk Douglas,Masculino,Estados Unidos,Lust for Life,Inglés,Sí,Sí,Sí,Industria anglosajona
+107,1958,BAFTA,Alec Guinness,Masculino,Reino Unido,The Bridge on the River Kwai,Inglés,Sí,Sí,Sí,Industria anglosajona
+108,1958,BAFTA,Heather Sears,Femenino,Reino Unido,The Story of Esther Costello,Inglés,No,No,No,Industria anglosajona
+109,1958,BAFTA,Henry Fonda,Masculino,Estados Unidos,12 Angry Men,Inglés,Sí,No,No,Industria anglosajona
+110,1958,BAFTA,Simone Signoret,Femenino,Francia,The Witches of Salem,Francés,No,No,No,Industria anglosajona
+111,1958,Festival de Berlín,Anna Magnani,Femenino,Italia,Wild Is the Wind,Inglés,Sí,Sí,Sí,Festivales europeos
+112,1958,Festival de Berlín,Sidney Poitier,Masculino,Estados Unidos,The Defiant Ones,Inglés,Sí,Sí,Sí,Festivales europeos
+113,1958,Festival de Cannes,Paul Newman,Masculino,Estados Unidos,"The Long, Hot Summer",Inglés,Sí,No,No,Festivales europeos
+114,1958,Festival de Venecia,Alec Guinness,Masculino,Reino Unido,The Horse's Mouth,Inglés,Sí,No,No,Festivales europeos
+115,1958,Festival de Venecia,Sophia Loren,Femenino,Italia,The Black Orchid,Inglés,Sí,No,No,Festivales europeos
+116,1958,Globo de Oro,Alec Guinness,Masculino,Reino Unido,The Bridge on the River Kwai,Inglés,Sí,Sí,Sí,Industria anglosajona
+117,1958,Globo de Oro,Frank Sinatra,Masculino,Estados Unidos,Pal Joey,Inglés,Sí,No,No,Industria anglosajona
+118,1958,Globo de Oro,Joanne Woodward,Femenino,Estados Unidos,The Three Faces of Eve,Inglés,Sí,Sí,Sí,Industria anglosajona
+119,1958,Globo de Oro,Kay Kendall,Femenino,Reino Unido,Les Girls,Inglés,No,No,No,Industria anglosajona
+120,1958,Globo de Oro,Taina Elg,Femenino,Finlandia,Les Girls,Inglés,No,No,No,Industria anglosajona
+121,1959,BAFTA,Irene Worth,Femenino,Estados Unidos,Orders to Kill,Inglés,No,No,No,Industria anglosajona
+122,1959,BAFTA,Sidney Poitier,Masculino,Estados Unidos,The Defiant Ones,Inglés,Sí,Sí,Sí,Industria anglosajona
+123,1959,BAFTA,Simone Signoret,Femenino,Francia,Room at the Top,Inglés,No,Sí,Sí,Industria anglosajona
+124,1959,BAFTA,Trevor Howard,Masculino,Reino Unido,Roots of Heaven,Inglés,Sí,No,No,Industria anglosajona
+125,1959,Festival de Berlín,Jean Gabin,Masculino,Francia,Archimède le clochard,Francés,No,No,No,Festivales europeos
+126,1959,Festival de Berlín,Shirley MacLaine,Femenino,Estados Unidos,Ask Any Girl,Inglés,Sí,No,No,Festivales europeos
+127,1959,Festival de Cannes,Dean Stockwell,Masculino,Estados Unidos,Compulsion,Inglés,Sí,No,No,Festivales europeos
+128,1959,Festival de Cannes,Simone Signoret,Femenino,Francia,Room at the Top,Inglés,No,Sí,Sí,Festivales europeos
+129,1959,Festival de Venecia,Shirley MacLaine,Femenino,Estados Unidos,Ask Any Girl,Inglés,Sí,No,No,Festivales europeos
+130,1959,Globo de Oro,Danny Kaye,Masculino,Estados Unidos,Me and the Colonel,Inglés,Sí,No,No,Industria anglosajona
+131,1959,Globo de Oro,David Niven,Masculino,Reino Unido,Separate Tables,Inglés,Sí,Sí,Sí,Industria anglosajona
+132,1959,Globo de Oro,Rosalind Russell,Femenino,Estados Unidos,Auntie Mame,Inglés,Sí,Sí,Sí,Industria anglosajona
+133,1959,Globo de Oro,Shirley MacLaine,Femenino,Estados Unidos,Ask Any Girl,Inglés,Sí,No,No,Industria anglosajona
+134,1960,BAFTA,Audrey Hepburn,Femenino,Reino Unido,The Nun's Story,Inglés,Sí,Sí,Sí,Industria anglosajona
+135,1960,BAFTA,Jack Lemmon,Masculino,Estados Unidos,Some Like It Hot,Inglés,Sí,Sí,Sí,Industria anglosajona
+136,1960,BAFTA,Peter Sellers,Masculino,Reino Unido,I'm All Right Jack,Inglés,No,No,No,Industria anglosajona
+137,1960,BAFTA,Shirley MacLaine,Femenino,Estados Unidos,Ask Any Girl,Inglés,Sí,No,No,Industria anglosajona
+138,1960,Festival de Berlín,Fredric March,Masculino,Estados Unidos,Inherit the Wind,Inglés,Sí,No,No,Festivales europeos
+139,1960,Festival de Berlín,Juliette Mayniel,Femenino,Francia,Kirmes,Alemán,No,No,No,Festivales europeos
+140,1960,Festival de Cannes,Jeanne Moreau,Femenino,Francia,Moderato Cantabile,Francés,No,No,No,Festivales europeos
+141,1960,Festival de Cannes,Marcello Mastroianni,Masculino,Italia,La Dolce Vita,Italiano,No,No,No,Festivales europeos
+142,1960,Festival de Cannes,Melina Mercouri,Femenino,Grecia,Never on Sunday,Griego / Inglés,No,Sí,Sí,Festivales europeos
+143,1960,Festival de Venecia,Shirley MacLaine,Femenino,Estados Unidos,The Apartment,Inglés,Sí,Sí,Sí,Festivales europeos
+144,1960,Globo de Oro,Charlton Heston,Masculino,Estados Unidos,Ben-Hur,Inglés,Sí,Sí,Sí,Industria anglosajona
+145,1960,Globo de Oro,Elizabeth Taylor,Femenino,Reino Unido,"Suddenly, Last Summer",Inglés,Sí,Sí,Sí,Industria anglosajona
+146,1960,Globo de Oro,Jack Lemmon,Masculino,Estados Unidos,Some Like It Hot,Inglés,Sí,Sí,Sí,Industria anglosajona
+147,1960,Globo de Oro,Marilyn Monroe,Femenino,Estados Unidos,Some Like It Hot,Inglés,Sí,No,No,Industria anglosajona
+148,1961,BAFTA,Jack Lemmon,Masculino,Estados Unidos,The Apartment,Inglés,Sí,Sí,Sí,Industria anglosajona
+149,1961,BAFTA,Peter Finch,Masculino,Australia,The Trials of Oscar Wilde,Inglés,No,No,No,Industria anglosajona
+150,1961,BAFTA,Rachel Roberts,Femenino,Reino Unido,Saturday Night and Sunday Morning,Inglés,No,No,No,Industria anglosajona
+151,1961,BAFTA,Shirley MacLaine,Femenino,Estados Unidos,The Apartment,Inglés,Sí,Sí,Sí,Industria anglosajona
+152,1961,Festival de Berlín,Framboise Gommendy,Femenino,Francia,Une femme est une femme,Francés,No,No,No,Festivales europeos
+153,1961,Festival de Berlín,Peter Finch,Masculino,Australia,No Love for Johnnie,Inglés,Sí,No,No,Festivales europeos
+154,1961,Festival de Cannes,Anthony Perkins,Masculino,Estados Unidos,Goodbye Again,Inglés,Sí,No,No,Festivales europeos
+155,1961,Festival de Cannes,Sophia Loren,Femenino,Italia,La Ciociara (Two Women),Italiano,No,Sí,Sí,Festivales europeos
+156,1961,Festival de Venecia,Suzanne Flon,Femenino,Francia,Tu ne tueras point,Francés,No,No,No,Festivales europeos
+157,1961,Festival de Venecia,Toshiro Mifune,Masculino,Japón,Yojimbo,Japonés,No,No,No,Festivales europeos
+158,1961,Globo de Oro,Burt Lancaster,Masculino,Estados Unidos,Elmer Gantry,Inglés,Sí,Sí,Sí,Industria anglosajona
+159,1961,Globo de Oro,Greer Garson,Femenino,Reino Unido,Sunrise at Campobello,Inglés,Sí,Sí,Sí,Industria anglosajona
+160,1961,Globo de Oro,Jack Lemmon,Masculino,Estados Unidos,The Apartment,Inglés,Sí,Sí,Sí,Industria anglosajona
+161,1961,Globo de Oro,Shirley MacLaine,Femenino,Estados Unidos,The Apartment,Inglés,Sí,Sí,Sí,Industria anglosajona
+162,1962,BAFTA,Dora Bryan,Femenino,Reino Unido,A Taste of Honey,Inglés,No,No,No,Industria anglosajona
+163,1962,BAFTA,Paul Newman,Masculino,Estados Unidos,The Hustler,Inglés,Sí,Sí,Sí,Industria anglosajona
+164,1962,BAFTA,Peter Finch,Masculino,Australia,No Love for Johnnie,Inglés,No,No,No,Industria anglosajona
+165,1962,BAFTA,Sophia Loren,Femenino,Italia,La Ciociara (Two Women),Italiano,No,Sí,Sí,Industria anglosajona
+166,1962,Festival de Berlín,James Stewart,Masculino,Estados Unidos,Mr. Hobbs Takes a Vacation,Inglés,Sí,No,No,Festivales europeos
+167,1962,Festival de Berlín,Rita Tushingham,Femenino,Reino Unido,A Taste of Honey,Inglés,No,No,No,Festivales europeos
+168,1962,Festival de Cannes,Katharine Hepburn,Femenino,Estados Unidos,Long Day's Journey into Night,Inglés,Sí,Sí,Sí,Festivales europeos
+169,1962,Festival de Cannes,Ralph Richardson,Masculino,Reino Unido,Long Day's Journey into Night,Inglés,Sí,No,No,Festivales europeos
+170,1962,Festival de Venecia,Burt Lancaster,Masculino,Estados Unidos,Birdman of Alcatraz,Inglés,Sí,Sí,Sí,Festivales europeos
+171,1962,Festival de Venecia,Emmanuelle Riva,Femenino,Francia,Thérèse Desqueyroux,Francés,No,No,No,Festivales europeos
+172,1962,Globo de Oro,Geraldine Page,Femenino,Estados Unidos,Summer and Smoke,Inglés,Sí,Sí,Sí,Industria anglosajona
+173,1962,Globo de Oro,Glenn Ford,Masculino,Canadá,Pocketful of Miracles,Inglés,Sí,No,No,Industria anglosajona
+174,1962,Globo de Oro,Maximilian Schell,Masculino,Austria,Judgment at Nuremberg,Inglés,No,Sí,Sí,Industria anglosajona
+175,1962,Globo de Oro,Rosalind Russell,Femenino,Estados Unidos,A Majority of One,Inglés,Sí,No,No,Industria anglosajona
+176,1963,BAFTA,Anne Bancroft,Femenino,Estados Unidos,The Miracle Worker,Inglés,Sí,Sí,Sí,Industria anglosajona
+177,1963,BAFTA,Burt Lancaster,Masculino,Estados Unidos,Birdman of Alcatraz,Inglés,Sí,Sí,Sí,Industria anglosajona
+178,1963,BAFTA,Leslie Caron,Femenino,Francia,The L-Shaped Room,Inglés,No,Sí,Sí,Industria anglosajona
+179,1963,BAFTA,Peter O'Toole,Masculino,Irlanda,Lawrence of Arabia,Inglés,No,Sí,Sí,Industria anglosajona
+180,1963,Festival de Berlín,Bibi Andersson,Femenino,Suecia,Älskande par,Sueco,No,No,No,Festivales europeos
+181,1963,Festival de Berlín,Sidney Poitier,Masculino,Estados Unidos,Lilies of the Field,Inglés,Sí,Sí,Sí,Festivales europeos
+182,1963,Festival de Cannes,Marina Vlady,Femenino,Francia,L'ape regina,Italiano,No,No,No,Festivales europeos
+183,1963,Festival de Cannes,Richard Harris,Masculino,Irlanda,This Sporting Life,Inglés,No,Sí,Sí,Festivales europeos
+184,1963,Festival de Venecia,Albert Finney,Masculino,Reino Unido,Tom Jones,Inglés,No,Sí,Sí,Festivales europeos
+185,1963,Festival de Venecia,Delphine Seyrig,Femenino,Francia,Muriel,Francés,No,No,No,Festivales europeos
+186,1963,Globo de Oro,Geraldine Page,Femenino,Estados Unidos,Sweet Bird of Youth,Inglés,Sí,Sí,Sí,Industria anglosajona
+187,1963,Globo de Oro,Gregory Peck,Masculino,Estados Unidos,To Kill a Mockingbird,Inglés,Sí,Sí,Sí,Industria anglosajona
+188,1963,Globo de Oro,Marcello Mastroianni,Masculino,Italia,Divorzio all'italiana,Italiano,No,Sí,Sí,Industria anglosajona
+189,1963,Globo de Oro,Rosalind Russell,Femenino,Estados Unidos,Gypsy,Inglés,Sí,No,No,Industria anglosajona
+190,1964,BAFTA,Dirk Bogarde,Masculino,Reino Unido,The Servant,Inglés,No,No,No,Industria anglosajona
+191,1964,BAFTA,Marcello Mastroianni,Masculino,Italia,Divorzio all'italiana,Italiano,No,Sí,Sí,Industria anglosajona
+192,1964,BAFTA,Patricia Neal,Femenino,Estados Unidos,Hud,Inglés,Sí,Sí,Sí,Industria anglosajona
+193,1964,BAFTA,Rachel Roberts,Femenino,Reino Unido,This Sporting Life,Inglés,No,Sí,Sí,Industria anglosajona
+194,1964,Festival de Berlín,Rod Steiger,Masculino,Estados Unidos,The Pawnbroker,Inglés,Sí,Sí,Sí,Festivales europeos
+195,1964,Festival de Berlín,Sachiko Hidari,Femenino,Japón,Kanojo to kare,Japonés,No,No,No,Festivales europeos
+196,1964,Festival de Cannes,Anne Bancroft,Femenino,Estados Unidos,The Pumpkin Eater,Inglés,Sí,Sí,Sí,Festivales europeos
+197,1964,Festival de Cannes,Saro Urzì,Masculino,Italia,Sedotta e abbandonata,Italiano,No,No,No,Festivales europeos
+198,1964,Festival de Venecia,Harriet Andersson,Femenino,Suecia,To Love,Sueco,No,No,No,Festivales europeos
+199,1964,Festival de Venecia,Tom Courtenay,Masculino,Reino Unido,King & Country,Inglés,No,No,No,Festivales europeos
+200,1964,Globo de Oro,Alberto Sordi,Masculino,Italia,Il diavolo,Italiano,No,No,No,Industria anglosajona
+201,1964,Globo de Oro,Leslie Caron,Femenino,Francia,The L-Shaped Room,Inglés,No,Sí,Sí,Industria anglosajona
+202,1964,Globo de Oro,Shirley MacLaine,Femenino,Estados Unidos,Irma la Douce,Inglés,Sí,Sí,Sí,Industria anglosajona
+203,1964,Globo de Oro,Sidney Poitier,Masculino,Estados Unidos,Lilies of the Field,Inglés,Sí,Sí,Sí,Industria anglosajona
+204,1965,BAFTA,Anne Bancroft,Femenino,Estados Unidos,The Pumpkin Eater,Inglés,Sí,Sí,Sí,Industria anglosajona
+205,1965,BAFTA,Audrey Hepburn,Femenino,Reino Unido,Charade,Inglés,Sí,No,No,Industria anglosajona
+206,1965,BAFTA,Marcello Mastroianni,Masculino,Italia,I compagni,Italiano,No,No,No,Industria anglosajona
+207,1965,BAFTA,Richard Attenborough,Masculino,Reino Unido,Guns at Batasi,Inglés,No,No,No,Industria anglosajona
+208,1965,Festival de Berlín,Lee Marvin,Masculino,Estados Unidos,Cat Ballou,Inglés,Sí,Sí,Sí,Festivales europeos
+209,1965,Festival de Berlín,Madhur Jaffrey,Femenino,India,Shakespeare Wallah,Inglés,No,No,No,Festivales europeos
+210,1965,Festival de Cannes,Samantha Eggar,Femenino,Reino Unido,The Collector,Inglés,No,Sí,Sí,Festivales europeos
+211,1965,Festival de Cannes,Terence Stamp,Masculino,Reino Unido,The Collector,Inglés,No,No,No,Festivales europeos
+212,1965,Festival de Venecia,Annie Girardot,Femenino,Francia,Trois chambres à Manhattan,Francés,No,No,No,Festivales europeos
+213,1965,Festival de Venecia,Toshiro Mifune,Masculino,Japón,Red Beard,Japonés,No,No,No,Festivales europeos
+214,1965,Globo de Oro,Anne Bancroft,Femenino,Estados Unidos,The Pumpkin Eater,Inglés,Sí,Sí,Sí,Industria anglosajona
+215,1965,Globo de Oro,Julie Andrews,Femenino,Reino Unido,Mary Poppins,Inglés,No,Sí,Sí,Industria anglosajona
+216,1965,Globo de Oro,Peter O'Toole,Masculino,Irlanda,Becket,Inglés,Sí,Sí,Sí,Industria anglosajona
+217,1965,Globo de Oro,Rex Harrison,Masculino,Reino Unido,My Fair Lady,Inglés,Sí,Sí,Sí,Industria anglosajona
+218,1966,BAFTA,Dirk Bogarde,Masculino,Reino Unido,Darling,Inglés,No,No,No,Industria anglosajona
+219,1966,BAFTA,Julie Christie,Femenino,Reino Unido,Darling,Inglés,No,Sí,Sí,Industria anglosajona
+220,1966,BAFTA,Lee Marvin,Masculino,Estados Unidos,Cat Ballou,Inglés,Sí,Sí,Sí,Industria anglosajona
+221,1966,BAFTA,Patricia Neal,Femenino,Estados Unidos,In Harm's Way,Inglés,Sí,No,No,Industria anglosajona
+222,1966,Festival de Berlín,Jean-Pierre Léaud,Masculino,Francia,Masculin féminin,Francés,No,No,No,Festivales europeos
+223,1966,Festival de Berlín,Lola Albright,Femenino,Estados Unidos,Lord Love a Duck,Inglés,Sí,No,No,Festivales europeos
+224,1966,Festival de Cannes,Per Oscarsson,Masculino,Suecia,Sult,Danés,No,No,No,Festivales europeos
+225,1966,Festival de Cannes,Vanessa Redgrave,Femenino,Reino Unido,Morgan!,Inglés,No,Sí,Sí,Festivales europeos
+226,1966,Festival de Venecia,Jacques Perrin,Masculino,Francia,Un homme et son domaine,Francés,No,No,No,Festivales europeos
+227,1966,Festival de Venecia,Natalya Arinbasarova,Femenino,Unión Soviética,The First Teacher,Ruso,No,No,No,Festivales europeos
+228,1966,Globo de Oro,Julie Andrews,Femenino,Reino Unido,The Sound of Music,Inglés,Sí,Sí,Sí,Industria anglosajona
+229,1966,Globo de Oro,Lee Marvin,Masculino,Estados Unidos,Cat Ballou,Inglés,Sí,Sí,Sí,Industria anglosajona
+230,1966,Globo de Oro,Omar Sharif,Masculino,Egipto,Doctor Zhivago,Inglés,No,No,No,Industria anglosajona
+231,1966,Globo de Oro,Samantha Eggar,Femenino,Reino Unido,The Collector,Inglés,No,Sí,Sí,Industria anglosajona
+232,1967,BAFTA,Elizabeth Taylor,Femenino,Reino Unido,Who's Afraid of Virginia Woolf?,Inglés,Sí,Sí,Sí,Industria anglosajona
+233,1967,BAFTA,Jeanne Moreau,Femenino,Francia,Viva Maria!,Francés,No,No,No,Industria anglosajona
+234,1967,BAFTA,Richard Burton,Masculino,Reino Unido,Who's Afraid of Virginia Woolf?,Inglés,Sí,Sí,Sí,Industria anglosajona
+235,1967,BAFTA,Rod Steiger,Masculino,Estados Unidos,In the Heat of the Night,Inglés,Sí,Sí,Sí,Industria anglosajona
+236,1967,Festival de Berlín,Edith Evans,Femenino,Reino Unido,The Whisperers,Inglés,Sí,Sí,Sí,Festivales europeos
+237,1967,Festival de Berlín,Michel Simon,Masculino,Francia,Le vieil homme et l'enfant,Francés,No,No,No,Festivales europeos
+238,1967,Festival de Cannes,Oded Kotler,Masculino,Israel,Three Days and a Child,Hebreo,No,No,No,Festivales europeos
+239,1967,Festival de Cannes,Pia Degermark,Femenino,Suecia,Elvira Madigan,Sueco,No,No,No,Festivales europeos
+240,1967,Festival de Venecia,Ljubiša Samardžić,Masculino,Yugoslavia,Jutro,Serbocroata,No,No,No,Festivales europeos
+241,1967,Festival de Venecia,Shirley Knight,Femenino,Estados Unidos,Dutchman,Inglés,Sí,No,No,Festivales europeos
+242,1967,Globo de Oro,Alan Arkin,Masculino,Estados Unidos,The Russians Are Coming...,Inglés,Sí,Sí,Sí,Industria anglosajona
+243,1967,Globo de Oro,Anouk Aimée,Femenino,Francia,Un homme et une femme,Francés,No,Sí,Sí,Industria anglosajona
+244,1967,Globo de Oro,Lynn Redgrave,Femenino,Reino Unido,Georgy Girl,Inglés,No,Sí,Sí,Industria anglosajona
+245,1967,Globo de Oro,Paul Scofield,Masculino,Reino Unido,A Man for All Seasons,Inglés,No,Sí,Sí,Industria anglosajona
+246,1968,BAFTA,Katharine Hepburn,Femenino,Estados Unidos,Guess Who's Coming to Dinner,Inglés,Sí,Sí,Sí,Industria anglosajona
+247,1968,BAFTA,Paul Scofield,Masculino,Reino Unido,A Man for All Seasons,Inglés,No,Sí,Sí,Industria anglosajona
+248,1968,Festival de Berlín,Jean-Louis Trintignant,Masculino,Francia,L'Homme qui ment,Francés,No,No,No,Festivales europeos
+249,1968,Festival de Berlín,Stephane Audran,Femenino,Francia,Les Biches,Francés,No,No,No,Festivales europeos
+250,1968,Festival de Venecia,John Marley,Masculino,Estados Unidos,Faces,Inglés,Sí,No,No,Festivales europeos
+251,1968,Festival de Venecia,Laura Betti,Femenino,Italia,Teorema,Italiano,No,No,No,Festivales europeos
+252,1968,Globo de Oro,Anne Bancroft,Femenino,Estados Unidos,The Graduate,Inglés,Sí,Sí,Sí,Industria anglosajona
+253,1968,Globo de Oro,Edith Evans,Femenino,Reino Unido,The Whisperers,Inglés,No,Sí,Sí,Industria anglosajona
+254,1968,Globo de Oro,Richard Harris,Masculino,Irlanda,Camelot,Inglés,Sí,No,No,Industria anglosajona
+255,1968,Globo de Oro,Rod Steiger,Masculino,Estados Unidos,In the Heat of the Night,Inglés,Sí,Sí,Sí,Industria anglosajona
+256,1969,BAFTA,Dustin Hoffman,Masculino,Estados Unidos,Midnight Cowboy,Inglés,Sí,Sí,Sí,Industria anglosajona
+257,1969,BAFTA,Katharine Hepburn,Femenino,Estados Unidos,The Lion in Winter,Inglés,Sí,Sí,Sí,Industria anglosajona
+258,1969,Festival de Cannes,Jean-Louis Trintignant,Masculino,Francia,Z,Francés,No,No,No,Festivales europeos
+259,1969,Festival de Cannes,Vanessa Redgrave,Femenino,Reino Unido,Isadora,Inglés,Sí,Sí,Sí,Festivales europeos
+260,1969,Globo de Oro,Barbra Streisand,Femenino,Estados Unidos,Funny Girl,Inglés,Sí,Sí,Sí,Industria anglosajona
+261,1969,Globo de Oro,Joanne Woodward,Femenino,Estados Unidos,"Rachel, Rachel",Inglés,Sí,Sí,Sí,Industria anglosajona
+262,1969,Globo de Oro,Peter O'Toole,Masculino,Irlanda,The Lion in Winter,Inglés,Sí,Sí,Sí,Industria anglosajona
+263,1969,Globo de Oro,Ron Moody,Masculino,Reino Unido,Oliver!,Inglés,No,Sí,Sí,Industria anglosajona
+264,1970,BAFTA,Maggie Smith,Femenino,Reino Unido,The Prime of Miss Jean Brodie,Inglés,No,Sí,Sí,Industria anglosajona
+265,1970,BAFTA,Robert Redford,Masculino,Estados Unidos,Butch Cassidy and the Sundance Kid,Inglés,Sí,No,No,Industria anglosajona
+266,1970,Festival de Cannes,Marcello Mastroianni,Masculino,Italia,Dramma della gelosia,Italiano,No,No,No,Festivales europeos
+267,1970,Festival de Cannes,Ottavia Piccolo,Femenino,Italia,Metello,Italiano,No,No,No,Festivales europeos
+268,1970,Globo de Oro,Geneviève Bujold,Femenino,Canadá,Anne of the Thousand Days,Inglés,No,Sí,Sí,Industria anglosajona
+269,1970,Globo de Oro,John Wayne,Masculino,Estados Unidos,True Grit,Inglés,Sí,Sí,Sí,Industria anglosajona
+270,1970,Globo de Oro,Patty Duke,Femenino,Estados Unidos,"Me, Natalie",Inglés,Sí,No,No,Industria anglosajona
+271,1970,Globo de Oro,Peter O'Toole,Masculino,Irlanda,"Goodbye, Mr. Chips",Inglés,Sí,Sí,Sí,Industria anglosajona
+272,1971,BAFTA,Katharine Ross,Femenino,Estados Unidos,Butch Cassidy and the Sundance Kid,Inglés,Sí,No,No,Industria anglosajona
+273,1971,BAFTA,Robert Redford,Masculino,Estados Unidos,Tell Them Willie Boy Is Here,Inglés,Sí,No,No,Industria anglosajona
+274,1971,Festival de Berlín,Jean Gabin,Masculino,Francia,Le Chat,Francés,No,No,No,Festivales europeos
+275,1971,Festival de Berlín,Shirley MacLaine,Femenino,Estados Unidos,Desperate Characters,Inglés,Sí,No,No,Festivales europeos
+276,1971,Festival de Berlín,Simone Signoret,Femenino,Francia,Le Chat,Francés,Sí,No,No,Festivales europeos
+277,1971,Festival de Cannes,Kitty Winn,Femenino,Estados Unidos,The Panic in Needle Park,Inglés,Sí,No,No,Festivales europeos
+278,1971,Festival de Cannes,Riccardo Cucciolla,Masculino,Italia,Sacco e Vanzetti,Italiano,No,No,No,Festivales europeos
+279,1971,Globo de Oro,Albert Finney,Masculino,Reino Unido,Scrooge,Inglés,Sí,No,No,Industria anglosajona
+280,1971,Globo de Oro,Ali MacGraw,Femenino,Estados Unidos,Love Story,Inglés,Sí,Sí,Sí,Industria anglosajona
+281,1971,Globo de Oro,Carrie Snodgress,Femenino,Estados Unidos,Diary of a Mad Housewife,Inglés,Sí,Sí,Sí,Industria anglosajona
+282,1971,Globo de Oro,George C. Scott,Masculino,Estados Unidos,Patton,Inglés,Sí,Sí,Sí,Industria anglosajona
+283,1972,BAFTA,Glenda Jackson,Femenino,Reino Unido,Sunday Bloody Sunday,Inglés,No,Sí,Sí,Industria anglosajona
+284,1972,BAFTA,Peter Finch,Masculino,Australia,Sunday Bloody Sunday,Inglés,No,Sí,Sí,Industria anglosajona
+285,1972,Festival de Berlín,Alberto Sordi,Masculino,Italia,Detenuto in attesa di giudizio,Italiano,No,No,No,Festivales europeos
+286,1972,Festival de Berlín,Elizabeth Taylor,Femenino,Reino Unido,Hammersmith Is Out,Inglés,Sí,No,No,Festivales europeos
+287,1972,Festival de Cannes,Jean Yanne,Masculino,Francia,Nous ne vieillirons pas ensemble,Francés,No,No,No,Festivales europeos
+288,1972,Festival de Cannes,Susannah York,Femenino,Reino Unido,Images,Inglés,Sí,No,No,Festivales europeos
+289,1972,Globo de Oro,Chaim Topol,Masculino,Israel,Fiddler on the Roof,Inglés,No,Sí,Sí,Industria anglosajona
+290,1972,Globo de Oro,Gene Hackman,Masculino,Estados Unidos,The French Connection,Inglés,Sí,Sí,Sí,Industria anglosajona
+291,1972,Globo de Oro,Jane Fonda,Femenino,Estados Unidos,Klute,Inglés,Sí,Sí,Sí,Industria anglosajona
+292,1972,Globo de Oro,Twiggy,Femenino,Reino Unido,The Boy Friend,Inglés,No,No,No,Industria anglosajona
+293,1973,BAFTA,Gene Hackman,Masculino,Estados Unidos,The French Connection,Inglés,Sí,Sí,Sí,Industria anglosajona
+294,1973,BAFTA,Liza Minnelli,Femenino,Estados Unidos,Cabaret,Inglés,Sí,Sí,Sí,Industria anglosajona
+295,1973,Festival de Cannes,Giancarlo Giannini,Masculino,Italia,Film d'amore e d'anarchia,Italiano,No,No,No,Festivales europeos
+296,1973,Festival de Cannes,Joanne Woodward,Femenino,Estados Unidos,The Effect of Gamma Rays...,Inglés,Sí,No,No,Festivales europeos
+297,1973,Globo de Oro,Jack Lemmon,Masculino,Estados Unidos,Avanti!,Inglés,Sí,No,No,Industria anglosajona
+298,1973,Globo de Oro,Liv Ullmann,Femenino,Noruega,Utvandrarna,Sueco,No,Sí,Sí,Industria anglosajona
+299,1973,Globo de Oro,Liza Minnelli,Femenino,Estados Unidos,Cabaret,Inglés,Sí,Sí,Sí,Industria anglosajona
+300,1973,Globo de Oro,Marlon Brando,Masculino,Estados Unidos,The Godfather,Inglés,Sí,Sí,Sí,Industria anglosajona
+301,1974,BAFTA,Stephane Audran,Femenino,Francia,Juste avant la nuit,Francés,No,No,No,Industria anglosajona
+302,1974,BAFTA,Walter Matthau,Masculino,Estados Unidos,Charley Varrick,Inglés,Sí,No,No,Industria anglosajona
+303,1974,Festival de Cannes,Jack Nicholson,Masculino,Estados Unidos,The Last Detail,Inglés,Sí,Sí,Sí,Festivales europeos
+304,1974,Festival de Cannes,Marie-José Nat,Femenino,Francia,Les Violons du bal,Francés,No,No,No,Festivales europeos
+305,1974,Globo de Oro,Al Pacino,Masculino,Estados Unidos,Serpico,Inglés,Sí,Sí,Sí,Industria anglosajona
+306,1974,Globo de Oro,George Segal,Masculino,Estados Unidos,A Touch of Class,Inglés,Sí,No,No,Industria anglosajona
+307,1974,Globo de Oro,Glenda Jackson,Femenino,Reino Unido,A Touch of Class,Inglés,Sí,Sí,Sí,Industria anglosajona
+308,1974,Globo de Oro,Marsha Mason,Femenino,Estados Unidos,Cinderella Liberty,Inglés,Sí,Sí,Sí,Industria anglosajona
+309,1975,BAFTA,Jack Lemmon,Masculino,Estados Unidos,Save the Tiger,Inglés,Sí,Sí,Sí,Industria anglosajona
+310,1975,BAFTA,Joanne Woodward,Femenino,Estados Unidos,"Summer Wishes, Winter Dreams",Inglés,Sí,Sí,Sí,Industria anglosajona
+311,1975,Festival de Berlín,Kinuyo Tanaka,Femenino,Japón,Sandakan Hachiban Shokan: Mochiru,Japonés,No,No,No,Festivales europeos
+312,1975,Festival de Berlín,Vlastimil Brodský,Masculino,República Checa,"Jakob, der Lügner",Alemán,No,No,No,Festivales europeos
+313,1975,Festival de Cannes,Dustin Hoffman,Masculino,Estados Unidos,Lenny,Inglés,Sí,Sí,Sí,Festivales europeos
+314,1975,Festival de Cannes,Valerie Perrine,Femenino,Estados Unidos,Lenny,Inglés,Sí,Sí,Sí,Festivales europeos
+315,1975,Globo de Oro,Art Carney,Masculino,Estados Unidos,Harry and Tonto,Inglés,Sí,Sí,Sí,Industria anglosajona
+316,1975,Globo de Oro,Gena Rowlands,Femenino,Estados Unidos,A Woman Under the Influence,Inglés,Sí,Sí,Sí,Industria anglosajona
+317,1975,Globo de Oro,Jack Nicholson,Masculino,Estados Unidos,Chinatown,Inglés,Sí,Sí,Sí,Industria anglosajona
+318,1975,Globo de Oro,Raquel Welch,Femenino,Estados Unidos,The Three Musketeers,Inglés,Sí,No,No,Industria anglosajona
+319,1976,BAFTA,Al Pacino,Masculino,Estados Unidos,Dog Day Afternoon,Inglés,Sí,Sí,Sí,Industria anglosajona
+320,1976,BAFTA,Ellen Burstyn,Femenino,Estados Unidos,Alice Doesn't Live Here Anymore,Inglés,Sí,Sí,Sí,Industria anglosajona
+321,1976,Festival de Berlín,Gerhard Olschewski,Masculino,Alemania,Verlorenes Lebe,Alemán,No,No,No,Festivales europeos
+322,1976,Festival de Berlín,Jadwiga Barańska,Femenino,Polonia,Noce i dnie,Polaco,No,No,No,Festivales europeos
+323,1976,Festival de Cannes,Mari Törőcsik,Femenino,Hungría,"Déryné, Hol Van?",Húngaro,No,No,No,Festivales europeos
+324,1976,Festival de Cannes,Dominique Sanda,Femenino,Francia,L'eredità Ferramonti,Italiano,No,No,No,Festivales europeos
+325,1976,Festival de Cannes,Jose Luis Gomez,Masculino,España,Pascual Duarte,Español,No,No,No,Festivales europeos
+326,1976,Globo de Oro,Ann-Margret,Femenino,Suecia,Tommy,Inglés,Sí,Sí,Sí,Industria anglosajona
+327,1976,Globo de Oro,Jack Nicholson,Masculino,Estados Unidos,One Flew Over the Cuckoo's Nest,Inglés,Sí,Sí,Sí,Industria anglosajona
+328,1976,Globo de Oro,Louise Fletcher,Femenino,Estados Unidos,One Flew Over the Cuckoo's Nest,Inglés,Sí,Sí,Sí,Industria anglosajona
+329,1976,Globo de Oro,Walter Matthau,Masculino,Estados Unidos,The Sunshine Boys,Inglés,Sí,Sí,Sí,Industria anglosajona
+330,1977,BAFTA,Jack Nicholson,Masculino,Estados Unidos,One Flew Over the Cuckoo's Nest,Inglés,Sí,Sí,Sí,Industria anglosajona
+331,1977,BAFTA,Louise Fletcher,Femenino,Estados Unidos,One Flew Over the Cuckoo's Nest,Inglés,Sí,Sí,Sí,Industria anglosajona
+332,1977,Festival de Berlín,Fernando Fernán Gómez,Masculino,España,El anacoreta,Español,No,No,No,Festivales europeos
+333,1977,Festival de Berlín,Lily Tomlin,Femenino,Estados Unidos,The Late Show,Inglés,Sí,No,No,Festivales europeos
+334,1977,Festival de Cannes,Fernando Rey,Masculino,España,"Elisa, vida mía",Español,No,No,No,Festivales europeos
+335,1977,Festival de Cannes,Monique Mercure,Femenino,Canadá,J.A. Martin photographe,Francés,No,No,No,Festivales europeos
+336,1977,Globo de Oro,Barbra Streisand,Femenino,Estados Unidos,A Star Is Born,Inglés,Sí,No,No,Industria anglosajona
+337,1977,Globo de Oro,Faye Dunaway,Femenino,Estados Unidos,Network,Inglés,Sí,Sí,Sí,Industria anglosajona
+338,1977,Globo de Oro,Kris Kristofferson,Masculino,Estados Unidos,A Star Is Born,Inglés,Sí,No,No,Industria anglosajona
+339,1977,Globo de Oro,Peter Finch,Masculino,Australia,Network,Inglés,Sí,Sí,Sí,Industria anglosajona
+340,1978,BAFTA,Diane Keaton,Femenino,Estados Unidos,Annie Hall,Inglés,Sí,Sí,Sí,Industria anglosajona
+341,1978,BAFTA,Peter Finch,Masculino,Australia,Network,Inglés,Sí,Sí,Sí,Industria anglosajona
+342,1978,Festival de Berlín,Craig Russell,Masculino,Canadá,Outrageous!,Inglés,No,No,No,Festivales europeos
+343,1978,Festival de Berlín,Gena Rowlands,Femenino,Estados Unidos,Opening Night,Inglés,Sí,No,No,Festivales europeos
+344,1977,Festival de Cannes,Shelley Duvall,Femenino,Estados Unidos,3 Women,Inglés,Sí,No,No,Festivales europeos
+345,1978,Festival de Cannes,Jill Clayburgh,Femenino,Estados Unidos,An Unmarried Woman,Inglés,Sí,Sí,Sí,Festivales europeos
+346,1978,Festival de Cannes,Jon Voight,Masculino,Estados Unidos,Coming Home,Inglés,Sí,Sí,Sí,Festivales europeos
+347,1978,Globo de Oro,Diane Keaton,Femenino,Estados Unidos,Annie Hall,Inglés,Sí,Sí,Sí,Industria anglosajona
+348,1978,Globo de Oro,Jane Fonda,Femenino,Estados Unidos,Julia,Inglés,Sí,Sí,Sí,Industria anglosajona
+349,1978,Globo de Oro,Richard Burton,Masculino,Reino Unido,Equus,Inglés,Sí,Sí,Sí,Industria anglosajona
+350,1978,Globo de Oro,Richard Dreyfuss,Masculino,Estados Unidos,The Goodbye Girl,Inglés,Sí,Sí,Sí,Industria anglosajona
+351,1979,BAFTA,Jane Fonda,Femenino,Estados Unidos,Julia,Inglés,Sí,Sí,Sí,Industria anglosajona
+352,1979,BAFTA,Richard Dreyfuss,Masculino,Estados Unidos,The Goodbye Girl,Inglés,Sí,Sí,Sí,Industria anglosajona
+353,1979,Festival de Berlín,Hanna Schygulla,Femenino,Alemania,Die Ehe der Maria Braun,Alemán,No,No,No,Festivales europeos
+354,1979,Festival de Berlín,Michele Placido,Masculino,Italia,Ernesto,Italiano,No,No,No,Festivales europeos
+355,1979,Festival de Cannes,Jack Lemmon,Masculino,Estados Unidos,The China Syndrome,Inglés,Sí,Sí,Sí,Festivales europeos
+356,1978,Festival de Cannes,Isabelle Huppert,Femenino,Francia,Violette Nozière,Francés,No,No,No,Festivales europeos
+357,1979,Festival de Cannes,Sally Field,Femenino,Estados Unidos,Norma Rae,Inglés,Sí,Sí,Sí,Festivales europeos
+358,1979,Globo de Oro,Ellen Burstyn,Femenino,Estados Unidos,"Same Time, Next Year",Inglés,Sí,Sí,Sí,Industria anglosajona
+359,1979,Globo de Oro,Jane Fonda,Femenino,Estados Unidos,Coming Home,Inglés,Sí,Sí,Sí,Industria anglosajona
+360,1979,Globo de Oro,Jon Voight,Masculino,Estados Unidos,Coming Home,Inglés,Sí,Sí,Sí,Industria anglosajona
+361,1979,Globo de Oro,Warren Beatty,Masculino,Estados Unidos,Heaven Can Wait,Inglés,Sí,Sí,Sí,Industria anglosajona
+362,1980,BAFTA,Jack Lemmon,Masculino,Estados Unidos,The China Syndrome,Inglés,Sí,Sí,Sí,Industria anglosajona
+363,1980,BAFTA,Jane Fonda,Femenino,Estados Unidos,The China Syndrome,Inglés,Sí,Sí,Sí,Industria anglosajona
+364,1980,Festival de Berlín,Andrzej Seweryn,Masculino,Polonia,Dyrygent,Polaco,No,No,No,Festivales europeos
+365,1980,Festival de Berlín,Renate Krößner,Femenino,Alemania,Solo Sunny,Alemán,No,No,No,Festivales europeos
+366,1980,Festival de Cannes,Anouk Aimée,Femenino,Francia,Salto nel vuoto,Italiano,No,No,No,Festivales europeos
+367,1980,Festival de Cannes,Michel Piccoli,Masculino,Francia,Salto nel vuoto,Italiano,No,No,No,Festivales europeos
+368,1980,Globo de Oro,Bette Midler,Femenino,Estados Unidos,The Rose,Inglés,Sí,Sí,Sí,Industria anglosajona
+369,1980,Globo de Oro,Dustin Hoffman,Masculino,Estados Unidos,Kramer vs. Kramer,Inglés,Sí,Sí,Sí,Industria anglosajona
+370,1980,Globo de Oro,Peter Sellers,Masculino,Reino Unido,Being There,Inglés,Sí,Sí,Sí,Industria anglosajona
+371,1980,Globo de Oro,Sally Field,Femenino,Estados Unidos,Norma Rae,Inglés,Sí,Sí,Sí,Industria anglosajona
+372,1981,BAFTA,John Hurt,Masculino,Reino Unido,The Elephant Man,Inglés,No,Sí,Sí,Industria anglosajona
+373,1981,BAFTA,Judy Davis,Femenino,Australia,My Brilliant Career,Inglés,No,No,No,Industria anglosajona
+374,1981,Festival de Berlín,Anatoly Solonitsyn,Masculino,Rusia,26 dni iz zhizni Dostoevskogo,Ruso,No,No,No,Festivales europeos
+375,1981,Festival de Berlín,Barbara Grabowska,Femenino,Polonia,Gorączka,Polaco,No,No,No,Festivales europeos
+376,1981,Festival de Cannes,Isabelle Adjani,Femenino,Francia,Possession / Quartet,Francés / Inglés,No,No,No,Festivales europeos
+377,1981,Festival de Cannes,Ugo Tognazzi,Masculino,Italia,La tragedia di un uomo ridicolo,Italiano,No,No,No,Festivales europeos
+378,1981,Globo de Oro,Mary Tyler Moore,Femenino,Estados Unidos,Ordinary People,Inglés,Sí,Sí,Sí,Industria anglosajona
+379,1981,Globo de Oro,Ray Sharkey,Masculino,Estados Unidos,The Idolmaker,Inglés,Sí,No,No,Industria anglosajona
+380,1981,Globo de Oro,Robert De Niro,Masculino,Estados Unidos,Raging Bull,Inglés,Sí,Sí,Sí,Industria anglosajona
+381,1981,Globo de Oro,Sissy Spacek,Femenino,Estados Unidos,Coal Miner's Daughter,Inglés,Sí,Sí,Sí,Industria anglosajona
+382,1982,BAFTA,Burt Lancaster,Masculino,Estados Unidos,Atlantic City,Inglés,Sí,Sí,Sí,Industria anglosajona
+383,1982,BAFTA,Meryl Streep,Femenino,Estados Unidos,The French Lieutenant's Woman,Inglés,Sí,Sí,Sí,Industria anglosajona
+384,1982,Festival de Berlín,Katrin Saß,Femenino,Alemania,Bürgschaft für ein Jahr,Alemán,No,No,No,Festivales europeos
+385,1982,Festival de Berlín,Michel Piccoli,Masculino,Francia,Une étrange affaire,Francés,No,No,No,Festivales europeos
+386,1982,Festival de Cannes,Jack Lemmon,Masculino,Estados Unidos,Missing,Inglés,Sí,Sí,Sí,Festivales europeos
+387,1982,Festival de Cannes,Jadwiga Jankowska-Cieślak,Femenino,Polonia,Egymásra nézve,Húngaro,No,No,No,Festivales europeos
+388,1982,Globo de Oro,Bernadette Peters,Femenino,Estados Unidos,Pennies from Heaven,Inglés,Sí,No,No,Industria anglosajona
+389,1982,Globo de Oro,Dudley Moore,Masculino,Reino Unido,Arthur,Inglés,Sí,Sí,Sí,Industria anglosajona
+390,1982,Globo de Oro,Henry Fonda,Masculino,Estados Unidos,On Golden Pond,Inglés,Sí,Sí,Sí,Industria anglosajona
+391,1982,Globo de Oro,Meryl Streep,Femenino,Estados Unidos,The French Lieutenant's Woman,Inglés,Sí,Sí,Sí,Industria anglosajona
+392,1983,BAFTA,Ben Kingsley,Masculino,Reino Unido,Gandhi,Inglés,No,Sí,Sí,Industria anglosajona
+393,1983,BAFTA,Katharine Hepburn,Femenino,Estados Unidos,On Golden Pond,Inglés,Sí,Sí,Sí,Industria anglosajona
+394,1983,Festival de Berlín,Bruce Dern,Masculino,Estados Unidos,That Championship Season,Inglés,Sí,No,No,Festivales europeos
+395,1983,Festival de Berlín,Evgeniya Glushenko,Femenino,Rusia,Vlyublyon po sobstvennomu zhelaniyu,Ruso,No,No,No,Festivales europeos
+396,1983,Festival de Cannes,Gian Maria Volonté,Masculino,Italia,La mort de Mario Ricci,Francés,No,No,No,Festivales europeos
+397,1983,Festival de Cannes,Hanna Schygulla,Femenino,Alemania,Storia di Piera,Italiano,No,No,No,Festivales europeos
+398,1983,Globo de Oro,Ben Kingsley,Masculino,Reino Unido,Gandhi,Inglés,No,Sí,Sí,Industria anglosajona
+399,1983,Globo de Oro,Dustin Hoffman,Masculino,Estados Unidos,Tootsie,Inglés,Sí,Sí,Sí,Industria anglosajona
+400,1983,Globo de Oro,Julie Andrews,Femenino,Reino Unido,Victor / Victoria,Inglés,Sí,Sí,Sí,Industria anglosajona
+401,1983,Globo de Oro,Meryl Streep,Femenino,Estados Unidos,Sophie's Choice,Inglés / Alemán,Sí,Sí,Sí,Industria anglosajona
+402,1984,BAFTA,Julie Walters,Femenino,Reino Unido,Educating Rita,Inglés,No,Sí,Sí,Industria anglosajona
+403,1984,BAFTA,Michael Caine,Masculino,Reino Unido,Educating Rita,Inglés,Sí,Sí,Sí,Industria anglosajona
+404,1984,Festival de Berlín,Albert Finney,Masculino,Reino Unido,The Dresser,Inglés,Sí,Sí,Sí,Festivales europeos
+405,1984,Festival de Berlín,Inna Churikova,Femenino,Rusia,Voyenno-polevoy roman,Ruso,No,No,No,Festivales europeos
+406,1984,Festival de Cannes,Alfredo Landa,Masculino,España,Los santos inocentes,Español,No,No,No,Festivales europeos
+407,1984,Festival de Cannes,Francisco Rabal,Masculino,España,Los santos inocentes,Español,No,No,No,Festivales europeos
+408,1984,Festival de Cannes,Helen Mirren,Femenino,Reino Unido,Cal,Inglés,No,No,No,Festivales europeos
+409,1984,Globo de Oro,Barbra Streisand,Femenino,Estados Unidos,Yentl,Inglés,Sí,No,No,Industria anglosajona
+410,1984,Globo de Oro,Michael Caine,Masculino,Reino Unido,Educating Rita,Inglés,Sí,Sí,Sí,Industria anglosajona
+411,1984,Globo de Oro,Robert Duvall,Masculino,Estados Unidos,Tender Mercies,Inglés,Sí,Sí,Sí,Industria anglosajona
+412,1984,Globo de Oro,Shirley MacLaine,Femenino,Estados Unidos,Terms of Endearment,Inglés,Sí,Sí,Sí,Industria anglosajona
+413,1984,Globo de Oro,Tom Courtenay,Masculino,Reino Unido,The Dresser,Inglés,Sí,Sí,Sí,Industria anglosajona
+414,1985,BAFTA,Haing S. Ngor,Masculino,Camboya,The Killing Fields,Inglés,No,No,Sí,Industria anglosajona
+415,1985,BAFTA,Maggie Smith,Femenino,Reino Unido,A Private Function,Inglés,No,No,No,Industria anglosajona
+416,1985,Festival de Berlín,Fernando Fernán Gómez,Masculino,España,Stico,Español,No,No,No,Festivales europeos
+417,1985,Festival de Berlín,Jo Kennedy,Femenino,Australia,Wrong World,Inglés,No,No,No,Festivales europeos
+418,1985,Festival de Cannes,Cher,Femenino,Estados Unidos,Mask,Inglés,Sí,No,No,Festivales europeos
+419,1985,Festival de Cannes,William Hurt,Masculino,Estados Unidos,Kiss of the Spider Woman,Inglés,Sí,Sí,Sí,Festivales europeos
+420,1985,Globo de Oro,Dudley Moore,Masculino,Reino Unido,Micki & Maude,Inglés,Sí,No,No,Industria anglosajona
+421,1985,Globo de Oro,F. Murray Abraham,Masculino,Estados Unidos,Amadeus,Inglés,Sí,Sí,Sí,Industria anglosajona
+422,1985,Globo de Oro,Kathleen Turner,Femenino,Estados Unidos,Romancing the Stone,Inglés,Sí,No,No,Industria anglosajona
+423,1985,Globo de Oro,Sally Field,Femenino,Estados Unidos,Places in the Heart,Inglés,Sí,Sí,Sí,Industria anglosajona
+424,1986,BAFTA,Peggy Ashcroft,Femenino,Reino Unido,A Passage to India,Inglés,No,No,Sí,Industria anglosajona
+425,1986,BAFTA,William Hurt,Masculino,Estados Unidos,Kiss of the Spider Woman,Inglés,Sí,Sí,Sí,Industria anglosajona
+426,1986,Festival de Berlín,Charlotte Valandrey,Femenino,Francia,Rouge Baiser,Francés,No,No,No,Festivales europeos
+427,1986,Festival de Berlín,Tuncel Kurtiz,Masculino,Turquía,Hiuch HaGideon,Hebreo,No,No,No,Festivales europeos
+428,1985,Festival de Cannes,Norma Aleandro,Femenino,Argentina,La historia oficial,Español,No,No,No,Festivales europeos
+429,1986,Festival de Cannes,Barbara Sukowa,Femenino,Alemania,Rosa Luxemburg,Alemán,No,No,No,Festivales europeos
+430,1986,Festival de Cannes,Michel Blanc,Masculino,Francia,Tenue de soirée,Francés,No,No,No,Festivales europeos
+431,1986,Festival de Venecia,Carlo Delle Piane,Masculino,Italia,Regalo di Natale,Italiano,No,No,No,Festivales europeos
+432,1986,Festival de Venecia,Valeria Golino,Femenino,Italia,Storia d'amore,Italiano,No,No,No,Festivales europeos
+433,1986,Globo de Oro,Jack Nicholson,Masculino,Estados Unidos,Prizzi's Honor,Inglés,Sí,Sí,Sí,Industria anglosajona
+434,1986,Globo de Oro,Jon Voight,Masculino,Estados Unidos,Runaway Train,Inglés,Sí,Sí,Sí,Industria anglosajona
+435,1986,Globo de Oro,Kathleen Turner,Femenino,Estados Unidos,Prizzi's Honor,Inglés,Sí,No,No,Industria anglosajona
+436,1986,Globo de Oro,Whoopi Goldberg,Femenino,Estados Unidos,The Color Purple,Inglés,No,Sí,Sí,Industria anglosajona
+437,1987,BAFTA,Bob Hoskins,Masculino,Reino Unido,Mona Lisa,Inglés,Sí,Sí,Sí,Industria anglosajona
+438,1987,BAFTA,Maggie Smith,Femenino,Reino Unido,A Room with a View,Inglés,No,No,Sí,Industria anglosajona
+439,1987,Festival de Berlín,Ana Beatriz Nogueira,Femenino,Brasil,Vera,Portugués,No,No,No,Festivales europeos
+440,1987,Festival de Berlín,Gian Maria Volonté,Masculino,Italia,Il caso Moro,Italiano,No,No,No,Festivales europeos
+441,1986,Festival de Cannes,Fernanda Torres,Femenino,Brasil,Eu Sei que Vou te Amar,Portugués,No,No,No,Festivales europeos
+442,1987,Festival de Cannes,Barbara Hershey,Femenino,Estados Unidos,Shy People,Inglés,Sí,No,No,Festivales europeos
+443,1987,Festival de Cannes,Marcello Mastroianni,Masculino,Italia,Oci ciornie,Italiano,No,Sí,Sí,Festivales europeos
+444,1987,Festival de Venecia,Hugh Grant,Masculino,Reino Unido,Maurice,Inglés,No,No,No,Festivales europeos
+445,1987,Festival de Venecia,Kang Soo-yeon,Femenino,Corea del Sur,The Surrogate Woman,Coreano,No,No,No,Festivales europeos
+446,1987,Globo de Oro,Bob Hoskins,Masculino,Reino Unido,Mona Lisa,Inglés,Sí,Sí,Sí,Industria anglosajona
+447,1987,Globo de Oro,Marlee Matlin,Femenino,Estados Unidos,Children of a Lesser God,Lengua de señas / Inglés,No,Sí,Sí,Industria anglosajona
+448,1987,Globo de Oro,Paul Hogan,Masculino,Australia,Crocodile Dundee,Inglés,No,No,No,Industria anglosajona
+449,1987,Globo de Oro,Sissy Spacek,Femenino,Estados Unidos,Crimes of the Heart,Inglés,Sí,Sí,Sí,Industria anglosajona
+450,1988,BAFTA,Anne Bancroft,Femenino,Estados Unidos,84 Charing Cross Road,Inglés,Sí,No,No,Industria anglosajona
+451,1988,BAFTA,Sean Connery,Masculino,Reino Unido,Der Name der Rose,Inglés,Sí,No,No,Industria anglosajona
+452,1988,Festival de Berlín,Holly Hunter,Femenino,Estados Unidos,Broadcast News,Inglés,Sí,Sí,Sí,Festivales europeos
+453,1988,Festival de Berlín,Jörg Pose,Masculino,Alemania,Einer trage des anderen Last...,Alemán,No,No,No,Festivales europeos
+454,1988,Festival de Cannes,Barbara Hershey,Femenino,Estados Unidos,A World Apart,Inglés,Sí,No,No,Festivales europeos
+455,1988,Festival de Cannes,Forest Whitaker,Masculino,Estados Unidos,Bird,Inglés,Sí,No,No,Festivales europeos
+456,1988,Festival de Venecia,Don Ameche,Masculino,Estados Unidos,Things Change,Inglés,Sí,No,No,Festivales europeos
+457,1988,Festival de Venecia,Isabelle Huppert,Femenino,Francia,Une affaire de femmes,Francés,No,No,No,Festivales europeos
+458,1988,Festival de Venecia,Shirley MacLaine,Femenino,Estados Unidos,Madame Sousatzka,Inglés,Sí,No,No,Festivales europeos
+459,1988,Globo de Oro,Cher,Femenino,Estados Unidos,Moonstruck,Inglés,Sí,Sí,Sí,Industria anglosajona
+460,1988,Globo de Oro,Jodie Foster,Femenino,Estados Unidos,The Accused,Inglés,Sí,Sí,Sí,Industria anglosajona
+461,1988,Globo de Oro,Michael Douglas,Masculino,Estados Unidos,Wall Street,Inglés,Sí,Sí,Sí,Industria anglosajona
+462,1988,Globo de Oro,Robin Williams,Masculino,Estados Unidos,"Good Morning, Vietnam",Inglés,Sí,Sí,Sí,Industria anglosajona
+463,1988,Globo de Oro,Shirley MacLaine,Femenino,Estados Unidos,Madame Sousatzka,Inglés,Sí,No,No,Industria anglosajona
+464,1988,Globo de Oro,Sigourney Weaver,Femenino,Estados Unidos,Gorillas in the Mist,Inglés,Sí,Sí,Sí,Industria anglosajona
+465,1989,BAFTA,John Cleese,Masculino,Reino Unido,A Fish Called Wanda,Inglés,Sí,No,No,Industria anglosajona
+466,1989,BAFTA,Maggie Smith,Femenino,Reino Unido,The Lonely Passion of Judith Hearne,Inglés,No,No,No,Industria anglosajona
+467,1989,Festival de Berlín,Gene Hackman,Masculino,Estados Unidos,Mississippi Burning,Inglés,Sí,Sí,Sí,Festivales europeos
+468,1989,Festival de Berlín,Isabelle Adjani,Femenino,Francia,Camille Claudel,Francés,Sí,Sí,Sí,Festivales europeos
+469,1989,Festival de Cannes,James Spader,Masculino,Estados Unidos,"Sex, Lies, and Videotape",Inglés,Sí,No,No,Festivales europeos
+470,1988,Festival de Cannes,Jodhi May,Femenino,Reino Unido,A World Apart,Inglés,No,No,No,Festivales europeos
+471,1988,Festival de Cannes,Linda Mvusi,Femenino,Sudáfrica,A World Apart,Inglés,No,No,No,Festivales europeos
+472,1989,Festival de Cannes,Meryl Streep,Femenino,Estados Unidos,A Cry in the Dark,Inglés,Sí,Sí,Sí,Festivales europeos
+473,1989,Festival de Venecia,Marcello Mastroianni,Masculino,Italia,Che ora è?,Italiano,No,No,No,Festivales europeos
+474,1989,Festival de Venecia,Peggy Ashcroft,Femenino,Reino Unido,She's Been Away,Inglés,No,No,No,Festivales europeos
+475,1989,Globo de Oro,Dustin Hoffman,Masculino,Estados Unidos,Rain Man,Inglés,Sí,Sí,Sí,Industria anglosajona
+476,1989,Globo de Oro,Melanie Griffith,Femenino,Estados Unidos,Working Girl,Inglés,Sí,Sí,Sí,Industria anglosajona
+477,1989,Globo de Oro,Sigourney Weaver,Femenino,Estados Unidos,Gorillas in the Mist,Inglés,Sí,Sí,Sí,Industria anglosajona
+478,1989,Globo de Oro,Tom Hanks,Masculino,Estados Unidos,Big,Inglés,Sí,Sí,Sí,Industria anglosajona
+479,1990,BAFTA,Daniel Day-Lewis,Masculino,Reino Unido,My Left Foot,Inglés,No,Sí,Sí,Industria anglosajona
+480,1990,BAFTA,Pauline Collins,Femenino,Reino Unido,Shirley Valentine,Inglés,No,Sí,Sí,Industria anglosajona
+481,1990,Festival de Berlín,Iain Glen,Masculino,Reino Unido,Silent Scream,Inglés,No,No,No,Festivales europeos
+482,1990,Festival de Berlín,Jessica Tandy,Femenino,Reino Unido,Driving Miss Daisy,Inglés,Sí,Sí,Sí,Festivales europeos
+483,1990,Festival de Cannes,Gérard Depardieu,Masculino,Francia,Cyrano de Bergerac,Francés,No,Sí,Sí,Festivales europeos
+484,1990,Festival de Cannes,Krystyna Janda,Femenino,Polonia,Przesłuchanie,Polaco,No,No,No,Festivales europeos
+485,1990,Festival de Venecia,Gloria Münchmeyer,Femenino,Chile,La luna en el espejo,Español,No,No,No,Festivales europeos
+486,1990,Festival de Venecia,Oleg Borisov,Masculino,Unión Soviética,Edinstveniyat svidetel,Búlgaro,No,No,No,Festivales europeos
+487,1990,Globo de Oro,Jessica Tandy,Femenino,Reino Unido,Driving Miss Daisy,Inglés,Sí,Sí,Sí,Industria anglosajona
+488,1990,Globo de Oro,Michelle Pfeiffer,Femenino,Estados Unidos,The Fabulous Baker Boys,Inglés,Sí,Sí,Sí,Industria anglosajona
+489,1990,Globo de Oro,Morgan Freeman,Masculino,Estados Unidos,Driving Miss Daisy,Inglés,Sí,Sí,Sí,Industria anglosajona
+490,1990,Globo de Oro,Tom Cruise,Masculino,Estados Unidos,Born on the Fourth of July,Inglés,Sí,Sí,Sí,Industria anglosajona
+491,1991,BAFTA,Jessica Tandy,Femenino,Reino Unido,Driving Miss Daisy,Inglés,Sí,Sí,Sí,Industria anglosajona
+492,1991,BAFTA,Philippe Noiret,Masculino,Francia,Cinema Paradiso,Italiano,No,No,No,Industria anglosajona
+493,1991,Festival de Berlín,Maynard Eziashi,Masculino,Nigeria,Mister Johnson,Inglés,No,No,No,Festivales europeos
+494,1991,Festival de Berlín,Victoria Abril,Femenino,España,Amantes,Español,No,No,No,Festivales europeos
+495,1991,Festival de Cannes,Irène Jacob,Femenino,Francia,La double vie de Véronique,Francés / Polaco,No,No,No,Festivales europeos
+496,1991,Festival de Cannes,John Turturro,Masculino,Estados Unidos,Barton Fink,Inglés,Sí,No,No,Festivales europeos
+497,1991,Festival de Venecia,River Phoenix,Masculino,Estados Unidos,My Own Private Idaho,Inglés,Sí,No,No,Festivales europeos
+498,1991,Festival de Venecia,Tilda Swinton,Femenino,Reino Unido,Edward II,Inglés,No,No,No,Festivales europeos
+499,1991,Globo de Oro,Gérard Depardieu,Masculino,Francia,Green Card,Inglés / Francés,No,No,No,Industria anglosajona
+500,1991,Globo de Oro,Jeremy Irons,Masculino,Reino Unido,Reversal of Fortune,Inglés,Sí,Sí,Sí,Industria anglosajona
+501,1991,Globo de Oro,Julia Roberts,Femenino,Estados Unidos,Pretty Woman,Inglés,Sí,Sí,Sí,Industria anglosajona
+502,1991,Globo de Oro,Kathy Bates,Femenino,Estados Unidos,Misery,Inglés,Sí,Sí,Sí,Industria anglosajona
+503,1992,BAFTA,Anthony Hopkins,Masculino,Reino Unido,The Silence of the Lambs,Inglés,Sí,Sí,Sí,Industria anglosajona
+504,1992,BAFTA,Jodie Foster,Femenino,Estados Unidos,The Silence of the Lambs,Inglés,Sí,Sí,Sí,Industria anglosajona
+505,1992,Festival de Berlín,Armin Mueller-Stahl,Masculino,Alemania,Utz,Inglés,No,No,No,Festivales europeos
+506,1992,Festival de Berlín,Maggie Cheung,Femenino,Hong Kong,Center Stage,Cantonés,No,No,No,Festivales europeos
+507,1992,Festival de Cannes,Pernilla August,Femenino,Suecia,Den goda viljan,Sueco,No,No,No,Festivales europeos
+508,1992,Festival de Cannes,Tim Robbins,Masculino,Estados Unidos,The Player,Inglés,Sí,No,No,Festivales europeos
+509,1992,Festival de Venecia,Gong Li,Femenino,China,Qiu Ju da guan si,Chino mandarín,No,No,No,Festivales europeos
+510,1992,Festival de Venecia,Jack Lemmon,Masculino,Estados Unidos,Glengarry Glen Ross,Inglés,Sí,No,No,Festivales europeos
+511,1992,Globo de Oro,Bette Midler,Femenino,Estados Unidos,For the Boys,Inglés,Sí,Sí,Sí,Industria anglosajona
+512,1992,Globo de Oro,Jodie Foster,Femenino,Estados Unidos,The Silence of the Lambs,Inglés,Sí,Sí,Sí,Industria anglosajona
+513,1992,Globo de Oro,Nick Nolte,Masculino,Estados Unidos,The Prince of Tides,Inglés,Sí,Sí,Sí,Industria anglosajona
+514,1992,Globo de Oro,Robin Williams,Masculino,Estados Unidos,The Fisher King,Inglés,Sí,Sí,Sí,Industria anglosajona
+515,1993,BAFTA,Emma Thompson,Femenino,Reino Unido,Howards End,Inglés,No,Sí,Sí,Industria anglosajona
+516,1993,BAFTA,Robert Downey Jr.,Masculino,Estados Unidos,Chaplin,Inglés,Sí,Sí,Sí,Industria anglosajona
+517,1993,Festival de Berlín,Denzel Washington,Masculino,Estados Unidos,Malcolm X,Inglés,Sí,Sí,Sí,Festivales europeos
+518,1993,Festival de Berlín,Michelle Pfeiffer,Femenino,Estados Unidos,Love Field,Inglés,Sí,Sí,Sí,Festivales europeos
+519,1993,Festival de Cannes,David Thewlis,Masculino,Reino Unido,Naked,Inglés,No,No,No,Festivales europeos
+520,1993,Festival de Cannes,Holly Hunter,Femenino,Estados Unidos,The Piano,Inglés,Sí,Sí,Sí,Festivales europeos
+521,1993,Festival de Venecia,Fabricio Bentivoglio,Masculino,Italia,Un anima divisa in due,Italiano,No,No,No,Festivales europeos
+522,1993,Festival de Venecia,Juliette Binoche,Femenino,Francia,Trois couleurs: Bleu,Francés,No,No,No,Festivales europeos
+523,1993,Globo de Oro,Al Pacino,Masculino,Estados Unidos,Scent of a Woman,Inglés,Sí,Sí,Sí,Industria anglosajona
+524,1993,Globo de Oro,Emma Thompson,Femenino,Reino Unido,Howards End,Inglés,No,Sí,Sí,Industria anglosajona
+525,1993,Globo de Oro,Miranda Richardson,Femenino,Reino Unido,Enchanted April,Inglés,No,No,No,Industria anglosajona
+526,1993,Globo de Oro,Tim Robbins,Masculino,Estados Unidos,The Player,Inglés,Sí,No,No,Industria anglosajona
+527,1994,BAFTA,Anthony Hopkins,Masculino,Reino Unido,The Remains of the Day,Inglés,Sí,Sí,Sí,Industria anglosajona
+528,1994,BAFTA,Holly Hunter,Femenino,Estados Unidos,The Piano,Inglés,Sí,Sí,Sí,Industria anglosajona
+529,1994,Festival de Berlín,Crissy Rock,Femenino,Reino Unido,"Ladybird, Ladybird",Inglés,No,No,No,Festivales europeos
+530,1994,Festival de Berlín,Tom Hanks,Masculino,Estados Unidos,Philadelphia,Inglés,Sí,Sí,Sí,Festivales europeos
+531,1994,Festival de Cannes,Ge You,Masculino,China,To Live,Chino mandarín,No,No,No,Festivales europeos
+532,1994,Festival de Cannes,Virna Lisi,Femenino,Italia,La Reine Margot,Francés,No,No,No,Festivales europeos
+533,1994,Festival de Venecia,Maria de Medeiros,Femenino,Portugal,Três Irmãos,Portugués,No,No,No,Festivales europeos
+534,1994,Festival de Venecia,Xia Yu,Masculino,China,Yang guang can lan de di fang,Chino mandarín,No,No,No,Festivales europeos
+535,1994,Globo de Oro,Angela Bassett,Femenino,Estados Unidos,What's Love Got to Do with It,Inglés,Sí,Sí,Sí,Industria anglosajona
+536,1994,Globo de Oro,Holly Hunter,Femenino,Estados Unidos,The Piano,Inglés,Sí,Sí,Sí,Industria anglosajona
+537,1994,Globo de Oro,Robin Williams,Masculino,Estados Unidos,Mrs. Doubtfire,Inglés,Sí,No,No,Industria anglosajona
+538,1994,Globo de Oro,Tom Hanks,Masculino,Estados Unidos,Philadelphia,Inglés,Sí,Sí,Sí,Industria anglosajona
+539,1995,BAFTA,Hugh Grant,Masculino,Reino Unido,Four Weddings and a Funeral,Inglés,No,No,No,Industria anglosajona
+540,1995,BAFTA,Susan Sarandon,Femenino,Estados Unidos,The Client,Inglés,Sí,Sí,Sí,Industria anglosajona
+541,1995,Festival de Berlín,Paul Newman,Masculino,Estados Unidos,Nobody's Fool,Inglés,Sí,Sí,Sí,Festivales europeos
+542,1995,Festival de Berlín,Sheng Hong,Femenino,China,Dayu Zhai,Chino mandarín,No,No,No,Festivales europeos
+543,1995,Festival de Cannes,Helen Mirren,Femenino,Reino Unido,The Madness of King George,Inglés,Sí,Sí,Sí,Festivales europeos
+544,1995,Festival de Cannes,Jonathan Pryce,Masculino,Reino Unido,Carrington,Inglés,No,No,No,Festivales europeos
+545,1995,Festival de Venecia,Gotaro Tsunashima,Masculino,Japón,The Maborosi,Japonés,No,No,No,Festivales europeos
+546,1995,Festival de Venecia,Isabelle Huppert,Femenino,Francia,La Cérémonie,Francés,No,No,No,Festivales europeos
+547,1995,Festival de Venecia,Sandrine Bonnaire,Femenino,Francia,La Cérémonie,Francés,No,No,No,Festivales europeos
+548,1995,Globo de Oro,Hugh Grant,Masculino,Reino Unido,Four Weddings and a Funeral,Inglés,No,No,No,Industria anglosajona
+549,1995,Globo de Oro,Jamie Lee Curtis,Femenino,Estados Unidos,True Lies,Inglés,Sí,No,No,Industria anglosajona
+550,1995,Globo de Oro,Jessica Lange,Femenino,Estados Unidos,Blue Sky,Inglés,Sí,Sí,Sí,Industria anglosajona
+551,1995,Globo de Oro,Tom Hanks,Masculino,Estados Unidos,Forrest Gump,Inglés,Sí,Sí,Sí,Industria anglosajona
+552,1996,BAFTA,Emma Thompson,Femenino,Reino Unido,Sense and Sensibility,Inglés,No,Sí,Sí,Industria anglosajona
+553,1996,BAFTA,Nigel Hawthorne,Masculino,Reino Unido,The Madness of King George,Inglés,No,Sí,Sí,Industria anglosajona
+554,1996,Festival de Berlín,Anouk Grinberg,Femenino,Francia,Mon Homme,Francés,No,No,No,Festivales europeos
+555,1996,Festival de Berlín,Sean Penn,Masculino,Estados Unidos,Dead Man Walking,Inglés,Sí,Sí,Sí,Festivales europeos
+556,1996,Festival de Cannes,Brenda Blethyn,Femenino,Reino Unido,Secrets & Lies,Inglés,No,Sí,Sí,Festivales europeos
+557,1996,Festival de Cannes,Daniel Auteuil,Masculino,Francia,Le huitième jour,Francés,No,No,No,Festivales europeos
+558,1996,Festival de Cannes,Pascal Duquenne,Masculino,Bélgica,Le huitième jour,Francés,No,No,No,Festivales europeos
+559,1996,Festival de Venecia,Liam Neeson,Masculino,Reino Unido,Michael Collins,Inglés,Sí,No,No,Festivales europeos
+560,1996,Festival de Venecia,Victoire Thivisol,Femenino,Francia,Ponette,Francés,No,No,No,Festivales europeos
+561,1996,Globo de Oro,John Travolta,Masculino,Estados Unidos,Get Shorty,Inglés,Sí,No,No,Industria anglosajona
+562,1996,Globo de Oro,Nicolas Cage,Masculino,Estados Unidos,Leaving Las Vegas,Inglés,Sí,Sí,Sí,Industria anglosajona
+563,1996,Globo de Oro,Nicole Kidman,Femenino,Australia,To Die For,Inglés,Sí,No,No,Industria anglosajona
+564,1996,Globo de Oro,Sharon Stone,Femenino,Estados Unidos,Casino,Inglés,Sí,Sí,Sí,Industria anglosajona
+565,1997,BAFTA,Brenda Blethyn,Femenino,Reino Unido,Secrets & Lies,Inglés,No,Sí,Sí,Industria anglosajona
+566,1997,BAFTA,Geoffrey Rush,Masculino,Australia,Shine,Inglés,No,Sí,Sí,Industria anglosajona
+567,1997,Festival de Berlín,Juliette Binoche,Femenino,Francia,The English Patient,Inglés,Sí,No,Sí,Festivales europeos
+568,1997,Festival de Berlín,Leonardo DiCaprio,Masculino,Estados Unidos,Romeo + Juliet,Inglés,Sí,No,No,Festivales europeos
+569,1997,Festival de Cannes,Kathy Burke,Femenino,Reino Unido,Nil by Mouth,Inglés,No,No,No,Festivales europeos
+570,1997,Festival de Cannes,Sean Penn,Masculino,Estados Unidos,She's So Lovely,Inglés,Sí,No,No,Festivales europeos
+571,1997,Festival de Venecia,Robin Tunney,Femenino,Estados Unidos,"Niagara, Niagara",Inglés,Sí,No,No,Festivales europeos
+572,1997,Festival de Venecia,Wesley Snipes,Masculino,Estados Unidos,One Night Stand,Inglés,Sí,No,No,Festivales europeos
+573,1997,Globo de Oro,Brenda Blethyn,Femenino,Reino Unido,Secrets & Lies,Inglés,No,Sí,Sí,Industria anglosajona
+574,1997,Globo de Oro,Geoffrey Rush,Masculino,Australia,Shine,Inglés,No,Sí,Sí,Industria anglosajona
+575,1997,Globo de Oro,Madonna,Femenino,Estados Unidos,Evita,Inglés,Sí,No,No,Industria anglosajona
+576,1997,Globo de Oro,Tom Cruise,Masculino,Estados Unidos,Jerry Maguire,Inglés,Sí,Sí,Sí,Industria anglosajona
+577,1998,BAFTA,Judi Dench,Femenino,Reino Unido,Mrs Brown,Inglés,No,Sí,Sí,Industria anglosajona
+578,1998,BAFTA,Robert Carlyle,Masculino,Reino Unido,The Full Monty,Inglés,No,No,No,Industria anglosajona
+579,1998,Festival de Berlín,Fernanda Montenegro,Femenino,Brasil,Central do Brasil,Portugués,No,Sí,Sí,Festivales europeos
+580,1998,Festival de Berlín,Samuel L. Jackson,Masculino,Estados Unidos,Jackie Brown,Inglés,Sí,No,No,Festivales europeos
+581,1998,Festival de Cannes,Elodie Bouchez,Femenino,Francia,La vie rêvée des anges,Francés,No,No,No,Festivales europeos
+582,1998,Festival de Cannes,Natacha Régnier,Femenino,Bélgica,La vie rêvée des anges,Francés,No,No,No,Festivales europeos
+583,1998,Festival de Cannes,Peter Mullan,Masculino,Reino Unido,My Name Is Joe,Inglés,No,No,No,Festivales europeos
+584,1998,Festival de Venecia,Javier Bardem,Masculino,España,Before Night Falls,Inglés,No,Sí,Sí,Festivales europeos
+585,1998,Globo de Oro,Helen Hunt,Femenino,Estados Unidos,As Good as It Gets,Inglés,Sí,Sí,Sí,Industria anglosajona
+586,1998,Globo de Oro,Jack Nicholson,Masculino,Estados Unidos,As Good as It Gets,Inglés,Sí,Sí,Sí,Industria anglosajona
+587,1998,Globo de Oro,Judi Dench,Femenino,Reino Unido,Mrs Brown,Inglés,No,Sí,Sí,Industria anglosajona
+588,1998,Globo de Oro,Peter Fonda,Masculino,Estados Unidos,Ulee's Gold,Inglés,Sí,Sí,Sí,Industria anglosajona
+589,1999,BAFTA,Cate Blanchett,Femenino,Australia,Elizabeth,Inglés,No,Sí,Sí,Industria anglosajona
+590,1999,BAFTA,Roberto Benigni,Masculino,Italia,La vita è bella,Italiano,No,Sí,Sí,Industria anglosajona
+591,1999,Festival de Berlín,Juliette Lewis,Femenino,Estados Unidos,The Other Sister,Inglés,Sí,No,No,Festivales europeos
+592,1999,Festival de Berlín,Michael Gwisdek,Masculino,Alemania,Nachtgestalten,Alemán,No,No,No,Festivales europeos
+593,1999,Festival de Cannes,Emmanuel Schotte,Masculino,Francia,L'humanité,Francés,No,No,No,Festivales europeos
+594,1999,Festival de Cannes,Séverine Caneele,Femenino,Bélgica,L'humanité,Francés,No,No,No,Festivales europeos
+595,1999,Festival de Cannes,Émilie Dequenne,Femenino,Bélgica,Rosetta,Francés,No,No,No,Festivales europeos
+596,1999,Globo de Oro,Cate Blanchett,Femenino,Australia,Elizabeth,Inglés,No,Sí,Sí,Industria anglosajona
+597,1999,Globo de Oro,Gwyneth Paltrow,Femenino,Estados Unidos,Shakespeare in Love,Inglés,Sí,Sí,Sí,Industria anglosajona
+598,1999,Globo de Oro,Jim Carrey,Masculino,Canadá,The Truman Show,Inglés,Sí,No,No,Industria anglosajona
+599,1999,Globo de Oro,Tom Hanks,Masculino,Estados Unidos,Saving Private Ryan,Inglés,Sí,Sí,Sí,Industria anglosajona
+600,2000,BAFTA,Annette Bening,Femenino,Estados Unidos,American Beauty,Inglés,Sí,Sí,Sí,Industria anglosajona
+601,2000,BAFTA,Kevin Spacey,Masculino,Estados Unidos,American Beauty,Inglés,Sí,Sí,Sí,Industria anglosajona
+602,2000,Festival de Berlín,Bibiana Beglau,Femenino,Alemania,Die Stille nach dem Schuss,Alemán,No,No,No,Festivales europeos
+603,2000,Festival de Berlín,Denzel Washington,Masculino,Estados Unidos,The Hurricane,Inglés,Sí,Sí,Sí,Festivales europeos
+604,2000,Festival de Cannes,Björk,Femenino,Islandia,Dancer in the Dark,Inglés,No,No,No,Festivales europeos
+605,2000,Festival de Cannes,Tony Leung Chiu-wai,Masculino,Hong Kong,In the Mood for Love,Cantonés,No,No,No,Festivales europeos
+606,2000,Festival de Venecia,Javier Bardem,Masculino,España,Before Night Falls,Inglés,No,Sí,Sí,Festivales europeos
+607,2000,Festival de Venecia,Rose Byrne,Femenino,Australia,The Goddess of 1967,Inglés,No,No,No,Festivales europeos
+608,2000,Globo de Oro,Denzel Washington,Masculino,Estados Unidos,The Hurricane,Inglés,Sí,Sí,Sí,Industria anglosajona
+609,2000,Globo de Oro,Hilary Swank,Femenino,Estados Unidos,Boys Don't Cry,Inglés,Sí,Sí,Sí,Industria anglosajona
+610,2000,Globo de Oro,Janet McTeer,Femenino,Reino Unido,Tumbleweeds,Inglés,No,Sí,Sí,Industria anglosajona
+611,2000,Globo de Oro,Jim Carrey,Masculino,Canadá,Man on the Moon,Inglés,Sí,No,No,Industria anglosajona
+612,2001,BAFTA,Jamie Bell,Masculino,Reino Unido,Billy Elliot,Inglés,No,No,No,Industria anglosajona
+613,2001,BAFTA,Julia Roberts,Femenino,Estados Unidos,Erin Brockovich,Inglés,Sí,Sí,Sí,Industria anglosajona
+614,2001,Festival de Berlín,Benicio del Toro,Masculino,Puerto Rico,Traffic,Inglés / Español,Sí,No,Sí,Festivales europeos
+615,2001,Festival de Berlín,Kerry Fox,Femenino,Nueva Zelanda,Intimacy,Inglés,No,No,No,Festivales europeos
+616,2001,Festival de Cannes,Benoît Magimel,Masculino,Francia,La pianiste,Francés,No,No,No,Festivales europeos
+617,2001,Festival de Cannes,Isabelle Huppert,Femenino,Francia,La pianiste,Francés,No,No,No,Festivales europeos
+618,2001,Festival de Venecia,Luigi Lo Cascio,Masculino,Italia,Luce dei miei occhi,Italiano,No,No,No,Festivales europeos
+619,2001,Festival de Venecia,Sandra Ceccarelli,Femenino,Italia,Luce dei miei occhi,Italiano,No,No,No,Festivales europeos
+620,2001,Globo de Oro,George Clooney,Masculino,Estados Unidos,"O Brother, Where Art Thou?",Inglés,Sí,No,No,Industria anglosajona
+621,2001,Globo de Oro,Julia Roberts,Femenino,Estados Unidos,Erin Brockovich,Inglés,Sí,Sí,Sí,Industria anglosajona
+622,2001,Globo de Oro,Renée Zellweger,Femenino,Estados Unidos,Nurse Betty,Inglés,Sí,No,No,Industria anglosajona
+623,2001,Globo de Oro,Tom Hanks,Masculino,Estados Unidos,Cast Away,Inglés,Sí,Sí,Sí,Industria anglosajona
+624,2002,BAFTA,Judi Dench,Femenino,Reino Unido,Iris,Inglés,Sí,Sí,Sí,Industria anglosajona
+625,2002,BAFTA,Russell Crowe,Masculino,Nueva Zelanda,A Beautiful Mind,Inglés,Sí,Sí,Sí,Industria anglosajona
+626,2002,Festival de Berlín,Halle Berry,Femenino,Estados Unidos,Monster's Ball,Inglés,Sí,Sí,Sí,Festivales europeos
+627,2002,Festival de Berlín,Jacques Gamblin,Masculino,Francia,Laissez-passer,Francés,No,No,No,Festivales europeos
+628,2002,Festival de Cannes,Kati Outinen,Femenino,Finlandia,Mies vailla menneisyyttä,Finés,No,No,No,Festivales europeos
+629,2002,Festival de Cannes,Olivier Gourmet,Masculino,Bélgica,Le fils,Francés,No,No,No,Festivales europeos
+630,2002,Festival de Venecia,Julianne Moore,Femenino,Estados Unidos,Far from Heaven,Inglés,Sí,Sí,Sí,Festivales europeos
+631,2002,Festival de Venecia,Stefano Accorsi,Masculino,Italia,Un viaggio chiamato amore,Italiano,No,No,No,Festivales europeos
+632,2002,Globo de Oro,Gene Hackman,Masculino,Estados Unidos,The Royal Tenenbaums,Inglés,Sí,No,No,Industria anglosajona
+633,2002,Globo de Oro,Renée Zellweger,Femenino,Estados Unidos,Bridget Jones's Diary,Inglés,Sí,Sí,Sí,Industria anglosajona
+634,2002,Globo de Oro,Russell Crowe,Masculino,Nueva Zelanda,A Beautiful Mind,Inglés,Sí,Sí,Sí,Industria anglosajona
+635,2002,Globo de Oro,Sissy Spacek,Femenino,Estados Unidos,In the Bedroom,Inglés,Sí,Sí,Sí,Industria anglosajona
+636,2003,BAFTA,Daniel Day-Lewis,Masculino,Reino Unido,Gangs of New York,Inglés,Sí,Sí,Sí,Industria anglosajona
+637,2003,BAFTA,Nicole Kidman,Femenino,Australia,The Hours,Inglés,Sí,Sí,Sí,Industria anglosajona
+638,2003,Festival de Berlín,Julianne Moore,Femenino,Estados Unidos,The Hours,Inglés,Sí,No,Sí,Festivales europeos
+639,2003,Festival de Berlín,Meryl Streep,Femenino,Estados Unidos,The Hours,Inglés,Sí,No,No,Festivales europeos
+640,2003,Festival de Berlín,Nicole Kidman,Femenino,Australia,The Hours,Inglés,Sí,Sí,Sí,Festivales europeos
+641,2003,Festival de Berlín,Sam Rockwell,Masculino,Estados Unidos,Confessions of a Dangerous Mind,Inglés,Sí,No,No,Festivales europeos
+642,2003,Festival de Cannes,Emin Toprak,Masculino,Turquía,Uzak,Turco,No,No,No,Festivales europeos
+643,2003,Festival de Cannes,Marie-Josée Croze,Femenino,Canadá,Les invasions barbares,Francés,No,No,No,Festivales europeos
+644,2003,Festival de Cannes,Muzaffer Özdemir,Masculino,Turquía,Uzak,Turco,No,No,No,Festivales europeos
+645,2003,Festival de Venecia,Katja Riemann,Femenino,Alemania,Rosenstrasse,Alemán,No,No,No,Festivales europeos
+646,2003,Festival de Venecia,Sean Penn,Masculino,Estados Unidos,21 Grams,Inglés,Sí,Sí,Sí,Festivales europeos
+647,2003,Globo de Oro,Jack Nicholson,Masculino,Estados Unidos,About Schmidt,Inglés,Sí,Sí,Sí,Industria anglosajona
+648,2003,Globo de Oro,Nicole Kidman,Femenino,Australia,The Hours,Inglés,Sí,Sí,Sí,Industria anglosajona
+649,2003,Globo de Oro,Renée Zellweger,Femenino,Estados Unidos,Chicago,Inglés,Sí,Sí,Sí,Industria anglosajona
+650,2003,Globo de Oro,Richard Gere,Masculino,Estados Unidos,Chicago,Inglés,Sí,No,No,Industria anglosajona
+651,2004,BAFTA,Bill Murray,Masculino,Estados Unidos,Lost in Translation,Inglés,Sí,Sí,Sí,Industria anglosajona
+652,2004,BAFTA,Scarlett Johansson,Femenino,Estados Unidos,Lost in Translation,Inglés,Sí,No,No,Industria anglosajona
+653,2004,Festival de Berlín,Catalina Sandino Moreno,Femenino,Colombia,Maria Full of Grace,Español,No,Sí,Sí,Festivales europeos
+654,2004,Festival de Berlín,Daniel Hendler,Masculino,Uruguay,El abrazo partido,Español,No,No,No,Festivales europeos
+655,2004,Festival de Cannes,Maggie Cheung,Femenino,Hong Kong,Clean,Inglés / Francés / Cantonés,No,No,No,Festivales europeos
+656,2004,Festival de Cannes,Yagira Yuuya,Masculino,Japón,Dare mo shiranai,Japonés,No,No,No,Festivales europeos
+657,2004,Festival de Venecia,Imelda Staunton,Femenino,Reino Unido,Vera Drake,Inglés,No,Sí,Sí,Festivales europeos
+658,2004,Festival de Venecia,Javier Bardem,Masculino,España,Mar adentro,Español,No,No,No,Festivales europeos
+659,2004,Globo de Oro,Bill Murray,Masculino,Estados Unidos,Lost in Translation,Inglés,Sí,Sí,Sí,Industria anglosajona
+660,2004,Globo de Oro,Charlize Theron,Femenino,Sudáfrica,Monster,Inglés,Sí,Sí,Sí,Industria anglosajona
+661,2004,Globo de Oro,Diane Keaton,Femenino,Estados Unidos,Something's Gotta Give,Inglés,Sí,Sí,Sí,Industria anglosajona
+662,2004,Globo de Oro,Sean Penn,Masculino,Estados Unidos,Mystic River,Inglés,Sí,Sí,Sí,Industria anglosajona
+663,2005,BAFTA,Imelda Staunton,Femenino,Reino Unido,Vera Drake,Inglés,No,Sí,Sí,Industria anglosajona
+664,2005,BAFTA,Jamie Foxx,Masculino,Estados Unidos,Ray,Inglés,Sí,Sí,Sí,Industria anglosajona
+665,2005,Festival de Berlín,Julia Jentsch,Femenino,Alemania,Sophie Scholl - Die letzten Tage,Alemán,No,No,No,Festivales europeos
+666,2005,Festival de Berlín,Lou Taylor Pucci,Masculino,Estados Unidos,Thumbsucker,Inglés,No,No,No,Festivales europeos
+667,2005,Festival de Cannes,Hanna Laslo,Femenino,Israel,Free Zone,Hebreo / Inglés,No,No,No,Festivales europeos
+668,2005,Festival de Cannes,Tommy Lee Jones,Masculino,Estados Unidos,The Three Burials of Melquiades Estrada,Inglés / Español,Sí,No,No,Festivales europeos
+669,2005,Festival de Venecia,David Strathairn,Masculino,Estados Unidos,"Good Night, and Good Luck.",Inglés,Sí,Sí,Sí,Festivales europeos
+670,2005,Festival de Venecia,Giovanna Mezzogiorno,Femenino,Italia,La bestia nel cuore,Italiano,No,No,No,Festivales europeos
+671,2005,Globo de Oro,Annette Bening,Femenino,Estados Unidos,Being Julia,Inglés,Sí,Sí,Sí,Industria anglosajona
+672,2005,Globo de Oro,Hilary Swank,Femenino,Estados Unidos,Million Dollar Baby,Inglés,Sí,Sí,Sí,Industria anglosajona
+673,2005,Globo de Oro,Jamie Foxx,Masculino,Estados Unidos,Ray,Inglés,Sí,Sí,Sí,Industria anglosajona
+674,2005,Globo de Oro,Leonardo DiCaprio,Masculino,Estados Unidos,The Aviator,Inglés,Sí,Sí,Sí,Industria anglosajona
+675,2006,BAFTA,Philip Seymour Hoffman,Masculino,Estados Unidos,Capote,Inglés,Sí,Sí,Sí,Industria anglosajona
+676,2006,BAFTA,Reese Witherspoon,Femenino,Estados Unidos,Walk the Line,Inglés,Sí,Sí,Sí,Industria anglosajona
+677,2006,Festival de Berlín,Moritz Bleibtreu,Masculino,Alemania,Elementarteilchen,Alemán,No,No,No,Festivales europeos
+678,2006,Festival de Berlín,Sandra Hüller,Femenino,Alemania,Requiem,Alemán,No,No,No,Festivales europeos
+679,2006,Festival de Cannes,Carmen Maura,Femenino,España,Volver,Español,No,No,No,Festivales europeos
+680,2006,Festival de Cannes,Jamel Debbouze,Masculino,Francia,Indigènes,Francés / Árabe,No,No,No,Festivales europeos
+681,2006,Festival de Cannes,Penélope Cruz,Femenino,España,Volver,Español,Sí,Sí,Sí,Festivales europeos
+682,2006,Festival de Cannes,Samy Naceri,Masculino,Francia,Indigènes,Francés / Árabe,No,No,No,Festivales europeos
+683,2006,Festival de Venecia,Ben Affleck,Masculino,Estados Unidos,Hollywoodland,Inglés,Sí,No,No,Festivales europeos
+684,2006,Festival de Venecia,Helen Mirren,Femenino,Reino Unido,The Queen,Inglés,Sí,Sí,Sí,Festivales europeos
+685,2006,Globo de Oro,Felicity Huffman,Femenino,Estados Unidos,Transamerica,Inglés,Sí,Sí,Sí,Industria anglosajona
+686,2006,Globo de Oro,Joaquin Phoenix,Masculino,Estados Unidos,Walk the Line,Inglés,Sí,Sí,Sí,Industria anglosajona
+687,2006,Globo de Oro,Philip Seymour Hoffman,Masculino,Estados Unidos,Capote,Inglés,Sí,Sí,Sí,Industria anglosajona
+688,2006,Globo de Oro,Reese Witherspoon,Femenino,Estados Unidos,Walk the Line,Inglés,Sí,Sí,Sí,Industria anglosajona
+689,2007,BAFTA,Forest Whitaker,Masculino,Estados Unidos,The Last King of Scotland,Inglés,Sí,Sí,Sí,Industria anglosajona
+690,2007,BAFTA,Helen Mirren,Femenino,Reino Unido,The Queen,Inglés,Sí,Sí,Sí,Industria anglosajona
+691,2007,Festival de Berlín,Julio Chávez,Masculino,Argentina,El otro,Español,No,No,No,Festivales europeos
+692,2007,Festival de Berlín,Nina Hoss,Femenino,Alemania,Yella,Alemán,No,No,No,Festivales europeos
+693,2006,Festival de Cannes,Lola Dueñas,Femenino,España,Volver,Español,No,No,No,Festivales europeos
+694,2006,Festival de Cannes,Blanca Portillo,Femenino,España,Volver,Español,No,No,No,Festivales europeos
+695,2006,Festival de Cannes,Yohana Cobo,Femenino,España,Volver,Español,No,No,No,Festivales europeos
+696,2006,Festival de Cannes,Chus Lampreave,Femenino,España,Volver,Español,No,No,No,Festivales europeos
+697,2007,Festival de Cannes,Jeon Do-yeon,Femenino,Corea del Sur,Meryang Sunshain,Coreano,No,No,No,Festivales europeos
+698,2007,Festival de Cannes,Konstantin Lavronenko,Masculino,Rusia,Izgnanie,Ruso,No,No,No,Festivales europeos
+699,2007,Festival de Venecia,Brad Pitt,Masculino,Estados Unidos,The Assassination of Jesse James...,Inglés,Sí,No,No,Festivales europeos
+700,2007,Festival de Venecia,Cate Blanchett,Femenino,Australia,I'm Not There,Inglés,Sí,No,Sí,Festivales europeos
+701,2007,Globo de Oro,Forest Whitaker,Masculino,Estados Unidos,The Last King of Scotland,Inglés,Sí,Sí,Sí,Industria anglosajona
+702,2007,Globo de Oro,Helen Mirren,Femenino,Reino Unido,The Queen,Inglés,Sí,Sí,Sí,Industria anglosajona
+703,2007,Globo de Oro,Meryl Streep,Femenino,Estados Unidos,The Devil Wears Prada,Inglés,Sí,Sí,Sí,Industria anglosajona
+704,2007,Globo de Oro,Sacha Baron Cohen,Masculino,Reino Unido,Borat,Inglés,No,No,No,Industria anglosajona
+705,2008,BAFTA,Daniel Day-Lewis,Masculino,Reino Unido,There Will Be Blood,Inglés,Sí,Sí,Sí,Industria anglosajona
+706,2008,BAFTA,Marion Cotillard,Femenino,Francia,La Môme (La Vie en Rose),Francés,No,Sí,Sí,Industria anglosajona
+707,2008,Festival de Berlín,Reza Naji,Masculino,Irán,Avaze gonjeshk-ha,Persa,No,No,No,Festivales europeos
+708,2008,Festival de Berlín,Sally Hawkins,Femenino,Reino Unido,Happy-Go-Lucky,Inglés,No,No,No,Festivales europeos
+709,2008,Festival de Cannes,Benicio del Toro,Masculino,Puerto Rico,Che,Español,Sí,No,No,Festivales europeos
+710,2008,Festival de Cannes,Sandra Corveloni,Femenino,Brasil,Linha de Passe,Portugués,No,No,No,Festivales europeos
+711,2008,Festival de Venecia,Dominique Blanc,Femenino,Francia,L'Autre,Francés,No,No,No,Festivales europeos
+712,2008,Festival de Venecia,Silvio Orlando,Masculino,Italia,Il papà di Giovanna,Italiano,No,No,No,Festivales europeos
+713,2008,Globo de Oro,Daniel Day-Lewis,Masculino,Reino Unido,There Will Be Blood,Inglés,Sí,Sí,Sí,Industria anglosajona
+714,2008,Globo de Oro,Johnny Depp,Masculino,Estados Unidos,Sweeney Todd,Inglés,Sí,Sí,Sí,Industria anglosajona
+715,2008,Globo de Oro,Julie Christie,Femenino,Reino Unido,Away from Her,Inglés,Sí,Sí,Sí,Industria anglosajona
+716,2008,Globo de Oro,Marion Cotillard,Femenino,Francia,La Môme (La Vie en Rose),Francés,No,Sí,Sí,Industria anglosajona
+717,2009,BAFTA,Kate Winslet,Femenino,Reino Unido,The Reader,Inglés,Sí,Sí,Sí,Industria anglosajona
+718,2009,BAFTA,Mickey Rourke,Masculino,Estados Unidos,The Wrestler,Inglés,Sí,Sí,Sí,Industria anglosajona
+719,2009,Festival de Berlín,Birgit Minichmayr,Femenino,Austria,Alle Anderen,Alemán,No,No,No,Festivales europeos
+720,2009,Festival de Berlín,Sotigui Kouyaté,Masculino,Malí,London River,Inglés / Francés,No,No,No,Festivales europeos
+721,2009,Festival de Cannes,Charlotte Gainsbourg,Femenino,Francia,Antichrist,Inglés,No,No,No,Festivales europeos
+722,2009,Festival de Cannes,Christoph Waltz,Masculino,Austria,Inglourious Basterds,Alemán / Francés / Inglés,No,No,Sí,Festivales europeos
+723,2009,Festival de Venecia,Colin Firth,Masculino,Reino Unido,A Single Man,Inglés,Sí,Sí,Sí,Festivales europeos
+724,2009,Festival de Venecia,Kseniya Rappoport,Femenino,Rusia,La doppia ora,Italiano,No,No,No,Festivales europeos
+725,2009,Globo de Oro,Colin Farrell,Masculino,Irlanda,In Bruges,Inglés,Sí,No,No,Industria anglosajona
+726,2009,Globo de Oro,Kate Winslet,Femenino,Reino Unido,Revolutionary Road,Inglés,Sí,No,No,Industria anglosajona
+727,2009,Globo de Oro,Mickey Rourke,Masculino,Estados Unidos,The Wrestler,Inglés,Sí,Sí,Sí,Industria anglosajona
+728,2009,Globo de Oro,Sally Hawkins,Femenino,Reino Unido,Happy-Go-Lucky,Inglés,No,No,No,Industria anglosajona
+729,2010,BAFTA,Carey Mulligan,Femenino,Reino Unido,An Education,Inglés,No,Sí,Sí,Industria anglosajona
+730,2010,BAFTA,Colin Firth,Masculino,Reino Unido,A Single Man,Inglés,Sí,Sí,Sí,Industria anglosajona
+731,2010,Festival de Berlín,Grigoriy Dobrygin,Masculino,Rusia,How I Ended This Summer,Ruso,No,No,No,Festivales europeos
+732,2010,Festival de Berlín,Shinobu Terajima,Femenino,Japón,Caterpillar,Japonés,No,No,No,Festivales europeos
+733,2010,Festival de Cannes,Elio Germano,Masculino,Italia,La nostra vita,Italiano,No,No,No,Festivales europeos
+734,2010,Festival de Cannes,Javier Bardem,Masculino,España,Biutiful,Español,Sí,Sí,Sí,Festivales europeos
+735,2010,Festival de Cannes,Juliette Binoche,Femenino,Francia,Copie conforme,Francés / Inglés,Sí,No,No,Festivales europeos
+736,2010,Festival de Venecia,Ariane Labed,Femenino,Francia,Attenberg,Griego,No,No,No,Festivales europeos
+737,2010,Festival de Venecia,Vincent Gallo,Masculino,Estados Unidos,Essential Killing,Sin diálogo,Sí,No,No,Festivales europeos
+738,2010,Globo de Oro,Jeff Bridges,Masculino,Estados Unidos,Crazy Heart,Inglés,Sí,Sí,Sí,Industria anglosajona
+739,2010,Globo de Oro,Meryl Streep,Femenino,Estados Unidos,Julie & Julia,Inglés,Sí,Sí,Sí,Industria anglosajona
+740,2010,Globo de Oro,Robert Downey Jr.,Masculino,Estados Unidos,Sherlock Holmes,Inglés,Sí,No,No,Industria anglosajona
+741,2010,Globo de Oro,Sandra Bullock,Femenino,Estados Unidos,The Blind Side,Inglés,Sí,Sí,Sí,Industria anglosajona
+742,2011,BAFTA,Colin Firth,Masculino,Reino Unido,The King's Speech,Inglés,Sí,Sí,Sí,Industria anglosajona
+743,2011,BAFTA,Natalie Portman,Femenino,Israel,Black Swan,Inglés,Sí,Sí,Sí,Industria anglosajona
+744,2011,Festival de Berlín,Leila Hatami,Femenino,Irán,Jodaeiye Nader az Simin (A Separation),Persa,No,No,No,Festivales europeos
+745,2011,Festival de Berlín,Peyman Maadi,Masculino,Irán,Jodaeiye Nader az Simin (A Separation),Persa,No,No,No,Festivales europeos
+746,2011,Festival de Cannes,Jean Dujardin,Masculino,Francia,The Artist,Francés / Mudo,No,Sí,Sí,Festivales europeos
+747,2011,Festival de Cannes,Kirsten Dunst,Femenino,Estados Unidos,Melancholia,Inglés,Sí,No,No,Festivales europeos
+748,2011,Festival de Venecia,Deanie Ip,Femenino,Hong Kong,Tao Jie,Cantonés,No,No,No,Festivales europeos
+749,2011,Festival de Venecia,Michael Fassbender,Masculino,Alemania,Shame,Inglés,Sí,No,No,Festivales europeos
+750,2011,Globo de Oro,Annette Bening,Femenino,Estados Unidos,The Kids Are All Right,Inglés,Sí,Sí,Sí,Industria anglosajona
+751,2011,Globo de Oro,Colin Firth,Masculino,Reino Unido,The King's Speech,Inglés,Sí,Sí,Sí,Industria anglosajona
+752,2011,Globo de Oro,Natalie Portman,Femenino,Israel,Black Swan,Inglés,Sí,Sí,Sí,Industria anglosajona
+753,2011,Globo de Oro,Paul Giamatti,Masculino,Estados Unidos,Barney's Version,Inglés,Sí,No,No,Industria anglosajona
+754,2012,BAFTA,Jean Dujardin,Masculino,Francia,The Artist,Francés / Mudo,No,Sí,Sí,Industria anglosajona
+755,2012,BAFTA,Meryl Streep,Femenino,Estados Unidos,The Iron Lady,Inglés,Sí,Sí,Sí,Industria anglosajona
+756,2012,Festival de Berlín,Mikkel Boe Følsgaard,Masculino,Dinamarca,En kongelig affære,Danés,No,No,No,Festivales europeos
+757,2012,Festival de Berlín,Rachel Mwanza,Femenino,República Democrática del Congo,Rebelle (War Witch),Francés,No,No,No,Festivales europeos
+758,2012,Festival de Cannes,Cristina Flutur,Femenino,Rumania,După dealuri,Rumano,No,No,No,Festivales europeos
+759,2012,Festival de Cannes,Mads Mikkelsen,Masculino,Dinamarca,Jagten,Danés,No,No,No,Festivales europeos
+760,2012,Festival de Venecia,Hadas Yaron,Femenino,Israel,Lemale et ha'halal,Hebreo,No,No,No,Festivales europeos
+761,2012,Festival de Venecia,Joaquin Phoenix,Masculino,Estados Unidos,The Master,Inglés,Sí,Sí,Sí,Festivales europeos
+762,2012,Festival de Venecia,Philip Seymour Hoffman,Masculino,Estados Unidos,The Master,Inglés,Sí,No,Sí,Festivales europeos
+763,2012,Globo de Oro,George Clooney,Masculino,Estados Unidos,The Descendants,Inglés,Sí,Sí,Sí,Industria anglosajona
+764,2012,Globo de Oro,Jean Dujardin,Masculino,Francia,The Artist,Francés / Mudo,No,Sí,Sí,Industria anglosajona
+765,2012,Globo de Oro,Meryl Streep,Femenino,Estados Unidos,The Iron Lady,Inglés,Sí,Sí,Sí,Industria anglosajona
+766,2012,Globo de Oro,Michelle Williams,Femenino,Estados Unidos,My Week with Marilyn,Inglés,Sí,Sí,Sí,Industria anglosajona
+767,2013,BAFTA,Daniel Day-Lewis,Masculino,Reino Unido,Lincoln,Inglés,Sí,Sí,Sí,Industria anglosajona
+768,2013,BAFTA,Emmanuelle Riva,Femenino,Francia,Amour,Francés,No,Sí,Sí,Industria anglosajona
+769,2013,Festival de Berlín,Nazif Mujić,Masculino,Bosnia y Herzegovina,Epizoda u životu berača željeza,Bosnio,No,No,No,Festivales europeos
+770,2013,Festival de Berlín,Paulina García,Femenino,Chile,Gloria,Español,No,No,No,Festivales europeos
+771,2013,Festival de Cannes,Bruce Dern,Masculino,Estados Unidos,Nebraska,Inglés,Sí,Sí,Sí,Festivales europeos
+772,2013,Festival de Cannes,Bérénice Bejo,Femenino,Francia / Argentina,Le Passé,Francés,No,No,No,Festivales europeos
+773,2013,Festival de Venecia,Elena Cotta,Femenino,Italia,Via Castellana Bandiera,Italiano,No,No,No,Festivales europeos
+774,2013,Festival de Venecia,Themis Panou,Masculino,Grecia,Miss Violence,Griego,No,No,No,Festivales europeos
+775,2013,Globo de Oro,Daniel Day-Lewis,Masculino,Reino Unido,Lincoln,Inglés,Sí,Sí,Sí,Industria anglosajona
+776,2013,Globo de Oro,Hugh Jackman,Masculino,Australia,Les Misérables,Inglés,Sí,Sí,Sí,Industria anglosajona
+777,2013,Globo de Oro,Jennifer Lawrence,Femenino,Estados Unidos,Silver Linings Playbook,Inglés,Sí,Sí,Sí,Industria anglosajona
+778,2013,Globo de Oro,Jessica Chastain,Femenino,Estados Unidos,Zero Dark Thirty,Inglés,Sí,Sí,Sí,Industria anglosajona
+779,2014,BAFTA,Cate Blanchett,Femenino,Australia,Blue Jasmine,Inglés,Sí,Sí,Sí,Industria anglosajona
+780,2014,BAFTA,Chiwetel Ejiofor,Masculino,Reino Unido,12 Years a Slave,Inglés,Sí,Sí,Sí,Industria anglosajona
+781,2014,Festival de Berlín,Haru Kuroki,Femenino,Japón,Chiisai Ousama,Japonés,No,No,No,Festivales europeos
+782,2014,Festival de Berlín,Liao Fan,Masculino,China,Bai ri yan huo,Chino mandarín,No,No,No,Festivales europeos
+783,2014,Festival de Cannes,Julianne Moore,Femenino,Estados Unidos,Maps to the Stars,Inglés,Sí,No,No,Festivales europeos
+784,2014,Festival de Cannes,Timothy Spall,Masculino,Reino Unido,Mr. Turner,Inglés,No,No,No,Festivales europeos
+785,2014,Festival de Venecia,Adam Driver,Masculino,Estados Unidos,Hungry Hearts,Inglés,Sí,No,No,Festivales europeos
+786,2014,Festival de Venecia,Alba Rohrwacher,Femenino,Italia,Hungry Hearts,Inglés,No,No,No,Festivales europeos
+787,2014,Globo de Oro,Amy Adams,Femenino,Estados Unidos,American Hustle,Inglés,Sí,Sí,Sí,Industria anglosajona
+788,2014,Globo de Oro,Cate Blanchett,Femenino,Australia,Blue Jasmine,Inglés,Sí,Sí,Sí,Industria anglosajona
+789,2014,Globo de Oro,Leonardo DiCaprio,Masculino,Estados Unidos,The Wolf of Wall Street,Inglés,Sí,Sí,Sí,Industria anglosajona
+790,2014,Globo de Oro,Matthew McConaughey,Masculino,Estados Unidos,Dallas Buyers Club,Inglés,Sí,Sí,Sí,Industria anglosajona
+791,2015,BAFTA,Eddie Redmayne,Masculino,Reino Unido,The Theory of Everything,Inglés,No,Sí,Sí,Industria anglosajona
+792,2015,BAFTA,Julianne Moore,Femenino,Estados Unidos,Still Alice,Inglés,Sí,Sí,Sí,Industria anglosajona
+793,2015,Festival de Berlín,Charlotte Rampling,Femenino,Reino Unido,45 Years,Inglés,Sí,Sí,Sí,Festivales europeos
+794,2015,Festival de Berlín,Tom Courtenay,Masculino,Reino Unido,45 Years,Inglés,Sí,No,No,Festivales europeos
+795,2015,Festival de Cannes,Emmanuelle Bercot,Femenino,Francia,Mon Roi,Francés,No,No,No,Festivales europeos
+796,2015,Festival de Cannes,Rooney Mara,Femenino,Estados Unidos,Carol,Inglés,Sí,No,Sí,Festivales europeos
+797,2015,Festival de Cannes,Vincent Lindon,Masculino,Francia,La Loi du marché,Francés,No,No,No,Festivales europeos
+798,2015,Festival de Venecia,Fabrice Luchini,Masculino,Francia,L'Hermine,Francés,No,No,No,Festivales europeos
+799,2015,Festival de Venecia,Valeria Golino,Femenino,Italia,Per amor vostro,Italiano,No,No,No,Festivales europeos
+800,2015,Globo de Oro,Amy Adams,Femenino,Estados Unidos,Big Eyes,Inglés,Sí,No,No,Industria anglosajona
+801,2015,Globo de Oro,Eddie Redmayne,Masculino,Reino Unido,The Theory of Everything,Inglés,No,Sí,Sí,Industria anglosajona
+802,2015,Globo de Oro,Julianne Moore,Femenino,Estados Unidos,Still Alice,Inglés,Sí,Sí,Sí,Industria anglosajona
+803,2015,Globo de Oro,Michael Keaton,Masculino,Estados Unidos,Birdman,Inglés,Sí,Sí,Sí,Industria anglosajona
+804,2016,BAFTA,Brie Larson,Femenino,Estados Unidos,Room,Inglés,Sí,Sí,Sí,Industria anglosajona
+805,2016,BAFTA,Leonardo DiCaprio,Masculino,Estados Unidos,The Revenant,Inglés,Sí,Sí,Sí,Industria anglosajona
+806,2016,Festival de Berlín,Majd Mastoura,Masculino,Túnez,Inhebbek Hedi,Árabe,No,No,No,Festivales europeos
+807,2016,Festival de Berlín,Trine Dyrholm,Femenino,Dinamarca,Kollektivet,Danés,No,No,No,Festivales europeos
+808,2016,Festival de Cannes,Jaclyn Jose,Femenino,Filipinas,Ma' Rosa,Tagalo,No,No,No,Festivales europeos
+809,2016,Festival de Cannes,Shahab Hosseini,Masculino,Irán,Forushande,Persa,No,No,No,Festivales europeos
+810,2016,Festival de Venecia,Emma Stone,Femenino,Estados Unidos,La La Land,Inglés,Sí,Sí,Sí,Festivales europeos
+811,2016,Festival de Venecia,Oscar Martínez,Masculino,Argentina,El ciudadano ilustre,Español,No,No,No,Festivales europeos
+812,2016,Globo de Oro,Brie Larson,Femenino,Estados Unidos,Room,Inglés,Sí,Sí,Sí,Industria anglosajona
+813,2016,Globo de Oro,Jennifer Lawrence,Femenino,Estados Unidos,Joy,Inglés,Sí,Sí,Sí,Industria anglosajona
+814,2016,Globo de Oro,Leonardo DiCaprio,Masculino,Estados Unidos,The Revenant,Inglés,Sí,Sí,Sí,Industria anglosajona
+815,2016,Globo de Oro,Matt Damon,Masculino,Estados Unidos,The Martian,Inglés,Sí,Sí,Sí,Industria anglosajona
+816,2017,BAFTA,Casey Affleck,Masculino,Estados Unidos,Manchester by the Sea,Inglés,Sí,Sí,Sí,Industria anglosajona
+817,2017,BAFTA,Emma Stone,Femenino,Estados Unidos,La La Land,Inglés,Sí,Sí,Sí,Industria anglosajona
+818,2017,Festival de Berlín,Georg Friedrich,Masculino,Austria,Helle Nächte,Alemán,No,No,No,Festivales europeos
+819,2017,Festival de Berlín,Kim Min-hee,Femenino,Corea del Sur,On the Beach at Night Alone,Coreano,No,No,No,Festivales europeos
+820,2017,Festival de Cannes,Diane Kruger,Femenino,Alemania,Aus dem Nichts,Alemán,Sí,No,No,Festivales europeos
+821,2017,Festival de Cannes,Joaquin Phoenix,Masculino,Estados Unidos,You Were Never Really Here,Inglés,Sí,No,No,Festivales europeos
+822,2017,Festival de Venecia,Charlotte Rampling,Femenino,Reino Unido,Hannah,Francés / Inglés,Sí,No,No,Festivales europeos
+823,2017,Festival de Venecia,Kamel El Basha,Masculino,Palestina,L'insulte,Árabe,No,No,No,Festivales europeos
+824,2017,Globo de Oro,Casey Affleck,Masculino,Estados Unidos,Manchester by the Sea,Inglés,Sí,Sí,Sí,Industria anglosajona
+825,2017,Globo de Oro,Emma Stone,Femenino,Estados Unidos,La La Land,Inglés,Sí,Sí,Sí,Industria anglosajona
+826,2017,Globo de Oro,Isabelle Huppert,Femenino,Francia,Elle,Francés,No,Sí,Sí,Industria anglosajona
+827,2017,Globo de Oro,Ryan Gosling,Masculino,Canadá,La La Land,Inglés,Sí,Sí,Sí,Industria anglosajona
+828,2018,BAFTA,Frances McDormand,Femenino,Estados Unidos,"Three Billboards Outside Ebbing, Missouri",Inglés,Sí,Sí,Sí,Industria anglosajona
+829,2018,BAFTA,Gary Oldman,Masculino,Reino Unido,Darkest Hour,Inglés,Sí,Sí,Sí,Industria anglosajona
+830,2018,Festival de Berlín,Ana Brun,Femenino,Paraguay,Las Herederas,Español,No,No,No,Festivales europeos
+831,2018,Festival de Berlín,Anthony Bajon,Masculino,Francia,La Prière,Francés,No,No,No,Festivales europeos
+832,2018,Festival de Cannes,Marcello Fonte,Masculino,Italia,Dogman,Italiano,No,No,No,Festivales europeos
+833,2018,Festival de Cannes,Samal Yeslyamova,Femenino,Kazajistán,Ayka,Ruso,No,No,No,Festivales europeos
+834,2018,Festival de Venecia,Olivia Colman,Femenino,Reino Unido,The Favourite,Inglés,No,Sí,Sí,Festivales europeos
+835,2018,Festival de Venecia,Willem Dafoe,Masculino,Estados Unidos,At Eternity's Gate,Inglés,Sí,Sí,Sí,Festivales europeos
+836,2018,Globo de Oro,Frances McDormand,Femenino,Estados Unidos,"Three Billboards Outside Ebbing, Missouri",Inglés,Sí,Sí,Sí,Industria anglosajona
+837,2018,Globo de Oro,Gary Oldman,Masculino,Reino Unido,Darkest Hour,Inglés,Sí,Sí,Sí,Industria anglosajona
+838,2018,Globo de Oro,James Franco,Masculino,Estados Unidos,The Disaster Artist,Inglés,Sí,No,No,Industria anglosajona
+839,2018,Globo de Oro,Saoirse Ronan,Femenino,Irlanda,Lady Bird,Inglés,Sí,Sí,Sí,Industria anglosajona
+840,2019,BAFTA,Olivia Colman,Femenino,Reino Unido,The Favourite,Inglés,No,Sí,Sí,Industria anglosajona
+841,2019,BAFTA,Rami Malek,Masculino,Estados Unidos,Bohemian Rhapsody,Inglés,Sí,Sí,Sí,Industria anglosajona
+842,2019,Festival de Berlín,Wang Jingchun,Masculino,China,"So Long, My Son",Chino mandarín,No,No,No,Festivales europeos
+843,2019,Festival de Berlín,Yong Mei,Femenino,China,"So Long, My Son",Chino mandarín,No,No,No,Festivales europeos
+844,2019,Festival de Cannes,Antonio Banderas,Masculino,España,Dolor y gloria,Español,Sí,Sí,Sí,Festivales europeos
+845,2019,Festival de Cannes,Emily Beecham,Femenino,Reino Unido,Little Joe,Inglés,No,No,No,Festivales europeos
+846,2019,Festival de Venecia,Ariane Ascaride,Femenino,Francia,Gloria Mundi,Francés,No,No,No,Festivales europeos
+847,2019,Festival de Venecia,Luca Marinelli,Masculino,Italia,Martin Eden,Italiano,No,No,No,Festivales europeos
+848,2019,Globo de Oro,Christian Bale,Masculino,Reino Unido,Vice,Inglés,Sí,Sí,Sí,Industria anglosajona
+849,2019,Globo de Oro,Glenn Close,Femenino,Estados Unidos,The Wife,Inglés,Sí,Sí,Sí,Industria anglosajona
+850,2019,Globo de Oro,Olivia Colman,Femenino,Reino Unido,The Favourite,Inglés,No,Sí,Sí,Industria anglosajona
+851,2019,Globo de Oro,Rami Malek,Masculino,Estados Unidos,Bohemian Rhapsody,Inglés,Sí,Sí,Sí,Industria anglosajona
+852,2020,BAFTA,Joaquin Phoenix,Masculino,Estados Unidos,Joker,Inglés,Sí,Sí,Sí,Industria anglosajona
+853,2020,BAFTA,Renée Zellweger,Femenino,Estados Unidos,Judy,Inglés,Sí,Sí,Sí,Industria anglosajona
+854,2020,Festival de Berlín,Elio Germano,Masculino,Italia,Volevo nascondermi,Italiano,No,No,No,Festivales europeos
+855,2020,Festival de Berlín,Paula Beer,Femenino,Alemania,Undine,Alemán,No,No,No,Festivales europeos
+856,2020,Festival de Venecia,Pierfrancesco Favino,Masculino,Italia,Padrenostro,Italiano,No,No,No,Festivales europeos
+857,2020,Festival de Venecia,Vanessa Kirby,Femenino,Reino Unido,Pieces of a Woman,Inglés,Sí,Sí,Sí,Festivales europeos
+858,2020,Globo de Oro,Awkwafina,Femenino,Estados Unidos,The Farewell,Chino mandarín / Inglés,Sí,No,No,Industria anglosajona
+859,2020,Globo de Oro,Joaquin Phoenix,Masculino,Estados Unidos,Joker,Inglés,Sí,Sí,Sí,Industria anglosajona
+860,2020,Globo de Oro,Renée Zellweger,Femenino,Estados Unidos,Judy,Inglés,Sí,Sí,Sí,Industria anglosajona
+861,2020,Globo de Oro,Taron Egerton,Masculino,Reino Unido,Rocketman,Inglés,No,No,No,Industria anglosajona
+862,2021,BAFTA,Anthony Hopkins,Masculino,Reino Unido,The Father,Inglés,Sí,Sí,Sí,Industria anglosajona
+863,2021,BAFTA,Frances McDormand,Femenino,Estados Unidos,Nomadland,Inglés,Sí,Sí,Sí,Industria anglosajona
+864,2021,Festival de Berlín,Maren Eggert,Femenino,Alemania,Ich bin dein Mensch,Alemán,No,No,No,Festivales europeos
+865,2021,Festival de Cannes,Caleb Landry Jones,Masculino,Estados Unidos,Nitram,Inglés,Sí,No,No,Festivales europeos
+866,2021,Festival de Cannes,Renate Reinsve,Femenino,Noruega,Verdens verste menneske,Noruego,No,No,No,Festivales europeos
+867,2021,Festival de Venecia,John Arcilla,Masculino,Filipinas,On the Job: The Missing 8,Tagalo,No,No,No,Festivales europeos
+868,2021,Festival de Venecia,Penélope Cruz,Femenino,España,Madres paralelas,Español,Sí,Sí,Sí,Festivales europeos
+869,2021,Globo de Oro,Andra Day,Femenino,Estados Unidos,The United States vs. Billie Holiday,Inglés,No,Sí,Sí,Industria anglosajona
+870,2021,Globo de Oro,Chadwick Boseman,Masculino,Estados Unidos,Ma Rainey's Black Bottom,Inglés,Sí,Sí,Sí,Industria anglosajona
+871,2021,Globo de Oro,Rosamund Pike,Femenino,Reino Unido,I Care a Lot,Inglés,Sí,No,No,Industria anglosajona
+872,2021,Globo de Oro,Sacha Baron Cohen,Masculino,Reino Unido,Borat Subsequent Moviefilm,Inglés,Sí,No,No,Industria anglosajona
+873,2022,BAFTA,Joanna Scanlan,Femenino,Reino Unido,After Love,Inglés / Francés,No,No,No,Industria anglosajona
+874,2022,BAFTA,Will Smith,Masculino,Estados Unidos,King Richard,Inglés,Sí,Sí,Sí,Industria anglosajona
+875,2022,Festival de Berlín,Meltem Kaptan,Femenino,Alemania,Rabiye Kurnaz gegen George W. Bush,Alemán,No,No,No,Festivales europeos
+876,2022,Festival de Cannes,Song Kang-ho,Masculino,Corea del Sur,Broker,Coreano,No,No,No,Festivales europeos
+877,2022,Festival de Cannes,Zar Amir Ebrahimi,Femenino,Irán,Holy Spider,Persa,No,No,No,Festivales europeos
+878,2022,Festival de Venecia,Cate Blanchett,Femenino,Australia,TÁR,Inglés,Sí,Sí,Sí,Festivales europeos
+879,2022,Festival de Venecia,Colin Farrell,Masculino,Irlanda,The Banshees of Inisherin,Inglés,Sí,Sí,Sí,Festivales europeos
+880,2022,Globo de Oro,Andrew Garfield,Masculino,Reino Unido,"tick, tick... BOOM!",Inglés,Sí,Sí,Sí,Industria anglosajona
+881,2022,Globo de Oro,Nicole Kidman,Femenino,Australia,Being the Ricardos,Inglés,Sí,Sí,Sí,Industria anglosajona
+882,2022,Globo de Oro,Rachel Zegler,Femenino,Estados Unidos,West Side Story,Inglés,No,No,No,Industria anglosajona
+883,2022,Globo de Oro,Will Smith,Masculino,Estados Unidos,King Richard,Inglés,Sí,Sí,Sí,Industria anglosajona
+884,2023,BAFTA,Austin Butler,Masculino,Estados Unidos,Elvis,Inglés,Sí,Sí,Sí,Industria anglosajona
+885,2023,BAFTA,Cate Blanchett,Femenino,Australia,TÁR,Inglés,Sí,Sí,Sí,Industria anglosajona
+886,2023,Festival de Berlín,Sofía Otero,Femenino,España,20.000 especies de abejas,Español,No,No,No,Festivales europeos
+887,2023,Festival de Cannes,Kōji Yakusho,Masculino,Japón,Perfect Days,Japonés,No,No,No,Festivales europeos
+888,2023,Festival de Cannes,Merve Dizdar,Femenino,Turquía,Kuru Otlar Üstüne,Turco,No,No,No,Festivales europeos
+889,2023,Festival de Venecia,Cailee Spaeny,Femenino,Estados Unidos,Priscilla,Inglés,Sí,No,No,Festivales europeos
+890,2023,Festival de Venecia,Peter Sarsgaard,Masculino,Estados Unidos,Memory,Inglés,Sí,No,No,Festivales europeos
+891,2023,Globo de Oro,Austin Butler,Masculino,Estados Unidos,Elvis,Inglés,Sí,Sí,Sí,Industria anglosajona
+892,2023,Globo de Oro,Cate Blanchett,Femenino,Australia,TÁR,Inglés,Sí,Sí,Sí,Industria anglosajona
+893,2023,Globo de Oro,Colin Farrell,Masculino,Irlanda,The Banshees of Inisherin,Inglés,Sí,Sí,Sí,Industria anglosajona
+894,2023,Globo de Oro,Michelle Yeoh,Femenino,Malasia,Everything Everywhere All at Once,Inglés / Chino,Sí,Sí,Sí,Industria anglosajona
+895,2024,BAFTA,Cillian Murphy,Masculino,Irlanda,Oppenheimer,Inglés,Sí,Sí,Sí,Industria anglosajona
+896,2024,BAFTA,Emma Stone,Femenino,Estados Unidos,Poor Things,Inglés,Sí,Sí,Sí,Industria anglosajona
+897,2024,Festival de Berlín,Sebastian Stan,Masculino,Estados Unidos / Rumania,A Different Man,Inglés,Sí,No,No,Festivales europeos
+898,2024,Festival de Cannes,Adriana Paz,Femenino,México,Emilia Pérez,Español,No,No,No,Festivales europeos
+899,2024,Festival de Cannes,Jesse Plemons,Masculino,Estados Unidos,Kinds of Kindness,Inglés,Sí,No,No,Festivales europeos
+900,2024,Festival de Cannes,Karla Sofía Gascón,Femenino,España,Emilia Pérez,Español,No,Sí,Sí,Festivales europeos
+901,2024,Festival de Cannes,Selena Gomez,Femenino,Estados Unidos,Emilia Pérez,Español,Sí,No,No,Festivales europeos
+902,2024,Festival de Cannes,Zoe Saldaña,Femenino,Estados Unidos,Emilia Pérez,Español,Sí,No,No,Festivales europeos
+903,2024,Festival de Venecia,Nicole Kidman,Femenino,Australia,Babygirl,Inglés,Sí,No,No,Festivales europeos
+904,2024,Festival de Venecia,Vincent Lindon,Masculino,Francia,Jouer avec le feu,Francés,No,No,No,Festivales europeos
+905,2024,Globo de Oro,Cillian Murphy,Masculino,Irlanda,Oppenheimer,Inglés,Sí,Sí,Sí,Industria anglosajona
+906,2024,Globo de Oro,Emma Stone,Femenino,Estados Unidos,Poor Things,Inglés,Sí,Sí,Sí,Industria anglosajona
+907,2024,Globo de Oro,Lily Gladstone,Femenino,Estados Unidos,Killers of the Flower Moon,Inglés,No,Sí,Sí,Industria anglosajona
+908,2024,Globo de Oro,Paul Giamatti,Masculino,Estados Unidos,The Holdovers,Inglés,Sí,Sí,Sí,Industria anglosajona
+909,2025,BAFTA,Adrien Brody,Masculino,Estados Unidos,The Brutalist,Inglés / Húngaro,Sí,Sí,Sí,Industria anglosajona
+910,2025,BAFTA,Mikey Madison,Femenino,Estados Unidos,Anora,Inglés / Ruso,Sí,Sí,Sí,Industria anglosajona
+911,2025,Festival de Berlín,Rose Byrne,Femenino,Australia,If I Had Legs I'd Kick You,Inglés,Sí,Sí,Sí,Festivales europeos
+912,2025,Festival de Cannes,Nadia Melliti,Femenino,Francia,La petite dernière,Francés / Árabe,No,No,No,Festivales europeos
+913,2025,Festival de Cannes,Wagner Moura,Masculino,Brasil,O Agente Secreto,Portugués,Sí,Sí,Sí,Festivales europeos
+914,2025,Festival de Venecia,Toni Servillo,Masculino,Italia,La grazia,Italiano,No,No,No,Festivales europeos
+915,2025,Festival de Venecia,Xin Zhilei,Femenino,China,The Sun Rises on Us All,Chino mandarín,No,No,No,Festivales europeos
+916,2025,Globo de Oro,Adrien Brody,Masculino,Estados Unidos,The Brutalist,Inglés / Húngaro,Sí,Sí,Sí,Industria anglosajona
+917,2025,Globo de Oro,Demi Moore,Femenino,Estados Unidos,La sustancia,Inglés,Sí,Sí,Sí,Industria anglosajona
+918,2025,Globo de Oro,Fernanda Torres,Femenino,Brasil,Ainda Estou Aquí,Portugués,No,Sí,Sí,Industria anglosajona
+919,2025,Globo de Oro,Sebastian Stan,Masculino,Estados Unidos / Rumania,A Different Man,Inglés,Sí,No,No,Industria anglosajona
+920,2026,BAFTA,Jessie Buckley,Femenino,Irlanda,Hamnet,Inglés,Sí,Sí,Sí,Industria anglosajona
+921,2026,BAFTA,Robert Aramayo,Masculino,Reino Unido,I Swear,Inglés,Sí,No,No,Industria anglosajona
+922,2026,Festival de Berlín,Sandra Hüller,Femenino,Alemania,Rose,Alemán,Por verificar,Pendiente,No,Festivales europeos
+923,2026,Festival de Cannes,Emmanuel Macchia,Masculino,Bélgica,Coward,Francés,No,Pendiente,,Festivales europeos
+924,2026,Festival de Cannes,Tao Okamoto,Femenino,Japón,All of a Sudden,Francés / Japonés,Sí,Pendiente,,Festivales europeos
+925,2026,Festival de Cannes,Valentin Campagne,Masculino,Francia,Coward,Francés,No,Pendiente,,Festivales europeos
+926,2026,Festival de Cannes,Virginie Efira,Femenino,Francia / Bélgica,All of a Sudden,Francés / Japonés,No,Pendiente,,Festivales europeos
+927,2026,Festival de Venecia,John Malkovich,Masculino,Estados Unidos,Wild Horse Nine,Inglés / Español,Sí,Pendiente,,Festivales europeos
+928,2026,Festival de Venecia,Mathilde Arcel,Femenino,Dinamarca,Woman Unknown,Danés,No,Pendiente,,Festivales europeos
+929,2026,Globo de Oro,Jessie Buckley,Femenino,Irlanda,Hamnet,Inglés,Sí,Sí,Sí,Industria anglosajona
+930,2026,Globo de Oro,Rose Byrne,Femenino,Australia,If I Had Legs I'd Kick You,Inglés,Sí,Sí,Sí,Industria anglosajona
+931,2026,Globo de Oro,Timothée Chalamet,Masculino,Estados Unidos / Francia,Marty Supreme,Inglés,Sí,Sí,Sí,Industria anglosajona
+932,2026,Globo de Oro,Wagner Moura,Masculino,Brasil,O Agente Secreto,Portugués,Sí,Sí,Sí,Industria anglosajona
