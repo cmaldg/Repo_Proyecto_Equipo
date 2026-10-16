@@ -12,8 +12,8 @@ En la última década, los artistas extranjeros han ido tomando espacio en las n
 
 En los 30s, apareció un nuevo tipo de nominados para las categorías “Mejor actor” y “Mejor actriz”: actores y actrices extranjeros/as que debutaron en Estados Unidos. En este periodo, se fue perfilando el número total de nominaciones por década, alcanzando 96 nominaciones. Los porcentajes, en las décadas de 1930 y 1940, no tuvieron mayores variaciones. Respecto a las nominaciones de artistas extranjeros, estas aumentaron alrededor de 1%.
 
-## Ejemplo: Luise Reiner 
-La actriz alemana Luise Reiner fue la primera mujer extranjera con debut cinematográfico fuera de Estados Unidos en ganar el premio a “Mejor actriz”, con la película The Great Ziegfeld en 1937. Aunque Emil Jannings ganó en la categoría “Mejor actor”, siendo suizo y sin debutar en el cine estadounidense en 1929 (1° edición), el caso de Reiner se enmarca en un mayor margen de nominaciones (96) en la década de los 30s.  
+## Ejemplo: Luise Rainer 
+La actriz alemana Luise Rainer fue la primera mujer extranjera con debut cinematográfico fuera de Estados Unidos en ganar el premio a “Mejor actriz”, con la película The Great Ziegfeld en 1937. Aunque Emil Jannings ganó en la categoría “Mejor actor”, siendo suizo y sin debutar en el cine estadounidense en 1929 (1° edición), el caso de Rainer se enmarca en un mayor margen de nominaciones (96) en la década de los 30s.  
 
 ## 60s y 70s
 La década de los 60s ha sido, hasta ahora, la década con menor porcentaje de nominados estadounidenses a las categorías “Mejor actor” y “Mejor actriz” en toda la historia de los Premios. Los artistas extranjeros y estadounidenses tuvieron el mismo porcentaje de nominaciones: 50%. En los 70s, se comenzó a nominar a artistas estadounidenses que hubieran debutado fuera de Estados Unidos. En esta década, los actores y actrices estadounidenses volvieron a dominar las nominaciones con un 68%, mientras que los extranjeros alcanzaron un 38%.
