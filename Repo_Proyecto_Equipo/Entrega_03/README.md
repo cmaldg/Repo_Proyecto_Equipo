@@ -1,7 +1,7 @@
 # Propuesta de investigación periodística: Internacionalización en los Oscar
 
 ## 1. Hipótesis actual
-Las categorías Mejor actor y Mejor actriz de los Oscar están transitando de una "importación de talentos" hacia una creciente entrada de películas, idiomas y carreras desarrolladas fuera de Hollywood
+Las categorías "Mejor actor" y "Mejor actriz" de los Oscar están transitando de una importación de talentos hacia una creciente entrada de películas, idiomas y carreras desarrolladas fuera de Hollywood.
 
 ## 2. Preguntas de investigación actuales
 * ¿Los Premios Oscar realmente se internacionalizaron o simplemente comenzaron a importar talento?
