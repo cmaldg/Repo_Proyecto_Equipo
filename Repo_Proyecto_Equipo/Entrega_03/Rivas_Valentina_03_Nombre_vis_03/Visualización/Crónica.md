@@ -28,7 +28,7 @@ A primera vista, triunfar en Europa parece el salto natural hacia la Academia. S
 
 
 
-Mientras festivales como Cannes (58%), Berlín (59%) y Venecia (52%) sirven de vitrina principal para producciones en idiomas distintos al inglés[cite: 1], su efectividad directa como trampolín a una nominación al Óscar es acotada.
+Mientras festivales como Cannes (58%), Berlín (59%) y Venecia (52%) sirven de vitrina principal para producciones en idiomas distintos al inglés, su efectividad directa como trampolín a una nominación al Óscar es acotada.
 
 
 
@@ -74,4 +74,4 @@ Estos casos representan cuatro de los escasos 22 premios que el Globo de Oro y l
 
 *Wild Horse Nine* ya dio el primer paso al posicionarse con fuerza en Europa. El segundo paso —el que transforma la aclamación crítica en una nominación de la Academia para una actriz latinoamericana— todavía no se dibuja con claridad en los datos. Mariana Di Girolamo no tiene un punto en los gráficos del histórico de ganadores y es posible que no lo tenga en este ciclo. 
 
-Aunque entre los nominados al Óscar la proporción de extranjeros ha subido de un 37% (hasta 1999) a un 45% (2000–2026), la mayoría sigue siendo británica, y los actores sin carrera previa en Hollywood han visto reducirse su cuota (del 23% en 1980–1999 al 13% en 2000–2026). Lo que sí crece con paso firme y constante es la apertura hacia otros idiomas, abriendo una rendija por la cual el talento internacional aún puede desafiar las estadísticas[cite: 1, 2].
+Aunque entre los nominados al Óscar la proporción de extranjeros ha subido de un 37% (hasta 1999) a un 45% (2000–2026), la mayoría sigue siendo británica, y los actores sin carrera previa en Hollywood han visto reducirse su cuota (del 23% en 1980–1999 al 13% en 2000–2026). Lo que sí crece con paso firme y constante es la apertura hacia otros idiomas, abriendo una rendija por la cual el talento internacional aún puede desafiar las estadísticas.
