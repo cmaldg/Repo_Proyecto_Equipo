@@ -1,6 +1,6 @@
 # Ficha técnica 
 ## Base de datos Oscar combinada
-Se corrigieron errores de limpieza de la base de datos de la entrega anterior. Se verificaron los datos que fueron rellenados con Inteligencia Artificial y se añadió la información correspondiente, en especial en la columna de idiomas. Asimismo, se arreglaron errores de espacios y se ordenaron, con ayuda de Claude, las filas que se desordenaron al combinar la base de datos 1 y 2. De esta manera, la base de datos corregida tiene los nombres de actores y actrices acordes a la base de datos. Por último, se corrigió un dato del actor Emil Jannings, que tenía incoherencias en la fila “su_debut_fue_estadounidense”. 
+Se corrigieron errores de limpieza de la base de datos de la entrega anterior. Se verificaron los datos que fueron rellenados con inteligencia artificial y se añadió la información correspondiente, en especial en la columna de idiomas. Asimismo, se arreglaron errores de espacios y se ordenaron, con ayuda de Claude, las filas que se desordenaron al combinar la base de datos 1 y 2. De esta manera, la base de datos corregida tiene los nombres de actores y actrices acordes a la base de datos. Por último, se corrigió un dato del actor Emil Jannings, que tenía incoherencias en la fila “su_debut_fue_estadounidense”. 
 
 ## Característica de los datos
 ### 1. Variables incorporadas
@@ -16,7 +16,7 @@ Se corrigieron errores de limpieza de la base de datos de la entrega anterior. S
 | `titulo_original_pelicula_debut` | Título original de la película debut de los artistas nominados |
 | `categoria_nominacion_oscar` | Categoría en la que fueron nominados/as los actores y las actrices |
 | `fue_ganador_o_ganadora` | Señala si los artistas nominados fueron ganadores en su categoría |
-| `ano_ceremonia` | Año de la ceremonia de los Premios Oscar en la los artistas recibieron la nominación |
+| `ano_ceremonia` | Año de la ceremonia de los Premios Oscar |
 | `titulo_original_pelicula_nominada` | Título original del filme por el cual se obtuvo la nominación al Oscar |
 | `ano_pelicula_nominada` | Año en el que la película nominada se estrenó |
 | `idioma_original` | Idioma original de la película nominada |
