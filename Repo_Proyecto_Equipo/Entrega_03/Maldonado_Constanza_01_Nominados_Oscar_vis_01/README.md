@@ -15,8 +15,8 @@ La creación del gráfico se hizo en base al código del *“Gráfico de barras 
 Una vez finalizado, las clasificaciones que se ubican al lado derecho del gráfico se cortaban, quedando información con puntos suspensivos. Se utilizó Claude para probar nuevas proporciones y así el gráfico pudiera visualizarse de forma correcta. 
 
 ## Ejemplos de preguntas que pueden responder la visualización de datos final
-* 
-*
-*
+* ¿En qué décadas se evidencia una mayor presencia de artistas extranjeros nominados en las categorías "Mejor actor" y "Mejor actriz"?
+* ¿Es más común que un artista extranjero debute en el cine internacional o en el cine estadounidense?
+
 
 
