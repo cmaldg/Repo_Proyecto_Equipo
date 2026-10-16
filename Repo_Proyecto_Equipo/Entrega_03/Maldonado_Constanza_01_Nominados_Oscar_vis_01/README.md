@@ -18,5 +18,3 @@ Una vez finalizado, las clasificaciones que se ubican al lado derecho del gráfi
 * ¿En qué décadas se evidencia una mayor presencia de artistas extranjeros nominados en las categorías "Mejor actor" y "Mejor actriz"?
 * ¿Es más común que un artista extranjero debute en el cine internacional o en el cine estadounidense?
 * ¿Qué porcentaje de artistas estadounidenses con debut internacional ha sido nominado en las categorías "Mejor actor" y "Mejor actriz"?
-
-
