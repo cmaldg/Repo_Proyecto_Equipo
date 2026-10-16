@@ -1,6 +1,6 @@
 # README personal · Entrega 3 · Visualización atómica
 
-**Valentina Rivas** ⚠️  
+**Valentina Rivas** 
 **El pasaporte no abre la puerta** 
 **La internacionalización de las dos principales categorías de los Oscar ("Mejor actor" y "Mejor actriz") no consiste en un aumento de intérpretes nacidos fuera de Estados Unidos, sino en una creciente entrada de películas, idiomas y carreras desarrolladas fuera de Hollywood.** 
 
@@ -14,6 +14,7 @@
 
 
 
+<img width="1854" height="870" alt="grafico_1" src="https://github.com/user-attachments/assets/47e31f35-05ba-4707-b511-55e906b6a0f9" />
 
 
 
@@ -35,7 +36,7 @@
 
 
 
-
+<img width="1668" height="1034" alt="grafico_2" src="https://github.com/user-attachments/assets/6bf3dce1-cce7-40d5-99b2-fa3bbe69a523" />
 
 
 
