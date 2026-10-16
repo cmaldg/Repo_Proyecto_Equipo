@@ -1,6 +1,6 @@
 # Ficha técnica 
 ## Base de datos Oscar combinada
-Se corrigieron errores de limpieza de la base de datos de la entrega anterior. Se verificaron los datos que fueron rellenados con Inteligencia Artificial y se añadió la información correspondiente, en especial en la columna de idiomas. Asimismo, se arreglaron errores de espacios y se ordenaron, con ayuda de Claude, las filas que se desordenaron al combinar la base de datos 1 y 2. De esta manera, la base de datos corregida tiene los nombres de actores y actrices acordes a la base de datos Por último, se corrigió un dato del actor Emil Jannings, que tenía incoherencias en la fila “su_debut_fue_estadounidense”. 
+Se corrigieron errores de limpieza de la base de datos de la entrega anterior. Se verificaron los datos que fueron rellenados con Inteligencia Artificial y se añadió la información correspondiente, en especial en la columna de idiomas. Asimismo, se arreglaron errores de espacios y se ordenaron, con ayuda de Claude, las filas que se desordenaron al combinar la base de datos 1 y 2. De esta manera, la base de datos corregida tiene los nombres de actores y actrices acordes a la base de datos. Por último, se corrigió un dato del actor Emil Jannings, que tenía incoherencias en la fila “su_debut_fue_estadounidense”. 
 
 ## Característica de los datos
 ### 1. Variables incorporadas
