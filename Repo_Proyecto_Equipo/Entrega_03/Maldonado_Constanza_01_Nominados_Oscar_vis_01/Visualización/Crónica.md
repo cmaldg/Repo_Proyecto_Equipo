@@ -5,7 +5,7 @@ En las primeras ediciones de los Premios Oscar, un actor o una actriz podía ser
 Este año, se realizaron cambios en el reglamento. Ahora se puede hacer lo mismo: se podrá nominar a los Premios al mismo actor o a la misma actriz por más de una actuación. De esta manera, Anne Hathaway, por ejemplo, podría ser nominada a “Mejor actriz” por dos películas diferentes, como podrían ser el Diablo viste a la moda 2 o La Odisea.
 
 ## Cambios en las nominaciones a lo largo de los años
-
+![Visualización Oscar](Repo_Proyecto_Equipo/Entrega_03/Maldonado_Constanza_01_Nominados_Oscar_vis_01/Visualización/vis_01.jpg)
 En la última década, los artistas extranjeros han ido tomando espacio en las nominaciones a los Oscar en las categorías “Mejor actor” y “Mejor actriz”. En 1929 se realizó la primera (y única) ceremonia de los Premios Oscar en los años 20s. En esa década, se obtuvo un total de 9 nominaciones, donde 7 se destinaron a artistas estadounidenses que debutaron en su país de origen (77,78%) y 2 a artistas extranjeros que debutaron en el cine no estadounidense (22,22%). 
 
 En los 30s, apareció un nuevo tipo de nominados para las categorías “Mejor actor” y “Mejor actriz”: actores y actrices extranjeros/as que debutaron en Estados Unidos. En este periodo, se fue perfilando el número total de nominaciones por década, alcanzando 96 nominaciones. Los porcentajes, en las décadas de 1930 y 1940, no tuvieron mayores variaciones. Respecto a las nominaciones de artistas extranjeros, estas aumentaron alrededor de 1%.
