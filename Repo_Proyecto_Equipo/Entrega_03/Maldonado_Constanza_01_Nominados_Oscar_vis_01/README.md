@@ -17,6 +17,6 @@ Una vez finalizado, las clasificaciones que se ubican al lado derecho del gráfi
 ## Ejemplos de preguntas que pueden responder la visualización de datos final
 * ¿En qué décadas se evidencia una mayor presencia de artistas extranjeros nominados en las categorías "Mejor actor" y "Mejor actriz"?
 * ¿Es más común que un artista extranjero debute en el cine internacional o en el cine estadounidense?
-* ¿Qué porcentaje de artistas estadounidenses que han debutado fuera de su país de origen ha sido nominado a "Mejor actor" y "Mejor actriz"?
+* ¿Qué porcentaje de artistas estadounidenses con debut internacional ha sido nominado en las categorías "Mejor actor" y "Mejor actriz"?
 
 
