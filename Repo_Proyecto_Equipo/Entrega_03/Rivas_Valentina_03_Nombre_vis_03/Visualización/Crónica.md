@@ -26,9 +26,7 @@ A primera vista, triunfar en Europa parece el salto natural hacia la Academia. S
 
 
 
-
-
-Mientras festivales como Cannes (58%), Berlín (59%) y Venecia (52%) sirven de vitrina principal para producciones en idiomas distintos al inglés, su efectividad directa como trampolín a una nominación al Óscar es acotada.
+En Cannes (58%), Berlín (59%) y Venecia (52%), más de la mitad de las actuaciones premiadas es en un idioma distinto al inglés. Pero solo cerca de dos de cada diez de esos premiados llega a ser nominado al Óscar como protagonista:
 
 
 
@@ -37,41 +35,40 @@ Mientras festivales como Cannes (58%), Berlín (59%) y Venecia (52%) sirven de v
 <img width="1854" height="870" alt="grafico_1" src="https://github.com/user-attachments/assets/98cbe943-4ac5-496c-8e2d-2b62b4479d85" />
 
 
+* **Festival de Cannes:** 21,9% (37 de 169).
+* **Festival de Venecia:** 21,4% (27 de 126).
+* **Festival de Berlín:** 17,6% (23 de 131).
 
-* **Festival de Cannes:** 21,4% de tasa de conversión a nominación al Óscar.
-* **Festival de Venecia:** 21,1% de tasa de conversión.
-* **Festival de Berlín:** 17,4% de tasa de conversión.
-
-En contraste, los Globos de Oro (79,2%) y los BAFTA (71,9%) actúan como los verdaderos embudos hacia el Óscar[cite: 2], pero lo hacen bajo una hegemonía lingüística abrumadora: el 95% de las películas premiadas en los Globos de Oro y el 91% en los BAFTA son producciones rodadas exclusivamente en inglés.
+En contraste, entre los premiados del Globo de Oro (79,2%) y de los BAFTA (71,9%) la mayoría llega a nominado, y lo hacen bajo una hegemonía abrumadora del inglés: el 95% de las actuaciones premiadas en el Globo de Oro y el 91% en los BAFTA fueron solo en inglés. Es una asociación, no una causa: se entregan en la misma temporada que los Óscar.
 
 ---
 
-### Idioma y trayectoria: Lo que realmente pesa
+### Idioma y trayectoria: lo que pesa
 
-En el Globo de Oro y los BAFTA, los premiados de nacionalidad no estadounidense representan entre el 41% y el 48% a lo largo de la historia. No obstante, esa diversidad geográfica es, en gran medida, una ilusión: de los premiados extranjeros que luego fueron nominados al Óscar como protagonistas, 101 de 187 son británicos.
+En el Globo de Oro y los BAFTA, los premiados de nacionalidad no estadounidense representan entre el 41% y el 48%, sin crecer. Pero 189 de esos 211 actuaron en inglés, y entre quienes además fueron nominados al Óscar como protagonistas, 101 de 187 son británicos.
 
-Cuando se analiza a quienes logran la nominación al Óscar a mejor actor o actriz principal, la nacionalidad por sí sola casi no altera la probabilidad, pero el idioma y la trayectoria en la industria son determinantes:
-
-* **En inglés y desde Hollywood:** 72% de probabilidad de ser nominado para estadounidenses vs. 74% para extranjeros.
-* **Otro idioma y sin carrera en Hollywood:** La probabilidad se desploma al **8%**.
+Entre quienes actuaron en inglés y venían de Hollywood, la probabilidad de nominación es casi igual: 72% para estadounidenses y 74% para extranjeros. Entre quienes actuaron en otro idioma y no tenían carrera en Hollywood, baja a 8%. En esta base, el idioma y la trayectoria pesan más que el pasaporte.
 
 ---
 
 ### Las grietas en el muro angloparlante
 
-Hasta 1959, ningún intérprete nominado al Óscar tras ganar en la temporada previa había actuado en un idioma distinto al inglés. Entre 2000 y 2026, ese grupo representa casi el 10%, con nombres como Marion Cotillard, Jean Dujardin, Penélope Cruz, Javier Bardem y Fernanda Torres. La puerta no se abre por el pasaporte, sino cuando logran ingresar películas y lenguas diversas a la conversación global.
+Hasta 1959, ningún premiado nominado al Óscar como protagonista había actuado en un idioma distinto al inglés. Entre 2000 y 2026, son casi el 10%, con nombres como Marion Cotillard, Penélope Cruz, Javier Bardem y Fernanda Torres.
 
-El recorrido transatlántico sigue siendo excepcional, pero existe:
-1. **Wagner Moura:** Ganador en Cannes (2025) por *O Agente Secreto* y en el Globo de Oro un año después.
-2. **Jean Dujardin:** Ganador en Cannes (2011) con *The Artist*, coronado luego en el Globo de Oro, el BAFTA y el Óscar (2012).
-3. **María Schell / Gervaise:** Triunfadora en Venecia (1956) y galardonada en los BAFTA al año siguiente (1957).
+Hay un camino, aunque excepcional:
 
-Estos casos representan cuatro de los escasos 22 premios que el Globo de Oro y los BAFTA han otorgado a actuaciones fuera del idioma inglés. 
+1. **Wagner Moura:** ganó en Cannes (2025) por *O Agente Secreto* y en el Globo de Oro un año después.
+2. **Jean Dujardin:** ganó en Cannes (2011) con *The Artist*, y en el Globo de Oro y el BAFTA (2012). Según fuentes externas, ese año ganó también el Óscar.
+3. **Gervaise:** Maria Schell ganó en Venecia (1956) y François Périer en los BAFTA (1957), por la misma película.
+
+Son tres películas y cuatro de los 22 premios que el Globo de Oro y los BAFTA han dado a actuaciones fuera del inglés.
 
 ---
 
-### El punto que falta
+### La pieza que falta
 
-*Wild Horse Nine* ya dio el primer paso al posicionarse con fuerza en Europa. El segundo paso —el que transforma la aclamación crítica en una nominación de la Academia para una actriz latinoamericana— todavía no se dibuja con claridad en los datos. Mariana Di Girolamo no tiene un punto en los gráficos del histórico de ganadores y es posible que no lo tenga en este ciclo. 
+*Wild Horse Nine* ya dio el primer paso: ganó en Venecia. El segundo, el que convierte la ovación en una nominación de la Academia para una actriz latinoamericana, aún no se dibuja en los datos.
 
-Aunque entre los nominados al Óscar la proporción de extranjeros ha subido de un 37% (hasta 1999) a un 45% (2000–2026), la mayoría sigue siendo británica, y los actores sin carrera previa en Hollywood han visto reducirse su cuota (del 23% en 1980–1999 al 13% en 2000–2026). Lo que sí crece con paso firme y constante es la apertura hacia otros idiomas, abriendo una rendija por la cual el talento internacional aún puede desafiar las estadísticas.
+Entre los nominados al Óscar, la proporción de extranjeros sube de cerca de 37% (hasta 1999) a 45% (2000–2026), pero más de la mitad es británica. Los nominados sin carrera previa en Hollywood bajan de 23% (1980–1999) a 13% (2000–2026). Lo que sí crece, aunque no de forma continua, es la apertura a otros idiomas.
+
+> **Nota:** la base solo incluye ganadores, mide nacionalidad (no lugar de nacimiento) y excluye 7 casos de 2026 con Óscar pendiente. Hay datos por verificar.
