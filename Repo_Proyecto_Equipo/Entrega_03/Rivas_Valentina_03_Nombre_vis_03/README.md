@@ -14,8 +14,8 @@
 
 
 
+<img width="1854" height="870" alt="grafico_1" src="https://github.com/user-attachments/assets/47e31f35-05ba-4707-b511-55e906b6a0f9" />
 
-<img width="1668" height="1034" alt="grafico_2" src="https://github.com/user-attachments/assets/487e63cc-b8e2-4831-ae9b-79ca1d7ae973" />
 
 
 
@@ -36,9 +36,8 @@
 
 
 
+<img width="1668" height="1034" alt="grafico_2" src="https://github.com/user-attachments/assets/6bf3dce1-cce7-40d5-99b2-fa3bbe69a523" />
 
-
-<img width="1854" height="870" alt="grafico_1" src="https://github.com/user-attachments/assets/4b3cc076-db26-459b-8528-05f96be2e1ee" />
 
 
 
