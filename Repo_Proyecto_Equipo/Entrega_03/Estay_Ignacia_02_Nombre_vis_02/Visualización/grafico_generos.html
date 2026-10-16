@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300, "stroke": null}}, "hconcat": [{"data": {"name": "data-51ec81298de189e25733971890d080e9"}, "mark": {"type": "bar"}, "encoding": {"color": {"field": "genero", "legend": null, "scale": {"domain": ["Romance", "Comedia", "B\u00e9lica", "Historia", "Crimen", "Suspenso", "Drama", "Otros"], "range": ["#E75A9B", "#F28E2B", "#D62728", "#8C564B", "#1F77B4", "#7B4FA8", "#7F7F7F", "#BDBDBD"]}, "type": "nominal"}, "tooltip": [{"field": "genero", "title": "G\u00e9nero", "type": "nominal"}, {"field": "nominaciones", "title": "Nominaciones", "type": "quantitative"}, {"field": "porcentaje", "format": ".0%", "title": "% del grupo", "type": "quantitative"}], "x": {"axis": {"format": "%"}, "field": "porcentaje", "scale": {"domain": [0, 1]}, "title": "% de las nominaciones", "type": "quantitative"}, "y": {"field": "genero", "sort": ["Romance", "Comedia", "B\u00e9lica", "Historia", "Crimen", "Suspenso", "Drama", "Otros"], "title": null, "type": "nominal"}}, "height": 260, "title": "Extranjeros (90 nominaciones)", "width": 320}, {"data": {"name": "data-26dbea917a7484eecf23f10005f4b76e"}, "mark": {"type": "bar"}, "encoding": {"color": {"field": "genero", "legend": {"title": "G\u00e9nero"}, "scale": {"domain": ["Romance", "Comedia", "B\u00e9lica", "Historia", "Crimen", "Suspenso", "Drama", "Otros"], "range": ["#E75A9B", "#F28E2B", "#D62728", "#8C564B", "#1F77B4", "#7B4FA8", "#7F7F7F", "#BDBDBD"]}, "type": "nominal"}, "tooltip": [{"field": "genero", "title": "G\u00e9nero", "type": "nominal"}, {"field": "nominaciones", "title": "Nominaciones", "type": "quantitative"}, {"field": "porcentaje", "format": ".0%", "title": "% del grupo", "type": "quantitative"}], "x": {"axis": {"format": "%"}, "field": "porcentaje", "scale": {"domain": [0, 1]}, "title": "% de las nominaciones", "type": "quantitative"}, "y": {"field": "genero", "sort": ["Romance", "Comedia", "B\u00e9lica", "Historia", "Crimen", "Suspenso", "Drama", "Otros"], "title": null, "type": "nominal"}}, "height": 260, "title": "Estadounidenses (625 nominaciones)", "width": 320}], "resolve": {"scale": {"color": "shared"}}, "title": "G\u00e9neros de las pel\u00edculas nominadas a mejor actor y actriz", "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-51ec81298de189e25733971890d080e9": [{"genero": "Romance", "nominaciones": 41, "porcentaje": 0.45555555555555555}, {"genero": "Comedia", "nominaciones": 19, "porcentaje": 0.2111111111111111}, {"genero": "B\u00e9lica", "nominaciones": 8, "porcentaje": 0.08888888888888889}, {"genero": "Historia", "nominaciones": 13, "porcentaje": 0.14444444444444443}, {"genero": "Crimen", "nominaciones": 8, "porcentaje": 0.08888888888888889}, {"genero": "Suspenso", "nominaciones": 9, "porcentaje": 0.1}, {"genero": "Drama", "nominaciones": 81, "porcentaje": 0.9}, {"genero": "Otros", "nominaciones": 18, "porcentaje": 0.2}], "data-26dbea917a7484eecf23f10005f4b76e": [{"genero": "Romance", "nominaciones": 202, "porcentaje": 0.3232}, {"genero": "Comedia", "nominaciones": 125, "porcentaje": 0.2}, {"genero": "B\u00e9lica", "nominaciones": 36, "porcentaje": 0.0576}, {"genero": "Historia", "nominaciones": 50, "porcentaje": 0.08}, {"genero": "Crimen", "nominaciones": 81, "porcentaje": 0.1296}, {"genero": "Suspenso", "nominaciones": 65, "porcentaje": 0.104}, {"genero": "Drama", "nominaciones": 558, "porcentaje": 0.8928}, {"genero": "Otros", "nominaciones": 161, "porcentaje": 0.2576}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
