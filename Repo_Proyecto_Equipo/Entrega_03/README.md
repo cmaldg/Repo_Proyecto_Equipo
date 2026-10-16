@@ -25,6 +25,8 @@ Esta clasificación permite examinar el comportamiento de las carreras de los in
 
 Para profundizar en esta dinámica, estructuramos la base de datos 3, la cual integra a los tres grandes festivales internacionales de cine (Cannes, Venecia y Berlín), junto con dos galardones clave de la industria (Globos de Oro y BAFTA). Nuestro objetivo es determinar si los reconocimientos en estos otros premios funcionan como un filtro previo o un trampolín necesario para que actores extranjeros alcancen una nominación al Oscar.
 
+A partir del análisis de esta base de datos, identificamos que los certámenes europeos actúan como un "efecto trampolín" o filtro de legitimación internacional para el cine en idioma no inglés: mientras que los Globos de Oro (79,2%) y los BAFTA (71,9%) muestran una alta tasa de conversión directa a nominaciones al Óscar en categorías protagónicas dominadas por el inglés (más del 90%), los festivales de Cannes (21,4%), Venecia (21,1%) y Berlín (17,4%) concentran más del 50% de sus producciones en idiomas distintos al inglés. De este modo, los festivales europeos funcionan como el principal escaparate global para que interpretaciones en idioma nativo o producciones fuera de Hollywood logren la visibilidad necesaria para dar el salto y alcanzar una nominación al Óscar.
+
 ## 4. Síntesis de la historia
 Debido a la reciente aclamación de *Wild Horse Nine* en el Festival Internacional de Cine de Venecia y la posible nominación de la actriz chilena **Mariana Di Girolamo** a los Oscar por este mismo filme, nos preguntamos: ¿Los Premios Oscar realmente se internacionalizaron o simplemente comenzaron a importar talento?
 
