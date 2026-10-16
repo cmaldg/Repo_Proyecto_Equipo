@@ -25,14 +25,15 @@ Dos casillas de la catégoria "idioma" estaban vacias, junto con unas películas
 - Solo se analizan películas con nominaciones a Mejor Actor o Mejor Actriz, no todas las películas nominadas al Oscar.
 
 ## Preguntas que puede responder la visualización
-- ¿Cuál es el género más frecuente en las películas estadounidenses nominadas? ¿Y en las extranjeras?
-- ¿Cómo cambió el peso del romance en Hollywood entre los años treinta y los 2020?
-- ¿Desde qué década gana protagonismo el género "historia" en el cine estadounidense?
-- ¿Se parecen las tendencias de géneros entre películas estadounidenses y extranjeras?
-- ¿En qué décadas el drama estuvo presente en el 100% de las películas extranjeras nominadas?
-- ¿Aparecen géneros propios del cine extranjero que no están en el top 6 de Hollywood (por ejemplo, guerra)?
-
-**Lo que no puede responder:** si cambió la calidad o los temas de las películas, ni qué géneros "ganan" más. La visualización mide presencia de géneros, no premios.
+- ¿Qué géneros dominan las nominaciones y cuáles coinciden entre extranjeros y estadounidenses?
+- El drama lidera en ambos grupos, con 90% y 89%. La comedia (21% y 20%) y el suspenso (10% en ambos) también son casi idénticos ¿En qué géneros se separan más los dos grupos?
+- El romance es el género que más los distingue, con 14 puntos de diferencia (46% y 32%). Le siguen la historia y el cine bélico, donde los extranjeros pesan más. El crimen y “Otros” pesan más entre los estadounidenses.
+- ¿Qué tipo de película premia la Academia, y qué tan variado es su repertorio?
+- Se concentra en dramas y romances, sobre todo entre los extranjeros, cuyo repertorio parece más estrecho porque “Otros” pesa menos.
+- ¿Cuánto pesa cada grupo en cifras absolutas?
+- Hay 625 nominaciones estadounidenses frente a 90 extranjeras. Los porcentajes comparan perfiles, pero el cine estadounidense domina en volumen (por ejemplo, 202 nominaciones de romance contra 41).
+- ¿Qué no puede responder esta visualización?
+- No muestra cómo cambió el perfil de géneros a lo largo del tiempo, ni qué géneros ganan (solo cuáles se nominan), ni por qué los perfiles se parecen. Tampoco distingue géneros dentro de “Otros”.
 
 ## Cómo replicar el trabajo
 1. Abrir el cuaderno en Google Colab.
