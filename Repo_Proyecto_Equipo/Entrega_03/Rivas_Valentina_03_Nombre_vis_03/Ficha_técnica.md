@@ -96,6 +96,6 @@
 8. **Cine mudo:** *The Artist* (Dujardin) figura como «Francés / Mudo» y cuenta como «otro idioma»; decisión pendiente.
 9. **Vacíos de cobertura:** Venecia no tiene registros en la década de 1970. Los certámenes cambian sus categorías con el tiempo.
 10. **Registros de otra base:** Richard Barthelmess y Gaynor/Jannings (1929), señalados por la profesora, no están en esta base.
-11. **Tratamiento del idioma:** `tipo_idioma` mide el idioma de la actuación, no el de toda la película.
+
 
 ---
