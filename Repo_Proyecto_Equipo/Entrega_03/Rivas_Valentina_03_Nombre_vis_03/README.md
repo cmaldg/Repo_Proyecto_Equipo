@@ -118,6 +118,7 @@ Opté por barras apiladas al 100% para representar la composición del idioma en
 Elegí un gráfico de barras horizontales porque los nombres de los cinco certámenes (*Festival de Cannes*, *Festival de Venecia*, *Festival de Berlín*, *Globo de Oro*, *BAFTA*) tienen extensiones de texto variables. Este formato permite leer las etiquetas categóricas de forma limpia, fluida y legible en pantallas digitales y dispositivos móviles, facilitando la comparación visual directa de las proporciones sin saturar el espacio.
   
 * **Paleta de Colores (Inspirada en la estética de los Óscar):**  
+    **Gemini**  entrego la paleta de colores.
   * **Negro, Dorado y Crema:** Utilizados para representar la industria hegemónica y el idioma inglés, evocando la estética formal de la estatuilla y la gala de los Premios Óscar.
   * **Rojo Alfombra:** Utilizado intencionalmente como tono de alto contraste para destacar la categoría **«Otro idioma»** (lenguas no anglófonas). Este resalte cromático genera un punto focal inmediato, dirigiendo la atención del lector hacia el núcleo de la hipótesis: la irrupción y resistencia del cine en su idioma nativo dentro del circuito de premios.
 
