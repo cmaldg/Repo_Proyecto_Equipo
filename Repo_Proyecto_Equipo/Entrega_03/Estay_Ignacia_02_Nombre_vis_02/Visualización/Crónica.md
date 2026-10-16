@@ -2,35 +2,23 @@
 
 ### _¿Cuáles son los géneros que más predominan en las películas estadounidenses y en las extranjeras nominadas al Oscar, y cómo han cambiado con el tiempo?_
 
-![alt text](<grafico_generos.jpg>)
+Se catalogaron como extranjeras todas las películas que no fueron producidas en Estados Unidos. 
 
-Se catalogaron como extranjeras todas las películas que no fueron producidas en fuera Estados Unidos. 
+![alt text](<grafico_generos.jpg>)
 
 Seleccionamos seis categorias predominantes para realizar la comparativa ¿el resultado? tanto las peliculas extranjeras como las estadounidenses coincidieron en un género: **El Drama.**
 
-En la visualización, la línea verde casi nunca baja del 80% en ninguna de las dos categorias, aparentemente el mundo ha escogido su género de películas favorito.
+Esto nos hace cuestionarnos si los Oscar realmente se han internacionalizado de verdad, uno esperaría que el cine extranjero trajera otro mapa de géneros. Pero basta mirar las dos columnas de barras para ver que se parecen más de lo que se esperaría. Entre 1929 y 2026, los actores y actrices no anglosajones fueron nominados a mejor actor o actriz 90 veces. Los estadounidenses, 625. Las películas por las que compitieron comparten casi el mismo perfil.
 
-## Nominaciones estadounidenses
+Lo primero que muestra el gráfico es el peso del drama. Está presente en el 90% de las nominaciones extranjeras y en el 89% de las estadounidenses, la barra gris más larga en ambos lados. Para la Academia, el actor que merece un premio es casi siempre el que carga con un drama, venga de donde venga.
 
-En las películas nominadas estadounidenses, el predominio no solo es total, sino que crece. El drama pasa del 86% en los años veinte a un máximo cercano al 98% en la década de los 2000s. Recién en los 2020s retrocede, hasta alrededor del 87%. Mostrando una tendencia y una evolución dependiendo cada periodo de tiempo, seguramente adaptandose a su contexto de la época.
+El segundo lugar tampoco cambia: el romance. Aparece en el 46% de las nominaciones extranjeras y en el 32% de las estadounidenses. La diferencia de catorce puntos es la más grande entre los dos grupos, pero lo notable es la continuidad. Está en Camille (1937), con Greta Garbo, y en Ninotchka, hecha en Hollywood. Está en Il Postino, en Frida, en Chocolat y en Amour. Cambian los idiomas, los países y las épocas, y el género sigue siendo el mismo.
 
-Bajo esa línea dominante hay una historia de relevos. El **romance** fue durante décadas el segundo género más fuerte: llegó al 53% en los años treinta y se mantuvo sobre el 30% hasta el 2000. Después se derrumba, a 13% en los 2010 y a 9% en los 2020. La **comedia** tuvo su mejor época entre los sesenta y los ochenta, con cerca de un 26%, bajó al 10% en los 2000 y repuntó al 20% en la década siguiente.
+Hay otros géneros que casi no se mueven. La comedia aparece en el 21% de las nominaciones extranjeras y en el 20% de las estadounidenses. El suspenso, en el 10% en ambos lados.
 
-El gran ascenso es el de la **historia**. Pasó de un 3% en los setenta a un 25% en los 2020, y hoy es el segundo género más frecuente. Es posible que esto refleje el auge de las películas biográficas y de época entre las nominadas, aunque este gráfico no permite comprobarlo. De todas formas, se puede interpretar que a medida pasa el tiempo, añoramos y nos genera más curiosidad el pasado. La nostalgia está cada vez más en auge y utilizada por los medios de entretenimiento.
+Donde sí se separan es en las películas que miran la historia. La historia pesa un 14% entre los extranjeros contra un 8% entre los estadounidenses, y el cine bélico un 9% contra un 6%. Cuatro de las ocho nominaciones extranjeras de guerra son películas europeas en otro idioma: Two Women, Seven Beauties, The Shop on Main Street y La vida es bella. Son guerras contadas desde Europa, por quienes las vivieron. Por el contrario, el crimen pesa menos entre los extranjeros (9% contra 13%), y la categoría “otros”, donde caben géneros como la música o la aventura, también (20% contra 26%). El cine extranjero que llega a las nominaciones tiene menos variedad de géneros, y se concentra en dramas, romances y comedias.
 
- El **suspenso** también crece: de apenas un 2% en los treinta a casi un 18% en los 2010. Teniendo sentido con la aparición y moda de las películas de terror en los últimos años.
-
- ## Nominaciones extranjeras
-
-El cine extranjero comparte el drama como género predilecto, y con más fuerza: llega al 100% de las películas nominadas en la década de 1940 y en cuatro décadas seguidas, de los ochenta a los 2010. Mostrando una clara preferencia de la academia al momento de nominar las películas. 
-
-A diferencia de Estados Unidos, el romance se posiciona como uno de los géneros preferidos por las películas extranjeras. Entre los sesenta y los 2010 se mantiene entre el 33% y el 45%. Dicho de otro modo, el género que Hollywood fue dejando atrás sigue muy presente en el cine nominado de otros países. También aparece un género que no está entre los seis principales de Estados Unidos: la **guerra**, que llegó al 25% en los años cuarenta y se mantuvo entre el 6% y el 15% hasta los 2000.
-
-La década de 2020 rompe el patrón: el romance cae a 0% y el crimen sube al 20%. Es el cambio más brusco del gráfico, pero también el más frágil, como veremos a continuación.
-
-Los porcentajes de las películas extranjeras deben leerse con cuidado. Hay pocas por década, sobre todo antes de 1960, y una sola película puede mover la línea 20 puntos. Al ser una muestra más pequeña, creando porcentajes más grandes en proporción a la cantidad de películas nominadas. Aquí "extranjera" significa que Estados Unidos no figura entre los países de producción, y en la práctica son sobre todo películas británicas. Además, una película puede tener varios géneros, por lo que los porcentajes de cada década no suman 100%. Cada película se cuenta una sola vez, aunque tenga varias nominaciones.
-
-## Conclusión
+Esto conversa con la hipótesis de este trabajo. Si la internacionalización de los Oscar fuera un aumento de nominados extranjeros, habría que ver más extranjeros con el paso del tiempo, y no es así: representan cerca del 11% de las nominaciones tanto en las primeras décadas como desde 2010. Lo que cambió es el origen de las películas, que cada vez más vienen de otros países y de otros idiomas. Más de la mitad de las nominaciones extranjeras sigue siendo por películas en inglés, y tres de cada cuatro actores nominados comenzaron su carrera fuera de Estados Unidos. Los géneros muestran cómo ocurrió esa entrada: no desplazó el gusto de la Academia, sino que se acomodó a él. Los extranjeros llegaron principalmente con las mismas historias que ya reconocía el mercado estadounidense, dramas y romances, y aportaron su propia mirada en la historia y la guerra.
 
 Para ambos grupos, el género predominante es el drama, y por mucho. Mostrando así que la academia tiene una tendencia a nominar algunos géneros por sobre otros, como resultado, ambas categorías (internacionales vs estadounidenses) se presentan a los premios con peliculas principalmente dramáticas.
 
