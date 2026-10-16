@@ -2,7 +2,7 @@
 
 ---
 
-## 1. Identificación
+## Identificación
 
 | Campo | Detalle |
 | :--- | :--- |
@@ -30,7 +30,7 @@
 
 ---
 
-## 2. Características de los datos
+## Características de los datos
 
 | Certamen | Registros |
 | :--- | :--- |
@@ -49,7 +49,7 @@
 
 ---
 
-## 3. Variables
+## Variables
 
 | Variable | En el Excel | Descripción |
 | :--- | :---: | :--- |
@@ -69,7 +69,7 @@
 
 ---
 
-## 4. Variables usadas en las visualizaciones
+## Variables usadas en las visualizaciones
 
 | Gráfico | Variables |
 | :--- | :--- |
@@ -78,7 +78,7 @@
 
 ---
 
-## 5. Cómo se procesó (resumen)
+## Cómo se procesó (resumen)
 
 > Detalle completo en `README_personal.md`, `limpieza.py` y `registro_cambios.csv`.
 
@@ -96,7 +96,7 @@
 
 ---
 
-## 6. Observaciones y limitaciones
+## Observaciones y limitaciones
 
 1. **Solo ganadores:** No hay candidatos ni todos los nominados al Óscar.
 2. **Nacionalidad, no lugar de nacimiento:** La hipótesis del grupo habla de «nacidos fuera», y la base no lo mide directamente.
