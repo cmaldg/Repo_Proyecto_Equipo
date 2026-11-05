@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-449051ae88aedb740f7c3228ce9f0034"}, "mark": {"type": "bar"}, "encoding": {"color": {"field": "clasificar", "legend": {"labelLimit": 400, "symbolSize": 100}, "scale": {"domain": ["Estadounidense con debut en EE.UU.", "Estadounidense con debut internacional", "Extranjero con debut en EE.UU.", "Extranjero con debut internacional"], "range": ["#963527", "#B5AE9F", "#A68224", "#3D3837"]}, "sort": ["Estadounidense con debut en EE.UU.", "Estadounidense con debut internacional", "Extranjero con debut en EE.UU.", "Extranjero con debut internacional"], "title": "Clasificaci\u00f3n", "type": "nominal"}, "tooltip": [{"field": "clasificar", "title": "Clasificaci\u00f3n", "type": "nominal"}, {"field": "n", "title": "Nominaciones", "type": "quantitative"}, {"field": "total", "title": "Total de nominaciones d\u00e9cada", "type": "quantitative"}, {"field": "pct", "format": ".2f", "title": "Porcentaje", "type": "quantitative"}], "x": {"axis": {"format": "%"}, "field": "n", "stack": "normalize", "title": "Porcentaje de nominadas y nominados a los Oscar", "type": "quantitative"}, "y": {"field": "d\u00e9cada", "title": "D\u00e9cadas", "type": "ordinal"}}, "height": 400, "title": "Clasificaci\u00f3n de nominaciones a los Oscar por d\u00e9cada", "width": 650, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-449051ae88aedb740f7c3228ce9f0034": [{"d\u00e9cada": "1920s", "clasificar": "Estadounidense con debut en EE.UU.", "n": 7, "total": 9, "pct": 77.77777777777779}, {"d\u00e9cada": "1920s", "clasificar": "Extranjero con debut internacional", "n": 2, "total": 9, "pct": 22.22222222222222}, {"d\u00e9cada": "1930s", "clasificar": "Estadounidense con debut en EE.UU.", "n": 58, "total": 96, "pct": 60.416666666666664}, {"d\u00e9cada": "1930s", "clasificar": "Extranjero con debut en EE.UU.", "n": 17, "total": 96, "pct": 17.708333333333336}, {"d\u00e9cada": "1930s", "clasificar": "Extranjero con debut internacional", "n": 21, "total": 96, "pct": 21.875}, {"d\u00e9cada": "1940s", "clasificar": "Estadounidense con debut en EE.UU.", "n": 60, "total": 100, "pct": 60.0}, {"d\u00e9cada": "1940s", "clasificar": "Extranjero con debut en EE.UU.", "n": 20, "total": 100, "pct": 20.0}, {"d\u00e9cada": "1940s", "clasificar": "Extranjero con debut internacional", "n": 20, "total": 100, "pct": 20.0}, {"d\u00e9cada": "1950s", "clasificar": "Estadounidense con debut en EE.UU.", "n": 72, "total": 100, "pct": 72.0}, {"d\u00e9cada": "1950s", "clasificar": "Extranjero con debut en EE.UU.", "n": 9, "total": 100, "pct": 9.0}, {"d\u00e9cada": "1950s", "clasificar": "Extranjero con debut internacional", "n": 19, "total": 100, "pct": 19.0}, {"d\u00e9cada": "1960s", "clasificar": "Estadounidense con debut en EE.UU.", "n": 50, "total": 100, "pct": 50.0}, {"d\u00e9cada": "1960s", "clasificar": "Extranjero con debut en EE.UU.", "n": 13, "total": 100, "pct": 13.0}, {"d\u00e9cada": "1960s", "clasificar": "Extranjero con debut internacional", "n": 37, "total": 100, "pct": 37.0}, {"d\u00e9cada": "1970s", "clasificar": "Estadounidense con debut en EE.UU.", "n": 64, "total": 100, "pct": 64.0}, {"d\u00e9cada": "1970s", "clasificar": "Estadounidense con debut internacional", "n": 4, "total": 100, "pct": 4.0}, {"d\u00e9cada": "1970s", "clasificar": "Extranjero con debut en EE.UU.", "n": 5, "total": 100, "pct": 5.0}, {"d\u00e9cada": "1970s", "clasificar": "Extranjero con debut internacional", "n": 27, "total": 100, "pct": 27.0}, {"d\u00e9cada": "1980s", "clasificar": "Estadounidense con debut en EE.UU.", "n": 81, "total": 100, "pct": 81.0}, {"d\u00e9cada": "1980s", "clasificar": "Estadounidense con debut internacional", "n": 1, "total": 100, "pct": 1.0}, {"d\u00e9cada": "1980s", "clasificar": "Extranjero con debut en EE.UU.", "n": 4, "total": 100, "pct": 4.0}, {"d\u00e9cada": "1980s", "clasificar": "Extranjero con debut internacional", "n": 14, "total": 100, "pct": 14.000000000000002}, {"d\u00e9cada": "1990s", "clasificar": "Estadounidense con debut en EE.UU.", "n": 65, "total": 100, "pct": 65.0}, {"d\u00e9cada": "1990s", "clasificar": "Extranjero con debut en EE.UU.", "n": 10, "total": 100, "pct": 10.0}, {"d\u00e9cada": "1990s", "clasificar": "Extranjero con debut internacional", "n": 25, "total": 100, "pct": 25.0}, {"d\u00e9cada": "2000s", "clasificar": "Estadounidense con debut en EE.UU.", "n": 60, "total": 100, "pct": 60.0}, {"d\u00e9cada": "2000s", "clasificar": "Estadounidense con debut internacional", "n": 3, "total": 100, "pct": 3.0}, {"d\u00e9cada": "2000s", "clasificar": "Extranjero con debut en EE.UU.", "n": 8, "total": 100, "pct": 8.0}, {"d\u00e9cada": "2000s", "clasificar": "Extranjero con debut internacional", "n": 29, "total": 100, "pct": 28.999999999999996}, {"d\u00e9cada": "2010s", "clasificar": "Estadounidense con debut en EE.UU.", "n": 60, "total": 100, "pct": 60.0}, {"d\u00e9cada": "2010s", "clasificar": "Estadounidense con debut internacional", "n": 2, "total": 100, "pct": 2.0}, {"d\u00e9cada": "2010s", "clasificar": "Extranjero con debut en EE.UU.", "n": 10, "total": 100, "pct": 10.0}, {"d\u00e9cada": "2010s", "clasificar": "Extranjero con debut internacional", "n": 28, "total": 100, "pct": 28.000000000000004}, {"d\u00e9cada": "2020s", "clasificar": "Estadounidense con debut en EE.UU.", "n": 36, "total": 70, "pct": 51.42857142857142}, {"d\u00e9cada": "2020s", "clasificar": "Estadounidense con debut internacional", "n": 2, "total": 70, "pct": 2.857142857142857}, {"d\u00e9cada": "2020s", "clasificar": "Extranjero con debut en EE.UU.", "n": 12, "total": 70, "pct": 17.142857142857142}, {"d\u00e9cada": "2020s", "clasificar": "Extranjero con debut internacional", "n": 20, "total": 70, "pct": 28.57142857142857}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
