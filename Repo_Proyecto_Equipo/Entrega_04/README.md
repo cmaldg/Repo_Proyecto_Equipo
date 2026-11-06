@@ -11,7 +11,7 @@ Elegimos las tipografías *Yeseva One* para los títulos y *Bodoni FLF* para los
 Asimismo, escogimos recursos gráficos relacionados a los Oscar y según las necesidades de nuestra webstory. Hay un ícono de huellas porque representa la caminata por la alfombra. También escogimos botones con los colores de nuestra paleta y el logotipo con una claqueta que representa la "internacionalización" de la Academia. 
 
 ## Wireframe 
-**Link prototipo:**
+**Link prototipo:** https://miro.com/app/board/uXjVEUzfDZE=/?share_link_id=796530999801
 
 ## Justificación de la estructura y propuesta de flujo
 La estructura del wireframe está diseñada a partir de la alfombra roja de los Premios Oscar. La idea es que este elemento acompañe hasta el final de la webstory, junto a los dos últimos ganadores en las categorías "Mejor actor" y "Mejor actriz" (Michael B. Jordan y Jessie Buckley, respectivamente). 
