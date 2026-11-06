@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300, "stroke": null}, "background": "#FBF6E9"}, "layer": [{"mark": {"type": "bar", "size": 34}, "encoding": {"color": {"field": "grupo", "legend": {"orient": "top", "title": null}, "scale": {"domain": ["Festivales europeos", "Globo de Oro y BAFTA"], "range": ["#8A6D0B", "#1B1B1B"]}, "type": "nominal"}, "tooltip": [{"field": "certamen", "title": "Certamen", "type": "nominal"}, {"field": "pct", "format": ".1%", "title": "% nominado", "type": "quantitative"}, {"field": "nominados", "title": "Nominados", "type": "quantitative"}, {"field": "n", "title": "Premiados", "type": "quantitative"}], "x": {"axis": {"format": "%"}, "field": "pct", "scale": {"domain": [0, 1]}, "title": "% de premiados que fueron nominados al \u00d3scar como protagonistas", "type": "quantitative"}, "y": {"axis": {"labelFontSize": 13, "labelLimit": 420}, "field": "etiqueta", "sort": ["Cannes \u00b7 premio de interpretaci\u00f3n (n=169)", "Venecia \u00b7 Copa Volpi (n=126)", "Berl\u00edn \u00b7 Oso de Plata (interpretaci\u00f3n) (n=131)", "BAFTA \u00b7 interpretaci\u00f3n protag\u00f3nica (n=178)", "Globo de Oro \u00b7 interpretaci\u00f3n protag\u00f3nica (n=322)"], "title": null, "type": "nominal"}}}, {"mark": {"type": "text", "align": "left", "dx": 6, "fontSize": 14, "fontWeight": "bold"}, "encoding": {"text": {"field": "pct", "format": ".1%", "type": "quantitative"}, "x": {"axis": {"format": "%"}, "field": "pct", "scale": {"domain": [0, 1]}, "title": "% de premiados que fueron nominados al \u00d3scar como protagonistas", "type": "quantitative"}, "y": {"axis": {"labelFontSize": 13, "labelLimit": 420}, "field": "etiqueta", "sort": ["Cannes \u00b7 premio de interpretaci\u00f3n (n=169)", "Venecia \u00b7 Copa Volpi (n=126)", "Berl\u00edn \u00b7 Oso de Plata (interpretaci\u00f3n) (n=131)", "BAFTA \u00b7 interpretaci\u00f3n protag\u00f3nica (n=178)", "Globo de Oro \u00b7 interpretaci\u00f3n protag\u00f3nica (n=322)"], "title": null, "type": "nominal"}}}], "data": {"name": "data-56534db78a3e916211f69388d3e8bd07"}, "height": 300, "title": {"text": "Premiados que fueron nominados al \u00d3scar, por certamen", "anchor": "start", "fontSize": 20, "subtitle": ["Se muestra una asociaci\u00f3n, no una causa: no se puede afirmar que el premio provoque la nominaci\u00f3n.", "Fuente: base propia del equipo (1933\u20132026). Solo ganadores; se excluyen 7 casos 2026 pendientes.", "Nominaci\u00f3n como protagonista (mejor actor o actriz). Datos con verificaciones pendientes."], "subtitleColor": "#555555", "subtitleFontSize": 11}, "width": 620, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-56534db78a3e916211f69388d3e8bd07": [{"certamen": "BAFTA", "etiqueta": "BAFTA \u00b7 interpretaci\u00f3n protag\u00f3nica (n=178)", "grupo": "Globo de Oro y BAFTA", "pct": 0.7191011235955056, "nominados": 128, "n": 178}, {"certamen": "Festival de Berl\u00edn", "etiqueta": "Berl\u00edn \u00b7 Oso de Plata (interpretaci\u00f3n) (n=131)", "grupo": "Festivales europeos", "pct": 0.17557251908396945, "nominados": 23, "n": 131}, {"certamen": "Festival de Cannes", "etiqueta": "Cannes \u00b7 premio de interpretaci\u00f3n (n=169)", "grupo": "Festivales europeos", "pct": 0.21893491124260356, "nominados": 37, "n": 169}, {"certamen": "Festival de Venecia", "etiqueta": "Venecia \u00b7 Copa Volpi (n=126)", "grupo": "Festivales europeos", "pct": 0.21428571428571427, "nominados": 27, "n": 126}, {"certamen": "Globo de Oro", "etiqueta": "Globo de Oro \u00b7 interpretaci\u00f3n protag\u00f3nica (n=322)", "grupo": "Globo de Oro y BAFTA", "pct": 0.7919254658385093, "nominados": 255, "n": 322}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
