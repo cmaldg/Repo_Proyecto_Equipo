@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-2ab45136442f9643e3bf25fd4ade510d"}, "mark": {"type": "line", "point": {"size": 70}, "strokeWidth": 3}, "encoding": {"color": {"field": "indicador", "scale": {"domain": ["Pel\u00edculas solo estadounidenses", "Pel\u00edculas extranjeras", "Pel\u00edculas coproducidas (2+ pa\u00edses)"], "range": ["#670010", "#C69D22", "#181818"]}, "title": "Indicador", "type": "nominal"}, "opacity": {"condition": {"param": "param_3", "value": 1}, "value": 0.15}, "tooltip": [{"field": "decada_txt", "title": "D\u00e9cada", "type": "ordinal"}, {"field": "indicador", "title": "Indicador", "type": "nominal"}, {"field": "valor", "title": "Porcentaje (%)", "type": "quantitative"}], "x": {"field": "decada_txt", "title": "D\u00e9cada de la ceremonia", "type": "ordinal"}, "y": {"field": "valor", "scale": {"domain": [0, 100]}, "title": "Porcentaje (%)", "type": "quantitative"}}, "height": 400, "params": [{"name": "param_3", "select": {"type": "point", "fields": ["indicador"]}, "bind": "legend"}], "title": "Internacionalizaci\u00f3n de las nominaciones al Oscar a lo largo del tiempo", "width": 700, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-2ab45136442f9643e3bf25fd4ade510d": [{"decada": 1920, "valor": 100.0, "indicador": "Pel\u00edculas solo estadounidenses", "decada_txt": "1920s"}, {"decada": 1930, "valor": 95.4, "indicador": "Pel\u00edculas solo estadounidenses", "decada_txt": "1930s"}, {"decada": 1940, "valor": 94.1, "indicador": "Pel\u00edculas solo estadounidenses", "decada_txt": "1940s"}, {"decada": 1950, "valor": 90.6, "indicador": "Pel\u00edculas solo estadounidenses", "decada_txt": "1950s"}, {"decada": 1960, "valor": 58.8, "indicador": "Pel\u00edculas solo estadounidenses", "decada_txt": "1960s"}, {"decada": 1970, "valor": 68.7, "indicador": "Pel\u00edculas solo estadounidenses", "decada_txt": "1970s"}, {"decada": 1980, "valor": 73.9, "indicador": "Pel\u00edculas solo estadounidenses", "decada_txt": "1980s"}, {"decada": 1990, "valor": 58.2, "indicador": "Pel\u00edculas solo estadounidenses", "decada_txt": "1990s"}, {"decada": 2000, "valor": 46.9, "indicador": "Pel\u00edculas solo estadounidenses", "decada_txt": "2000s"}, {"decada": 2010, "valor": 50.5, "indicador": "Pel\u00edculas solo estadounidenses", "decada_txt": "2010s"}, {"decada": 2020, "valor": 53.0, "indicador": "Pel\u00edculas solo estadounidenses", "decada_txt": "2020s"}, {"decada": 1920, "valor": 0.0, "indicador": "Pel\u00edculas extranjeras", "decada_txt": "1920s"}, {"decada": 1930, "valor": 4.6, "indicador": "Pel\u00edculas extranjeras", "decada_txt": "1930s"}, {"decada": 1940, "valor": 5.9, "indicador": "Pel\u00edculas extranjeras", "decada_txt": "1940s"}, {"decada": 1950, "valor": 9.4, "indicador": "Pel\u00edculas extranjeras", "decada_txt": "1950s"}, {"decada": 1960, "valor": 38.8, "indicador": "Pel\u00edculas extranjeras", "decada_txt": "1960s"}, {"decada": 1970, "valor": 31.3, "indicador": "Pel\u00edculas extranjeras", "decada_txt": "1970s"}, {"decada": 1980, "valor": 26.1, "indicador": "Pel\u00edculas extranjeras", "decada_txt": "1980s"}, {"decada": 1990, "valor": 39.6, "indicador": "Pel\u00edculas extranjeras", "decada_txt": "1990s"}, {"decada": 2000, "valor": 45.8, "indicador": "Pel\u00edculas extranjeras", "decada_txt": "2000s"}, {"decada": 2010, "valor": 45.3, "indicador": "Pel\u00edculas extranjeras", "decada_txt": "2010s"}, {"decada": 2020, "valor": 43.9, "indicador": "Pel\u00edculas extranjeras", "decada_txt": "2020s"}, {"decada": 1920, "valor": 0.0, "indicador": "Pel\u00edculas coproducidas (2+ pa\u00edses)", "decada_txt": "1920s"}, {"decada": 1930, "valor": 0.0, "indicador": "Pel\u00edculas coproducidas (2+ pa\u00edses)", "decada_txt": "1930s"}, {"decada": 1940, "valor": 1.2, "indicador": "Pel\u00edculas coproducidas (2+ pa\u00edses)", "decada_txt": "1940s"}, {"decada": 1950, "valor": 4.7, "indicador": "Pel\u00edculas coproducidas (2+ pa\u00edses)", "decada_txt": "1950s"}, {"decada": 1960, "valor": 10.6, "indicador": "Pel\u00edculas coproducidas (2+ pa\u00edses)", "decada_txt": "1960s"}, {"decada": 1970, "valor": 10.8, "indicador": "Pel\u00edculas coproducidas (2+ pa\u00edses)", "decada_txt": "1970s"}, {"decada": 1980, "valor": 19.3, "indicador": "Pel\u00edculas coproducidas (2+ pa\u00edses)", "decada_txt": "1980s"}, {"decada": 1990, "valor": 29.7, "indicador": "Pel\u00edculas coproducidas (2+ pa\u00edses)", "decada_txt": "1990s"}, {"decada": 2000, "valor": 50.0, "indicador": "Pel\u00edculas coproducidas (2+ pa\u00edses)", "decada_txt": "2000s"}, {"decada": 2010, "valor": 45.3, "indicador": "Pel\u00edculas coproducidas (2+ pa\u00edses)", "decada_txt": "2010s"}, {"decada": 2020, "valor": 36.4, "indicador": "Pel\u00edculas coproducidas (2+ pa\u00edses)", "decada_txt": "2020s"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
