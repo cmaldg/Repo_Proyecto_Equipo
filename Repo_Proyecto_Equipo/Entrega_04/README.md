@@ -10,6 +10,9 @@ El manual de identidad se creó a partir de 4 colores: *Black Cherry (##670010)*
 Elegimos las tipografías *Yeseva One* para los títulos y *Bodoni FLF* para los cuerpos de texto de nuestro sitio web. La elección se basó en la apariencia limpia y elegante que se relaciona con la estética de los Premios Oscar.
 Asimismo, escogimos recursos gráficos relacionados a los Oscar y según las necesidades de nuestra webstory. Hay un ícono de huellas porque representa la caminata por la alfombra. También escogimos botones con los colores de nuestra paleta y el logotipo con una claqueta que representa la "internacionalización" de la Academia. 
 
+## Libro de identidad
+**Link libro de identidad:** https://canva.link/twje6x4pyxuxbyd
+
 ## Wireframe 
 **Link prototipo:** https://miro.com/app/board/uXjVERV6cpw=/?share_link_id=695644973031
 
