@@ -2,7 +2,7 @@
 ## Manual de identidad 
 * *Referencia al proceso de creación y moodboard*
 El moodboard fue el primer elemento que creamos para poder utilizarlo como referencia visual en nuestra webstory. Adjuntamos imágenes relacionadas al glamour de los Oscar, la solemnidad de la ceremonia y otros elementos que creemos relevantes para tomar ideas de inspiración. 
-A partir de nuestro moodboard creamos el libro de identidad del sitio web y también buscamos una paleta de colores que se apegara al estilo de los premios. Luego, a partir de nuestros perfiles de usuarios, creamos un wireframe que se apegara a sus gustos e intereses. 
+A partir de nuestro moodboard creamos el libro de identidad del sitio web y también buscamos una paleta de colores que se apegara al estilo de los premios. Luego, a partir de nuestros perfiles de usuarios, creamos un wireframe que se apegara a sus gustos e intereses. Además, las imágenes de los usuarios fueron dibujadas a mano para tener una referencia. 
 
 * *Breve justificación de paleta de colores, tipografía y recursos gráficos*
 El manual de identidad se creó a partir de 4 colores: *Black Cherry (##670010)*, *Golden Bronze (#C69D2)*, *Vainilla Cream (#F8EFD8)* y *Carbon Black (#181818)*. Cada uno se elegió porque representa algo: el Black Cherry representa la alfombra roja, el Golden Bronze el dorado de la estatuilla, el Carbon Black el escenario y el Vainilla Cream se escogió específicamente para los textos.
