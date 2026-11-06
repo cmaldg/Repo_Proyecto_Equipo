@@ -1,4 +1,8 @@
 # La Influencia de Festivales Internacionales 
+## Enlace a la página web
+- **Sitio web publicado (GitHub Pages):** [https://valentina-rivas.github.io/Tareas/](https://valentina-rivas.github.io/Tareas/)
+## Página  publicada
+[text](Sitio_web)
 
 ## Descripción
 Este sitio web presenta una pieza narrativa individual que analiza la relación y correlación entre el triunfo de intérpretes en festivales de cine europeos (Cannes, Venecia, Berlín) y su efectividad como filtro previo o trampolín hacia las nominaciones de los Premios Óscar. 
