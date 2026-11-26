@@ -1,0 +1,1292 @@
+/* ==========================================================================
+   Oscar sin fronteras — Guía de Marca y Estilos
+   Paleta oficial:
+   - Carbon Black: #181818 (fondo principal y barra de logotipo)
+   - Black Cherry: #670010 (cortinas y alfombra roja inicial)
+   - Golden Bronze: #C69D22 (títulos, bordes, botones e iconografía)
+   - Vanilla Cream: #F8EFD8 (cuerpos de texto sobre fondos oscuros)
+   Tipografías:
+   - Títulos: 'Yeseva One', Georgia, serif
+   - Cuerpo: 'Bodoni FLF', 'Bodoni Moda', Georgia, serif
+   ========================================================================== */
+
+:root {
+  --carbon: #181818;
+  --carbon-elevated: #222222;
+  --cherry: #670010;
+  --cherry-deep: #48000b;
+  --gold: #c69d22;
+  --gold-soft: rgba(198, 157, 34, 0.25);
+  --cream: #f8efd8;
+  --cream-muted: rgba(248, 239, 216, 0.78);
+  --font-display: 'Yeseva One', Georgia, serif;
+  --font-body: 'Bodoni FLF', 'Bodoni Moda', Georgia, serif;
+  --radius-btn: 999px;
+  --radius-card: 10px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--carbon);
+  color: var(--cream);
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.65;
+  color: var(--cream);
+  background-color: var(--carbon);
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ==========================================================================
+   HEADER (#181818) — Logotipo intacto en esquina superior izquierda
+   ========================================================================== */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 60;
+  background-color: var(--carbon);
+  border-bottom: 1px solid rgba(198, 157, 34, 0.28);
+}
+
+.header-inner {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.brand-logo-link {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+
+.brand-logo-img {
+  height: 62px;
+  width: auto;
+  object-fit: contain;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.nav-box-link {
+  padding: 8px 16px;
+  border: 1px solid var(--gold);
+  border-radius: 4px;
+  color: var(--gold);
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  line-height: 1.2;
+  white-space: nowrap;
+  transition: background-color 180ms ease, color 180ms ease;
+}
+
+.nav-box-link:hover {
+  background-color: var(--gold);
+  color: var(--carbon);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.icon-btn {
+  width: 42px;
+  height: 42px;
+  border-radius: 6px;
+  border: 1px solid rgba(198, 157, 34, 0.45);
+  background: transparent;
+  color: var(--gold);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 180ms ease, color 180ms ease;
+}
+
+.icon-btn:hover {
+  background-color: rgba(198, 157, 34, 0.14);
+}
+
+.header-drawer {
+  background-color: var(--carbon-elevated);
+  border-top: 1px solid rgba(198, 157, 34, 0.25);
+  padding: 16px 24px;
+}
+
+.drawer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.search-bar-row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.search-input {
+  flex: 1;
+  min-width: 0;
+  padding: 10px 16px;
+  border-radius: var(--radius-btn);
+  border: 1px solid var(--gold);
+  background-color: var(--carbon);
+  color: var(--cream);
+  font-family: var(--font-body);
+  font-size: 15px;
+}
+
+.search-results {
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.search-result-link {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid rgba(198, 157, 34, 0.24);
+  background-color: var(--carbon);
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.search-result-link:hover {
+  border-color: var(--gold);
+}
+
+.search-result-tag {
+  color: var(--gold);
+  font-size: 13px;
+}
+
+.drawer-chapters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+}
+
+.drawer-link {
+  color: var(--cream);
+  text-decoration: none;
+  padding: 6px 0;
+  border-bottom: 1px solid transparent;
+}
+
+.drawer-link:hover {
+  color: var(--gold);
+  border-bottom-color: var(--gold);
+}
+
+/* ==========================================================================
+   CORTINAS AL INICIO — Ancho completo debajo del header; se abren con el scroll
+   ========================================================================== */
+.curtain-scroll-track {
+  position: relative;
+  width: 100%;
+  height: 175vh;
+  background-color: var(--carbon);
+}
+
+.curtain-stage {
+  position: sticky;
+  top: 87px;
+  width: 100%;
+  height: calc(100vh - 87px);
+  min-height: 460px;
+  overflow: hidden;
+  background-color: var(--carbon);
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.stage-backdrop {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 24px;
+}
+
+/* Alfombra roja (#670010) centrada con laterales negros (#181818) */
+.stage-carpet-runner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: min(1100px, 90vw);
+  transform: translateX(-50%);
+  background: linear-gradient(180deg, #56000d 0%, var(--cherry) 100%);
+  clip-path: polygon(5% 0%, 95% 0%, 98% 100%, 2% 100%);
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.65);
+  pointer-events: none;
+}
+
+.stage-content {
+  position: relative;
+  z-index: 2;
+  width: min(860px, 78vw);
+  padding: 28px 44px;
+  text-align: center;
+  opacity: calc(0.15 + var(--curtain-progress, 0) * 0.85);
+  transform: translateY(calc((1 - var(--curtain-progress, 0)) * 16px));
+  transition: opacity 60ms linear, transform 60ms linear;
+}
+
+.stage-kicker {
+  margin: 0 0 12px;
+  font-size: 13px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.hero-title {
+  margin: 0 0 22px;
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 5vw, 4.2rem);
+  line-height: 1.06;
+  color: var(--gold);
+  font-weight: 400;
+  text-wrap: balance;
+}
+
+.hero-bajada {
+  margin: 0 auto;
+  max-width: 62ch;
+  font-size: clamp(1.02rem, 1.38vw, 1.22rem);
+  line-height: 1.75;
+  color: var(--cream);
+}
+
+/* Paños de cortina de borde a borde controlados por --curtain-progress (0..1) */
+.curtains-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.curtain-panel {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 52%;
+  background-color: var(--cherry);
+  will-change: transform;
+}
+
+.curtain-left {
+  left: 0;
+  transform-origin: left center;
+  transform: translate3d(calc(var(--curtain-progress, 0) * -90%), 0, 0)
+    scaleX(calc(1 - var(--curtain-progress, 0) * 0.72));
+  border-right: 3px solid rgba(198, 157, 34, 0.55);
+  box-shadow: inset -28px 0 48px rgba(0, 0, 0, 0.55);
+}
+
+.curtain-right {
+  right: 0;
+  transform-origin: right center;
+  transform: translate3d(calc(var(--curtain-progress, 0) * 90%), 0, 0)
+    scaleX(calc(1 - var(--curtain-progress, 0) * 0.72));
+  border-left: 3px solid rgba(198, 157, 34, 0.55);
+  box-shadow: inset 28px 0 48px rgba(0, 0, 0, 0.55);
+}
+
+.curtain-folds {
+  position: absolute;
+  inset: 0;
+  background-image: repeating-linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.34) 0px,
+    rgba(103, 0, 16, 0.1) 24px,
+    rgba(255, 255, 255, 0.05) 42px,
+    rgba(0, 0, 0, 0.38) 64px
+  );
+  background-size: 128px 100%;
+  animation: curtain-sway 5.2s ease-in-out infinite alternate;
+}
+
+.curtain-right .curtain-folds {
+  animation-direction: alternate-reverse;
+}
+
+.curtain-hem {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 16px;
+  background: linear-gradient(180deg, transparent, rgba(198, 157, 34, 0.42));
+}
+
+@keyframes curtain-sway {
+  0% {
+    transform: skewX(-0.6deg) scaleX(1);
+  }
+  100% {
+    transform: skewX(0.6deg) scaleX(1.018);
+  }
+}
+
+.curtain-front-prompt {
+  position: relative;
+  z-index: 6;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  text-align: center;
+  opacity: calc(1 - var(--curtain-progress, 0) * 2.4);
+  transform: scale(calc(1 - var(--curtain-progress, 0) * 0.08));
+}
+
+.curtain-title-preview {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 5.4vw, 4.4rem);
+  font-weight: 400;
+  line-height: 1.08;
+  color: var(--gold);
+  text-shadow: 0 6px 24px rgba(0, 0, 0, 0.72);
+}
+
+/* ==========================================================================
+   BOTONES SEGÚN GUÍA DE MARCA (Pág. 10)
+   ========================================================================== */
+.pill-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 11px 24px;
+  border-radius: var(--radius-btn);
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  border: 1.5px solid var(--carbon);
+  white-space: nowrap;
+  transition: transform 160ms ease, background-color 180ms ease, color 180ms ease;
+}
+
+.pill-btn:hover {
+  transform: translateY(-1px);
+}
+
+.pill-btn--gold {
+  background-color: var(--gold);
+  color: var(--carbon);
+  border-color: var(--gold);
+}
+
+.pill-btn--gold:hover {
+  background-color: #d9ae2d;
+}
+
+.pill-btn--outline {
+  background-color: var(--carbon);
+  color: var(--gold);
+  border-color: var(--gold);
+}
+
+.pill-btn--outline:hover {
+  background-color: rgba(198, 157, 34, 0.14);
+}
+
+/* ==========================================================================
+   SECCIÓN 1: ALFOMBRA ROJA (#670010 con laterales #181818)
+   Ancho generoso para alojar todos los elementos sin molestar visualmente
+   ========================================================================== */
+.carpet-section {
+  position: relative;
+  padding: 56px 24px 88px;
+  background-color: var(--carbon);
+  overflow: hidden;
+}
+
+.carpet-runner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: min(1100px, 90vw);
+  transform: translateX(-50%);
+  background: linear-gradient(180deg, var(--cherry) 0%, #52000d 78%, var(--carbon) 100%);
+  clip-path: polygon(2% 0%, 98% 0%, 100% 100%, 0% 100%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.section-container {
+  position: relative;
+  z-index: 2;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.carpet-inner-container {
+  max-width: 980px;
+  padding: 0 18px;
+}
+
+.editorial-frame-box {
+  max-width: 820px;
+  margin: 0 auto 44px;
+  padding: 20px 28px;
+  border: 1.5px solid var(--cream);
+  background-color: rgba(24, 24, 24, 0.56);
+  text-align: center;
+}
+
+.editorial-frame-box--left {
+  margin: 0;
+  text-align: left;
+  background-color: var(--carbon-elevated);
+}
+
+.frame-box-title {
+  margin: 0 0 6px;
+  font-family: var(--font-display);
+  font-size: clamp(1.2rem, 2.1vw, 1.55rem);
+  color: var(--gold);
+  font-weight: 400;
+  line-height: 1.3;
+  text-wrap: balance;
+}
+
+.frame-box-sub {
+  margin: 0;
+  font-size: 14px;
+  color: var(--cream-muted);
+}
+
+.frame-box-copy {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--cream);
+}
+
+/* Listado 2026 + PNGs sin alterar */
+.nominees-showcase-grid {
+  display: grid;
+  gap: 36px;
+  margin-bottom: 48px;
+}
+
+.nominee-spotlight-row {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 28px;
+  align-items: center;
+}
+
+.nominee-spotlight-row--reverse {
+  grid-template-columns: 1fr 280px;
+}
+
+.nominee-portrait-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+
+.character-png {
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+  object-fit: contain;
+}
+
+.nominee-list-card {
+  background-color: rgba(24, 24, 24, 0.88);
+  border: 1px solid rgba(198, 157, 34, 0.45);
+  border-radius: var(--radius-card);
+  padding: 24px 28px;
+}
+
+.nominee-card-head {
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(248, 239, 216, 0.16);
+}
+
+.gold-subtitle {
+  margin: 0 0 4px;
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  font-weight: 400;
+  color: var(--gold);
+}
+
+.nominee-meta {
+  margin: 0;
+  font-size: 14px;
+  color: var(--cream-muted);
+}
+
+.nominees-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.nominee-item {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(248, 239, 216, 0.1);
+}
+
+.nominee-item.is-winner {
+  background-color: rgba(198, 157, 34, 0.14);
+  border-color: var(--gold);
+}
+
+.nominee-name-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 10px;
+}
+
+.nominee-name {
+  font-weight: 700;
+  font-size: 17px;
+  color: var(--cream);
+}
+
+.nominee-film {
+  font-style: italic;
+  font-size: 15px;
+  color: var(--cream-muted);
+}
+
+.nominee-winner-mark {
+  font-size: 13px;
+  color: var(--gold);
+  font-weight: 700;
+}
+
+.nominee-nationality {
+  font-size: 14px;
+  color: var(--gold);
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* Reacción de Jessie Buckley */
+.reaction-stage-card {
+  background-color: var(--carbon-elevated);
+  border: 1px solid rgba(198, 157, 34, 0.4);
+  border-radius: var(--radius-card);
+  padding: 26px 28px;
+}
+
+.reaction-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.reaction-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 400;
+  color: var(--gold);
+}
+
+.reaction-sub {
+  margin: 2px 0 0;
+  font-size: 14px;
+  color: var(--cream-muted);
+}
+
+.reaction-tabs,
+.sweep-badges-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.tab-btn,
+.filter-btn {
+  padding: 8px 16px;
+  border-radius: var(--radius-btn);
+  border: 1px solid rgba(198, 157, 34, 0.48);
+  background-color: transparent;
+  color: var(--cream);
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: background-color 160ms ease, color 160ms ease;
+}
+
+.tab-btn.is-active,
+.filter-btn.is-active {
+  background-color: var(--gold);
+  color: var(--carbon);
+  border-color: var(--gold);
+}
+
+.reaction-viewport {
+  padding: 18px 20px;
+  border-radius: 8px;
+  background-color: var(--carbon);
+  border: 1px solid rgba(248, 239, 216, 0.14);
+}
+
+.reaction-quote {
+  margin: 0 0 10px;
+  font-size: 18px;
+  font-style: italic;
+  color: var(--cream);
+}
+
+.reaction-note {
+  margin: 0;
+  font-size: 15px;
+  color: var(--cream-muted);
+}
+
+/* ==========================================================================
+   SECCIONES NARRATIVAS (#181818)
+   ========================================================================== */
+.story-section {
+  padding: 84px 24px;
+  background-color: var(--carbon);
+  border-top: 1px solid rgba(198, 157, 34, 0.2);
+}
+
+.story-section--alt {
+  background-color: #141414;
+}
+
+.section-title {
+  margin: 0 0 28px;
+  text-align: center;
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 400;
+  color: var(--gold);
+  text-wrap: balance;
+}
+
+.title-with-statuettes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 32px;
+}
+
+.title-with-statuettes .section-title {
+  margin-bottom: 0;
+}
+
+.statuette-icon {
+  width: 34px;
+  height: 68px;
+  flex-shrink: 0;
+}
+
+/* Carrusel de historias */
+.carousel-wrapper {
+  margin-bottom: 56px;
+}
+
+.carousel-track {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  align-items: stretch;
+  margin-bottom: 24px;
+}
+
+.story-card {
+  background-color: var(--carbon-elevated);
+  border: 1px solid rgba(198, 157, 34, 0.28);
+  border-radius: var(--radius-card);
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: transform 200ms ease, border-color 200ms ease;
+}
+
+.story-card.is-focal {
+  border-color: var(--gold);
+  background-color: #261b1d;
+  transform: translateY(-4px);
+}
+
+.story-card-kicker {
+  font-size: 13px;
+  color: var(--gold);
+}
+
+.story-card-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 400;
+  color: var(--cream);
+}
+
+.story-card-body {
+  margin: 0;
+  font-size: 15.5px;
+  line-height: 1.6;
+  color: var(--cream-muted);
+}
+
+.story-card-fact {
+  margin-top: auto;
+  padding-top: 10px;
+  border-top: 1px solid rgba(248, 239, 216, 0.12);
+  font-size: 14px;
+  color: var(--gold);
+}
+
+.carousel-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+
+.carousel-counter {
+  font-variant-numeric: tabular-nums;
+  font-size: 15px;
+  color: var(--cream-muted);
+}
+
+/* Bloques de gráficos */
+.chart-block {
+  margin-top: 40px;
+}
+
+.chart-text-intro {
+  max-width: 780px;
+  margin: 0 auto 26px;
+  text-align: center;
+}
+
+.chart-label {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.editorial-paragraph {
+  margin: 0;
+  font-size: 17.5px;
+  line-height: 1.75;
+  color: var(--cream);
+}
+
+.viz-card {
+  position: relative;
+  background-color: var(--carbon-elevated);
+  border: 1px solid rgba(198, 157, 34, 0.38);
+  border-radius: var(--radius-card);
+  padding: 26px 28px;
+}
+
+.viz-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.viz-title {
+  margin: 0 0 4px;
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 400;
+  color: var(--gold);
+}
+
+.viz-subtitle {
+  margin: 0;
+  font-size: 14.5px;
+  color: var(--cream-muted);
+}
+
+.viz-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.viz-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 24px;
+  margin-bottom: 18px;
+  font-size: 14px;
+  color: var(--cream);
+}
+
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.swatch {
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.swatch--cream {
+  background-color: var(--cream);
+}
+
+.swatch--gold {
+  background-color: var(--gold);
+}
+
+.swatch--cherry {
+  background-color: var(--cherry);
+  border: 1px solid rgba(248, 239, 216, 0.45);
+}
+
+.svg-chart-wrap {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.viz-svg {
+  width: 100%;
+  min-width: 640px;
+  height: auto;
+  display: block;
+}
+
+.viz-tooltip {
+  margin-top: 14px;
+  padding: 12px 16px;
+  border-radius: 6px;
+  background-color: var(--carbon);
+  border: 1px solid var(--gold);
+  font-size: 14.5px;
+  font-variant-numeric: tabular-nums;
+  color: var(--cream);
+}
+
+/* ==========================================================================
+   SECCIÓN 3: FESTIVALES INTERNACIONALES Y REPISA
+   ========================================================================== */
+.sweep-showcase {
+  margin-bottom: 34px;
+}
+
+.sweep-stage-panel {
+  background-color: var(--carbon-elevated);
+  border: 1px solid rgba(198, 157, 34, 0.38);
+  border-radius: var(--radius-card);
+  padding: 24px 28px;
+}
+
+.sweep-content {
+  font-size: 16.5px;
+  line-height: 1.7;
+  color: var(--cream);
+}
+
+.sweep-content strong {
+  color: var(--gold);
+}
+
+.festivals-split {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 24px;
+  align-items: stretch;
+  margin-bottom: 40px;
+}
+
+.trophy-shelf-card {
+  background-color: var(--carbon-elevated);
+  border: 1px solid rgba(198, 157, 34, 0.38);
+  border-radius: var(--radius-card);
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shelf-display {
+  width: 100%;
+  text-align: center;
+}
+
+.shelf-trophies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  align-items: end;
+  padding: 0 12px 10px;
+}
+
+.trophy-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.trophy-svg {
+  width: 58px;
+  height: 78px;
+}
+
+.trophy-name {
+  font-size: 13px;
+  color: var(--cream);
+}
+
+.shelf-ledge {
+  height: 8px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, rgba(198, 157, 34, 0.35), var(--gold), rgba(198, 157, 34, 0.35));
+  margin-bottom: 10px;
+}
+
+.shelf-caption {
+  margin: 0;
+  font-size: 14px;
+  color: var(--gold);
+}
+
+/* Visualización 3 */
+.festival-bars-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.fest-bar-row {
+  display: grid;
+  grid-template-columns: 200px 1fr 120px;
+  gap: 16px;
+  align-items: center;
+}
+
+.fest-bar-label {
+  font-size: 15px;
+  color: var(--cream);
+}
+
+.fest-bar-track {
+  height: 24px;
+  background-color: var(--carbon);
+  border: 1px solid rgba(248, 239, 216, 0.16);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.fest-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--cherry), var(--gold));
+  border-radius: 3px;
+  transition: width 360ms ease;
+}
+
+.fest-bar-value {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  font-size: 15px;
+  color: var(--gold);
+  font-weight: 700;
+}
+
+/* ==========================================================================
+   SECCIÓN 4: PODIO DE 5 LUGARES (ARRIBA DEL GRÁFICO 2)
+   ========================================================================== */
+.podium-section {
+  margin-bottom: 48px;
+}
+
+.podium-stage {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 14px;
+  align-items: end;
+  padding-top: 24px;
+}
+
+.podium-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.podium-country-meta {
+  margin-bottom: 12px;
+}
+
+.podium-country-name {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  color: var(--cream);
+  margin-bottom: 2px;
+}
+
+.podium-country-count {
+  display: block;
+  font-variant-numeric: tabular-nums;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--gold);
+}
+
+.podium-country-share {
+  display: block;
+  font-variant-numeric: tabular-nums;
+  font-size: 13px;
+  color: var(--cream-muted);
+}
+
+.podium-pedestal {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  border: 1px solid var(--gold);
+  border-bottom: none;
+  background: linear-gradient(180deg, rgba(198, 157, 34, 0.24) 0%, rgba(24, 24, 24, 0.96) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px 10px;
+}
+
+.podium-column.is-rank-1 .podium-pedestal {
+  background: linear-gradient(180deg, rgba(198, 157, 34, 0.44) 0%, rgba(103, 0, 16, 0.85) 100%);
+}
+
+.podium-rank {
+  font-family: var(--font-display);
+  font-size: 1.65rem;
+  color: var(--gold);
+  line-height: 1;
+}
+
+/* Conclusión final */
+.conclusion-box {
+  margin-top: 52px;
+  padding: 30px 32px;
+  border: 1.5px solid var(--gold);
+  background-color: var(--carbon-elevated);
+  border-radius: var(--radius-card);
+  text-align: center;
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.conclusion-box .editorial-paragraph {
+  margin-top: 12px;
+}
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid rgba(198, 157, 34, 0.28);
+  background-color: var(--carbon);
+  padding: 24px;
+}
+
+.footer-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  color: var(--cream-muted);
+}
+
+.footer-top-link {
+  color: var(--gold);
+  text-decoration: none;
+}
+
+.footer-top-link:hover {
+  text-decoration: underline;
+}
+
+/* ==========================================================================
+   RESPONSIVE
+   ========================================================================== */
+@media (max-width: 960px) {
+  .header-nav {
+    display: none;
+  }
+
+  .nominee-spotlight-row,
+  .nominee-spotlight-row--reverse {
+    grid-template-columns: 1fr;
+  }
+
+  .nominee-spotlight-row--reverse .nominee-portrait-wrap {
+    order: -1;
+  }
+
+  .carousel-track {
+    grid-template-columns: 1fr;
+  }
+
+  .festivals-split {
+    grid-template-columns: 1fr;
+  }
+
+  .podium-stage {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .podium-column {
+    order: unset !important;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    background-color: var(--carbon);
+    border: 1px solid rgba(198, 157, 34, 0.35);
+    border-radius: 8px;
+    padding: 12px 16px;
+  }
+
+  .podium-country-meta {
+    margin-bottom: 0;
+  }
+
+  .podium-pedestal {
+    width: auto;
+    height: auto !important;
+    border: none;
+    background: transparent !important;
+    padding: 0;
+  }
+
+  .fest-bar-row {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+
+  .fest-bar-value {
+    text-align: left;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .curtain-folds,
+  .curtain-cue {
+    animation: none;
+  }
+
+  .curtain-panel {
+    transition-duration: 150ms;
+  }
+}
