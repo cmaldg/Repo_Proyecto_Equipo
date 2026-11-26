@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oscar sin fronteras</title>
+    <meta
+      name="description"
+      content="Webstory interactiva sobre la internacionalización de los Premios Oscar en las categorías Mejor Actor y Mejor Actriz (1929-2026)."
+    />
+    <meta property="og:title" content="Oscar sin fronteras" />
+    <meta
+      property="og:description"
+      content="¿Los Oscar realmente se han internacionalizado o simplemente han importado talento según sus estándares?"
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;0,6..96,700;1,6..96,400&family=Yeseva+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <!-- Barra superior en Carbon Black (#181818) con logotipo intacto en la esquina superior izquierda -->
+    <header class="site-header" id="top">
+      <div class="header-inner">
+        <a href="#top" class="brand-logo-link" aria-label="Inicio — Oscar sin fronteras">
+          <img
+            src="./assets/aistudio/LOGO_OSCARS_5c7dd058.png"
+            onerror="if(!this.dataset.fb){this.dataset.fb='1';this.src='./public/assets/aistudio/LOGO_OSCARS_5c7dd058.png';}"
+            alt="Logotipo Oscar sin fronteras"
+            class="brand-logo-img"
+          />
+        </a>
+
+        <nav class="header-nav" aria-label="Navegación principal">
+          <a href="#como-llegar" class="nav-box-link">¿Cómo llegar a los Oscar?</a>
+          <a href="#festivales" class="nav-box-link">Festivales internacionales</a>
+          <a href="#internacionalizacion" class="nav-box-link">¿Existe la internacionalización?</a>
+        </nav>
+
+        <div class="header-actions">
+          <button
+            type="button"
+            class="icon-btn"
+            id="search-toggle-btn"
+            aria-label="Buscar nominados o secciones"
+            aria-expanded="false"
+            aria-controls="search-panel"
+          >
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" />
+              <path d="M16.5 16.5L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </button>
+
+          <button
+            type="button"
+            class="icon-btn"
+            id="menu-toggle-btn"
+            aria-label="Abrir menú de navegación"
+            aria-expanded="false"
+            aria-controls="mobile-drawer"
+          >
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M4 7H20M4 12H20M4 17H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Panel de búsqueda funcional -->
+      <div class="header-drawer" id="search-panel" hidden>
+        <div class="drawer-inner">
+          <label for="search-input" class="sr-only">Buscar nominados 2026, países o bloques</label>
+          <div class="search-bar-row">
+            <input
+              type="search"
+              id="search-input"
+              class="search-input"
+              placeholder="Buscar por nombre, película, nacionalidad o capítulo (ej. Jessie, Brasil, Podio)..."
+              autocomplete="off"
+            />
+            <button type="button" class="pill-btn pill-btn--outline" id="search-close-btn">Cerrar</button>
+          </div>
+          <ul class="search-results" id="search-results" aria-live="polite"></ul>
+        </div>
+      </div>
+
+      <!-- Menú de capítulos -->
+      <div class="header-drawer" id="mobile-drawer" hidden>
+        <div class="drawer-inner drawer-chapters">
+          <a href="#telon" class="drawer-link">00 · Apertura: Oscar sin fronteras</a>
+          <a href="#nominados-2026" class="drawer-link">01 · Ganadores y nominados 2026</a>
+          <a href="#como-llegar" class="drawer-link">02 · ¿Cómo llegar a los Oscar? (vis_01)</a>
+          <a href="#festivales" class="drawer-link">03 · Festivales internacionales</a>
+          <a href="#internacionalizacion" class="drawer-link">04 · ¿Existe la internacionalización? (Podio y Gráfico 2)</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- CORTINAS AL INICIO: ancho completo sin tapar el header del logo; se abren al hacer scroll -->
+      <section class="curtain-scroll-track" id="telon" aria-label="Apertura teatral con cortinas interactivas">
+        <div class="curtain-stage" id="curtain-stage">
+          <!-- Alfombra roja (#670010) centrada con laterales negros (#181818) visible al abrirse el telón -->
+          <div class="stage-backdrop">
+            <div class="stage-carpet-runner" aria-hidden="true"></div>
+            <div class="stage-content">
+              <p class="stage-kicker">Investigación de datos · Premios de la Academia (1929–2026)</p>
+              <p class="hero-bajada" id="bajada-texto">
+                Últimamente la Academia ha nominado a actores y actrices extranjeros. Pero detrás de esa
+                nominación se encontraba un patrón: un país de producción y un mismo idioma actuado.
+                ¿Los Oscar realmente se han internacionalizado o simplemente han importado talento según
+                sus estándares?
+              </p>
+            </div>
+          </div>
+
+          <!-- Dos paños de cortina con pliegues animados; se despliegan progresivamente con el scroll -->
+          <div class="curtains-overlay" id="curtains-overlay">
+            <div class="curtain-panel curtain-left" id="curtain-left" aria-hidden="true">
+              <div class="curtain-folds"></div>
+              <div class="curtain-hem"></div>
+            </div>
+            <div class="curtain-panel curtain-right" id="curtain-right" aria-hidden="true">
+              <div class="curtain-folds"></div>
+              <div class="curtain-hem"></div>
+            </div>
+
+            <div class="curtain-front-prompt" id="curtain-front-prompt">
+              <h1 class="curtain-title-preview">Oscar sin fronteras</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIÓN 1: CONTINUACIÓN DE LA ALFOMBRA ROJA (#670010 con laterales #181818) + NOMINADOS 2026 -->
+      <section class="carpet-section" id="nominados-2026">
+        <div class="carpet-runner" aria-hidden="true"></div>
+
+        <div class="section-container carpet-inner-container">
+          <div class="editorial-frame-box">
+            <h2 class="frame-box-title">
+              Contexto de los Premios Oscar y de los últimos ganadores de Mejor Actor / Actriz (2026)
+            </h2>
+            <p class="frame-box-sub">
+              98.ª edición de los Premios de la Academia · Ceremonia del 15 de marzo de 2026
+            </p>
+          </div>
+
+          <!-- Par 1: Michael B. Jordan PNG sin cambios al lado del listado 2026 de Mejor Actor -->
+          <div class="nominees-showcase-grid">
+            <article class="nominee-spotlight-row">
+              <div class="nominee-portrait-wrap">
+                <img
+                  src="./assets/aistudio/MICHAEL_B_JORDAN_2d464b4a.png"
+                  onerror="if(!this.dataset.fb){this.dataset.fb='1';this.src='./public/assets/aistudio/MICHAEL_B_JORDAN_2d464b4a.png';}"
+                  alt="Caricatura de Michael B. Jordan sosteniendo el premio Oscar"
+                  class="character-png"
+                />
+              </div>
+              <div class="nominee-list-card">
+                <div class="nominee-card-head">
+                  <h3 class="gold-subtitle">Mejor Actor · Nominados 2026</h3>
+                  <p class="nominee-meta">5 nominados · Nacionalidad y película</p>
+                </div>
+                <ul class="nominees-list" id="list-best-actor"></ul>
+              </div>
+            </article>
+
+            <!-- Par 2: Jessie Buckley PNG sin cambios al lado del listado 2026 de Mejor Actriz -->
+            <article class="nominee-spotlight-row nominee-spotlight-row--reverse">
+              <div class="nominee-list-card">
+                <div class="nominee-card-head">
+                  <h3 class="gold-subtitle">Mejor Actriz · Nominadas 2026</h3>
+                  <p class="nominee-meta">5 nominadas · Nacionalidad y película</p>
+                </div>
+                <ul class="nominees-list" id="list-best-actress"></ul>
+              </div>
+              <div class="nominee-portrait-wrap">
+                <img
+                  src="./assets/aistudio/JESSIE_BUCKLEY_6be0cef3.png"
+                  onerror="if(!this.dataset.fb){this.dataset.fb='1';this.src='./public/assets/aistudio/JESSIE_BUCKLEY_6be0cef3.png';}"
+                  alt="Caricatura de Jessie Buckley sosteniendo el premio Oscar"
+                  class="character-png"
+                />
+              </div>
+            </article>
+          </div>
+
+          <!-- Bloque del wireframe: Video reacción de Jessie Buckley a su triunfo / El Quiebre -->
+          <div class="reaction-stage-card">
+            <div class="reaction-header">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 9H20V19C20 19.55 19.55 20 19 20H5C4.45 20 4 19.55 4 19V9Z" stroke="#C69D22" stroke-width="1.6"/>
+                <path d="M4 9L19.5 4.5L20.5 8L5 12.5" stroke="#C69D22" stroke-width="1.6"/>
+                <path d="M8 7.8L10 10.6M13 6.3L15 9.1" stroke="#C69D22" stroke-width="1.6"/>
+              </svg>
+              <div>
+                <h3 class="reaction-title">El quiebre: la reacción de Jessie Buckley al recibir el Oscar</h3>
+                <p class="reaction-sub">Del brillo de la alfombra roja a la contradicción de los datos</p>
+              </div>
+            </div>
+
+            <div class="reaction-tabs" role="tablist" aria-label="Momentos del triunfo de Jessie Buckley">
+              <button type="button" class="tab-btn is-active" role="tab" aria-selected="true" data-reaction="anuncio">
+                01. El anuncio
+              </button>
+              <button type="button" class="tab-btn" role="tab" aria-selected="false" data-reaction="discurso">
+                02. La emoción en escena
+              </button>
+              <button type="button" class="tab-btn" role="tab" aria-selected="false" data-reaction="fisura">
+                03. La fisura de los datos
+              </button>
+            </div>
+
+            <div class="reaction-viewport" id="reaction-viewport"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIÓN 2: ¿CÓMO LLEGAR A LOS OSCAR? (CARRUSEL + GRÁFICO 1 / vis_01) -->
+      <section class="story-section" id="como-llegar">
+        <div class="section-container">
+          <h2 class="section-title">¿Cómo llegar a los Oscar?</h2>
+
+          <div class="editorial-frame-box">
+            <p class="frame-box-copy">
+              Carrusel con historias de actores y actrices y su relación con Hollywood. La idea de este
+              bloque es evidenciar, a través de casos, las acciones de algunos intérpretes extranjeros
+              para «triunfar» en el cine estadounidense.
+            </p>
+          </div>
+
+          <!-- Carrusel de 3 cartas visibles con botones Siguiente / Atrás según guía de marca -->
+          <div class="carousel-wrapper" aria-label="Casos históricos de intérpretes extranjeros">
+            <div class="carousel-track" id="actors-carousel-track"></div>
+            <div class="carousel-controls">
+              <button type="button" class="pill-btn pill-btn--gold" id="carousel-prev-btn">
+                <span aria-hidden="true">←</span> Atrás
+              </button>
+              <span class="carousel-counter" id="carousel-counter">1 / 4</span>
+              <button type="button" class="pill-btn pill-btn--gold" id="carousel-next-btn">
+                Siguiente <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Apartado Gráfico 1 (vis_01) con el párrafo exacto del prompt -->
+          <div class="chart-block" id="grafico-1">
+            <div class="chart-text-intro">
+              <span class="chart-label">Gráfico 1 · vis_01</span>
+              <p class="editorial-paragraph">
+                El gráfico busca revelar si los nominados a Mejor Actor-Actriz son en su mayoría
+                estadounidense con debut en su país o extranjeros con debut en Estados Unidos. Se
+                evidencia que en las últimas 3 décadas La Academia ha tenido más presencia extranjera.
+                Nuestro objetivo descubrir si la industria ha aceptado el talento extranjero año tras año.
+              </p>
+            </div>
+
+            <div class="viz-card">
+              <div class="viz-header">
+                <div>
+                  <h3 class="viz-title">vis_01 · Origen y debut de nominados a Mejor Actor y Mejor Actriz (1929–2026)</h3>
+                  <p class="viz-subtitle">Distribución porcentual por década y lugar de debut cinematográfico (% de nominaciones)</p>
+                </div>
+                <div class="viz-filters" role="group" aria-label="Filtrar categoría en vis_01">
+                  <button type="button" class="filter-btn is-active" data-vis1-filter="all">Ambas categorías</button>
+                  <button type="button" class="filter-btn" data-vis1-filter="actor">Mejor Actor</button>
+                  <button type="button" class="filter-btn" data-vis1-filter="actress">Mejor Actriz</button>
+                </div>
+              </div>
+
+              <div class="viz-legend" aria-label="Leyenda del gráfico vis_01">
+                <span class="legend-item"><i class="swatch swatch--cream"></i> Estadounidense con debut en EE. UU.</span>
+                <span class="legend-item"><i class="swatch swatch--gold"></i> Extranjero/a con debut en EE. UU. / circuito angloparlante</span>
+                <span class="legend-item"><i class="swatch swatch--cherry"></i> Extranjero/a con debut en su país de origen</span>
+              </div>
+
+              <div class="svg-chart-wrap" id="vis01-chart"></div>
+              <div class="viz-tooltip" id="vis01-tooltip" hidden></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIÓN 3: FESTIVALES INTERNACIONALES -->
+      <section class="story-section story-section--alt" id="festivales">
+        <div class="section-container">
+          <h2 class="section-title">Festivales internacionales</h2>
+
+          <!-- Bloque superior del wireframe: Video / Crónica de los 3 premios de Jessie Buckley -->
+          <div class="sweep-showcase">
+            <div class="sweep-stage-panel">
+              <div class="sweep-badges-row" role="tablist" aria-label="Galardones temporada 2026 de Jessie Buckley">
+                <button type="button" class="tab-btn is-active" role="tab" aria-selected="true" data-award="globo">
+                  Globo de Oro · Ene 2026
+                </button>
+                <button type="button" class="tab-btn" role="tab" aria-selected="false" data-award="bafta">
+                  BAFTA · Feb 2026
+                </button>
+                <button type="button" class="tab-btn" role="tab" aria-selected="false" data-award="oscar">
+                  Premio Oscar · Mar 2026
+                </button>
+              </div>
+              <div class="sweep-content" id="sweep-detail"></div>
+            </div>
+          </div>
+
+          <!-- Disposición asimétrica del boceto: crónica a la izquierda + repisa de 3 premios a la derecha -->
+          <div class="festivals-split">
+            <div class="editorial-frame-box editorial-frame-box--left">
+              <h3 class="gold-subtitle">Crónica de una temporada perfecta</h3>
+              <p class="frame-box-copy">
+                Contexto y crónica del triunfo de Jessie Buckley tras arrasar con las tres principales
+                nominaciones a Mejor Actriz en la temporada de premios 2026 por <em>Hamnet</em>:
+                Globo de Oro, BAFTA y Oscar. La repisa se llena de trofeos, pero la película fue
+                rodada en inglés y coproducida entre Reino Unido y Estados Unidos.
+              </p>
+            </div>
+
+            <div class="trophy-shelf-card">
+              <div class="shelf-display" aria-label="Repisa con los tres galardones de Jessie Buckley">
+                <div class="shelf-trophies">
+                  <div class="trophy-item">
+                    <svg class="trophy-svg" viewBox="0 0 64 88" fill="none" aria-hidden="true">
+                      <ellipse cx="32" cy="18" rx="13" ry="13" stroke="#C69D22" stroke-width="2" fill="rgba(198,157,34,0.16)"/>
+                      <path d="M22 33L42 33L37 56L27 56Z" fill="#C69D22"/>
+                      <rect x="20" y="56" width="24" height="14" rx="2" stroke="#C69D22" stroke-width="2"/>
+                    </svg>
+                    <span class="trophy-name">Globo de Oro</span>
+                  </div>
+                  <div class="trophy-item">
+                    <svg class="trophy-svg" viewBox="0 0 64 88" fill="none" aria-hidden="true">
+                      <path d="M18 14C18 10 46 10 46 14V32C46 42 38 48 32 48C26 48 18 42 18 32V14Z" stroke="#C69D22" stroke-width="2" fill="rgba(198,157,34,0.16)"/>
+                      <circle cx="26" cy="25" r="2.2" fill="#C69D22"/>
+                      <circle cx="38" cy="25" r="2.2" fill="#C69D22"/>
+                      <rect x="28" y="48" width="8" height="10" fill="#C69D22"/>
+                      <rect x="20" y="58" width="24" height="12" rx="2" stroke="#C69D22" stroke-width="2"/>
+                    </svg>
+                    <span class="trophy-name">BAFTA</span>
+                  </div>
+                  <div class="trophy-item">
+                    <svg class="trophy-svg" viewBox="0 0 64 88" fill="none" aria-hidden="true">
+                      <circle cx="32" cy="14" r="6" fill="#C69D22"/>
+                      <path d="M24 22H40L36 52H28L24 22Z" fill="#C69D22"/>
+                      <rect x="21" y="52" width="22" height="18" rx="2" stroke="#C69D22" stroke-width="2"/>
+                    </svg>
+                    <span class="trophy-name">Oscar 2026</span>
+                  </div>
+                </div>
+                <div class="shelf-ledge" aria-hidden="true"></div>
+                <p class="shelf-caption">Jessie Buckley · Mejor Actriz (2026)</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Visualización de datos 3 -->
+          <div class="chart-block" id="grafico-3">
+            <div class="viz-card">
+              <div class="viz-header">
+                <div>
+                  <span class="chart-label">Visualización de datos 3</span>
+                  <h3 class="viz-title">El filtro de los festivales europeos para el cine en lengua no inglesa</h3>
+                  <p class="viz-subtitle">
+                    Porcentaje de nominaciones actorales en idioma no inglés que contaron con paso previo
+                    por Cannes, Venecia o Berlín (1960–2026)
+                  </p>
+                </div>
+              </div>
+              <div class="festival-bars-grid" id="vis03-chart"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIÓN 4: ¿EXISTE LA INTERNACIONALIZACIÓN? (PODIO DE 5 LUGARES ANTES DEL GRÁFICO 2 + GRÁFICO 2 + CONCLUSIÓN) -->
+      <section class="story-section" id="internacionalizacion">
+        <div class="section-container">
+          <div class="title-with-statuettes">
+            <svg class="statuette-icon" viewBox="0 0 40 80" fill="none" aria-hidden="true">
+              <circle cx="20" cy="12" r="5" fill="#C69D22"/>
+              <path d="M13 20H27L24 54H16L13 20Z" fill="#C69D22"/>
+              <rect x="11" y="56" width="18" height="14" rx="2" fill="#C69D22"/>
+            </svg>
+            <h2 class="section-title">¿Existe la internacionalización?</h2>
+            <svg class="statuette-icon" viewBox="0 0 40 80" fill="none" aria-hidden="true">
+              <circle cx="20" cy="12" r="5" fill="#C69D22"/>
+              <path d="M13 20H27L24 54H16L13 20Z" fill="#C69D22"/>
+              <rect x="11" y="56" width="18" height="14" rx="2" fill="#C69D22"/>
+            </svg>
+          </div>
+
+          <!-- PODIO DE 5 LUGARES ANTES DEL GRÁFICO 2 (orden explícito solicitado) -->
+          <div class="podium-section" id="podio">
+            <div class="viz-card">
+              <div class="viz-header">
+                <div>
+                  <span class="chart-label">Podio de producción · Top 5 países</span>
+                  <h3 class="viz-title">Países con mayor presencia en la producción de las películas nominadas a los Oscar</h3>
+                  <p class="viz-subtitle">
+                    Ranking histórico de las 5 principales naciones productoras detrás de las nominaciones a Mejor Actor y Mejor Actriz
+                  </p>
+                </div>
+                <div class="viz-filters" role="group" aria-label="Período del podio">
+                  <button type="button" class="filter-btn is-active" data-podium-period="all">Histórico (1929–2026)</button>
+                  <button type="button" class="filter-btn" data-podium-period="recent">Últimas 3 décadas (1996–2026)</button>
+                </div>
+              </div>
+
+              <div class="podium-stage" id="podium-stage" aria-label="Podio de 5 lugares de países productores"></div>
+            </div>
+          </div>
+
+          <!-- GRÁFICO 2 (después del podio) con el párrafo exacto del prompt -->
+          <div class="chart-block" id="grafico-2">
+            <div class="chart-text-intro">
+              <span class="chart-label">Gráfico 2 · gráfico 2 gráfico</span>
+              <p class="editorial-paragraph">
+                Siguiendo el análisis de la internacionalización, el gráfico 2 examina el origen de las
+                productoras cinematográficas detrás de las nominaciones a Mejor Actor y Mejor Actriz. Al
+                mostrar los países con mayor presencia en los Oscar, el objetivo es descubrir si la
+                apertura de los Oscar es genuina o si los actores internacionales tienen mayores
+                probabilidades de ser nominados únicamente cuando participan en películas respaldadas por
+                la industria estadounidense
+              </p>
+            </div>
+
+            <div class="viz-card">
+              <div class="viz-header">
+                <div>
+                  <h3 class="viz-title">gráfico 2 gráfico · Productoras detrás de nominaciones por década y respaldo de EE. UU.</h3>
+                  <p class="viz-subtitle">
+                    Comparativa temporal de países de producción y dependencia del financiamiento estadounidense en nominados extranjeros
+                  </p>
+                </div>
+                <div class="viz-filters" role="group" aria-label="Vista del Gráfico 2">
+                  <button type="button" class="filter-btn is-active" data-vis2-mode="timeline">Evolución por década</button>
+                  <button type="button" class="filter-btn" data-vis2-mode="foreign">Actores extranjeros según respaldo</button>
+                </div>
+              </div>
+
+              <div class="viz-legend" id="vis02-legend"></div>
+              <div class="svg-chart-wrap" id="vis02-chart"></div>
+              <div class="viz-tooltip" id="vis02-tooltip" hidden></div>
+            </div>
+          </div>
+
+          <!-- CONCLUSIÓN FINAL DEL BOCETO -->
+          <div class="conclusion-box">
+            <span class="chart-label">Conclusión de la investigación</span>
+            <h3 class="gold-subtitle">¿Apertura real o importación de talento?</h3>
+            <p class="editorial-paragraph">
+              Los datos desmontan la hipótesis de una internacionalización plena: aunque en las últimas
+              tres décadas aumentó la presencia de intérpretes nacidos fuera de Estados Unidos, el
+              patrón estructural se mantiene intacto. La gran mayoría de esas nominaciones ocurre en
+              películas habladas en inglés y financiadas o coproducidas por estudios estadounidenses. Más
+              que abrir sus fronteras cinematográficas, la Academia ha incorporado talento extranjero
+              cuando este logra integrarse a los estándares de producción de Hollywood.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <span>Oscar sin fronteras · Webstory de datos (1929–2026)</span>
+        <a href="#top" class="footer-top-link">Volver al inicio ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
