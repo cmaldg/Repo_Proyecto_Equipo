@@ -1290,9 +1290,12 @@ button {
     transition-duration: 150ms;
   }
 }
+/* ==========================================================================
+   GRAFICOS
+   ========================================================================== */
 #vis {
   width: 100%;
-  max-width: 800px; /* Cambia este valor al ancho máximo que quieras */
+  max-width: 400px; /* Cambia este valor al ancho máximo que quieras */
   margin: 0 auto;   /* Lo centra horizontalmente */
   display: block;
 }
