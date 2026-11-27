@@ -120,9 +120,9 @@
      ------------------------------------------------------------------------ */
   const ACTOR_STORIES = [
     {
-      kicker: 'Caso 01 · Años 30 · Identidad oculta',
-      title: 'Merle Oberon (Bombay → Tasmania)',
-      body: El actor suizo Emil Jannings, consagrado en el cine alemán, llegó a Hollywood en 1926 contratado por Paramount, sin trayectoria previa en EE. UU. En 1929, en la primera ceremonia de los Oscar, fue el primer ganador de Mejor actor, premiado por dos películas: The Last Command (1928) y The Way of All Flesh (1927). Ambas fueron producciones estadounidenses y, al ser cine mudo, su actuación no dependía del idioma. Su carrera en Hollywood terminó con la llegada del cine sonoro, cuando su fuerte acento alemán limitó sus papeles, y regresó a Europa.
+      kicker: 'Caso 01 ,
+      title: ' Emil Jannings: El pionero',
+      body: El actor suizo Emil Jannings, consagrado en el cine alemán, llegó a Hollywood en 1926 contratado por Paramount, sin trayectoria previa en EE. UU. En 1929, en la primera ceremonia de los Oscar, fue el primer ganador de Mejor actor, premiado por dos películas: The Last Command (1928) y The Way of All Flesh (1927). Ambas fueron producciones estadounidenses y, al ser cine mudo, su actuación no dependía del idioma. Su carrera en Hollywood terminó con la llegada del cine sonoro, cuando su fuerte acento alemán limitó sus papeles, y regresó a Europa.',
 
     },
     {
