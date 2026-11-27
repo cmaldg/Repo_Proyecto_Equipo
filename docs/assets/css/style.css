@@ -6,8 +6,8 @@
    - Golden Bronze: #C69D22 (títulos, bordes, botones e iconografía)
    - Vanilla Cream: #F8EFD8 (cuerpos de texto sobre fondos oscuros)
    Tipografías:
-   - Títulos: 'Yeseva One', Georgia, serif
-   - Cuerpo: 'Bodoni FLF', 'Bodoni Moda', Georgia, serif
+   - Títulos: 'Ubuntu', sans-serif
+   - Cuerpo: 'Ubuntu', sans-serif
    ========================================================================== */
 
 :root {
@@ -21,6 +21,8 @@
   --cream-muted: rgba(248, 239, 216, 0.78);
   --radius-btn: 999px;
   --radius-card: 10px;
+  --font-display: "Ubuntu", sans-serif;
+  --font-body: "Ubuntu", sans-serif;
 }
 
 *,
