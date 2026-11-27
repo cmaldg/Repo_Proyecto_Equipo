@@ -96,43 +96,8 @@
   };
 
   /* ------------------------------------------------------------------------
-     3. CARRUSEL DE 5 HISTORIAS: LOS CAMINOS A LOS OSCAR
-     ------------------------------------------------------------------------ */
-  const ACTOR_STORIES = [
-    {
-      kicker: 'Caso 01 · Suiza → Hollywood (1929)',
-      title: '1. El actor suizo Emil Jannings',
-      body: 'Consagrado en el cine alemán, llegó a Hollywood en 1926 contratado por Paramount sin trayectoria previa en EE. UU. En 1929 ganó el primer Oscar a Mejor Actor por dos cintas mudas estadounidenses: The Last Command y The Way of All Flesh. Al llegar el cine sonoro, su fuerte acento alemán limitó sus papeles y regresó a Europa.',
-    },
-    {
-      kicker: 'Caso 02 · Canadá → Hollywood (1930)',
-      title: '2. La actriz canadiense Mary Pickford',
-      body: 'Nacida en Toronto, trabajaba en el cine estadounidense desde 1909 y cofundó United Artists y la propia Academia. En 1930 se convirtió en la primera extranjera en ganar Mejor Actriz por Coquette (1929), su primer filme sonoro y producción de EE. UU. Al ser anglófona, el idioma nunca fue una barrera.',
-      fact: 'Única nominación y triunfo en 1930 con producción estadounidense en inglés.',
-    },
-    {
-      kicker: 'Caso 03 · India británica → Hollywood (1936)',
-      title: '3. El caso de Merle Oberon',
-      body: 'Nacida en Bombay con ascendencia anglo-india, ocultó su origen y construyó una biografía falsa afirmando haber nacido en Tasmania como actriz blanca para esquivar prejuicios raciales. En 1936 fue nominada a Mejor Actriz por The Dark Angel (EE. UU.). Suele citarse con cautela como la primera nominada de origen asiático.',
-      fact: 'Nominada en 1936 por The Dark Angel tras ocultar su identidad.',
-    },
-    {
-      kicker: 'Caso 04 · Cuba → España → Hollywood (2023)',
-      title: '4. La vía estadounidense: Ana de Armas',
-      body: 'Nacida en La Habana, se mudó a España a los 18 años y saltó a la fama en El internado. Hacia 2014 emigró a Los Ángeles tras estudiar inglés, debutando con Knock Knock (2015). En 2023 logró su primera nominación al Oscar a Mejor Actriz por Blonde (2022), producción estadounidense de Netflix en inglés.',
-      fact: 'Nominada en 2023 por Blonde (EE. UU.); no obtuvo la estatuilla.',
-    },
-    {
-      kicker: 'Caso 05 · España → Hollywood → España (2020)',
-      title: '5. La excepción: Antonio Banderas',
-      body: 'Tras consolidarse en España con Pedro Almodóvar, dio el salto a Hollywood en los años 90 (Philadelphia, La máscara del Zorro) aprendiendo inglés para trabajar en la industria. Sin embargo, su única nominación al Oscar a Mejor Actor llegó en 2020 por Dolor y gloria (2019), producción española filmada en español.',
-      fact: 'Nominado en 2020 en idioma español por Dolor y gloria; no ganó.',
-    },
-  ];
-
-  /* ------------------------------------------------------------------------
-     4. DATOS PARA VISUALIZACIÓN 3 Y GRÁFICO 2
-     (Nota: El Podio Top 5 ahora es 100% editable directamente en el HTML)
+     3. DATOS PARA VISUALIZACIÓN 3 Y GRÁFICO 2
+     (Nota: El Carrusel de 5 historias y el Podio Top 5 son 100% editables en HTML)
      ------------------------------------------------------------------------ */
   const VIS03_DATA = [
     { label: 'Estreno o premio en Cannes', pct: 46 },
@@ -280,7 +245,7 @@
   }
 
   /* ------------------------------------------------------------------------
-     9. CARRUSEL DE 5 HISTORIAS (LOS CAMINOS A LOS OSCAR)
+     9. CARRUSEL DE HISTORIAS (LOS CAMINOS A LOS OSCAR — TEXTOS DESDE HTML)
      ------------------------------------------------------------------------ */
   function initCarousel() {
     const track = document.getElementById('actors-carousel-track');
@@ -290,9 +255,13 @@
     const nextBtn = document.getElementById('carousel-next-btn');
     if (!track || !prevBtn || !nextBtn) return;
 
+    const cards = Array.from(track.querySelectorAll('.story-card'));
+    const total = cards.length;
+    if (!total) return;
+
     let index = 0;
 
-    function renderDots(total) {
+    function renderDots() {
       if (!dotsWrap) return;
       dotsWrap.innerHTML = '';
       for (let i = 0; i < total; i += 1) {
@@ -310,56 +279,52 @@
     }
 
     function render() {
-      const total = ACTOR_STORIES.length;
-      const indices = [
-        (index - 1 + total) % total,
-        index,
-        (index + 1) % total,
-      ];
+      const prevIdx = (index - 1 + total) % total;
+      const nextIdx = (index + 1) % total;
 
-      track.innerHTML = '';
-      indices.forEach((storyIdx, slot) => {
-        const story = ACTOR_STORIES[storyIdx];
-        const card = document.createElement('article');
-        card.className = 'story-card' + (slot === 1 ? ' is-focal' : '');
-        card.innerHTML =
-          '<span class="story-card-kicker">' +
-          escapeHtml(story.kicker) +
-          '</span>' +
-          '<h3 class="story-card-title">' +
-          escapeHtml(story.title) +
-          '</h3>' +
-          '<p class="story-card-body">' +
-          escapeHtml(story.body) +
-          '</p>' +
-          '<div class="story-card-fact">' +
-          escapeHtml(story.fact) +
-          '</div>';
+      cards.forEach((card, i) => {
+        const isFocal = i === index;
+        const isPrev = total > 1 && i === prevIdx;
+        const isNext = total > 2 && i === nextIdx;
+        const isVisible = isFocal || isPrev || isNext;
 
-        if (slot !== 1) {
-          card.addEventListener('click', function () {
-            index = storyIdx;
-            render();
-          });
+        card.classList.toggle('is-focal', isFocal);
+        card.classList.toggle('is-carousel-hidden', !isVisible);
+
+        if (isPrev) {
+          card.style.order = '1';
+        } else if (isFocal) {
+          card.style.order = '2';
+        } else if (isNext) {
+          card.style.order = '3';
+        } else {
+          card.style.order = '';
         }
-
-        track.appendChild(card);
       });
 
       if (counter) {
         counter.textContent = index + 1 + ' / ' + total;
       }
 
-      renderDots(total);
+      renderDots();
     }
 
+    cards.forEach((card, i) => {
+      card.addEventListener('click', function () {
+        if (i !== index) {
+          index = i;
+          render();
+        }
+      });
+    });
+
     prevBtn.addEventListener('click', function () {
-      index = (index - 1 + ACTOR_STORIES.length) % ACTOR_STORIES.length;
+      index = (index - 1 + total) % total;
       render();
     });
 
     nextBtn.addEventListener('click', function () {
-      index = (index + 1) % ACTOR_STORIES.length;
+      index = (index + 1) % total;
       render();
     });
 
@@ -677,4 +642,5 @@
     initVis02();
   });
 })();
+
 
