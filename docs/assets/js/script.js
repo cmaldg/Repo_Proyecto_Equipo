@@ -76,39 +76,45 @@
     ],
   };
 
-  /const ACTOR_STORIES = [
-  {
-    kicker: 'Caso 01 · Años 20 · Primer Oscar',
-    title: 'Emil Jannings (Suiza/Alemania → Hollywood)',
-    body: 'Estrella del cine alemán, llegó a Hollywood en 1926 sin trayectoria previa en EE. UU. En 1929 ganó el Oscar a Mejor actor por dos películas mudas de producción estadounidense: The Last Command y The Way of All Flesh.',
-    fact: 'Al ser cine mudo, el idioma no fue una barrera.',
-  },
-  {
-    kicker: 'Caso 02 · Años 20–30 · Estrella consolidada',
-    title: 'Mary Pickford (Canadá → Hollywood)',
-    body: 'Ya era una de las mayores estrellas del cine estadounidense, donde trabajaba desde 1909. En 1930 ganó el Oscar a Mejor actriz por Coquette, su primer filme sonoro y una producción de EE. UU.',
-    fact: 'Primera ganadora de la categoría nacida en el extranjero; actuó en inglés.',
-  },
-  {
-    kicker: 'Caso 03 · Años 30 · Identidad oculta',
-    title: 'Merle Oberon (Bombay → Tasmania)',
-    body: 'Nacida en Bombay (India británica) con ascendencia anglo-india, Oberon y los estudios ocultaron su origen y fabricaron un nacimiento en Tasmania para esquivar los códigos raciales de Hollywood.',
-    fact: 'Nominada al Oscar en 1936 por The Dark Angel (producción EE. UU.).',
-  },
-  {
-    kicker: 'Caso 04 · Siglo XXI · Aprender inglés para entrar',
-    title: 'Ana de Armas (Cuba → España → Hollywood)',
-    body: 'Con carrera en España, se instaló en Los Ángeles hacia 2014 tras estudiar inglés. En 2023 fue nominada a Mejor actriz por Blonde. Ese año ganó Michelle Yeoh, también por una película de EE. UU.',
-    fact: 'Su nominación llegó por un papel en inglés, en una película de EE. UU.',
-  },
-  {
-    kicker: 'Caso 05 · Siglo XXI · Un camino diferente',
-    title: 'Antonio Banderas (España → Hollywood → España)',
-    body: 'Consolidado en Hollywood desde los años 90, fue nominado al Oscar a Mejor actor en 2020 por Dolor y gloria, una película española dirigida por Almodóvar.',
-    fact: 'Su única nominación no llegó por una producción estadounidense.',
-  },
-];
-// Podio de 5 lugares (Top 5 países productores en Mejor Actor y Mejor Actriz)
+  /* ------------------------------------------------------------------------
+     3. CARRUSEL DE HISTORIAS: CÓMO LLEGAR A LOS OSCAR
+     ------------------------------------------------------------------------ */
+  const ACTOR_STORIES = [
+    {
+      kicker: 'Caso 01 · Años 30 · Identidad oculta',
+      title: 'Merle Oberon (Bombay → Tasmania)',
+      body: 'Nacida en Bombay (India británica) con ascendencia anglo-india, Oberon y los estudios ocultaron su origen y fabricaron un nacimiento en Tasmania para esquivar los códigos raciales de Hollywood.',
+      fact: 'Nominada al Oscar en 1936 por The Dark Angel (producción EE. UU.).',
+    },
+    {
+      kicker: 'Caso 02 · Décadas de 1930–1940 · Emigración',
+      title: 'Greta Garbo e Ingrid Bergman (Suecia → Hollywood)',
+      body: 'Aunque consagradas en Europa, sus nominaciones y premios en la Academia llegaron tras firmar con grandes estudios estadounidenses y actuar en inglés.',
+      fact: '4 nominaciones para Garbo; 7 nominaciones y 3 premios para Bergman en cintas de EE. UU.',
+    },
+    {
+      kicker: 'Caso 03 · Era moderna · Adaptación lingüística',
+      title: 'Nicole Kidman y Charlize Theron (Australia / Sudáfrica)',
+      body: 'Formadas fuera de Estados Unidos, alcanzaron las nominaciones a Mejor Actriz mediante entrenamiento de acento estadounidense y papeles protagónicos financiados por Hollywood.',
+      fact: 'Ganadoras del Oscar con producciones estadounidenses (The Hours, Monster).',
+    },
+    {
+      kicker: 'Caso 04 · Siglo XXI · Validación en EE. UU.',
+      title: 'Penélope Cruz y Antonio Banderas (España → Circuito EE. UU.)',
+      body: 'Figuras centrales del cine en español cuya presencia en las categorías actorales principales de la Academia se consolidó al alternar coproducciones europeas con estudios estadounidenses.',
+      fact: 'El idioma inglés y los distribuidores de EE. UU. multiplican la visibilidad en campaña.',
+    },
+  ];
+
+ 
+  // Visualización 3: Validación previa en festivales europeos para cine no anglófono
+  const VIS03_DATA = [
+    { label: 'Estreno o premio en Cannes', pct: 46, detail: '46% de las nominaciones no anglófonas' },
+    { label: 'Paso por Venecia o Berlín', pct: 34, detail: '34% de las nominaciones no anglófonas' },
+    { label: 'Sin paso previo por estos 3 festivales', pct: 20, detail: '20% restante (campañas directas)' },
+  ];
+
+  // Podio de 5 lugares (Top 5 países productores en Mejor Actor y Mejor Actriz)
   const PODIUM_DATA = {
     all: [
       { rank: 1, country: 'Estados Unidos', count: 782, unit: 'producciones', share: '79,8%' },
@@ -126,41 +132,28 @@
     ],
   };
 
-  // Gráfico 2: Origen de las productoras por década y respaldo de EE. UU. a extranjeros
-  const VIS02_TIMELINE = [
-    { decade: '1930s', usProd: 89, ukProd: 9, otherProd: 2 },
-    { decade: '1940s', usProd: 88, ukProd: 10, otherProd: 2 },
-    { decade: '1950s', usProd: 84, ukProd: 12, otherProd: 4 },
-    { decade: '1960s', usProd: 75, ukProd: 17, otherProd: 8 },
-    { decade: '1970s', usProd: 81, ukProd: 13, otherProd: 6 },
-    { decade: '1980s', usProd: 79, ukProd: 14, otherProd: 7 },
-    { decade: '1990s', usProd: 77, ukProd: 16, otherProd: 7 },
-    { decade: '2000s', usProd: 75, ukProd: 17, otherProd: 8 },
-    { decade: '2010s', usProd: 74, ukProd: 18, otherProd: 8 },
-    { decade: '2020–26', usProd: 71, ukProd: 17, otherProd: 12 },
-  ];
-
-  const VIS02_FOREIGN_BACKING = [
-    { decade: '1980s', withUS: 72, withoutUS: 28 },
-    { decade: '1990s', withUS: 74, withoutUS: 26 },
-    { decade: '2000s', withUS: 71, withoutUS: 29 },
-    { decade: '2010s', withUS: 76, withoutUS: 24 },
-    { decade: '2020–26', withUS: 68, withoutUS: 32 },
-  ];
-
+ 
   /* ------------------------------------------------------------------------
      5. INICIALIZACIÓN DEL TELÓN CONTROLADO POR SCROLL
      ------------------------------------------------------------------------ */
   function initCurtains() {
     const track = document.getElementById('telon');
     const stage = document.getElementById('curtain-stage');
+    const header = document.querySelector('.site-header');
     if (!track || !stage) return;
 
     const prefersReducedMotion =
       window.matchMedia &&
       window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+    function syncHeaderHeight() {
+      const h = header ? header.offsetHeight : 87;
+      document.documentElement.style.setProperty('--header-h', h + 'px');
+      return h;
+    }
+
     if (prefersReducedMotion) {
+      syncHeaderHeight();
       stage.style.setProperty('--curtain-progress', '1');
       return;
     }
@@ -169,9 +162,10 @@
 
     function updateCurtainProgress() {
       rafId = null;
+      const headerH = syncHeaderHeight();
       const rect = track.getBoundingClientRect();
-      const scrollable = Math.max(1, track.offsetHeight - window.innerHeight);
-      const traveled = Math.max(0, -rect.top);
+      const scrollable = Math.max(1, track.offsetHeight - stage.offsetHeight);
+      const traveled = Math.max(0, headerH - rect.top);
       const progress = Math.min(1, traveled / scrollable);
       stage.style.setProperty('--curtain-progress', progress.toFixed(4));
     }
@@ -424,7 +418,7 @@
           escapeHtml(story.body) +
           '</p>' +
           '<div class="story-card-fact">' +
-          escapeHtml(story.fact || '') +
+          escapeHtml(story.fact) +
           '</div>';
         track.appendChild(card);
       });
@@ -445,6 +439,161 @@
     });
 
     render();
+  }
+
+  /* ------------------------------------------------------------------------
+     10. GRÁFICO 1 (vis_01): BARRAS APILADAS POR DÉCADA (SVG)
+     ------------------------------------------------------------------------ */
+  function initVis01() {
+    const container = document.getElementById('vis01-chart');
+    const tooltip = document.getElementById('vis01-tooltip');
+    const filterBtns = document.querySelectorAll('[data-vis1-filter]');
+    if (!container) return;
+
+    function render(filterKey) {
+      const rows = VIS01_DATA[filterKey] || VIS01_DATA.all;
+      const W = 880;
+      const H = 340;
+      const padL = 52;
+      const padR = 24;
+      const padT = 20;
+      const padB = 48;
+      const plotW = W - padL - padR;
+      const plotH = H - padT - padB;
+      const step = plotW / rows.length;
+      const barW = Math.min(44, step * 0.56);
+
+      let svg =
+        '<svg class="viz-svg" viewBox="0 0 ' +
+        W +
+        ' ' +
+        H +
+        '" role="img" aria-label="Gráfico vis_01 de origen y debut de nominados">';
+
+      // Líneas guía horizontales (0%, 25%, 50%, 75%, 100%)
+      [0, 25, 50, 75, 100].forEach((pct) => {
+        const y = padT + plotH - (pct / 100) * plotH;
+        svg +=
+          '<line x1="' +
+          padL +
+          '" y1="' +
+          y +
+          '" x2="' +
+          (W - padR) +
+          '" y2="' +
+          y +
+          '" stroke="rgba(248,239,216,0.14)" stroke-dasharray="3 4"/>';
+        svg +=
+          '<text x="' +
+          (padL - 10) +
+          '" y="' +
+          (y + 4) +
+          '" fill="#F8EFD8" font-size="12" text-anchor="end" opacity="0.75">' +
+          pct +
+          '%</text>';
+      });
+
+      rows.forEach((d, i) => {
+        const x = padL + i * step + (step - barW) / 2;
+        const hUS = (d.usDebut / 100) * plotH;
+        const hForUS = (d.foreignUsDebut / 100) * plotH;
+        const hForHome = (d.foreignHomeDebut / 100) * plotH;
+
+        const yUS = padT + plotH - hUS;
+        const yForUS = yUS - hForUS;
+        const yForHome = yForUS - hForHome;
+
+        svg += '<g class="vis1-bar-group" data-idx="' + i + '" style="cursor:pointer">';
+        svg +=
+          '<rect x="' +
+          x +
+          '" y="' +
+          yUS +
+          '" width="' +
+          barW +
+          '" height="' +
+          hUS +
+          '" fill="#F8EFD8"/>';
+        svg +=
+          '<rect x="' +
+          x +
+          '" y="' +
+          yForUS +
+          '" width="' +
+          barW +
+          '" height="' +
+          hForUS +
+          '" fill="#C69D22"/>';
+        svg +=
+          '<rect x="' +
+          x +
+          '" y="' +
+          yForHome +
+          '" width="' +
+          barW +
+          '" height="' +
+          hForHome +
+          '" fill="#670010" stroke="rgba(248,239,216,0.35)" stroke-width="1"/>';
+        svg +=
+          '<text x="' +
+          (x + barW / 2) +
+          '" y="' +
+          (H - 18) +
+          '" fill="#F8EFD8" font-size="12.5" text-anchor="middle">' +
+          escapeHtml(d.decade) +
+          '</text>';
+        svg += '</g>';
+      });
+
+      svg += '</svg>';
+      container.innerHTML = svg;
+
+      container.querySelectorAll('.vis1-bar-group').forEach((g) => {
+        const idx = Number(g.getAttribute('data-idx'));
+        const row = rows[idx];
+        const showTip = () => {
+          if (!tooltip) return;
+          tooltip.hidden = false;
+          tooltip.innerHTML =
+            '<strong>' +
+            escapeHtml(row.decade) +
+            '</strong> · EE. UU. (debut local): <strong>' +
+            row.usDebut +
+            '%</strong> · Extranjero/a con debut en EE. UU.: <strong>' +
+            row.foreignUsDebut +
+            '%</strong> · Extranjero/a con debut en su país: <strong>' +
+            row.foreignHomeDebut +
+            '%</strong>';
+        };
+        g.addEventListener('mouseenter', showTip);
+        g.addEventListener('click', showTip);
+      });
+
+      if (tooltip && rows.length) {
+        const last = rows[rows.length - 1];
+        tooltip.hidden = false;
+        tooltip.innerHTML =
+          'Década reciente (<strong>' +
+          escapeHtml(last.decade) +
+          '</strong>): ' +
+          last.usDebut +
+          '% EE. UU. (debut local) · ' +
+          last.foreignUsDebut +
+          '% extranjero/a con debut en EE. UU. · ' +
+          last.foreignHomeDebut +
+          '% extranjero/a con debut en su país.';
+      }
+    }
+
+    filterBtns.forEach((btn) => {
+      btn.addEventListener('click', function () {
+        const key = btn.getAttribute('data-vis1-filter');
+        filterBtns.forEach((b) => b.classList.toggle('is-active', b === btn));
+        render(key);
+      });
+    });
+
+    render('all');
   }
 
   /* ------------------------------------------------------------------------
@@ -541,6 +690,268 @@
     });
 
     render('all');
+  }
+
+  /* ------------------------------------------------------------------------
+     13. GRÁFICO 2 (gráfico 2 gráfico): PRODUCTORAS Y RESPALDO DE EE. UU.
+     ------------------------------------------------------------------------ */
+  function initVis02() {
+    const container = document.getElementById('vis02-chart');
+    const legend = document.getElementById('vis02-legend');
+    const tooltip = document.getElementById('vis02-tooltip');
+    const modeBtns = document.querySelectorAll('[data-vis2-mode]');
+    if (!container || !legend) return;
+
+    function renderTimeline() {
+      legend.innerHTML =
+        '<span class="legend-item"><i class="swatch swatch--gold"></i> Productoras de Estados Unidos (%)</span>' +
+        '<span class="legend-item"><i class="swatch swatch--cream"></i> Productoras del Reino Unido (%)</span>' +
+        '<span class="legend-item"><i class="swatch swatch--cherry"></i> Otros países productores (%)</span>';
+
+      const W = 880;
+      const H = 330;
+      const padL = 52;
+      const padR = 24;
+      const padT = 22;
+      const padB = 46;
+      const plotW = W - padL - padR;
+      const plotH = H - padT - padB;
+      const step = plotW / (VIS02_TIMELINE.length - 1);
+
+      let svg =
+        '<svg class="viz-svg" viewBox="0 0 ' +
+        W +
+        ' ' +
+        H +
+        '" role="img" aria-label="Gráfico 2: origen de productoras por década">';
+
+      [0, 25, 50, 75, 100].forEach((pct) => {
+        const y = padT + plotH - (pct / 100) * plotH;
+        svg +=
+          '<line x1="' +
+          padL +
+          '" y1="' +
+          y +
+          '" x2="' +
+          (W - padR) +
+          '" y2="' +
+          y +
+          '" stroke="rgba(248,239,216,0.14)" stroke-dasharray="3 4"/>';
+        svg +=
+          '<text x="' +
+          (padL - 10) +
+          '" y="' +
+          (y + 4) +
+          '" fill="#F8EFD8" font-size="12" text-anchor="end" opacity="0.75">' +
+          pct +
+          '%</text>';
+      });
+
+      function buildPolyline(field, color) {
+        const pts = VIS02_TIMELINE.map((d, i) => {
+          const x = padL + i * step;
+          const y = padT + plotH - (d[field] / 100) * plotH;
+          return x.toFixed(1) + ',' + y.toFixed(1);
+        }).join(' ');
+        return (
+          '<polyline fill="none" stroke="' +
+          color +
+          '" stroke-width="3" stroke-linejoin="round" points="' +
+          pts +
+          '"/>'
+        );
+      }
+
+      svg += buildPolyline('usProd', '#C69D22');
+      svg += buildPolyline('ukProd', '#F8EFD8');
+      svg += buildPolyline('otherProd', '#9E1B2F');
+
+      VIS02_TIMELINE.forEach((d, i) => {
+        const x = padL + i * step;
+        const yUS = padT + plotH - (d.usProd / 100) * plotH;
+        const yUK = padT + plotH - (d.ukProd / 100) * plotH;
+        const yOther = padT + plotH - (d.otherProd / 100) * plotH;
+
+        svg += '<g class="vis2-pt-group" data-idx="' + i + '" style="cursor:pointer">';
+        svg += '<circle cx="' + x + '" cy="' + yUS + '" r="5" fill="#C69D22"/>';
+        svg += '<circle cx="' + x + '" cy="' + yUK + '" r="4.5" fill="#F8EFD8"/>';
+        svg += '<circle cx="' + x + '" cy="' + yOther + '" r="4.5" fill="#9E1B2F" stroke="#F8EFD8" stroke-width="1"/>';
+        svg +=
+          '<text x="' +
+          x +
+          '" y="' +
+          (H - 16) +
+          '" fill="#F8EFD8" font-size="12" text-anchor="middle">' +
+          escapeHtml(d.decade) +
+          '</text>';
+        svg += '</g>';
+      });
+
+      svg += '</svg>';
+      container.innerHTML = svg;
+
+      container.querySelectorAll('.vis2-pt-group').forEach((g) => {
+        const idx = Number(g.getAttribute('data-idx'));
+        const row = VIS02_TIMELINE[idx];
+        const show = () => {
+          if (!tooltip) return;
+          tooltip.hidden = false;
+          tooltip.innerHTML =
+            '<strong>' +
+            escapeHtml(row.decade) +
+            '</strong> · EE. UU.: <strong>' +
+            row.usProd +
+            '%</strong> · Reino Unido: <strong>' +
+            row.ukProd +
+            '%</strong> · Otros países: <strong>' +
+            row.otherProd +
+            '%</strong>';
+        };
+        g.addEventListener('mouseenter', show);
+        g.addEventListener('click', show);
+      });
+
+      if (tooltip) {
+        const last = VIS02_TIMELINE[VIS02_TIMELINE.length - 1];
+        tooltip.hidden = false;
+        tooltip.innerHTML =
+          'Década <strong>' +
+          escapeHtml(last.decade) +
+          '</strong>: las productoras estadounidenses aún concentran el <strong>' +
+          last.usProd +
+          '%</strong> de las nominaciones actorales (frente a ' +
+          last.ukProd +
+          '% de Reino Unido y ' +
+          last.otherProd +
+          '% del resto del mundo).';
+      }
+    }
+
+    function renderForeignBacking() {
+      legend.innerHTML =
+        '<span class="legend-item"><i class="swatch swatch--gold"></i> Nominados extranjeros en películas con productora estadounidense (%)</span>' +
+        '<span class="legend-item"><i class="swatch swatch--cherry"></i> Nominados extranjeros sin respaldo estadounidense (%)</span>';
+
+      const W = 880;
+      const H = 330;
+      const padL = 52;
+      const padR = 24;
+      const padT = 22;
+      const padB = 46;
+      const plotW = W - padL - padR;
+      const plotH = H - padT - padB;
+      const step = plotW / VIS02_FOREIGN_BACKING.length;
+      const barW = 46;
+
+      let svg =
+        '<svg class="viz-svg" viewBox="0 0 ' +
+        W +
+        ' ' +
+        H +
+        '" role="img" aria-label="Nominados extranjeros según respaldo de productora estadounidense">';
+
+      [0, 25, 50, 75, 100].forEach((pct) => {
+        const y = padT + plotH - (pct / 100) * plotH;
+        svg +=
+          '<line x1="' +
+          padL +
+          '" y1="' +
+          y +
+          '" x2="' +
+          (W - padR) +
+          '" y2="' +
+          y +
+          '" stroke="rgba(248,239,216,0.14)" stroke-dasharray="3 4"/>';
+        svg +=
+          '<text x="' +
+          (padL - 10) +
+          '" y="' +
+          (y + 4) +
+          '" fill="#F8EFD8" font-size="12" text-anchor="end" opacity="0.75">' +
+          pct +
+          '%</text>';
+      });
+
+      VIS02_FOREIGN_BACKING.forEach((d, i) => {
+        const centerX = padL + i * step + step / 2;
+        const hWith = (d.withUS / 100) * plotH;
+        const hWithout = (d.withoutUS / 100) * plotH;
+        const yWith = padT + plotH - hWith;
+        const yWithout = padT + plotH - hWithout;
+
+        svg += '<g class="vis2-bar-group" data-idx="' + i + '" style="cursor:pointer">';
+        svg +=
+          '<rect x="' +
+          (centerX - barW - 4) +
+          '" y="' +
+          yWith +
+          '" width="' +
+          barW +
+          '" height="' +
+          hWith +
+          '" fill="#C69D22"/>';
+        svg +=
+          '<text x="' +
+          (centerX - barW / 2 - 4) +
+          '" y="' +
+          (yWith - 8) +
+          '" fill="#C69D22" font-size="12" text-anchor="middle">' +
+          d.withUS +
+          '%</text>';
+
+        svg +=
+          '<rect x="' +
+          (centerX + 4) +
+          '" y="' +
+          yWithout +
+          '" width="' +
+          barW +
+          '" height="' +
+          hWithout +
+          '" fill="#670010" stroke="rgba(248,239,216,0.45)" stroke-width="1"/>';
+        svg +=
+          '<text x="' +
+          (centerX + barW / 2 + 4) +
+          '" y="' +
+          (yWithout - 8) +
+          '" fill="#F8EFD8" font-size="12" text-anchor="middle">' +
+          d.withoutUS +
+          '%</text>';
+
+        svg +=
+          '<text x="' +
+          centerX +
+          '" y="' +
+          (H - 16) +
+          '" fill="#F8EFD8" font-size="12.5" text-anchor="middle">' +
+          escapeHtml(d.decade) +
+          '</text>';
+        svg += '</g>';
+      });
+
+      svg += '</svg>';
+      container.innerHTML = svg;
+
+      if (tooltip) {
+        tooltip.hidden = false;
+        tooltip.innerHTML =
+          'En promedio, cerca de <strong>7 de cada 10</strong> actores y actrices extranjeros nominados lo logran en películas financiadas o coproducidas por Estados Unidos.';
+      }
+    }
+
+    modeBtns.forEach((btn) => {
+      btn.addEventListener('click', function () {
+        const mode = btn.getAttribute('data-vis2-mode');
+        modeBtns.forEach((b) => b.classList.toggle('is-active', b === btn));
+        if (mode === 'foreign') {
+          renderForeignBacking();
+        } else {
+          renderTimeline();
+        }
+      });
+    });
+
+    renderTimeline();
   }
 
   /* ------------------------------------------------------------------------
