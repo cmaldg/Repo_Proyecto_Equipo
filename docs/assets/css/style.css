@@ -1301,29 +1301,3 @@ button {
   max-width: 100%;
   margin: 0 auto 20px;
 }
-/* ==========================================================================
-   DEGRADADO
-   ========================================================================== */
-.carpet-section {
-  padding-bottom: 0;
-}
-
-.carpet-runner {
-  background: linear-gradient(180deg, #670010 0%, #52000d 62%, #181818 100%);
-}
-
-.carpet-fade-out {
-  position: relative;
-  left: 50%;
-  width: 100vw;
-  height: 220px;
-  margin-top: 32px;
-  transform: translateX(-50%);
-  background: linear-gradient(
-    180deg,
-    rgba(24, 24, 24, 0) 0%,
-    rgba(24, 24, 24, 0.55) 45%,
-    #181818 100%
-  );
-  pointer-events: none;
-}
