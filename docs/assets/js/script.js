@@ -108,6 +108,23 @@
     fact: 'Su única nominación no llegó por una producción estadounidense.',
   },
 ];
+// Podio de 5 lugares (Top 5 países productores en Mejor Actor y Mejor Actriz)
+  const PODIUM_DATA = {
+    all: [
+      { rank: 1, country: 'Estados Unidos', count: 782, unit: 'producciones', share: '79,8%' },
+      { rank: 2, country: 'Reino Unido', count: 148, unit: 'producciones', share: '15,1%' },
+      { rank: 3, country: 'Francia', count: 38, unit: 'producciones', share: '3,9%' },
+      { rank: 4, country: 'Italia', count: 24, unit: 'producciones', share: '2,4%' },
+      { rank: 5, country: 'Canadá', count: 18, unit: 'producciones', share: '1,8%' },
+    ],
+    recent: [
+      { rank: 1, country: 'Estados Unidos', count: 236, unit: 'producciones', share: '76,1%' },
+      { rank: 2, country: 'Reino Unido', count: 64, unit: 'producciones', share: '20,6%' },
+      { rank: 3, country: 'Francia', count: 22, unit: 'producciones', share: '7,1%' },
+      { rank: 4, country: 'Canadá', count: 12, unit: 'producciones', share: '3,9%' },
+      { rank: 5, country: 'Alemania', count: 9, unit: 'producciones', share: '2,9%' },
+    ],
+  };
 
   // Gráfico 2: Origen de las productoras por década y respaldo de EE. UU. a extranjeros
   const VIS02_TIMELINE = [
