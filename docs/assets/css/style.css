@@ -1296,3 +1296,8 @@ button {
 .frame-sobre-grafico {
   margin-bottom: 20px;
 }
+#vis {
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 auto 20px;
+}
