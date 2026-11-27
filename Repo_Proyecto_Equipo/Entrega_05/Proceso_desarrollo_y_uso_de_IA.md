@@ -12,6 +12,5 @@
 
 - Inicialmente habia problema en poder visualizar la página, ya que el link redirigia al README de presentación del repositorio. Lo cual se solucionó sacando la carpeta docs fuera de la carpeta principal del repositorio y aplicando material visto en clase, como seleccionando la rama main del repo y seleccionando la carpeta docs para la página. Otro problema para poder visualizar inicialmente la página era que los códigos que creó Google AI Studio no eran compatibles con el procesador Jekyll integrado en GitHub Pages para visualizar las páginas. Para solucionarlo se le pasó los códigos a la IA Claude y se le pidió adaptar los códigos js, css y html para que fuera compatible con GitHub. 
 También como apoyo extra, para solucionar dudas y errores, se recurrió a un estudiante de licenciatura en ingeneria en computación de la UC. Quien fue capaz de resolver problemas y confusiones de los códigos.
-- 
 
-- Para probar el funcionamiento de la página se abrió el [link directo de la misma](https://cmaldg.github.io/Repo_Proyecto_Equipo/) y se visualizaban los cambios en tiempo real. Además se visitó la página web en distintos dispositivos, como lo fue en tablet y celular. 
+- Para probar el funcionamiento de la página se abrió el [link directo de la misma](https://cmaldg.github.io/Repo_Proyecto_Equipo/) y se visualizaban los cambios en tiempo real. Además se visitó la página web en distintos dispositivos, como lo fue en tablet y celular.
