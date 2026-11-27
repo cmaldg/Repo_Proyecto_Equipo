@@ -122,8 +122,8 @@
     {
       kicker: 'Caso 01 · Años 30 · Identidad oculta',
       title: 'Merle Oberon (Bombay → Tasmania)',
-      body: 'Nacida en Bombay (India británica) con ascendencia anglo-india, Oberon y los estudios ocultaron su origen y fabricaron un nacimiento en Tasmania para esquivar los códigos raciales de Hollywood.',
-      fact: 'Nominada al Oscar en 1936 por The Dark Angel (producción EE. UU.).',
+      body: El actor suizo Emil Jannings, consagrado en el cine alemán, llegó a Hollywood en 1926 contratado por Paramount, sin trayectoria previa en EE. UU. En 1929, en la primera ceremonia de los Oscar, fue el primer ganador de Mejor actor, premiado por dos películas: The Last Command (1928) y The Way of All Flesh (1927). Ambas fueron producciones estadounidenses y, al ser cine mudo, su actuación no dependía del idioma. Su carrera en Hollywood terminó con la llegada del cine sonoro, cuando su fuerte acento alemán limitó sus papeles, y regresó a Europa.
+
     },
     {
       kicker: 'Caso 02 · Décadas de 1930–1940 · Emigración',
