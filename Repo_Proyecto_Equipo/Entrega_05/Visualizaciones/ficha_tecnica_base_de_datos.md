@@ -1,6 +1,5 @@
-# Ficha técnica de la base de datos
- 
-## Información general
+# Ficha técnica de la base de datos ordenada con paises de producción, nominados, géneros de las peliculas, etc. 
+ ## Información general
  
 | Dato | Detalle |
 |---|---|
@@ -25,11 +24,11 @@
  
 ## Datos faltantes
  
-| Columna | Vacíos | Valores distintos |
-|---|---|---|
-| `nacionalidad_2` | 827 | 21 |
-| `pais_de_produccion_2` | 781 | 27 |
-| Las otras 17 columnas | 0 | — |
+| Columna                 | Vacíos |
+|-------------------------|--------|
+| `nacionalidad_2`        | 827    |
+| `pais_de_produccion_2`  | 781    |
+| Las otras 17 columnas   | 0      |
  
 Los vacíos en `nacionalidad_2` y `pais_de_produccion_2` son normales: significa que la persona tiene una sola nacionalidad y la película un solo país de producción.
  
