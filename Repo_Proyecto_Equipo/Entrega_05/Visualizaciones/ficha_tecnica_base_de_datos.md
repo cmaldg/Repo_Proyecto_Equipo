@@ -1,6 +1,5 @@
-# Ficha técnica de la base de datos
- 
-## Información general
+# Ficha técnica de la base de datos ordenada con paises de producción, nominados, géneros de las peliculas, etc. 
+ ## Información general
  
 | Dato | Detalle |
 |---|---|
