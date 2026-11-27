@@ -25,11 +25,11 @@
  
 ## Datos faltantes
  
-| Columna | Vacíos | Valores distintos |
+| Columna | Vacíos |
 |---|---|---|
-| `nacionalidad_2` | 827 | 21 |
-| `pais_de_produccion_2` | 781 | 27 |
-| Las otras 17 columnas | 0 | — |
+| `nacionalidad_2` | 827 |
+| `pais_de_produccion_2` | 781 |
+| Las otras 17 columnas | 0 |
  
 Los vacíos en `nacionalidad_2` y `pais_de_produccion_2` son normales: significa que la persona tiene una sola nacionalidad y la película un solo país de producción.
  
