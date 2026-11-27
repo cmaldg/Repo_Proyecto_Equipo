@@ -273,9 +273,6 @@ button {
   position: absolute;
   inset: 0;
   z-index: 5;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   pointer-events: none;
 }
 
@@ -292,8 +289,7 @@ button {
 .curtain-left {
   left: 0;
   transform-origin: left center;
-  transform: translate3d(calc(var(--curtain-progress, 0) * -94%), 0, 0)
-    scaleX(calc(1 - var(--curtain-progress, 0) * 0.74));
+  transform: translate3d(calc(var(--curtain-progress, 0) * -100%), 0, 0);
   border-right: none;
   box-shadow: inset -24px 0 42px rgba(0, 0, 0, 0.45);
 }
@@ -301,8 +297,7 @@ button {
 .curtain-right {
   right: 0;
   transform-origin: right center;
-  transform: translate3d(calc(var(--curtain-progress, 0) * 94%), 0, 0)
-    scaleX(calc(1 - var(--curtain-progress, 0) * 0.74));
+  transform: translate3d(calc(var(--curtain-progress, 0) * 100%), 0, 0);
   border-left: none;
   box-shadow: inset 24px 0 42px rgba(0, 0, 0, 0.45);
 }
@@ -326,8 +321,14 @@ button {
 }
 
 .curtain-right .curtain-folds {
+  background-image: repeating-linear-gradient(
+    -90deg,
+    rgba(0, 0, 0, 0.34) 0px,
+    rgba(103, 0, 16, 0.1) 24px,
+    rgba(255, 255, 255, 0.05) 42px,
+    rgba(0, 0, 0, 0.38) 64px
+  );
   background-position: left top;
-  animation-direction: alternate-reverse;
 }
 
 .curtain-hem {
@@ -523,6 +524,38 @@ button {
   font-size: 13.5px;
   color: var(--cream-muted);
   text-align: center;
+}
+
+.carpet-viz-slot {
+  width: 100%;
+  min-height: 360px;
+  background: transparent;
+}
+
+.carpet-viz-slot > *,
+#vis {
+  width: 100%;
+  background: transparent;
+}
+
+#vis.vega-embed {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  background: transparent;
+}
+
+#vis.vega-embed svg,
+#vis.vega-embed canvas {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  background: transparent;
+}
+
+#vis.vega-embed .vega-actions,
+#vis.vega-embed details {
+  display: none;
 }
 
 .flourish-card {
