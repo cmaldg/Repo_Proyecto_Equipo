@@ -76,6 +76,7 @@
     ],
   };
 
+<<<<<<< HEAD
   /* ------------------------------------------------------------------------
      3. CARRUSEL DE HISTORIAS: CÓMO LLEGAR A LOS OSCAR
      ------------------------------------------------------------------------ */
@@ -115,6 +116,41 @@
   ];
 
   // Podio de 5 lugares (Top 5 países productores en Mejor Actor y Mejor Actriz)
+=======
+  const ACTOR_STORIES = [
+  {
+    kicker: 'Caso 01 · Años 20 · Primer Oscar',
+    title: 'Emil Jannings (Suiza/Alemania → Hollywood)',
+    body: 'Estrella del cine alemán, llegó a Hollywood en 1926 sin trayectoria previa en EE. UU. En 1929 ganó el Oscar a Mejor actor por dos películas mudas de producción estadounidense: The Last Command y The Way of All Flesh.',
+    fact: 'Al ser cine mudo, el idioma no fue una barrera.',
+  },
+  {
+    kicker: 'Caso 02 · Años 20–30 · Estrella consolidada',
+    title: 'Mary Pickford (Canadá → Hollywood)',
+    body: 'Ya era una de las mayores estrellas del cine estadounidense, donde trabajaba desde 1909. En 1930 ganó el Oscar a Mejor actriz por Coquette, su primer filme sonoro y una producción de EE. UU.',
+    fact: 'Primera ganadora de la categoría nacida en el extranjero; actuó en inglés.',
+  },
+  {
+    kicker: 'Caso 03 · Años 30 · Identidad oculta',
+    title: 'Merle Oberon (Bombay → Tasmania)',
+    body: 'Nacida en Bombay (India británica) con ascendencia anglo-india, Oberon y los estudios ocultaron su origen y fabricaron un nacimiento en Tasmania para esquivar los códigos raciales de Hollywood.',
+    fact: 'Nominada al Oscar en 1936 por The Dark Angel (producción EE. UU.).',
+  },
+  {
+    kicker: 'Caso 04 · Siglo XXI · Aprender inglés para entrar',
+    title: 'Ana de Armas (Cuba → España → Hollywood)',
+    body: 'Con carrera en España, se instaló en Los Ángeles hacia 2014 tras estudiar inglés. En 2023 fue nominada a Mejor actriz por Blonde. Ese año ganó Michelle Yeoh, también por una película de EE. UU.',
+    fact: 'Su nominación llegó por un papel en inglés, en una película de EE. UU.',
+  },
+  {
+    kicker: 'Caso 05 · Siglo XXI · Un camino diferente',
+    title: 'Antonio Banderas (España → Hollywood → España)',
+    body: 'Consolidado en Hollywood desde los años 90, fue nominado al Oscar a Mejor actor en 2020 por Dolor y gloria, una película española dirigida por Almodóvar.',
+    fact: 'Su única nominación no llegó por una producción estadounidense.',
+  },
+];
+// Podio de 5 lugares (Top 5 países productores en Mejor Actor y Mejor Actriz)
+>>>>>>> ad0ff53f384df615ae906b3eb55c0f240a830161
   const PODIUM_DATA = {
     all: [
       { rank: 1, country: 'Estados Unidos', count: 782, unit: 'producciones', share: '79,8%' },
