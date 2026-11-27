@@ -1301,3 +1301,12 @@ button {
   max-width: 100%;
   margin: 0 auto 20px;
 }
+/* ==========================================================================
+   FRLOURISH
+   ========================================================================== 
+.flourish-embed {
+  width: 100%;
+  max-width: 1165px;   /* ancho total del gráfico de Altair */
+  height: 516px;       /* alto total del gráfico de Altair */
+  margin: 0 auto 20px; /* centrado y con 20px abajo */
+}
