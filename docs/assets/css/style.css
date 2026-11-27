@@ -309,10 +309,7 @@ button {
 
 .curtain-folds {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: -8px;
-  right: -8px;
+  inset: 0;
   background-image: repeating-linear-gradient(
     90deg,
     rgba(0, 0, 0, 0.34) 0px,
@@ -339,13 +336,14 @@ button {
 
 @keyframes curtain-sway {
   0% {
-    transform: skewX(-0.6deg) scaleX(1);
+    opacity: 0.94;
+    transform: scaleX(1);
   }
   100% {
-    transform: skewX(0.6deg) scaleX(1.018);
+    opacity: 1;
+    transform: scaleX(1.015);
   }
 }
-
 
 /* ==========================================================================
    BOTONES SEGÚN GUÍA DE MARCA
