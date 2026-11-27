@@ -525,29 +525,6 @@ button {
   text-align: center;
 }
 
-#vis {
-  width: 100%;
-  min-height: 360px;
-}
-
-#vis.vega-embed {
-  width: 100%;
-  display: block;
-  margin: 0 auto;
-}
-
-#vis.vega-embed svg,
-#vis.vega-embed canvas {
-  display: block;
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-#vis.vega-embed .vega-actions,
-#vis.vega-embed details {
-  display: none;
-}
-
 .flourish-card {
   padding: 22px 24px;
 }
