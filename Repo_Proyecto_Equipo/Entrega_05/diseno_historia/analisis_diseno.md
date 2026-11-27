@@ -1,3 +1,5 @@
+## Análisis de diseño página web
+
 - El recorrido de la página empieza con una mezcla datos históricos con ejemplos reales de actores y se divide en cuatro partes. Primero, muestra que los extranjeros participan en los Oscar desde 1929, destacando el gran cambio de los años sesenta y cómo lograron entrar a Hollywood. Luego, revisa de qué países vienen las nominaciones y explica cómo las películas hechas entre varios países fueron igualando el dominio de Estados Unidos. Después, usa el caso reciente de la actriz Jessie Buckley para comparar los festivales europeos con los premios en inglés, demostrando que ese idioma sigue siendo clave para llegar al Oscar. Finalmente, concluye que los premios sí están más abiertos al mundo hoy en día, pero siguen funcionando bajo las reglas de Hollywood.
 
 - El usuario realiza este recorrido por los ejes temáticos a raíz de la estructura definida para relatar la historia. Con los elementos interactivos presentados en la tarea 03 y la entrega 04.
