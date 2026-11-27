@@ -1505,3 +1505,10 @@ button {
   }
 }
 
+#grafico-nuevo {
+  max-width: 860px;
+  margin: 0 auto 36px;
+  padding: 16px;
+  background: #F8EFD8;
+  border-radius: 10px;
+}
