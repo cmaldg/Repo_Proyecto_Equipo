@@ -103,7 +103,6 @@
       kicker: 'Caso 01 · Suiza → Hollywood (1929)',
       title: '1. El actor suizo Emil Jannings',
       body: 'Consagrado en el cine alemán, llegó a Hollywood en 1926 contratado por Paramount sin trayectoria previa en EE. UU. En 1929 ganó el primer Oscar a Mejor Actor por dos cintas mudas estadounidenses: The Last Command y The Way of All Flesh. Al llegar el cine sonoro, su fuerte acento alemán limitó sus papeles y regresó a Europa.',
-      fact: 'Primer ganador de Mejor Actor (1929) en cine mudo estadounidense.',
     },
     {
       kicker: 'Caso 02 · Canadá → Hollywood (1930)',
