@@ -1290,3 +1290,19 @@ button {
     transition-duration: 150ms;
   }
 }
+/* ==========================================================================
+   GRAFICOS
+   ========================================================================== */
+#vis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 24px auto;
+}
+
+#vis .vega-embed {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
