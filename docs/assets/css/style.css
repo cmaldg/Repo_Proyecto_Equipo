@@ -198,6 +198,7 @@ button {
 }
 
 .curtain-stage {
+  --curtain-progress: 0;
   position: sticky;
   top: 0;
   width: 100%;
@@ -282,7 +283,8 @@ button {
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 52%;
+  width: 56%;
+  overflow: hidden;
   background-color: var(--cherry);
   will-change: transform;
 }
@@ -290,8 +292,8 @@ button {
 .curtain-left {
   left: 0;
   transform-origin: left center;
-  transform: translate3d(calc(var(--curtain-progress, 0) * -90%), 0, 0)
-    scaleX(calc(1 - var(--curtain-progress, 0) * 0.72));
+  transform: translate3d(calc(var(--curtain-progress, 0) * -94%), 0, 0)
+    scaleX(calc(1 - var(--curtain-progress, 0) * 0.74));
   border-right: none;
   box-shadow: inset -28px 0 48px rgba(0, 0, 0, 0.55);
 }
@@ -299,15 +301,18 @@ button {
 .curtain-right {
   right: 0;
   transform-origin: right center;
-  transform: translate3d(calc(var(--curtain-progress, 0) * 90%), 0, 0)
-    scaleX(calc(1 - var(--curtain-progress, 0) * 0.72));
+  transform: translate3d(calc(var(--curtain-progress, 0) * 94%), 0, 0)
+    scaleX(calc(1 - var(--curtain-progress, 0) * 0.74));
   border-left: none;
   box-shadow: inset 28px 0 48px rgba(0, 0, 0, 0.55);
 }
 
 .curtain-folds {
   position: absolute;
-  inset: 0;
+  top: 0;
+  bottom: 0;
+  left: -8px;
+  right: -8px;
   background-image: repeating-linear-gradient(
     90deg,
     rgba(0, 0, 0, 0.34) 0px,

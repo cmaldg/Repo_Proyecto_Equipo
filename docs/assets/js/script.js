@@ -189,11 +189,12 @@
       const rect = track.getBoundingClientRect();
       const scrollable = Math.max(1, track.offsetHeight - stage.offsetHeight);
       const traveled = Math.max(0, -rect.top);
-      const progress = Math.min(1, traveled / scrollable);
+      const rawProgress = Math.min(1, traveled / scrollable);
+      const progress = rawProgress <= 0.03 ? 0 : Math.min(1, (rawProgress - 0.03) / 0.97);
       stage.style.setProperty('--curtain-progress', progress.toFixed(4));
 
       if (header) {
-        const shouldShow = traveled > 10 && (progress >= 0.42 || rect.bottom <= window.innerHeight);
+        const shouldShow = traveled > 12 || rect.bottom <= window.innerHeight;
         header.classList.toggle('is-visible', shouldShow);
         if (carpetSection) {
           const pastCarpet = carpetSection.getBoundingClientRect().bottom <= header.offsetHeight + 48;
@@ -677,3 +678,4 @@
     initVis02();
   });
 })();
+
