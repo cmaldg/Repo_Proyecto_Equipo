@@ -77,71 +77,33 @@
   };
 
   /* ------------------------------------------------------------------------
-     2. REACCIÓN Y QUIEBRE DE JESSIE BUCKLEY
-     ------------------------------------------------------------------------ */
-  const REACTION_TABS = {
-    anuncio: {
-      quote:
-        '«Y el Oscar a la Mejor Actriz es para... Jessie Buckley por Hamnet.»',
-      note:
-        'Killarney, Irlanda, celebra a su primera ganadora en la categoría principal femenina tras una ovación en el Dolby Theatre.',
-    },
-    discurso: {
-      quote:
-        '«Gracias por creer en una historia nacida en otro acento, pero contada frente al mundo.»',
-      note:
-        'El momento de mayor carga emotiva de la gala contrasta la narrativa oficial de diversidad con la estructura productiva detrás del filme.',
-    },
-    fisura: {
-      quote:
-        'La fisura: actriz irlandesa, historia ambientada en Inglaterra, lengua inglesa y respaldo estadounidense.',
-      note:
-        'Hamnet fue coproducida por Amblin Entertainment y distribuida por Focus Features (EE. UU.) junto a productoras británicas. Aquí comienza nuestra hipótesis.',
-    },
-  };
-
-  const SWEEP_AWARDS = {
-    globo: {
-      title: 'Globo de Oro · Mejor Actriz en Drama (Enero 2026)',
-      text: 'Primer gran eslabón de la temporada estadounidense: la prensa extranjera en Hollywood consolidó a Jessie Buckley como favorita indiscutida por su interpretación de Agnes Shakespeare.',
-    },
-    bafta: {
-      title: 'BAFTA · Mejor Actriz Protagónica (Febrero 2026)',
-      text: 'La Academia Británica validó el peso europeo de la coproducción Reino Unido–EE. UU., reforzando la campaña rumbo al Dolby Theatre.',
-    },
-    oscar: {
-      title: 'Premio Oscar · Mejor Actriz (15 de marzo de 2026)',
-      text: 'Al colocar la estatuilla junto al Globo de Oro y al BAFTA en la misma repisa, queda visible el circuito angloparlante que habilita el triunfo en Los Ángeles.',
-    },
-  };
-
-  /* ------------------------------------------------------------------------
      3. CARRUSEL DE HISTORIAS: CÓMO LLEGAR A LOS OSCAR
      ------------------------------------------------------------------------ */
   const ACTOR_STORIES = [
     {
-      kicker: 'Caso 01 · Años 30 · Identidad oculta',
-      title: 'Merle Oberon (Bombay → Tasmania)',
-      body: 'Nacida en Bombay (India británica) con ascendencia anglo-india, Oberon y los estudios ocultaron su origen y fabricaron un nacimiento en Tasmania para esquivar los códigos raciales de Hollywood.',
-      fact: 'Nominada al Oscar en 1936 por The Dark Angel (producción EE. UU.).',
+      kicker: 'Caso 03',
+      title: 'La carrera perfecta para llegar a los Oscar: Merle Oberon',
+      body: 'A pesar de que ambos ganaron el Oscar en las primeras ediciones, el camino para llegar a los premios no siempre fue fácil. Muchas veces era necesario participar de producciones estadounidenses para “asegurar” el éxito. Como el caso de Merle Oberon, en 1936, se volvió la primera mujer asiática en ser nominada a Mejor actriz por The Dark Angel. Sin embargo, para actuar, Oberon decidió ocultar su nacionalidad y hacerse pasar por una actriz blanca.'
     },
     {
-      kicker: 'Caso 02 · Décadas de 1930–1940 · Emigración',
-      title: 'Greta Garbo e Ingrid Bergman (Suecia → Hollywood)',
-      body: 'Aunque consagradas en Europa, sus nominaciones y premios en la Academia llegaron tras firmar con grandes estudios estadounidenses y actuar en inglés.',
-      fact: '4 nominaciones para Garbo; 7 nominaciones y 3 premios para Bergman en cintas de EE. UU.',
+      kicker: 'Caso 02',
+      title: 'Hollywood y el talento extranjero: Mary Pickford',
+      body: 'La actriz canadiense Mary Pickford, por su parte, fue la primera extranjera con debut estadounidense en ganar el galardón a Mejor actriz. Con el filme Coquette, también de producción estadounidense, recibió su única nominación en 1930.',
     },
     {
-      kicker: 'Caso 03 · Era moderna · Adaptación lingüística',
-      title: 'Nicole Kidman y Charlize Theron (Australia / Sudáfrica)',
-      body: 'Formadas fuera de Estados Unidos, alcanzaron las nominaciones a Mejor Actriz mediante entrenamiento de acento estadounidense y papeles protagónicos financiados por Hollywood.',
-      fact: 'Ganadoras del Oscar con producciones estadounidenses (The Hours, Monster).',
+      kicker: 'Caso 01',
+      title: 'Hollywood y el talento extranjero: Emil Jannings',
+      body: 'Los premios comenzaron abriendo sus puertas a extranjeros que trabajaban dentro de su sistema de estudios. El actor suizo Emil Jannings fue el primer extranjero, con un debut internacional, en ganar el Oscar a Mejor actor en 1929 (1° edición de los Oscar) con la película The Last Command. Jannings estuvo nominado dos veces en la misma categoría ese año, una fue por The Last Command y otra por The Way of All Flesh. Las dos películas fueron producidas por Estados Unidos.',
     },
     {
-      kicker: 'Caso 04 · Siglo XXI · Validación en EE. UU.',
-      title: 'Penélope Cruz y Antonio Banderas (España → Circuito EE. UU.)',
-      body: 'Figuras centrales del cine en español cuya presencia en las categorías actorales principales de la Academia se consolidó al alternar coproducciones europeas con estudios estadounidenses.',
-      fact: 'El idioma inglés y los distribuidores de EE. UU. multiplican la visibilidad en campaña.',
+      kicker: 'Caso 04',
+      title: 'La vía de las producciones estadounidenses: Ana de Armas y Michelle Yeoh',
+      body: 'Las películas estadounidenses frecuentan ser el camino viable para que extranjeros entren a la industria. La actriz cubana Ana de Armas, por ejemplo, emigró de España para cumplir su sueño de actuar profesionalmente. Viajó a Estados Unidos para estudiar inglés e instalarse en Hollywood. No fue hasta 2023 que fue nominada a Mejor actriz por la película Blonde, filme estadounidense. Ese año ganó Michelle Yeoh, actriz malasia que actuó para una película producida por Estados Unidos.',
+    },
+    {
+      kicker: 'Caso 05',
+      title: 'La excepción: Antonio Banderas',
+      body: 'Pero también hay caminos diferentes. El actor español Antonio Banderas pese a que ingresó a Hollywood y poco a poco se fue consolidando en la industria, en 2020 obtuvo su primera y única nominación a los Oscar por la película española Pain and Glory.',
     },
   ];
 
