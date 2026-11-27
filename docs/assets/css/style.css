@@ -967,6 +967,11 @@ button {
   font-variant-numeric: tabular-nums;
   color: var(--cream);
 }
+{
+  #los-caminos .section-title {
+  text-align: center;
+}
+}
 
 /* ==========================================================================
    SECCIÓN 3: FESTIVALES INTERNACIONALES Y REPISA
