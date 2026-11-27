@@ -76,34 +76,36 @@
     ],
   };
 
-  /* ------------------------------------------------------------------------
-     3. CARRUSEL DE HISTORIAS: CÓMO LLEGAR A LOS OSCAR
-     ------------------------------------------------------------------------ */
-  const ACTOR_STORIES = [
+  /const ACTOR_STORIES = [
   {
     kicker: 'Caso 01 · Años 20 · Primer Oscar',
     title: 'Emil Jannings (Suiza/Alemania → Hollywood)',
-    body: 'Los premios comenzaron abriendo sus puertas a extranjeros que ya trabajaban dentro del sistema de estudios. El actor suizo Emil Jannings, consagrado en el cine alemán, llegó a Hollywood en 1926 sin trayectoria previa en EE. UU. En 1929, en la primera ceremonia, ganó el Oscar a Mejor actor por dos películas mudas de producción estadounidense: The Last Command y The Way of All Flesh. Al ser cine mudo, el idioma no fue una barrera.',
+    body: 'Estrella del cine alemán, llegó a Hollywood en 1926 sin trayectoria previa en EE. UU. En 1929 ganó el Oscar a Mejor actor por dos películas mudas de producción estadounidense: The Last Command y The Way of All Flesh.',
+    fact: 'Al ser cine mudo, el idioma no fue una barrera.',
   },
   {
     kicker: 'Caso 02 · Años 20–30 · Estrella consolidada',
     title: 'Mary Pickford (Canadá → Hollywood)',
-    body: 'La actriz canadiense Mary Pickford ya era una de las mayores estrellas del cine estadounidense, donde trabajaba desde 1909. En 1930 ganó el Oscar a Mejor actriz por Coquette, su primer filme sonoro y una producción de EE. UU. Fue la primera ganadora de la categoría nacida en el extranjero y actuó en inglés, su lengua materna.',
+    body: 'Ya era una de las mayores estrellas del cine estadounidense, donde trabajaba desde 1909. En 1930 ganó el Oscar a Mejor actriz por Coquette, su primer filme sonoro y una producción de EE. UU.',
+    fact: 'Primera ganadora de la categoría nacida en el extranjero; actuó en inglés.',
   },
   {
     kicker: 'Caso 03 · Años 30 · Identidad oculta',
     title: 'Merle Oberon (Bombay → Tasmania)',
-    body: 'A pesar de que ambos ganaron el Oscar en las primeras ediciones, el camino para llegar a los premios no siempre fue fácil. Muchas veces era necesario participar de producciones estadounidenses para “asegurar” el éxito. Como el caso de Merle Oberon, en 1936, se volvió la primera mujer asiática en ser nominada a Mejor actriz por The Dark Angel. Sin embargo, para actuar, Oberon decidió ocultar su nacionalidad y hacerse pasar por una actriz blanca.',
+    body: 'Nacida en Bombay (India británica) con ascendencia anglo-india, Oberon y los estudios ocultaron su origen y fabricaron un nacimiento en Tasmania para esquivar los códigos raciales de Hollywood.',
+    fact: 'Nominada al Oscar en 1936 por The Dark Angel (producción EE. UU.).',
   },
   {
     kicker: 'Caso 04 · Siglo XXI · Aprender inglés para entrar',
     title: 'Ana de Armas (Cuba → España → Hollywood)',
-    body: 'Las películas estadounidenses suelen ser el camino más viable para los extranjeros. Ana de Armas, nacida en Cuba, se hizo conocida en España y hacia 2014 se instaló en Los Ángeles tras estudiar inglés. En 2023 fue nominada a Mejor actriz por Blonde, producción estadounidense. Ese año ganó Michelle Yeoh, actriz malasia, también por una película de EE. UU.',
+    body: 'Con carrera en España, se instaló en Los Ángeles hacia 2014 tras estudiar inglés. En 2023 fue nominada a Mejor actriz por Blonde. Ese año ganó Michelle Yeoh, también por una película de EE. UU.',
+    fact: 'Su nominación llegó por un papel en inglés, en una película de EE. UU.',
   },
   {
     kicker: 'Caso 05 · Siglo XXI · Un camino diferente',
     title: 'Antonio Banderas (España → Hollywood → España)',
-    body: 'Antonio Banderas ya era conocido en España por las películas de Almodóvar cuando dio el salto a Hollywood en los años 90, donde se consolidó trabajando en inglés. Sin embargo, su primera y única nominación al Oscar llegó en 2020, a Mejor actor, por Dolor y gloria, una producción española filmada en español.',
+    body: 'Consolidado en Hollywood desde los años 90, fue nominado al Oscar a Mejor actor en 2020 por Dolor y gloria, una película española dirigida por Almodóvar.',
+    fact: 'Su única nominación no llegó por una producción estadounidense.',
   },
 ];
 
@@ -405,7 +407,7 @@
           escapeHtml(story.body) +
           '</p>' +
           '<div class="story-card-fact">' +
-          escapeHtml(story.fact) +
+          escapeHtml(story.fact || '') +
           '</div>';
         track.appendChild(card);
       });
