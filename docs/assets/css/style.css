@@ -283,7 +283,7 @@ button {
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 56%;
+  width: calc(50% + 1px);
   overflow: hidden;
   background-color: var(--cherry);
   will-change: transform;
@@ -295,7 +295,7 @@ button {
   transform: translate3d(calc(var(--curtain-progress, 0) * -94%), 0, 0)
     scaleX(calc(1 - var(--curtain-progress, 0) * 0.74));
   border-right: none;
-  box-shadow: inset -28px 0 48px rgba(0, 0, 0, 0.55);
+  box-shadow: inset -24px 0 42px rgba(0, 0, 0, 0.45);
 }
 
 .curtain-right {
@@ -304,7 +304,7 @@ button {
   transform: translate3d(calc(var(--curtain-progress, 0) * 94%), 0, 0)
     scaleX(calc(1 - var(--curtain-progress, 0) * 0.74));
   border-left: none;
-  box-shadow: inset 28px 0 48px rgba(0, 0, 0, 0.55);
+  box-shadow: inset 24px 0 42px rgba(0, 0, 0, 0.45);
 }
 
 .curtain-folds {
@@ -321,7 +321,12 @@ button {
   animation: curtain-sway 5.2s ease-in-out infinite alternate;
 }
 
+.curtain-left .curtain-folds {
+  background-position: right top;
+}
+
 .curtain-right .curtain-folds {
+  background-position: left top;
   animation-direction: alternate-reverse;
 }
 
@@ -336,14 +341,13 @@ button {
 
 @keyframes curtain-sway {
   0% {
-    opacity: 0.94;
-    transform: scaleX(1);
+    opacity: 0.92;
   }
   100% {
     opacity: 1;
-    transform: scaleX(1.015);
   }
 }
+
 
 /* ==========================================================================
    BOTONES SEGÚN GUÍA DE MARCA
