@@ -261,20 +261,27 @@ Pero la composición era otra. Muchas de las películas por las que obtuvieron l
           </div>
         </div>
       </section>
-    
+<!-- PODIO DE 5 LUGARES ANTES DEL GRÁFICO 2 (orden explícito solicitado) -->
+          <div class="podium-section" id="podio">
+            <div class="viz-card">
+              <div class="viz-header">
+                <div>
+                  <span class="chart-label">Podio de producción · Top 5 países</span>
+                  <h3 class="viz-title">Países con mayor presencia en la producción de las películas nominadas a los Oscar</h3>
+                  <p class="viz-subtitle">
+                    Ranking histórico de las 5 principales naciones productoras detrás de las nominaciones a Mejor Actor y Mejor Actriz
+                  </p>
+                </div>
+                <div class="viz-filters" role="group" aria-label="Período del podio">
+                  <button type="button" class="filter-btn is-active" data-podium-period="all">Histórico (1929–2026)</button>
+                  <button type="button" class="filter-btn" data-podium-period="recent">Últimas 3 décadas (1996–2026)</button>
+                </div>
+              </div>
 
-          <!-- Apartado Gráfico 1 (vis_01) con el párrafo exacto del prompt -->
-          <div class="chart-block" id="grafico-1">
-            <div class="chart-text-intro">
-              <span class="chart-label">Gráfico 1 · vis_01</span>
-              <p class="editorial-paragraph">
-                El gráfico busca revelar si los nominados a Mejor Actor-Actriz son en su mayoría
-                estadounidense con debut en su país o extranjeros con debut en Estados Unidos. Se
-                evidencia que en las últimas 3 décadas La Academia ha tenido más presencia extranjera.
-                Nuestro objetivo descubrir si la industria ha aceptado el talento extranjero año tras año.
-              </p>
+              <div class="podium-stage" id="podium-stage" aria-label="Podio de 5 lugares de países productores"></div>
             </div>
-
+          </div>
+          
             <div class="viz-card">
               <div class="viz-header">
                 <div>
@@ -406,27 +413,6 @@ Pero la composición era otra. Muchas de las películas por las que obtuvieron l
               <path d="M13 20H27L24 54H16L13 20Z" fill="#C69D22"/>
               <rect x="11" y="56" width="18" height="14" rx="2" fill="#C69D22"/>
             </svg>
-          </div>
-
-          <!-- PODIO DE 5 LUGARES ANTES DEL GRÁFICO 2 (orden explícito solicitado) -->
-          <div class="podium-section" id="podio">
-            <div class="viz-card">
-              <div class="viz-header">
-                <div>
-                  <span class="chart-label">Podio de producción · Top 5 países</span>
-                  <h3 class="viz-title">Países con mayor presencia en la producción de las películas nominadas a los Oscar</h3>
-                  <p class="viz-subtitle">
-                    Ranking histórico de las 5 principales naciones productoras detrás de las nominaciones a Mejor Actor y Mejor Actriz
-                  </p>
-                </div>
-                <div class="viz-filters" role="group" aria-label="Período del podio">
-                  <button type="button" class="filter-btn is-active" data-podium-period="all">Histórico (1929–2026)</button>
-                  <button type="button" class="filter-btn" data-podium-period="recent">Últimas 3 décadas (1996–2026)</button>
-                </div>
-              </div>
-
-              <div class="podium-stage" id="podium-stage" aria-label="Podio de 5 lugares de países productores"></div>
-            </div>
           </div>
 
           <!-- GRÁFICO 2 (después del podio) con el párrafo exacto del prompt -->
