@@ -1290,3 +1290,13 @@ button {
     transition-duration: 150ms;
   }
 }
+/* ==========================================================================
+   GRAFICOS
+   ========================================================================== */
+#vis {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: -30px;
+  margin-bottom: 60px;
+}
