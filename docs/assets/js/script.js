@@ -76,7 +76,7 @@
     ],
   };
 
-  /const ACTOR_STORIES = [
+  const ACTOR_STORIES = [
   {
     kicker: 'Caso 01 · Años 20 · Primer Oscar',
     title: 'Emil Jannings (Suiza/Alemania → Hollywood)',
