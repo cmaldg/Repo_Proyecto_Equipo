@@ -1,9 +1,6 @@
 <!doctype html>
 <html lang="es">
-  <head> 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Oscar sin fronteras</title>
@@ -18,6 +15,12 @@
     />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;0,6..96,700;1,6..96,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Yeseva+One&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
     <script src="assets/js/script.js" defer></script>
   </head>
@@ -28,73 +31,17 @@
         <a href="#top" class="brand-logo-link" aria-label="Inicio — Oscar sin fronteras">
           <img
             src="assets/img/logo-oscars.png"
+            onerror="if(!this.dataset.fb){this.dataset.fb='1';this.src='./public/assets/img/logo-oscars.png';}"
             alt="Logotipo Oscar sin fronteras"
             class="brand-logo-img"
           />
         </a>
+
         <nav class="header-nav" aria-label="Navegación principal">
           <a href="#como-llegar" class="nav-box-link">¿Cómo llegar a los Oscar?</a>
           <a href="#festivales" class="nav-box-link">Festivales internacionales</a>
           <a href="#internacionalizacion" class="nav-box-link">¿Existe la internacionalización?</a>
         </nav>
-
-        <div class="header-actions">
-          <button
-            type="button"
-            class="icon-btn"
-            id="search-toggle-btn"
-            aria-label="Buscar nominados o secciones"
-            aria-expanded="false"
-            aria-controls="search-panel"
-          >
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" />
-              <path d="M16.5 16.5L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-            </svg>
-          </button>
-
-          <button
-            type="button"
-            class="icon-btn"
-            id="menu-toggle-btn"
-            aria-label="Abrir menú de navegación"
-            aria-expanded="false"
-            aria-controls="mobile-drawer"
-          >
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <path d="M4 7H20M4 12H20M4 17H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-            </svg>
-          </button>
-        </div>
-      </div>
-
-      <!-- Panel de búsqueda funcional -->
-      <div class="header-drawer" id="search-panel" hidden>
-        <div class="drawer-inner">
-          <label for="search-input" class="sr-only">Buscar nominados 2026, países o bloques</label>
-          <div class="search-bar-row">
-            <input
-              type="search"
-              id="search-input"
-              class="search-input"
-              placeholder="Buscar por nombre, película, nacionalidad o capítulo (ej. Jessie, Brasil, Podio)..."
-              autocomplete="off"
-            />
-            <button type="button" class="pill-btn pill-btn--outline" id="search-close-btn">Cerrar</button>
-          </div>
-          <ul class="search-results" id="search-results" aria-live="polite"></ul>
-        </div>
-      </div>
-
-      <!-- Menú de capítulos -->
-      <div class="header-drawer" id="mobile-drawer" hidden>
-        <div class="drawer-inner drawer-chapters">
-          <a href="#telon" class="drawer-link">00 · Apertura: Oscar sin fronteras</a>
-          <a href="#nominados-2026" class="drawer-link">01 · Ganadores y nominados 2026</a>
-          <a href="#como-llegar" class="drawer-link">02 · ¿Cómo llegar a los Oscar? (vis_01)</a>
-          <a href="#festivales" class="drawer-link">03 · Festivales internacionales</a>
-          <a href="#internacionalizacion" class="drawer-link">04 · ¿Existe la internacionalización? (Podio y Gráfico 2)</a>
-        </div>
       </div>
     </header>
 
@@ -106,7 +53,7 @@
           <div class="stage-backdrop">
             <div class="stage-carpet-runner" aria-hidden="true"></div>
             <div class="stage-content">
-              <p class="stage-kicker">Investigación de datos · Premios de la Academia (1929–2026)</p>
+              <h1 class="hero-title">OSCAR SIN FRONTERAS</h1>
               <p class="hero-bajada" id="bajada-texto">
                 Últimamente la Academia ha nominado a actores y actrices extranjeros. Pero detrás de esa nominación, muchas veces se encuentra un patrón: un país de producción. ¿Los Oscar realmente se han internacionalizado o simplemente han importado talento según sus estándares?
               </p>
@@ -123,109 +70,152 @@
               <div class="curtain-folds"></div>
               <div class="curtain-hem"></div>
             </div>
-
-            <div class="curtain-front-prompt" id="curtain-front-prompt">
-              <h1 class="curtain-title-preview">Oscar sin fronteras</h1>
-            </div>
           </div>
         </div>
       </section>
 
-      <!-- SECCIÓN 1: CONTINUACIÓN DE LA ALFOMBRA ROJA (#670010 con laterales #181818) + NOMINADOS 2026 -->
+      <!-- SECCIÓN 1: CONTINUACIÓN DE LA ALFOMBRA ROJA (#670010 con laterales #181818) -->
       <section class="carpet-section" id="nominados-2026">
         <div class="carpet-runner" aria-hidden="true"></div>
 
         <div class="section-container carpet-inner-container">
           <div class="editorial-frame-box frame-sobre-grafico">
-            <h1 class="frame-box-title">
-              Los Premios Oscar (1929-2026)
-            </h1>
-            <p class="frame-box-sub"> 
-             <p> 
-Aunque los Oscar cada vez más se proyectan como unos premios internacionalizados, la presencia de nominados extranjeros en las categorías Mejor actor y Mejor actriz no es una novedad reciente. La participación internacional se remonta a las primeras ceremonias de la Academia de Artes y Ciencias Cinematográficas (AMPAS, por sus siglas en inglés). 
-             </p> 
+            <h2 class="frame-box-title">Los Premios Oscar (1929-2026)</h2>
+            <p class="frame-box-sub">
+              Aunque los Oscar cada vez más se proyectan como unos premios internacionalizados, la presencia de nominados extranjeros en las categorías Mejor actor y Mejor actriz no es una novedad reciente. La participación internacional se remonta a las primeras ceremonias de la Academia de Artes y Ciencias Cinematográficas (AMPAS, por sus siglas en inglés).
+            </p>
           </div>
-<!-- Código que importa librerías de Altair del gráfico -->
-   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-  <style>
-  #vis {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 0;
-  margin-bottom: 20px;
-  }
-  </style>
-<!-- Elemento html que contiene el gráfico -->
-	 <div id="vis"></div>
-  <script>
-    (function(vegaEmbed) {
-      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-449051ae88aedb740f7c3228ce9f0034"}, "mark": {"type": "bar"}, "encoding": {"color": {"field": "clasificar", "legend": {"labelLimit": 400, "symbolSize": 100}, "scale": {"domain": ["Estadounidense con debut en EE.UU.", "Estadounidense con debut internacional", "Extranjero con debut en EE.UU.", "Extranjero con debut internacional"], "range": ["#670010", "#F8EFD8", "#181818", "#C69D22"]}, "sort": ["Estadounidense con debut en EE.UU.", "Estadounidense con debut internacional", "Extranjero con debut en EE.UU.", "Extranjero con debut internacional"], "title": "Clasificaci\u00f3n", "type": "nominal"}, "tooltip": [{"field": "n", "title": "Nominaciones", "type": "quantitative"}, {"field": "total", "title": "Total de nominaciones d\u00e9cada", "type": "quantitative"}, {"field": "pct", "format": ".2f", "title": "Porcentaje", "type": "quantitative"}], "x": {"axis": {"format": "%"}, "field": "n", "stack": "normalize", "title": null, "type": "quantitative"}, "y": {"field": "d\u00e9cada", "title": null, "type": "nominal"}}, "height": 300, "title": "Clasificaci\u00f3n de nominaciones a los Oscar por d\u00e9cada", "width": 520, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-449051ae88aedb740f7c3228ce9f0034": [{"d\u00e9cada": "1920s", "clasificar": "Estadounidense con debut en EE.UU.", "n": 7, "total": 9, "pct": 77.77777777777779}, {"d\u00e9cada": "1920s", "clasificar": "Extranjero con debut internacional", "n": 2, "total": 9, "pct": 22.22222222222222}, {"d\u00e9cada": "1930s", "clasificar": "Estadounidense con debut en EE.UU.", "n": 58, "total": 96, "pct": 60.416666666666664}, {"d\u00e9cada": "1930s", "clasificar": "Extranjero con debut en EE.UU.", "n": 17, "total": 96, "pct": 17.708333333333336}, {"d\u00e9cada": "1930s", "clasificar": "Extranjero con debut internacional", "n": 21, "total": 96, "pct": 21.875}, {"d\u00e9cada": "1940s", "clasificar": "Estadounidense con debut en EE.UU.", "n": 60, "total": 100, "pct": 60.0}, {"d\u00e9cada": "1940s", "clasificar": "Extranjero con debut en EE.UU.", "n": 20, "total": 100, "pct": 20.0}, {"d\u00e9cada": "1940s", "clasificar": "Extranjero con debut internacional", "n": 20, "total": 100, "pct": 20.0}, {"d\u00e9cada": "1950s", "clasificar": "Estadounidense con debut en EE.UU.", "n": 72, "total": 100, "pct": 72.0}, {"d\u00e9cada": "1950s", "clasificar": "Extranjero con debut en EE.UU.", "n": 9, "total": 100, "pct": 9.0}, {"d\u00e9cada": "1950s", "clasificar": "Extranjero con debut internacional", "n": 19, "total": 100, "pct": 19.0}, {"d\u00e9cada": "1960s", "clasificar": "Estadounidense con debut en EE.UU.", "n": 50, "total": 100, "pct": 50.0}, {"d\u00e9cada": "1960s", "clasificar": "Extranjero con debut en EE.UU.", "n": 13, "total": 100, "pct": 13.0}, {"d\u00e9cada": "1960s", "clasificar": "Extranjero con debut internacional", "n": 37, "total": 100, "pct": 37.0}, {"d\u00e9cada": "1970s", "clasificar": "Estadounidense con debut en EE.UU.", "n": 64, "total": 100, "pct": 64.0}, {"d\u00e9cada": "1970s", "clasificar": "Estadounidense con debut internacional", "n": 4, "total": 100, "pct": 4.0}, {"d\u00e9cada": "1970s", "clasificar": "Extranjero con debut en EE.UU.", "n": 5, "total": 100, "pct": 5.0}, {"d\u00e9cada": "1970s", "clasificar": "Extranjero con debut internacional", "n": 27, "total": 100, "pct": 27.0}, {"d\u00e9cada": "1980s", "clasificar": "Estadounidense con debut en EE.UU.", "n": 81, "total": 100, "pct": 81.0}, {"d\u00e9cada": "1980s", "clasificar": "Estadounidense con debut internacional", "n": 1, "total": 100, "pct": 1.0}, {"d\u00e9cada": "1980s", "clasificar": "Extranjero con debut en EE.UU.", "n": 4, "total": 100, "pct": 4.0}, {"d\u00e9cada": "1980s", "clasificar": "Extranjero con debut internacional", "n": 14, "total": 100, "pct": 14.000000000000002}, {"d\u00e9cada": "1990s", "clasificar": "Estadounidense con debut en EE.UU.", "n": 65, "total": 100, "pct": 65.0}, {"d\u00e9cada": "1990s", "clasificar": "Extranjero con debut en EE.UU.", "n": 10, "total": 100, "pct": 10.0}, {"d\u00e9cada": "1990s", "clasificar": "Extranjero con debut internacional", "n": 25, "total": 100, "pct": 25.0}, {"d\u00e9cada": "2000s", "clasificar": "Estadounidense con debut en EE.UU.", "n": 60, "total": 100, "pct": 60.0}, {"d\u00e9cada": "2000s", "clasificar": "Estadounidense con debut internacional", "n": 3, "total": 100, "pct": 3.0}, {"d\u00e9cada": "2000s", "clasificar": "Extranjero con debut en EE.UU.", "n": 8, "total": 100, "pct": 8.0}, {"d\u00e9cada": "2000s", "clasificar": "Extranjero con debut internacional", "n": 29, "total": 100, "pct": 28.999999999999996}, {"d\u00e9cada": "2010s", "clasificar": "Estadounidense con debut en EE.UU.", "n": 60, "total": 100, "pct": 60.0}, {"d\u00e9cada": "2010s", "clasificar": "Estadounidense con debut internacional", "n": 2, "total": 100, "pct": 2.0}, {"d\u00e9cada": "2010s", "clasificar": "Extranjero con debut en EE.UU.", "n": 10, "total": 100, "pct": 10.0}, {"d\u00e9cada": "2010s", "clasificar": "Extranjero con debut internacional", "n": 28, "total": 100, "pct": 28.000000000000004}, {"d\u00e9cada": "2020s", "clasificar": "Estadounidense con debut en EE.UU.", "n": 36, "total": 70, "pct": 51.42857142857142}, {"d\u00e9cada": "2020s", "clasificar": "Estadounidense con debut internacional", "n": 2, "total": 70, "pct": 2.857142857142857}, {"d\u00e9cada": "2020s", "clasificar": "Extranjero con debut en EE.UU.", "n": 12, "total": 70, "pct": 17.142857142857142}, {"d\u00e9cada": "2020s", "clasificar": "Extranjero con debut internacional", "n": 20, "total": 70, "pct": 28.57142857142857}]}};
-      var embedOpt = {"mode": "vega-lite"};
 
-      function showError(el, error){
-          el.innerHTML = ('<div style="color:red;">'
-                          + '<p>JavaScript Error: ' + error.message + '</p>'
-                          + "<p>This usually means there's a typo in your chart specification. "
-                          + "See the javascript console for the full traceback.</p>"
-                          + '</div>');
-          throw error;
-      }
-      const el = document.getElementById('vis');
-      vegaEmbed('#vis', spec, {actions: false});
-    })(vegaEmbed);
-  </script>
-<!-- SECCIÓN 1: CONTINUACIÓN DE LA ALFOMBRA ROJA (#670010 con laterales #181818) + NOMINADOS 2026 -->
-        <div class="section-container carpet-inner-container">
-          <div class="editorial-frame-box">
-            <h2 class="frame-box-title">
-            </h2>
-            <p class="frame-box-sub">
-          <p>
-           Entre los años 30 y 40, actores y actrices internacionales representaban cerca del 40% de las nominaciones a los premios. Cifras como estas varían década a década y, en algunas, la aparición de extranjeros es mínima. 
-          </p> 
-          <p>Sin embargo, en una década algo cambió. En los años 60 en ambas categorías (Mejor actor y Mejor actriz), los nominados estadounidenses alcanzaron el 50%. Esta década es la única en que las nominaciones estadounidenses no alcanzaron a ser mayoría: el 50% de los nominados fueron intérpretes extranjeros y el otro 50, estadounidenses.</p>
-          <p>Durante ese periodo, la mayoría de las nominaciones extranjeras correspondieron a actores y actrices de nacionalidad británica (35) y el resto a otras nacionalidades (15). Además, 32 películas del total de 100 nominaciones fueron producidas o coproducidas por un país extranjero. Un aumento respecto a años anteriores.</p>
-        </div>
-        <!-- Gráfico de Flourish -->
- <div class="flourish-embed flourish-chart" data-src="visualisation/31055227"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/31055227/thumbnail" width="100%" alt="chart visualization" /></noscript></div><div class="flourish-fallback" data-for="visualisation/31055227"><a href="https://public.flourish.studio/visualisation/31055227/visualisation.json?ref=embed-script">https://public.flourish.studio/visualisation/31055227/visualisation.json?ref=embed-script</a></div>
- <div class="section-container carpet-inner-container">
-          <div class="editorial-frame-box">
-            <h2 class="frame-box-title">
-            </h2>
-            <p class="frame-box-sub">
-<h2>Después de los 60, una hegemonía que vuelve</h2>
-<p>En las décadas de los 70 y los 80, los actores y actrices estadounidenses volvieron a dominar las nominaciones con un 68% en los 70 y un 82% en los 80. Los extranjeros alcanzaron un 32% y un 18%, respectivamente. Mientras Hollywood volvía a nominar a sus propios actores, el talento internacional seguía entrando por otros lados.</p>
-<p>Ya en  los 2000, la actuación extranjera vuelve aumentar, entre un  37% y el 46%, muy similar a lo ocurrido en los años 60.
-Pero la composición era otra. Muchas de las películas por las que obtuvieron las nominaciones los actores internacionales fueron realizadas por productoras estadounidense.</p>
-</div>
-<!-- SECCIÓN 2: LOS CAMINOS A LOS OSCAR -->
-<section class="story-section" id="como-llegar">
-        <div class="section-container">
-          <h2 class="section-title">Los caminos a los Oscar</h2>
+          <!-- Gráfico 5 (Altair / Vega-Lite) adaptado visualmente a la alfombra roja -->
+          <div class="carpet-viz-card" id="grafico-decadas">
+            <div class="viz-header">
+              <div>
+                <span class="chart-label">Gráfico 1 · Evolución por década (1920s–2020s)</span>
+                <h3 class="viz-title">Clasificación de nominaciones a los Oscar por década</h3>
+                <p class="viz-subtitle">
+                  Proporción de nominados en Mejor Actor y Mejor Actriz según origen y país de debut cinematográfico
+                </p>
+              </div>
+            </div>
+            <div id="vis"></div>
+            <p class="carpet-viz-note">
+              Pasa el cursor sobre cada segmento para ver el número de nominaciones, el total de la década y el porcentaje exacto.
+            </p>
+          </div>
 
-          <!-- Carrusel de 3 cartas visibles con botones Siguiente / Atrás según guía de marca -->
-          <div class="carousel-wrapper" aria-label="Casos históricos de intérpretes extranjeros">
-            <div class="carousel-track" id="actors-carousel-track"></div>
-            <div class="carousel-controls">
-              <button type="button" class="pill-btn pill-btn--gold" id="carousel-prev-btn">
-                <span aria-hidden="true">←</span> Atrás
-              </button>
-              <span class="carousel-counter" id="carousel-counter">1 / 4</span>
-              <button type="button" class="pill-btn pill-btn--gold" id="carousel-next-btn">
-                Siguiente <span aria-hidden="true">→</span>
-              </button>
+          <div class="editorial-frame-box">
+            <p>
+              Entre los años 30 y 40, actores y actrices internacionales representaban cerca del 40% de las nominaciones a los premios. Cifras como estas varían década a década y, en algunas, la aparición de extranjeros es mínima.
+            </p>
+            <p>
+              Sin embargo, en una década algo cambió. En los años 60 en ambas categorías (Mejor actor y Mejor actriz), los nominados estadounidenses alcanzaron el 50%. Esta década es la única en que las nominaciones estadounidenses no alcanzaron a ser mayoría: el 50% de los nominados fueron intérpretes extranjeros y el otro 50, estadounidenses.
+            </p>
+            <p>
+              Durante ese periodo, la mayoría de las nominaciones extranjeras correspondieron a actores y actrices de nacionalidad británica (35) y el resto a otras nacionalidades (15). Además, 32 películas del total de 100 nominaciones fueron producidas o coproducidas por un país extranjero. Un aumento respecto a años anteriores.
+            </p>
+          </div>
+
+          <!-- Gráfico de Flourish integrado en tarjeta de alfombra roja -->
+          <div class="carpet-viz-card flourish-card">
+            <div class="viz-header">
+              <div>
+                <span class="chart-label">Visualización interactiva · Flourish</span>
+                <h3 class="viz-title">Distribución histórica de nacionalidades y producciones</h3>
+              </div>
+            </div>
+            <div class="flourish-embed flourish-chart" data-src="visualisation/31055227">
+              <script src="https://public.flourish.studio/resources/embed.js"></script>
+              <noscript>
+                <img
+                  src="https://public.flourish.studio/visualisation/31055227/thumbnail"
+                  width="100%"
+                  alt="Visualización Flourish de los Premios Oscar"
+                />
+              </noscript>
+            </div>
+            <div class="flourish-fallback" data-for="visualisation/31055227">
+              <a href="https://public.flourish.studio/visualisation/31055227/visualisation.json?ref=embed-script" target="_blank" rel="noopener noreferrer">
+                Ver datos en Flourish
+              </a>
             </div>
           </div>
-          
-          <!-- Par 1: Michael B. Jordan PNG sin cambios al lado del listado 2026 de Mejor Actor -->
-          <div class="nominees-showcase-grid">
+
+          <div class="editorial-frame-box">
+            <h2 class="frame-box-title">Después de los 60, una hegemonía que vuelve</h2>
+            <p>
+              En las décadas de los 70 y los 80, los actores y actrices estadounidenses volvieron a dominar las nominaciones con un 68% en los 70 y un 82% en los 80. Los extranjeros alcanzaron un 32% y un 18%, respectivamente. Mientras Hollywood volvía a nominar a sus propios actores, el talento internacional seguía entrando por otros lados.
+            </p>
+            <p>
+              Ya en los 2000, la actuación extranjera vuelve aumentar, entre un 37% y el 46%, muy similar a lo ocurrido en los años 60. Pero la composición era otra. Muchas de las películas por las que obtuvieron las nominaciones los actores internacionales fueron realizadas por productoras estadounidense.
+            </p>
+          </div>
+        </div>
+
+        <!-- Degradado suave del rojo alfombra (#670010) hacia el negro (#181818) -->
+        <div class="carpet-fade-out" aria-hidden="true"></div>
+      </section>
+
+      <!-- SECCIÓN 2: LOS CAMINOS A LOS OSCAR (5 CARRUSELES + NOMINADOS 2026) -->
+      <section class="story-section" id="como-llegar">
+        <div class="section-container">
+          <h2 class="section-title">Los caminos a los Oscar</h2>
+          <p class="section-intro-lead">
+            Cinco trayectorias emblemáticas que muestran cómo el idioma, el estudio de origen y el país de producción moldearon la llegada de intérpretes extranjeros a la Academia.
+          </p>
+
+          <!-- Carrusel de 5 casos históricos -->
+          <div class="carousel-wrapper" aria-label="Casos históricos de intérpretes extranjeros">
+            <div class="carousel-stage">
+              <button
+                type="button"
+                class="carousel-edge-btn carousel-edge-btn--prev"
+                id="carousel-prev-btn"
+                aria-label="Historia anterior"
+              >
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path
+                    d="M15 18L9 12L15 6"
+                    stroke="currentColor"
+                    stroke-width="2.4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+
+              <div class="carousel-track" id="actors-carousel-track"></div>
+
+              <button
+                type="button"
+                class="carousel-edge-btn carousel-edge-btn--next"
+                id="carousel-next-btn"
+                aria-label="Siguiente historia"
+              >
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path
+                    d="M9 18L15 12L9 6"
+                    stroke="currentColor"
+                    stroke-width="2.4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+
+            <div class="carousel-footer">
+              <span class="carousel-counter" id="carousel-counter">1 / 5</span>
+              <div class="carousel-dots" id="carousel-dots" aria-label="Selector de casos"></div>
+            </div>
+          </div>
+
+          <!-- Par 1 y Par 2: Listados 2026 con ilustraciones PNG intactas -->
+          <div class="nominees-showcase-grid" id="nominados-lista-2026">
             <article class="nominee-spotlight-row">
               <div class="nominee-portrait-wrap">
                 <img
                   src="assets/img/michael-b-jordan.png"
+                  onerror="if(!this.dataset.fb){this.dataset.fb='1';this.src='./public/assets/img/michael-b-jordan.png';}"
                   alt="Caricatura de Michael B. Jordan sosteniendo el premio Oscar"
                   class="character-png"
                 />
@@ -239,7 +229,6 @@ Pero la composición era otra. Muchas de las películas por las que obtuvieron l
               </div>
             </article>
 
-            <!-- Par 2: Jessie Buckley PNG sin cambios al lado del listado 2026 de Mejor Actriz -->
             <article class="nominee-spotlight-row nominee-spotlight-row--reverse">
               <div class="nominee-list-card">
                 <div class="nominee-card-head">
@@ -251,80 +240,162 @@ Pero la composición era otra. Muchas de las películas por las que obtuvieron l
               <div class="nominee-portrait-wrap">
                 <img
                   src="assets/img/jessie-buckley.png"
+                  onerror="if(!this.dataset.fb){this.dataset.fb='1';this.src='./public/assets/img/jessie-buckley.png';}"
                   alt="Caricatura de Jessie Buckley sosteniendo el premio Oscar"
                   class="character-png"
                 />
               </div>
             </article>
           </div>
-          </div>
         </div>
       </section>
 
- <!-- SECCIÓN 4: ¿EXISTE LA INTERNACIONALIZACIÓN? (PODIO DE 5 LUGARES ANTES DEL GRÁFICO 2 + GRÁFICO 2 + CONCLUSIÓN) -->
-      <section class="story-section" id="internacionalizacion">
+      <!-- SECCIÓN 3: PODIO DE LOS PAÍSES (EDITABLE EN HTML) + ANÁLISIS HISTÓRICO -->
+      <section class="story-section story-section--alt" id="podio-analisis">
         <div class="section-container">
-          <div class="title-with-statuettes">
-            <svg class="statuette-icon" viewBox="0 0 40 80" fill="none" aria-hidden="true">
-              <circle cx="20" cy="12" r="5" fill="#C69D22"/>
-              <path d="M13 20H27L24 54H16L13 20Z" fill="#C69D22"/>
-              <rect x="11" y="56" width="18" height="14" rx="2" fill="#C69D22"/>
-            </svg>
-            <h2 class="section-title">¿Existe la internacionalización?</h2>
-            <svg class="statuette-icon" viewBox="0 0 40 80" fill="none" aria-hidden="true">
-              <circle cx="20" cy="12" r="5" fill="#C69D22"/>
-              <path d="M13 20H27L24 54H16L13 20Z" fill="#C69D22"/>
-              <rect x="11" y="56" width="18" height="14" rx="2" fill="#C69D22"/>
-            </svg>
-          </div>
-
-          <!-- PODIO DE 5 LUGARES ANTES DEL GRÁFICO 2 (orden explícito solicitado) -->
+          <!--
+            ===================================================================
+            PODIO EDITABLE DIRECTAMENTE EN HTML (sin JavaScript)
+            Basado en el gráfico "Participación de los países en la producción
+            de las películas nominadas" (participacion_paises_produccion.html).
+            Para cambiar un país, cifra o porcentaje, edita directamente los
+            textos dentro de cada <div class="podium-column ...">.
+            ===================================================================
+          -->
           <div class="podium-section" id="podio">
             <div class="viz-card">
               <div class="viz-header">
                 <div>
                   <span class="chart-label">Podio de producción · Top 5 países</span>
-                  <h3 class="viz-title">Países con mayor presencia en la producción de las películas nominadas a los Oscar</h3>
+                  <h3 class="viz-title">Participación de los países en la producción de las películas nominadas</h3>
                   <p class="viz-subtitle">
-                    Ranking histórico de las 5 principales naciones productoras detrás de las nominaciones a Mejor Actor y Mejor Actriz
+                    Los 5 países con mayor presencia en la producción o coproducción de las 870 películas nominadas a Mejor Actor y Mejor Actriz (1929–2026)
                   </p>
-                </div>
-                <div class="viz-filters" role="group" aria-label="Período del podio">
-                  <button type="button" class="filter-btn is-active" data-podium-period="all">Histórico (1929–2026)</button>
-                  <button type="button" class="filter-btn" data-podium-period="recent">Últimas 3 décadas (1996–2026)</button>
                 </div>
               </div>
 
-              <div class="podium-stage" id="podium-stage" aria-label="Podio de 5 lugares de países productores"></div>
+              <div class="podium-stage" id="podium-stage" aria-label="Podio de 5 lugares de países productores">
+                <!-- 1.er lugar -->
+                <div class="podium-column is-rank-1">
+                  <div class="podium-country-meta">
+                    <span class="podium-country-name">Estados Unidos</span>
+                    <span class="podium-country-count">746 películas</span>
+                    <span class="podium-country-share">85,7% del total</span>
+                  </div>
+                  <div class="podium-pedestal">
+                    <span class="podium-rank">1.°</span>
+                  </div>
+                </div>
+
+                <!-- 2.º lugar -->
+                <div class="podium-column is-rank-2">
+                  <div class="podium-country-meta">
+                    <span class="podium-country-name">Reino Unido</span>
+                    <span class="podium-country-count">180 películas</span>
+                    <span class="podium-country-share">20,7% del total</span>
+                  </div>
+                  <div class="podium-pedestal">
+                    <span class="podium-rank">2.°</span>
+                  </div>
+                </div>
+
+                <!-- 3.er lugar -->
+                <div class="podium-column is-rank-3">
+                  <div class="podium-country-meta">
+                    <span class="podium-country-name">Francia</span>
+                    <span class="podium-country-count">50 películas</span>
+                    <span class="podium-country-share">5,7% del total</span>
+                  </div>
+                  <div class="podium-pedestal">
+                    <span class="podium-rank">3.°</span>
+                  </div>
+                </div>
+
+                <!-- 4.º lugar -->
+                <div class="podium-column is-rank-4">
+                  <div class="podium-country-meta">
+                    <span class="podium-country-name">Alemania</span>
+                    <span class="podium-country-count">22 películas</span>
+                    <span class="podium-country-share">2,5% del total</span>
+                  </div>
+                  <div class="podium-pedestal">
+                    <span class="podium-rank">4.°</span>
+                  </div>
+                </div>
+
+                <!-- 5.º lugar -->
+                <div class="podium-column is-rank-5">
+                  <div class="podium-country-meta">
+                    <span class="podium-country-name">Canadá</span>
+                    <span class="podium-country-count">22 películas</span>
+                    <span class="podium-country-share">2,5% del total</span>
+                  </div>
+                  <div class="podium-pedestal">
+                    <span class="podium-rank">5.°</span>
+                  </div>
+                </div>
+              </div>
+
+              <p class="podium-footnote">
+                Fuente: gráfico <em>Participación de los países en la producción de las películas nominadas</em> (N = 870 películas). Una coproducción internacional aporta a más de un país.
+              </p>
             </div>
           </div>
 
-          <h1>¿Cuál es entonces la vía más frecuente para llegar a los Oscar?</h1>
-          <p>
-          El podio de los países de producción de las películas nominadas da una pista. Estados Unidos lidera ampliamente, con 619 de las 870 producciones nominadas en la historia de los premios. Es decir, siete de cada diez películas se producen en el país anfitrión de la ceremonia. Muy por detrás aparecen Reino Unido, con 116, y Francia, con apenas 30.</p>
+          <article class="editorial-essay">
+            <h2 class="editorial-essay-heading">¿Cuál es entonces la vía más frecuente para llegar a los Oscar?</h2>
+            <p>
+              El podio de los países de producción de las películas nominadas da una pista. Estados Unidos lidera ampliamente, con 619 producciones exclusivamente estadounidenses (y 746 en total contando coproducciones) de las 870 películas nominadas en la historia de los premios. Es decir, siete de cada diez películas se producen íntegramente en el país anfitrión de la ceremonia. Muy por detrás aparecen Reino Unido, con 180 participaciones (116 en solitario), y Francia, con 50.
+            </p>
+            <p>
+              En estos gráficos, se resumen casi cien años de premios; si bien al inicio las producciones eran casi por completo de origen estadounidense, a medida que se fue internacionalizando la premiación, permitió que otros países tuvieran su espacio en la pantalla grande, comenzaron las coproducciones.
+            </p>
+            <p>
+              Si bien se expandió la parrilla de países en los Oscar, en muchas producciones conjuntas el país norteamericano se hacía presente, por lo que termina sumando otra nominación más a su lista. Permitiendo así que se quede con el 71,15% de producciones exclusivamente estadounidenses y el 85,7% si se consideran sus coproducciones.
+            </p>
+            <p>
+              Durante los primeros años de los Oscar, casi de forma segura, si una película competía, era estadounidense. Esto principalmente debido a que es el país que dio origen a estos premios, en una forma en que el mismo círculo de Hollywood tenía para reconocerse y felicitarse entre ellos. Con el tiempo, el mercado del cine comenzó a expandir sus fronteras y producir sus películas a lo largo del mundo.
+            </p>
 
-          <p>En estos gráficos, se resumen casi cien años de premios; si bien al inicio las producciones eran casi por completo de origen estadounidense, a medida que se fue internacionalizando la premiación, permitió que otros países tuvieran su espacio en la pantalla grande, comenzaron las coproducciones.</p>
-          <p>Si bien se expandió la parrilla de países en los Oscar, en muchas producciones conjuntas el país norteamericano se hacía presente, por lo que termina sumando otra nominación más a su lista. Permitiendo así que se quede con el 71,15% del total de producciones en las nominaciones.</p>
-          <p>Durante los primeros años de los Oscar, casi de forma segura, si una película competía, era estadounidense. Esto principalmente debido a que es el país que dio origen a estos premios, en una forma en que el mismo círculo de Hollywood tenía para reconocerse y felicitarse entre ellos. Con el tiempo, el mercado del cine comenzó a expandir sus fronteras y producir sus películas a lo largo del mundo.</p>
-          <h2>En la década de 1960, hubo un evidente quiebre</h2>
-          <p>Gracias al auge de películas británicas, principalmente con temáticas que buscaban retratar la vida cotidiana de ese país, muchas producciones realizadas en conjunto con Reino Unido, donde también se importó una gran cantidad de talento del mismo origen.</p>
-          <p>En una sola década, las películas solo estadounidenses cayeron unos treinta puntos, pasando de un 90,6% a un 58,8%. Desde aquí se comienza a observar un incremento progresivo a lo largo de las décadas de la inclusión internacional en la academia.</p>
-          <p>Luego de altos y bajos, con pequeños desajustes, desde los 90 en adelante, se comienza a equiparar la cancha poco a poco, hasta que en los 2000 casi se tocan: 46,9% de películas solo estadounidenses contra 45,8% de extranjeras.</p>
-          <p>No hay que olvidar el papel crucial que juegan las coproducciones en todo este partido. Pasaron de no existir en los años 30 a ser la mitad de las nominadas en los 2000. Cada vez más películas se hacen con financiamiento y en colaboración de varios países, lo que va volviendo difusa la línea entre lo "estadounidense" y lo "extranjero".</p>
-          <p>Estas colaboraciones suelen estar motivadas por distintos factores; la historia en la que está inspirada el filme es de algún país en particular, ya sea folklore, leyenda, historia, etc. O la película fue grabada en dicho país.</p>
-          <p>Al ser Estados Unidos el creador de estos premios, naturalmente es uno de los principales involucrados en las nominaciones a lo largo de la historia. Por lo que estamos visualizando una acumulación a lo largo del tiempo de las producciones en las que el país norteamericano se ha visto involucrado.</p>
-          <p>Entonces, ¿se han alineado las producciones tanto estadounidenses como extranjeras? Sí, y bastante, hasta el punto de que caminan a la par y se comienza a volver difusa la distinción. Pasamos de una competencia casi sin participación internacional a una donde se entrelazan y trabajan en colaboración.</p>
-          <p>Los Oscar se han internacionalizado mucho más de lo que eran hace cien años. Sin embargo, Estados Unidos sigue siendo el dueño de casa y su industria conserva un papel central en ese recorrido.</p>
-          <p>Porque llegar a Hollywood desde el extranjero no siempre significa hacerlo desde afuera. Como algunos casos lo evidencian, muchas producciones internacionales encuentran su camino hacia la Academia a través del idioma inglés, las coproducciones o los vínculos con la industria estadounidense.</p>
-          <p>Y algo similar ocurre con sus intérpretes.</p>
+            <h3 class="editorial-essay-subheading">En la década de 1960, hubo un evidente quiebre</h3>
+            <p>
+              Gracias al auge de películas británicas, principalmente con temáticas que buscaban retratar la vida cotidiana de ese país, muchas producciones realizadas en conjunto con Reino Unido, donde también se importó una gran cantidad de talento del mismo origen.
+            </p>
+            <p>
+              En una sola década, las películas solo estadounidenses cayeron unos treinta puntos, pasando de un 90,6% a un 58,8%. Desde aquí se comienza a observar un incremento progresivo a lo largo de las décadas de la inclusión internacional en la academia.
+            </p>
+            <p>
+              Luego de altos y bajos, con pequeños desajustes, desde los 90 en adelante, se comienza a equiparar la cancha poco a poco, hasta que en los 2000 casi se tocan: 46,9% de películas solo estadounidenses contra 45,8% de extranjeras.
+            </p>
+            <p>
+              No hay que olvidar el papel crucial que juegan las coproducciones en todo este partido. Pasaron de no existir en los años 30 a ser la mitad de las nominadas en los 2000. Cada vez más películas se hacen con financiamiento y en colaboración de varios países, lo que va volviendo difusa la línea entre lo «estadounidense» y lo «extranjero».
+            </p>
+            <p>
+              Estas colaboraciones suelen estar motivadas por distintos factores; la historia en la que está inspirada el filme es de algún país en particular, ya sea folklore, leyenda, historia, etc. O la película fue grabada en dicho país.
+            </p>
+            <p>
+              Al ser Estados Unidos el creador de estos premios, naturalmente es uno de los principales involucrados en las nominaciones a lo largo de la historia. Por lo que estamos visualizando una acumulación a lo largo del tiempo de las producciones en las que el país norteamericano se ha visto involucrado.
+            </p>
+            <p>
+              Entonces, ¿se han alineado las producciones tanto estadounidenses como extranjeras? Sí, y bastante, hasta el punto de que caminan a la par y se comienza a volver difusa la distinción. Pasamos de una competencia casi sin participación internacional a una donde se entrelazan y trabajan en colaboración.
+            </p>
+            <p>
+              Los Oscar se han internacionalizado mucho más de lo que eran hace cien años. Sin embargo, Estados Unidos sigue siendo el dueño de casa y su industria conserva un papel central en ese recorrido.
+            </p>
+            <p>
+              Porque llegar a Hollywood desde el extranjero no siempre significa hacerlo desde afuera. Como algunos casos lo evidencian, muchas producciones internacionales encuentran su camino hacia la Academia a través del idioma inglés, las coproducciones o los vínculos con la industria estadounidense.
+            </p>
+            <p>Y algo similar ocurre con sus intérpretes.</p>
+          </article>
+        </div>
+      </section>
 
-        
-      <!-- SECCIÓN 3: FESTIVALES INTERNACIONALES -->
-      <section class="story-section story-section--alt" id="festivales">
+      <!-- SECCIÓN 4: FESTIVALES INTERNACIONALES -->
+      <section class="story-section" id="festivales">
         <div class="section-container">
           <h2 class="section-title">Festivales internacionales</h2>
 
-          <!-- Bloque superior del wireframe: Video / Crónica de los 3 premios de Jessie Buckley -->
+          <!-- Bloque superior: Crónica de los 3 premios de Jessie Buckley -->
           <div class="sweep-showcase">
             <div class="sweep-stage-panel">
               <div class="sweep-badges-row" role="tablist" aria-label="Galardones temporada 2026 de Jessie Buckley">
@@ -342,7 +413,7 @@ Pero la composición era otra. Muchas de las películas por las que obtuvieron l
             </div>
           </div>
 
-          <!-- Disposición asimétrica del boceto: crónica a la izquierda + repisa de 3 premios a la derecha -->
+          <!-- Disposición asimétrica: crónica a la izquierda + repisa de 3 premios a la derecha -->
           <div class="festivals-split">
             <div class="editorial-frame-box editorial-frame-box--left">
               <h3 class="gold-subtitle">Crónica de una temporada perfecta</h3>
@@ -359,27 +430,27 @@ Pero la composición era otra. Muchas de las películas por las que obtuvieron l
                 <div class="shelf-trophies">
                   <div class="trophy-item">
                     <svg class="trophy-svg" viewBox="0 0 64 88" fill="none" aria-hidden="true">
-                      <ellipse cx="32" cy="18" rx="13" ry="13" stroke="#C69D22" stroke-width="2" fill="rgba(198,157,34,0.16)"/>
-                      <path d="M22 33L42 33L37 56L27 56Z" fill="#C69D22"/>
-                      <rect x="20" y="56" width="24" height="14" rx="2" stroke="#C69D22" stroke-width="2"/>
+                      <ellipse cx="32" cy="18" rx="13" ry="13" stroke="#C69D22" stroke-width="2" fill="rgba(198,157,34,0.16)" />
+                      <path d="M22 33L42 33L37 56L27 56Z" fill="#C69D22" />
+                      <rect x="20" y="56" width="24" height="14" rx="2" stroke="#C69D22" stroke-width="2" />
                     </svg>
                     <span class="trophy-name">Globo de Oro</span>
                   </div>
                   <div class="trophy-item">
                     <svg class="trophy-svg" viewBox="0 0 64 88" fill="none" aria-hidden="true">
-                      <path d="M18 14C18 10 46 10 46 14V32C46 42 38 48 32 48C26 48 18 42 18 32V14Z" stroke="#C69D22" stroke-width="2" fill="rgba(198,157,34,0.16)"/>
-                      <circle cx="26" cy="25" r="2.2" fill="#C69D22"/>
-                      <circle cx="38" cy="25" r="2.2" fill="#C69D22"/>
-                      <rect x="28" y="48" width="8" height="10" fill="#C69D22"/>
-                      <rect x="20" y="58" width="24" height="12" rx="2" stroke="#C69D22" stroke-width="2"/>
+                      <path d="M18 14C18 10 46 10 46 14V32C46 42 38 48 32 48C26 48 18 42 18 32V14Z" stroke="#C69D22" stroke-width="2" fill="rgba(198,157,34,0.16)" />
+                      <circle cx="26" cy="25" r="2.2" fill="#C69D22" />
+                      <circle cx="38" cy="25" r="2.2" fill="#C69D22" />
+                      <rect x="28" y="48" width="8" height="10" fill="#C69D22" />
+                      <rect x="20" y="58" width="24" height="12" rx="2" stroke="#C69D22" stroke-width="2" />
                     </svg>
                     <span class="trophy-name">BAFTA</span>
                   </div>
                   <div class="trophy-item">
                     <svg class="trophy-svg" viewBox="0 0 64 88" fill="none" aria-hidden="true">
-                      <circle cx="32" cy="14" r="6" fill="#C69D22"/>
-                      <path d="M24 22H40L36 52H28L24 22Z" fill="#C69D22"/>
-                      <rect x="21" y="52" width="22" height="18" rx="2" stroke="#C69D22" stroke-width="2"/>
+                      <circle cx="32" cy="14" r="6" fill="#C69D22" />
+                      <path d="M24 22H40L36 52H28L24 22Z" fill="#C69D22" />
+                      <rect x="21" y="52" width="22" height="18" rx="2" stroke="#C69D22" stroke-width="2" />
                     </svg>
                     <span class="trophy-name">Oscar 2026</span>
                   </div>
@@ -409,41 +480,41 @@ Pero la composición era otra. Muchas de las películas por las que obtuvieron l
         </div>
       </section>
 
-      <!-- SECCIÓN 4: ¿EXISTE LA INTERNACIONALIZACIÓN? (PODIO DE 5 LUGARES ANTES DEL GRÁFICO 2 + GRÁFICO 2 + CONCLUSIÓN) -->
-      <section class="story-section" id="internacionalizacion">
+      <!-- SECCIÓN 5: ¿EXISTE LA INTERNACIONALIZACIÓN? (GRÁFICO 2 + CONCLUSIÓN) -->
+      <section class="story-section story-section--alt" id="internacionalizacion">
         <div class="section-container">
           <div class="title-with-statuettes">
             <svg class="statuette-icon" viewBox="0 0 40 80" fill="none" aria-hidden="true">
-              <circle cx="20" cy="12" r="5" fill="#C69D22"/>
-              <path d="M13 20H27L24 54H16L13 20Z" fill="#C69D22"/>
-              <rect x="11" y="56" width="18" height="14" rx="2" fill="#C69D22"/>
+              <circle cx="20" cy="12" r="5" fill="#C69D22" />
+              <path d="M13 20H27L24 54H16L13 20Z" fill="#C69D22" />
+              <rect x="11" y="56" width="18" height="14" rx="2" fill="#C69D22" />
             </svg>
             <h2 class="section-title">¿Existe la internacionalización?</h2>
             <svg class="statuette-icon" viewBox="0 0 40 80" fill="none" aria-hidden="true">
-              <circle cx="20" cy="12" r="5" fill="#C69D22"/>
-              <path d="M13 20H27L24 54H16L13 20Z" fill="#C69D22"/>
-              <rect x="11" y="56" width="18" height="14" rx="2" fill="#C69D22"/>
+              <circle cx="20" cy="12" r="5" fill="#C69D22" />
+              <path d="M13 20H27L24 54H16L13 20Z" fill="#C69D22" />
+              <rect x="11" y="56" width="18" height="14" rx="2" fill="#C69D22" />
             </svg>
           </div>
 
-          <!-- GRÁFICO 2 (después del podio) con el párrafo exacto del prompt -->
+          <!-- GRÁFICO 2 -->
           <div class="chart-block" id="grafico-2">
             <div class="chart-text-intro">
-              <span class="chart-label">Gráfico 2 · gráfico 2 gráfico</span>
+              <span class="chart-label">Gráfico 2 · Origen de las productoras</span>
               <p class="editorial-paragraph">
                 Siguiendo el análisis de la internacionalización, el gráfico 2 examina el origen de las
                 productoras cinematográficas detrás de las nominaciones a Mejor Actor y Mejor Actriz. Al
                 mostrar los países con mayor presencia en los Oscar, el objetivo es descubrir si la
                 apertura de los Oscar es genuina o si los actores internacionales tienen mayores
                 probabilidades de ser nominados únicamente cuando participan en películas respaldadas por
-                la industria estadounidense
+                la industria estadounidense.
               </p>
             </div>
 
             <div class="viz-card">
               <div class="viz-header">
                 <div>
-                  <h3 class="viz-title">gráfico 2 gráfico · Productoras detrás de nominaciones por década y respaldo de EE. UU.</h3>
+                  <h3 class="viz-title">Productoras detrás de nominaciones por década y respaldo de EE. UU.</h3>
                   <p class="viz-subtitle">
                     Comparativa temporal de países de producción y dependencia del financiamiento estadounidense en nominados extranjeros
                   </p>
@@ -460,7 +531,7 @@ Pero la composición era otra. Muchas de las películas por las que obtuvieron l
             </div>
           </div>
 
-          <!-- CONCLUSIÓN FINAL DEL BOCETO -->
+          <!-- CONCLUSIÓN FINAL -->
           <div class="conclusion-box">
             <span class="chart-label">Conclusión de la investigación</span>
             <h3 class="gold-subtitle">¿Apertura real o importación de talento?</h3>
@@ -483,5 +554,159 @@ Pero la composición era otra. Muchas de las películas por las que obtuvieron l
         <a href="#top" class="footer-top-link">Volver al inicio ↑</a>
       </div>
     </footer>
+
+    <!-- Librerías Vega / Altair para Gráfico 5 adaptado a la alfombra roja -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <script>
+      (function (vegaEmbed) {
+        if (typeof vegaEmbed !== 'function') return;
+        var spec = {
+          $schema: 'https://vega.github.io/schema/vega-lite/v5.20.1.json',
+          background: 'transparent',
+          width: 'container',
+          height: 360,
+          padding: { top: 8, left: 6, right: 12, bottom: 8 },
+          autosize: { type: 'fit', contains: 'padding' },
+          config: {
+            background: 'transparent',
+            view: { stroke: 'transparent' },
+            axis: {
+              domainColor: 'rgba(248, 239, 216, 0.25)',
+              tickColor: 'rgba(248, 239, 216, 0.25)',
+              gridColor: 'rgba(248, 239, 216, 0.14)',
+              gridDash: [3, 4],
+              labelColor: '#F8EFD8',
+              labelFont: 'Bodoni Moda, Georgia, serif',
+              labelFontSize: 12.5,
+              titleColor: '#C69D22'
+            },
+            legend: {
+              orient: 'bottom',
+              direction: 'horizontal',
+              columns: 2,
+              columnPadding: 22,
+              rowPadding: 8,
+              offset: 16,
+              titleColor: '#C69D22',
+              titleFont: 'Yeseva One, Georgia, serif',
+              titleFontSize: 13,
+              labelColor: '#F8EFD8',
+              labelFont: 'Bodoni Moda, Georgia, serif',
+              labelFontSize: 13,
+              labelLimit: 320,
+              symbolType: 'square',
+              symbolSize: 130,
+              symbolStrokeColor: 'rgba(248, 239, 216, 0.45)',
+              symbolStrokeWidth: 1
+            }
+          },
+          data: { name: 'data-449051ae88aedb740f7c3228ce9f0034' },
+          mark: {
+            type: 'bar',
+            cornerRadiusEnd: 2,
+            stroke: 'rgba(248, 239, 216, 0.42)',
+            strokeWidth: 0.9
+          },
+          encoding: {
+            color: {
+              field: 'clasificar',
+              scale: {
+                domain: [
+                  'Estadounidense con debut en EE.UU.',
+                  'Estadounidense con debut internacional',
+                  'Extranjero con debut en EE.UU.',
+                  'Extranjero con debut internacional'
+                ],
+                range: ['#670010', '#F8EFD8', '#181818', '#C69D22']
+              },
+              sort: [
+                'Estadounidense con debut en EE.UU.',
+                'Estadounidense con debut internacional',
+                'Extranjero con debut en EE.UU.',
+                'Extranjero con debut internacional'
+              ],
+              title: 'Clasificación',
+              type: 'nominal'
+            },
+            tooltip: [
+              { field: 'década', title: 'Década', type: 'nominal' },
+              { field: 'clasificar', title: 'Categoría', type: 'nominal' },
+              { field: 'n', title: 'Nominaciones', type: 'quantitative' },
+              { field: 'total', title: 'Total de nominaciones década', type: 'quantitative' },
+              { field: 'pct', format: '.2f', title: 'Porcentaje (%)', type: 'quantitative' }
+            ],
+            x: {
+              axis: { format: '%', grid: true },
+              field: 'n',
+              stack: 'normalize',
+              title: null,
+              type: 'quantitative'
+            },
+            y: {
+              field: 'década',
+              title: null,
+              type: 'nominal',
+              axis: { grid: false, labelPadding: 8 }
+            }
+          },
+          datasets: {
+            'data-449051ae88aedb740f7c3228ce9f0034': [
+              { 'década': '1920s', clasificar: 'Estadounidense con debut en EE.UU.', n: 7, total: 9, pct: 77.77777777777779 },
+              { 'década': '1920s', clasificar: 'Extranjero con debut internacional', n: 2, total: 9, pct: 22.22222222222222 },
+              { 'década': '1930s', clasificar: 'Estadounidense con debut en EE.UU.', n: 58, total: 96, pct: 60.416666666666664 },
+              { 'década': '1930s', clasificar: 'Extranjero con debut en EE.UU.', n: 17, total: 96, pct: 17.708333333333336 },
+              { 'década': '1930s', clasificar: 'Extranjero con debut internacional', n: 21, total: 96, pct: 21.875 },
+              { 'década': '1940s', clasificar: 'Estadounidense con debut en EE.UU.', n: 60, total: 100, pct: 60.0 },
+              { 'década': '1940s', clasificar: 'Extranjero con debut en EE.UU.', n: 20, total: 100, pct: 20.0 },
+              { 'década': '1940s', clasificar: 'Extranjero con debut internacional', n: 20, total: 100, pct: 20.0 },
+              { 'década': '1950s', clasificar: 'Estadounidense con debut en EE.UU.', n: 72, total: 100, pct: 72.0 },
+              { 'década': '1950s', clasificar: 'Extranjero con debut en EE.UU.', n: 9, total: 100, pct: 9.0 },
+              { 'década': '1950s', clasificar: 'Extranjero con debut internacional', n: 19, total: 100, pct: 19.0 },
+              { 'década': '1960s', clasificar: 'Estadounidense con debut en EE.UU.', n: 50, total: 100, pct: 50.0 },
+              { 'década': '1960s', clasificar: 'Extranjero con debut en EE.UU.', n: 13, total: 100, pct: 13.0 },
+              { 'década': '1960s', clasificar: 'Extranjero con debut internacional', n: 37, total: 100, pct: 37.0 },
+              { 'década': '1970s', clasificar: 'Estadounidense con debut en EE.UU.', n: 64, total: 100, pct: 64.0 },
+              { 'década': '1970s', clasificar: 'Estadounidense con debut internacional', n: 4, total: 100, pct: 4.0 },
+              { 'década': '1970s', clasificar: 'Extranjero con debut en EE.UU.', n: 5, total: 100, pct: 5.0 },
+              { 'década': '1970s', clasificar: 'Extranjero con debut internacional', n: 27, total: 100, pct: 27.0 },
+              { 'década': '1980s', clasificar: 'Estadounidense con debut en EE.UU.', n: 81, total: 100, pct: 81.0 },
+              { 'década': '1980s', clasificar: 'Estadounidense con debut internacional', n: 1, total: 100, pct: 1.0 },
+              { 'década': '1980s', clasificar: 'Extranjero con debut en EE.UU.', n: 4, total: 100, pct: 4.0 },
+              { 'década': '1980s', clasificar: 'Extranjero con debut internacional', n: 14, total: 100, pct: 14.000000000000002 },
+              { 'década': '1990s', clasificar: 'Estadounidense con debut en EE.UU.', n: 65, total: 100, pct: 65.0 },
+              { 'década': '1990s', clasificar: 'Extranjero con debut en EE.UU.', n: 10, total: 100, pct: 10.0 },
+              { 'década': '1990s', clasificar: 'Extranjero con debut internacional', n: 25, total: 100, pct: 25.0 },
+              { 'década': '2000s', clasificar: 'Estadounidense con debut en EE.UU.', n: 60, total: 100, pct: 60.0 },
+              { 'década': '2000s', clasificar: 'Estadounidense con debut internacional', n: 3, total: 100, pct: 3.0 },
+              { 'década': '2000s', clasificar: 'Extranjero con debut en EE.UU.', n: 8, total: 100, pct: 8.0 },
+              { 'década': '2000s', clasificar: 'Extranjero con debut internacional', n: 29, total: 100, pct: 28.999999999999996 },
+              { 'década': '2010s', clasificar: 'Estadounidense con debut en EE.UU.', n: 60, total: 100, pct: 60.0 },
+              { 'década': '2010s', clasificar: 'Estadounidense con debut internacional', n: 2, total: 100, pct: 2.0 },
+              { 'década': '2010s', clasificar: 'Extranjero con debut en EE.UU.', n: 10, total: 100, pct: 10.0 },
+              { 'década': '2010s', clasificar: 'Extranjero con debut internacional', n: 28, total: 100, pct: 28.000000000000004 },
+              { 'década': '2020s', clasificar: 'Estadounidense con debut en EE.UU.', n: 36, total: 70, pct: 51.42857142857142 },
+              { 'década': '2020s', clasificar: 'Estadounidense con debut internacional', n: 2, total: 70, pct: 2.857142857142857 },
+              { 'década': '2020s', clasificar: 'Extranjero con debut en EE.UU.', n: 12, total: 70, pct: 17.142857142857142 },
+              { 'década': '2020s', clasificar: 'Extranjero con debut internacional', n: 20, total: 70, pct: 28.57142857142857 }
+            ]
+          }
+        };
+        vegaEmbed('#vis', spec, {
+          actions: false,
+          renderer: 'svg',
+          tooltip: { theme: 'dark' }
+        }).catch(function (error) {
+          var el = document.getElementById('vis');
+          if (el) {
+            el.innerHTML =
+              '<p style="color:#F8EFD8;text-align:center;">No se pudo renderizar el gráfico interactivo (' +
+              error.message +
+              ').</p>';
+          }
+        });
+      })(window.vegaEmbed);
+    </script>
   </body>
 </html>

@@ -252,9 +252,9 @@ button {
 
 .curtain-stage {
   position: sticky;
-  top: 87px;
+  top: var(--header-h, 87px);
   width: 100%;
-  height: calc(100vh - 87px);
+  height: calc(100vh - var(--header-h, 87px));
   min-height: 460px;
   overflow: hidden;
   background-color: var(--carbon);
@@ -743,8 +743,8 @@ button {
   border-top: 1px solid rgba(198, 157, 34, 0.2);
 }
 
-.story-section {
-  background: transparent;
+.story-section--alt {
+  background-color: #141414;
 }
 
 .section-title {
@@ -967,10 +967,6 @@ button {
   font-variant-numeric: tabular-nums;
   color: var(--cream);
 }
-  #los-caminos-a-los-Oscar .section-title {
-  text-align: center;
-}
-
 
 /* ==========================================================================
    SECCIÓN 3: FESTIVALES INTERNACIONALES Y REPISA
@@ -1293,15 +1289,4 @@ button {
   .curtain-panel {
     transition-duration: 150ms;
   }
-}
-/* ==========================================================================
-   FRAME BOX
-   ========================================================================== */
-.frame-sobre-grafico {
-  margin-bottom: 20px;
-}
-#vis {
-  width: fit-content;
-  max-width: 100%;
-  margin: 0 auto 20px;
 }

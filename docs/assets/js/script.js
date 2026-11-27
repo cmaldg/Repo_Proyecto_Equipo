@@ -241,13 +241,21 @@
   function initCurtains() {
     const track = document.getElementById('telon');
     const stage = document.getElementById('curtain-stage');
+    const header = document.querySelector('.site-header');
     if (!track || !stage) return;
 
     const prefersReducedMotion =
       window.matchMedia &&
       window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+    function syncHeaderHeight() {
+      const h = header ? header.offsetHeight : 87;
+      document.documentElement.style.setProperty('--header-h', h + 'px');
+      return h;
+    }
+
     if (prefersReducedMotion) {
+      syncHeaderHeight();
       stage.style.setProperty('--curtain-progress', '1');
       return;
     }
@@ -256,9 +264,10 @@
 
     function updateCurtainProgress() {
       rafId = null;
+      const headerH = syncHeaderHeight();
       const rect = track.getBoundingClientRect();
-      const scrollable = Math.max(1, track.offsetHeight - window.innerHeight);
-      const traveled = Math.max(0, -rect.top);
+      const scrollable = Math.max(1, track.offsetHeight - stage.offsetHeight);
+      const traveled = Math.max(0, headerH - rect.top);
       const progress = Math.min(1, traveled / scrollable);
       stage.style.setProperty('--curtain-progress', progress.toFixed(4));
     }
