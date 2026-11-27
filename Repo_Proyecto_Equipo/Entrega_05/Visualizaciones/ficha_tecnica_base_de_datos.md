@@ -33,14 +33,3 @@
  
 Los vacíos en `nacionalidad_2` y `pais_de_produccion_2` son normales: significa que la persona tiene una sola nacionalidad y la película un solo país de producción.
  
-## Resumen de las variables principales
- 
-- **Género:** 488 femenino y 487 masculino.
-- **Categoría:** 489 Mejor actriz y 486 Mejor actor.
-- **Ganadores/as:** 198 filas con "Sí" (hay empates en algunos años) y 777 con "No".
-- **Debut en Estados Unidos:** 721 "Sí" y 254 "No".
-- **Raza o etnia:** 901 blancos/as, 43 negros/as, 17 hispanos/as, 9 multirraciales, 3 mediooriental y 2 asiáticos/as.
-- **Países de producción:** 29 en la primera columna y 36 en total sumando las dos.
-- **Idiomas originales:** 15 distintos.
-- **Géneros de película:** 18 géneros, aunque la columna `generos` combina varios en un mismo texto (203 combinaciones).
-- **Productoras:** 1.137 distintas, separadas por comas dentro de una misma celda.
