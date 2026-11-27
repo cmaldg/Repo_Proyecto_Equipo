@@ -450,8 +450,8 @@
                           + '</div>');
           throw error;
       }
-      const el = document.getElementById('vis');
-      vegaEmbed("#vis", spec, embedOpt)
+      const el = document.getElementById('grafico-nuevo');
+vegaEmbed("#grafico-nuevo", spec, embedOpt)
         .catch(error => showError(el, error));
     })(vegaEmbed);
 
