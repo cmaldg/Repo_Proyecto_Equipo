@@ -1298,9 +1298,8 @@ button {
   justify-content: center;
   width: 100%;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 20px;   
 }
-#vis {
-  margin-top: 30px;
-  margin-bottom: 30px;
+.vega-embed {
+  margin: 0 auto;   
 }
