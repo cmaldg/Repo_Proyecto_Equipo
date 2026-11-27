@@ -23,6 +23,9 @@
     />
     <link rel="stylesheet" href="assets/css/style.css?v=20261127-5" />
     <script src="assets/js/script.js?v=20261127-5" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
   </head>
   <body>
     <!-- Barra superior en Carbon Black (#181818) con logotipo intacto en la esquina superior izquierda -->
@@ -38,9 +41,9 @@
         </a>
 
         <nav class="header-nav" aria-label="Navegación principal">
-          <a href="#Artistas nominados" class="nav-box-link">¿Cómo llegar a los Oscar?</a>
-          <a href="#Productoras" class="nav-box-link">Festivales internacionales</a>
-          <a href="#Festivales internacionales" class="nav-box-link">¿Existe la internacionalización?</a>
+          <a href="#Artistas nominados" class="nav-box-link">¿Artistas nominados?</a>
+          <a href="#Productoras" class="nav-box-link">Productoras</a>
+          <a href="#Festivales internacionales" class="nav-box-link">Festivales internacionales</a>
         </nav>
       </div>
     </header>
@@ -95,7 +98,6 @@
                   Proporción de nominados en Mejor Actor y Mejor Actriz según origen y país de debut cinematográfico
                 </p>
               </div>
-            
 
           <div id="vis"></div>
   <script>
@@ -635,247 +637,6 @@
         <a href="#top" class="footer-top-link">Volver al inicio ↑</a>
       </div>
     </footer>
-
-    <!-- Librerías Vega / Altair para Gráfico 5 adaptado a la alfombra roja -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-    <script>
-      (function () {
-        var DATASET = [
-          { 'década': '1920s', clasificar: 'Estadounidense con debut en EE.UU.', n: 7, total: 9, pct: 77.77777777777779 },
-          { 'década': '1920s', clasificar: 'Extranjero con debut internacional', n: 2, total: 9, pct: 22.22222222222222 },
-          { 'década': '1930s', clasificar: 'Estadounidense con debut en EE.UU.', n: 58, total: 96, pct: 60.416666666666664 },
-          { 'década': '1930s', clasificar: 'Extranjero con debut en EE.UU.', n: 17, total: 96, pct: 17.708333333333336 },
-          { 'década': '1930s', clasificar: 'Extranjero con debut internacional', n: 21, total: 96, pct: 21.875 },
-          { 'década': '1940s', clasificar: 'Estadounidense con debut en EE.UU.', n: 60, total: 100, pct: 60.0 },
-          { 'década': '1940s', clasificar: 'Extranjero con debut en EE.UU.', n: 20, total: 100, pct: 20.0 },
-          { 'década': '1940s', clasificar: 'Extranjero con debut internacional', n: 20, total: 100, pct: 20.0 },
-          { 'década': '1950s', clasificar: 'Estadounidense con debut en EE.UU.', n: 72, total: 100, pct: 72.0 },
-          { 'década': '1950s', clasificar: 'Extranjero con debut en EE.UU.', n: 9, total: 100, pct: 9.0 },
-          { 'década': '1950s', clasificar: 'Extranjero con debut internacional', n: 19, total: 100, pct: 19.0 },
-          { 'década': '1960s', clasificar: 'Estadounidense con debut en EE.UU.', n: 50, total: 100, pct: 50.0 },
-          { 'década': '1960s', clasificar: 'Extranjero con debut en EE.UU.', n: 13, total: 100, pct: 13.0 },
-          { 'década': '1960s', clasificar: 'Extranjero con debut internacional', n: 37, total: 100, pct: 37.0 },
-          { 'década': '1970s', clasificar: 'Estadounidense con debut en EE.UU.', n: 64, total: 100, pct: 64.0 },
-          { 'década': '1970s', clasificar: 'Estadounidense con debut internacional', n: 4, total: 100, pct: 4.0 },
-          { 'década': '1970s', clasificar: 'Extranjero con debut en EE.UU.', n: 5, total: 100, pct: 5.0 },
-          { 'década': '1970s', clasificar: 'Extranjero con debut internacional', n: 27, total: 100, pct: 27.0 },
-          { 'década': '1980s', clasificar: 'Estadounidense con debut en EE.UU.', n: 81, total: 100, pct: 81.0 },
-          { 'década': '1980s', clasificar: 'Estadounidense con debut internacional', n: 1, total: 100, pct: 1.0 },
-          { 'década': '1980s', clasificar: 'Extranjero con debut en EE.UU.', n: 4, total: 100, pct: 4.0 },
-          { 'década': '1980s', clasificar: 'Extranjero con debut internacional', n: 14, total: 100, pct: 14.000000000000002 },
-          { 'década': '1990s', clasificar: 'Estadounidense con debut en EE.UU.', n: 65, total: 100, pct: 65.0 },
-          { 'década': '1990s', clasificar: 'Extranjero con debut en EE.UU.', n: 10, total: 100, pct: 10.0 },
-          { 'década': '1990s', clasificar: 'Extranjero con debut internacional', n: 25, total: 100, pct: 25.0 },
-          { 'década': '2000s', clasificar: 'Estadounidense con debut en EE.UU.', n: 60, total: 100, pct: 60.0 },
-          { 'década': '2000s', clasificar: 'Estadounidense con debut internacional', n: 3, total: 100, pct: 3.0 },
-          { 'década': '2000s', clasificar: 'Extranjero con debut en EE.UU.', n: 8, total: 100, pct: 8.0 },
-          { 'década': '2000s', clasificar: 'Extranjero con debut internacional', n: 29, total: 100, pct: 28.999999999999996 },
-          { 'década': '2010s', clasificar: 'Estadounidense con debut en EE.UU.', n: 60, total: 100, pct: 60.0 },
-          { 'década': '2010s', clasificar: 'Estadounidense con debut internacional', n: 2, total: 100, pct: 2.0 },
-          { 'década': '2010s', clasificar: 'Extranjero con debut en EE.UU.', n: 10, total: 100, pct: 10.0 },
-          { 'década': '2010s', clasificar: 'Extranjero con debut internacional', n: 28, total: 100, pct: 28.000000000000004 },
-          { 'década': '2020s', clasificar: 'Estadounidense con debut en EE.UU.', n: 36, total: 70, pct: 51.42857142857142 },
-          { 'década': '2020s', clasificar: 'Estadounidense con debut internacional', n: 2, total: 70, pct: 2.857142857142857 },
-          { 'década': '2020s', clasificar: 'Extranjero con debut en EE.UU.', n: 12, total: 70, pct: 17.142857142857142 },
-          { 'década': '2020s', clasificar: 'Extranjero con debut internacional', n: 20, total: 70, pct: 28.57142857142857 }
-        ];
-
-        var CATEGORIES = [
-          { key: 'Estadounidense con debut en EE.UU.', color: '#670010' },
-          { key: 'Estadounidense con debut internacional', color: '#F8EFD8' },
-          { key: 'Extranjero con debut en EE.UU.', color: '#181818' },
-          { key: 'Extranjero con debut internacional', color: '#C69D22' }
-        ];
-
-        function renderFallbackSvg(el) {
-          var decades = ['1920s', '1930s', '1940s', '1950s', '1960s', '1970s', '1980s', '1990s', '2000s', '2010s', '2020s'];
-          var W = 760;
-          var H = 370;
-          var padL = 64;
-          var padR = 20;
-          var padT = 14;
-          var padB = 34;
-          var plotW = W - padL - padR;
-          var plotH = H - padT - padB;
-          var rowH = plotH / decades.length;
-          var barH = Math.max(14, rowH - 8);
-
-          var legendHtml =
-            '<div style="display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:center;margin-bottom:14px;font-size:13.5px;color:#F8EFD8;">' +
-            CATEGORIES.map(function (c) {
-              return (
-                '<span style="display:inline-flex;align-items:center;gap:8px;">' +
-                '<span style="width:13px;height:13px;border-radius:2px;background:' + c.color + ';border:1px solid rgba(248,239,216,0.45);display:inline-block;"></span>' +
-                c.key +
-                '</span>'
-              );
-            }).join('') +
-            '</div>';
-
-          var svg = '<svg viewBox="0 0 ' + W + ' ' + H + '" style="width:100%;height:auto;display:block;" role="img" aria-label="Clasificación de nominaciones a los Oscar por década">';
-          [0, 25, 50, 75, 100].forEach(function (pct) {
-            var x = padL + (pct / 100) * plotW;
-            svg += '<line x1="' + x + '" y1="' + padT + '" x2="' + x + '" y2="' + (H - padB) + '" stroke="rgba(248,239,216,0.14)" stroke-dasharray="3 4"/>';
-            svg += '<text x="' + x + '" y="' + (H - 10) + '" fill="#F8EFD8" font-size="12" text-anchor="middle">' + pct + '%</text>';
-          });
-
-          decades.forEach(function (dec, idx) {
-            var y = padT + idx * rowH + (rowH - barH) / 2;
-            svg += '<text x="' + (padL - 10) + '" y="' + (y + barH * 0.72) + '" fill="#F8EFD8" font-size="12.5" text-anchor="end">' + dec + '</text>';
-            var curX = padL;
-            CATEGORIES.forEach(function (cat) {
-              var row = DATASET.find(function (d) { return d['década'] === dec && d.clasificar === cat.key; });
-              if (!row) return;
-              var segW = (row.pct / 100) * plotW;
-              svg +=
-                '<rect class="vis-fb-seg" x="' + curX.toFixed(2) + '" y="' + y.toFixed(2) + '" width="' + segW.toFixed(2) + '" height="' + barH.toFixed(2) + '" fill="' + cat.color + '" stroke="rgba(248,239,216,0.42)" stroke-width="0.9" data-info="' +
-                dec + ' · ' + cat.key + ': ' + row.n + ' de ' + row.total + ' (' + row.pct.toFixed(1) + '%)" style="cursor:pointer"/>';
-              curX += segW;
-            });
-          });
-          svg += '</svg><div id="vis-fb-tip" style="margin-top:10px;text-align:center;font-size:13.5px;color:#C69D22;min-height:20px;"></div>';
-
-          el.innerHTML = legendHtml + svg;
-          var tip = document.getElementById('vis-fb-tip');
-          el.querySelectorAll('.vis-fb-seg').forEach(function (seg) {
-            var show = function () {
-              if (tip) tip.textContent = seg.getAttribute('data-info') || '';
-            };
-            seg.addEventListener('mouseenter', show);
-            seg.addEventListener('click', show);
-          });
-        }
-
-        function mountVegaChart() {
-          var el = document.getElementById('vis');
-          if (!el) return;
-
-          if (typeof window.vegaEmbed !== 'function') {
-            renderFallbackSvg(el);
-            return;
-          }
-
-          var measuredWidth = Math.max(300, Math.min(760, Math.floor((el.clientWidth || 760) - 16)));
-          var spec = {
-            $schema: 'https://vega.github.io/schema/vega-lite/v5.20.1.json',
-            background: 'transparent',
-            width: measuredWidth,
-            height: 360,
-            padding: { top: 8, left: 6, right: 12, bottom: 8 },
-            autosize: { type: 'fit', contains: 'padding' },
-            config: {
-              background: 'transparent',
-              view: { stroke: 'transparent' },
-              axis: {
-                domainColor: 'rgba(248, 239, 216, 0.25)',
-                tickColor: 'rgba(248, 239, 216, 0.25)',
-                gridColor: 'rgba(248, 239, 216, 0.14)',
-                gridDash: [3, 4],
-                labelColor: '#F8EFD8',
-                labelFont: 'Bodoni Moda, Georgia, serif',
-                labelFontSize: 12.5,
-                titleColor: '#C69D22'
-              },
-              legend: {
-                orient: 'bottom',
-                direction: 'horizontal',
-                columns: measuredWidth < 560 ? 1 : 2,
-                columnPadding: 22,
-                rowPadding: 8,
-                offset: 16,
-                titleColor: '#C69D22',
-                titleFont: 'Yeseva One, Georgia, serif',
-                titleFontSize: 13,
-                labelColor: '#F8EFD8',
-                labelFont: 'Bodoni Moda, Georgia, serif',
-                labelFontSize: 13,
-                labelLimit: 320,
-                symbolType: 'square',
-                symbolSize: 130,
-                symbolStrokeColor: 'rgba(248, 239, 216, 0.45)',
-                symbolStrokeWidth: 1
-              }
-            },
-            data: { name: 'data-449051ae88aedb740f7c3228ce9f0034' },
-            mark: {
-              type: 'bar',
-              cornerRadiusEnd: 2,
-              stroke: 'rgba(248, 239, 216, 0.42)',
-              strokeWidth: 0.9
-            },
-            encoding: {
-              color: {
-                field: 'clasificar',
-                scale: {
-                  domain: CATEGORIES.map(function (c) { return c.key; }),
-                  range: CATEGORIES.map(function (c) { return c.color; })
-                },
-                sort: CATEGORIES.map(function (c) { return c.key; }),
-                title: 'Clasificación',
-                type: 'nominal'
-              },
-              tooltip: [
-                { field: 'década', title: 'Década', type: 'nominal' },
-                { field: 'clasificar', title: 'Categoría', type: 'nominal' },
-                { field: 'n', title: 'Nominaciones', type: 'quantitative' },
-                { field: 'total', title: 'Total de nominaciones década', type: 'quantitative' },
-                { field: 'pct', format: '.2f', title: 'Porcentaje (%)', type: 'quantitative' }
-              ],
-              x: {
-                axis: { format: '%', grid: true },
-                field: 'n',
-                stack: 'normalize',
-                title: null,
-                type: 'quantitative'
-              },
-              y: {
-                field: 'década',
-                title: null,
-                type: 'nominal',
-                axis: { grid: false, labelPadding: 8 }
-              }
-            },
-            datasets: {
-              'data-449051ae88aedb740f7c3228ce9f0034': DATASET
-            }
-          };
-
-          window.vegaEmbed('#vis', spec, {
-            actions: false,
-            renderer: 'svg',
-            tooltip: { theme: 'dark' }
-          }).catch(function () {
-            renderFallbackSvg(el);
-          });
-        }
-
-        var lastWidth = 0;
-        function scheduleMount() {
-          var el = document.getElementById('vis');
-          if (!el) return;
-          var currentWidth = el.clientWidth || 0;
-          if (Math.abs(currentWidth - lastWidth) > 24 || !el.hasChildNodes()) {
-            lastWidth = currentWidth;
-            mountVegaChart();
-          }
-        }
-
-        if (document.readyState === 'loading') {
-          document.addEventListener('DOMContentLoaded', scheduleMount);
-        } else {
-          scheduleMount();
-        }
-        window.addEventListener('load', scheduleMount);
-
-        var resizeTimer;
-        window.addEventListener('resize', function () {
-          clearTimeout(resizeTimer);
-          resizeTimer = setTimeout(scheduleMount, 220);
-        });
-      })();
-    </script>
   </body>
 </html>
 
