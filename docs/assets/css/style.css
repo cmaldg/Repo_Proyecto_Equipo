@@ -532,9 +532,27 @@ button {
   background: transparent;
 }
 
-.carpet-viz-slot > *,
+.carpet-viz-slot > div,
+.carpet-viz-slot > figure,
+.carpet-viz-slot > canvas,
+.carpet-viz-slot > iframe,
 #vis {
   width: 100%;
+  background: transparent;
+}
+
+.carpet-viz-slot iframe {
+  display: block;
+  min-height: 420px;
+  border: 0;
+  background: transparent;
+}
+
+.carpet-viz-slot svg,
+.carpet-viz-slot canvas {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
   background: transparent;
 }
 
@@ -1486,3 +1504,4 @@ button {
     transition-duration: 150ms;
   }
 }
+
