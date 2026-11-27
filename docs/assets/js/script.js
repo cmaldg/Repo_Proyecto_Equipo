@@ -80,32 +80,32 @@
      3. CARRUSEL DE HISTORIAS: CÓMO LLEGAR A LOS OSCAR
      ------------------------------------------------------------------------ */
   const ACTOR_STORIES = [
-    {
-      kicker: 'Caso 03',
-      title: 'La carrera perfecta para llegar a los Oscar: Merle Oberon',
-      body: 'A pesar de que ambos ganaron el Oscar en las primeras ediciones, el camino para llegar a los premios no siempre fue fácil. Muchas veces era necesario participar de producciones estadounidenses para “asegurar” el éxito. Como el caso de Merle Oberon, en 1936, se volvió la primera mujer asiática en ser nominada a Mejor actriz por The Dark Angel. Sin embargo, para actuar, Oberon decidió ocultar su nacionalidad y hacerse pasar por una actriz blanca.'
-    },
-    {
-      kicker: 'Caso 02',
-      title: 'Hollywood y el talento extranjero: Mary Pickford',
-      body: 'La actriz canadiense Mary Pickford, por su parte, fue la primera extranjera con debut estadounidense en ganar el galardón a Mejor actriz. Con el filme Coquette, también de producción estadounidense, recibió su única nominación en 1930.',
-    },
-    {
-      kicker: 'Caso 01',
-      title: 'Hollywood y el talento extranjero: Emil Jannings',
-      body: 'Los premios comenzaron abriendo sus puertas a extranjeros que trabajaban dentro de su sistema de estudios. El actor suizo Emil Jannings fue el primer extranjero, con un debut internacional, en ganar el Oscar a Mejor actor en 1929 (1° edición de los Oscar) con la película The Last Command. Jannings estuvo nominado dos veces en la misma categoría ese año, una fue por The Last Command y otra por The Way of All Flesh. Las dos películas fueron producidas por Estados Unidos.',
-    },
-    {
-      kicker: 'Caso 04',
-      title: 'La vía de las producciones estadounidenses: Ana de Armas y Michelle Yeoh',
-      body: 'Las películas estadounidenses frecuentan ser el camino viable para que extranjeros entren a la industria. La actriz cubana Ana de Armas, por ejemplo, emigró de España para cumplir su sueño de actuar profesionalmente. Viajó a Estados Unidos para estudiar inglés e instalarse en Hollywood. No fue hasta 2023 que fue nominada a Mejor actriz por la película Blonde, filme estadounidense. Ese año ganó Michelle Yeoh, actriz malasia que actuó para una película producida por Estados Unidos.',
-    },
-    {
-      kicker: 'Caso 05',
-      title: 'La excepción: Antonio Banderas',
-      body: 'Pero también hay caminos diferentes. El actor español Antonio Banderas pese a que ingresó a Hollywood y poco a poco se fue consolidando en la industria, en 2020 obtuvo su primera y única nominación a los Oscar por la película española Pain and Glory.',
-    },
-  ];
+  {
+    kicker: 'Caso 01 · Años 20 · Primer Oscar',
+    title: 'Emil Jannings (Suiza/Alemania → Hollywood)',
+    body: 'Los premios comenzaron abriendo sus puertas a extranjeros que ya trabajaban dentro del sistema de estudios. El actor suizo Emil Jannings, consagrado en el cine alemán, llegó a Hollywood en 1926 sin trayectoria previa en EE. UU. En 1929, en la primera ceremonia, ganó el Oscar a Mejor actor por dos películas mudas de producción estadounidense: The Last Command y The Way of All Flesh. Al ser cine mudo, el idioma no fue una barrera.',
+  },
+  {
+    kicker: 'Caso 02 · Años 20–30 · Estrella consolidada',
+    title: 'Mary Pickford (Canadá → Hollywood)',
+    body: 'La actriz canadiense Mary Pickford ya era una de las mayores estrellas del cine estadounidense, donde trabajaba desde 1909. En 1930 ganó el Oscar a Mejor actriz por Coquette, su primer filme sonoro y una producción de EE. UU. Fue la primera ganadora de la categoría nacida en el extranjero y actuó en inglés, su lengua materna.',
+  },
+  {
+    kicker: 'Caso 03 · Años 30 · Identidad oculta',
+    title: 'Merle Oberon (Bombay → Tasmania)',
+    body: 'A pesar de que ambos ganaron el Oscar en las primeras ediciones, el camino para llegar a los premios no siempre fue fácil. Muchas veces era necesario participar de producciones estadounidenses para “asegurar” el éxito. Como el caso de Merle Oberon, en 1936, se volvió la primera mujer asiática en ser nominada a Mejor actriz por The Dark Angel. Sin embargo, para actuar, Oberon decidió ocultar su nacionalidad y hacerse pasar por una actriz blanca.',
+  },
+  {
+    kicker: 'Caso 04 · Siglo XXI · Aprender inglés para entrar',
+    title: 'Ana de Armas (Cuba → España → Hollywood)',
+    body: 'Las películas estadounidenses suelen ser el camino más viable para los extranjeros. Ana de Armas, nacida en Cuba, se hizo conocida en España y hacia 2014 se instaló en Los Ángeles tras estudiar inglés. En 2023 fue nominada a Mejor actriz por Blonde, producción estadounidense. Ese año ganó Michelle Yeoh, actriz malasia, también por una película de EE. UU.',
+  },
+  {
+    kicker: 'Caso 05 · Siglo XXI · Un camino diferente',
+    title: 'Antonio Banderas (España → Hollywood → España)',
+    body: 'Antonio Banderas ya era conocido en España por las películas de Almodóvar cuando dio el salto a Hollywood en los años 90, donde se consolidó trabajando en inglés. Sin embargo, su primera y única nominación al Oscar llegó en 2020, a Mejor actor, por Dolor y gloria, una producción española filmada en español.',
+  },
+];
 
   // Gráfico 2: Origen de las productoras por década y respaldo de EE. UU. a extranjeros
   const VIS02_TIMELINE = [
