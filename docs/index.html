@@ -181,14 +181,14 @@ Aunque los Oscar cada vez más se proyectan como unos premios internacionalizado
           throw error;
       }
       const el = document.getElementById('vis');
-      vegaEmbed("#vis", spec, {actions: false});
+      vegaEmbed("#vis", spec, embedOpt)
         .catch(error => showError(el, error));
     })(vegaEmbed);
 
   </script>
 </body>
 
-vegaEmbed('#vis', spec, {actions: false});
+
 
 
 
