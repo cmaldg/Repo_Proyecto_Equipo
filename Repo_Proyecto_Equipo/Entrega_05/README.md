@@ -1,4 +1,4 @@
-**Oscar sin fronteras: La internacionalización en los términos de Hollywood**
+## Oscar sin fronteras: La internacionalización en los términos de Hollywood
 
 Resumen: En la webstory se analiza casi un siglo de historia de los premios Oscar, desde su creación en 1929, hasta su última edición en el 2026, para evaluar qué tan abierta y diversa es realmente la Academia de Hollywood frente al cine internacional. A través del cruce de datos sobre nominaciones en categorías de actuación protagónica, Mejor actor y Mejor actriz, y los países de producción de las películas nominadas, la investigación desmitifica la idea de que la presencia extranjera sea un fenómeno exclusivamente moderno, rastreando desde la primera ceremonia en 1929.
 
