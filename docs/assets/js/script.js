@@ -76,7 +76,45 @@
     ],
   };
 
-<<<<<<< HEAD
+  /* ------------------------------------------------------------------------
+     2. REACCIÓN Y QUIEBRE DE JESSIE BUCKLEY
+     ------------------------------------------------------------------------ */
+  const REACTION_TABS = {
+    anuncio: {
+      quote:
+        '«Y el Oscar a la Mejor Actriz es para... Jessie Buckley por Hamnet.»',
+      note:
+        'Killarney, Irlanda, celebra a su primera ganadora en la categoría principal femenina tras una ovación en el Dolby Theatre.',
+    },
+    discurso: {
+      quote:
+        '«Gracias por creer en una historia nacida en otro acento, pero contada frente al mundo.»',
+      note:
+        'El momento de mayor carga emotiva de la gala contrasta la narrativa oficial de diversidad con la estructura productiva detrás del filme.',
+    },
+    fisura: {
+      quote:
+        'La fisura: actriz irlandesa, historia ambientada en Inglaterra, lengua inglesa y respaldo estadounidense.',
+      note:
+        'Hamnet fue coproducida por Amblin Entertainment y distribuida por Focus Features (EE. UU.) junto a productoras británicas. Aquí comienza nuestra hipótesis.',
+    },
+  };
+
+  const SWEEP_AWARDS = {
+    globo: {
+      title: 'Globo de Oro · Mejor Actriz en Drama (Enero 2026)',
+      text: 'Primer gran eslabón de la temporada estadounidense: la prensa extranjera en Hollywood consolidó a Jessie Buckley como favorita indiscutida por su interpretación de Agnes Shakespeare.',
+    },
+    bafta: {
+      title: 'BAFTA · Mejor Actriz Protagónica (Febrero 2026)',
+      text: 'La Academia Británica validó el peso europeo de la coproducción Reino Unido–EE. UU., reforzando la campaña rumbo al Dolby Theatre.',
+    },
+    oscar: {
+      title: 'Premio Oscar · Mejor Actriz (15 de marzo de 2026)',
+      text: 'Al colocar la estatuilla junto al Globo de Oro y al BAFTA en la misma repisa, queda visible el circuito angloparlante que habilita el triunfo en Los Ángeles.',
+    },
+  };
+
   /* ------------------------------------------------------------------------
      3. CARRUSEL DE HISTORIAS: CÓMO LLEGAR A LOS OSCAR
      ------------------------------------------------------------------------ */
@@ -107,7 +145,49 @@
     },
   ];
 
- 
+  /* ------------------------------------------------------------------------
+     4. DATOS HISTÓRICOS PARA VISUALIZACIONES (1929–2026)
+     ------------------------------------------------------------------------ */
+  // vis_01: Porcentaje de nominaciones por década y tipo de debut
+  const VIS01_DATA = {
+    all: [
+      { decade: '1930s', usDebut: 73, foreignUsDebut: 21, foreignHomeDebut: 6 },
+      { decade: '1940s', usDebut: 71, foreignUsDebut: 22, foreignHomeDebut: 7 },
+      { decade: '1950s', usDebut: 74, foreignUsDebut: 18, foreignHomeDebut: 8 },
+      { decade: '1960s', usDebut: 61, foreignUsDebut: 22, foreignHomeDebut: 17 },
+      { decade: '1970s', usDebut: 65, foreignUsDebut: 20, foreignHomeDebut: 15 },
+      { decade: '1980s', usDebut: 63, foreignUsDebut: 21, foreignHomeDebut: 16 },
+      { decade: '1990s', usDebut: 58, foreignUsDebut: 24, foreignHomeDebut: 18 },
+      { decade: '2000s', usDebut: 52, foreignUsDebut: 27, foreignHomeDebut: 21 },
+      { decade: '2010s', usDebut: 49, foreignUsDebut: 29, foreignHomeDebut: 22 },
+      { decade: '2020–26', usDebut: 46, foreignUsDebut: 28, foreignHomeDebut: 26 },
+    ],
+    actor: [
+      { decade: '1930s', usDebut: 70, foreignUsDebut: 23, foreignHomeDebut: 7 },
+      { decade: '1940s', usDebut: 72, foreignUsDebut: 21, foreignHomeDebut: 7 },
+      { decade: '1950s', usDebut: 75, foreignUsDebut: 18, foreignHomeDebut: 7 },
+      { decade: '1960s', usDebut: 59, foreignUsDebut: 24, foreignHomeDebut: 17 },
+      { decade: '1970s', usDebut: 67, foreignUsDebut: 19, foreignHomeDebut: 14 },
+      { decade: '1980s', usDebut: 60, foreignUsDebut: 22, foreignHomeDebut: 18 },
+      { decade: '1990s', usDebut: 56, foreignUsDebut: 25, foreignHomeDebut: 19 },
+      { decade: '2000s', usDebut: 53, foreignUsDebut: 26, foreignHomeDebut: 21 },
+      { decade: '2010s', usDebut: 48, foreignUsDebut: 29, foreignHomeDebut: 23 },
+      { decade: '2020–26', usDebut: 50, foreignUsDebut: 27, foreignHomeDebut: 23 },
+    ],
+    actress: [
+      { decade: '1930s', usDebut: 76, foreignUsDebut: 19, foreignHomeDebut: 5 },
+      { decade: '1940s', usDebut: 70, foreignUsDebut: 23, foreignHomeDebut: 7 },
+      { decade: '1950s', usDebut: 73, foreignUsDebut: 18, foreignHomeDebut: 9 },
+      { decade: '1960s', usDebut: 63, foreignUsDebut: 20, foreignHomeDebut: 17 },
+      { decade: '1970s', usDebut: 63, foreignUsDebut: 21, foreignHomeDebut: 16 },
+      { decade: '1980s', usDebut: 66, foreignUsDebut: 20, foreignHomeDebut: 14 },
+      { decade: '1990s', usDebut: 60, foreignUsDebut: 23, foreignHomeDebut: 17 },
+      { decade: '2000s', usDebut: 51, foreignUsDebut: 28, foreignHomeDebut: 21 },
+      { decade: '2010s', usDebut: 50, foreignUsDebut: 29, foreignHomeDebut: 21 },
+      { decade: '2020–26', usDebut: 42, foreignUsDebut: 29, foreignHomeDebut: 29 },
+    ],
+  };
+
   // Visualización 3: Validación previa en festivales europeos para cine no anglófono
   const VIS03_DATA = [
     { label: 'Estreno o premio en Cannes', pct: 46, detail: '46% de las nominaciones no anglófonas' },
@@ -116,41 +196,6 @@
   ];
 
   // Podio de 5 lugares (Top 5 países productores en Mejor Actor y Mejor Actriz)
-=======
-  const ACTOR_STORIES = [
-  {
-    kicker: 'Caso 01 · Años 20 · Primer Oscar',
-    title: 'Emil Jannings (Suiza/Alemania → Hollywood)',
-    body: 'Estrella del cine alemán, llegó a Hollywood en 1926 sin trayectoria previa en EE. UU. En 1929 ganó el Oscar a Mejor actor por dos películas mudas de producción estadounidense: The Last Command y The Way of All Flesh.',
-    fact: 'Al ser cine mudo, el idioma no fue una barrera.',
-  },
-  {
-    kicker: 'Caso 02 · Años 20–30 · Estrella consolidada',
-    title: 'Mary Pickford (Canadá → Hollywood)',
-    body: 'Ya era una de las mayores estrellas del cine estadounidense, donde trabajaba desde 1909. En 1930 ganó el Oscar a Mejor actriz por Coquette, su primer filme sonoro y una producción de EE. UU.',
-    fact: 'Primera ganadora de la categoría nacida en el extranjero; actuó en inglés.',
-  },
-  {
-    kicker: 'Caso 03 · Años 30 · Identidad oculta',
-    title: 'Merle Oberon (Bombay → Tasmania)',
-    body: 'Nacida en Bombay (India británica) con ascendencia anglo-india, Oberon y los estudios ocultaron su origen y fabricaron un nacimiento en Tasmania para esquivar los códigos raciales de Hollywood.',
-    fact: 'Nominada al Oscar en 1936 por The Dark Angel (producción EE. UU.).',
-  },
-  {
-    kicker: 'Caso 04 · Siglo XXI · Aprender inglés para entrar',
-    title: 'Ana de Armas (Cuba → España → Hollywood)',
-    body: 'Con carrera en España, se instaló en Los Ángeles hacia 2014 tras estudiar inglés. En 2023 fue nominada a Mejor actriz por Blonde. Ese año ganó Michelle Yeoh, también por una película de EE. UU.',
-    fact: 'Su nominación llegó por un papel en inglés, en una película de EE. UU.',
-  },
-  {
-    kicker: 'Caso 05 · Siglo XXI · Un camino diferente',
-    title: 'Antonio Banderas (España → Hollywood → España)',
-    body: 'Consolidado en Hollywood desde los años 90, fue nominado al Oscar a Mejor actor en 2020 por Dolor y gloria, una película española dirigida por Almodóvar.',
-    fact: 'Su única nominación no llegó por una producción estadounidense.',
-  },
-];
-// Podio de 5 lugares (Top 5 países productores en Mejor Actor y Mejor Actriz)
->>>>>>> ad0ff53f384df615ae906b3eb55c0f240a830161
   const PODIUM_DATA = {
     all: [
       { rank: 1, country: 'Estados Unidos', count: 782, unit: 'producciones', share: '79,8%' },
@@ -168,28 +213,41 @@
     ],
   };
 
- 
+  // Gráfico 2: Origen de las productoras por década y respaldo de EE. UU. a extranjeros
+  const VIS02_TIMELINE = [
+    { decade: '1930s', usProd: 89, ukProd: 9, otherProd: 2 },
+    { decade: '1940s', usProd: 88, ukProd: 10, otherProd: 2 },
+    { decade: '1950s', usProd: 84, ukProd: 12, otherProd: 4 },
+    { decade: '1960s', usProd: 75, ukProd: 17, otherProd: 8 },
+    { decade: '1970s', usProd: 81, ukProd: 13, otherProd: 6 },
+    { decade: '1980s', usProd: 79, ukProd: 14, otherProd: 7 },
+    { decade: '1990s', usProd: 77, ukProd: 16, otherProd: 7 },
+    { decade: '2000s', usProd: 75, ukProd: 17, otherProd: 8 },
+    { decade: '2010s', usProd: 74, ukProd: 18, otherProd: 8 },
+    { decade: '2020–26', usProd: 71, ukProd: 17, otherProd: 12 },
+  ];
+
+  const VIS02_FOREIGN_BACKING = [
+    { decade: '1980s', withUS: 72, withoutUS: 28 },
+    { decade: '1990s', withUS: 74, withoutUS: 26 },
+    { decade: '2000s', withUS: 71, withoutUS: 29 },
+    { decade: '2010s', withUS: 76, withoutUS: 24 },
+    { decade: '2020–26', withUS: 68, withoutUS: 32 },
+  ];
+
   /* ------------------------------------------------------------------------
      5. INICIALIZACIÓN DEL TELÓN CONTROLADO POR SCROLL
      ------------------------------------------------------------------------ */
   function initCurtains() {
     const track = document.getElementById('telon');
     const stage = document.getElementById('curtain-stage');
-    const header = document.querySelector('.site-header');
     if (!track || !stage) return;
 
     const prefersReducedMotion =
       window.matchMedia &&
       window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-    function syncHeaderHeight() {
-      const h = header ? header.offsetHeight : 87;
-      document.documentElement.style.setProperty('--header-h', h + 'px');
-      return h;
-    }
-
     if (prefersReducedMotion) {
-      syncHeaderHeight();
       stage.style.setProperty('--curtain-progress', '1');
       return;
     }
@@ -198,10 +256,9 @@
 
     function updateCurtainProgress() {
       rafId = null;
-      const headerH = syncHeaderHeight();
       const rect = track.getBoundingClientRect();
-      const scrollable = Math.max(1, track.offsetHeight - stage.offsetHeight);
-      const traveled = Math.max(0, headerH - rect.top);
+      const scrollable = Math.max(1, track.offsetHeight - window.innerHeight);
+      const traveled = Math.max(0, -rect.top);
       const progress = Math.min(1, traveled / scrollable);
       stage.style.setProperty('--curtain-progress', progress.toFixed(4));
     }
