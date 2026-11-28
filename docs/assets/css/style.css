@@ -1546,3 +1546,10 @@ button {
   display: block;
   border: 0;
 }
+
+#vis_vale.vega-embed {
+  display: flex !important;
+  justify-content: center;
+  width: 100%;
+  padding-right: 0 !important;
+}

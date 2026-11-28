@@ -213,7 +213,6 @@
               <div class="carousel-track" id="actors-carousel-track">
                 <!-- Caso 1 -->
                 <article class="story-card is-focal">
-                  <span class="story-card-kicker">Caso 01 · Suiza → Hollywood (1929)</span>
                   <h3 class="story-card-title">1. El actor suizo Emil Jannings</h3>
                   <p class="story-card-body">
                     Consagrado en el cine alemán, llegó a Hollywood en 1926 contratado por Paramount sin trayectoria previa en EE. UU. En 1929 ganó el primer Oscar a Mejor Actor por dos cintas mudas estadounidenses: The Last Command y The Way of All Flesh. Al llegar el cine sonoro, su fuerte acento alemán limitó sus papeles y regresó a Europa.
@@ -225,7 +224,6 @@
 
                 <!-- Caso 2 -->
                 <article class="story-card">
-                  <span class="story-card-kicker">Caso 02 · Canadá → Hollywood (1930)</span>
                   <h3 class="story-card-title">2. La actriz canadiense Mary Pickford</h3>
                   <p class="story-card-body">
                     Nacida en Toronto, trabajaba en el cine estadounidense desde 1909 y cofundó United Artists y la propia Academia. En 1930 se convirtió en la primera extranjera en ganar Mejor Actriz por Coquette (1929), su primer filme sonoro y producción de EE. UU. Al ser anglófona, el idioma nunca fue una barrera.
@@ -237,7 +235,6 @@
 
                 <!-- Caso 3 -->
                 <article class="story-card is-carousel-hidden">
-                  <span class="story-card-kicker">Caso 03 · India británica → Hollywood (1936)</span>
                   <h3 class="story-card-title">3. El caso de Merle Oberon</h3>
                   <p class="story-card-body">
                     Nacida en Bombay con ascendencia anglo-india, ocultó su origen y construyó una biografía falsa afirmando haber nacido en Tasmania como actriz blanca para esquivar prejuicios raciales. En 1936 fue nominada a Mejor Actriz por The Dark Angel (EE. UU.). Suele citarse con cautela como la primera nominada de origen asiático.
@@ -249,7 +246,6 @@
 
                 <!-- Caso 4 -->
                 <article class="story-card is-carousel-hidden">
-                  <span class="story-card-kicker">Caso 04 · Cuba → España → Hollywood (2023)</span>
                   <h3 class="story-card-title">4. La vía estadounidense: Ana de Armas</h3>
                   <p class="story-card-body">
                     Nacida en La Habana, se mudó a España a los 18 años y saltó a la fama en El internado. Hacia 2014 emigró a Los Ángeles tras estudiar inglés, debutando con Knock Knock (2015). En 2023 logró su primera nominación al Oscar a Mejor Actriz por Blonde (2022), producción estadounidense de Netflix en inglés.
@@ -261,7 +257,6 @@
 
                 <!-- Caso 5 -->
                 <article class="story-card">
-                  <span class="story-card-kicker">Caso 05 · España → Hollywood → España (2020)</span>
                   <h3 class="story-card-title">5. La excepción: Antonio Banderas</h3>
                   <p class="story-card-body">
                     Tras consolidarse en España con Pedro Almodóvar, dio el salto a Hollywood en los años 90 (Philadelphia, La máscara del Zorro) aprendiendo inglés para trabajar en la industria. Sin embargo, su única nominación al Oscar a Mejor Actor llegó en 2020 por Dolor y gloria (2019), producción española filmada en español.
@@ -516,7 +511,9 @@ vegaEmbed("#grafico-nuevo", spec, embedOpt)
                En Cannes, Venecia y Berlín, cerca de dos de cada diez actuaciones premiadas consiguieron una nominación al Oscar. Entre los Globos de Oro y los BAFTA, en cambio, la proporción se acerca a ocho de cada diez. La distancia no es menor. Los festivales europeos pueden dar visibilidad internacional a una interpretación, pero ese reconocimiento no necesariamente se traduce en una candidatura en Hollywood.
               </p>
             
-             <div id="vis_vale"></div>
+             <div style="display: flex; justify-content: center; width: 100%; overflow-x: auto;">
+  <div id="vis_vale" style="padding-right: 0;"></div>
+</div>
   <script>
     (function(vegaEmbed) {
       var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300, "strokeWidth": 0}, "background": "#181818"}, "layer": [{"mark": {"type": "circle", "opacity": 1, "size": 350}, "encoding": {"color": {"field": "Color", "scale": null, "type": "nominal"}, "tooltip": [{"field": "Festival", "type": "nominal"}, {"field": "Grupo", "type": "nominal"}, {"field": "Etiqueta", "type": "nominal"}], "x": {"axis": {"domain": false, "format": "d", "grid": true, "gridColor": "#3A3A3A", "gridDash": [2, 2], "labelColor": "#CCCCCC", "labelExpr": "datum.value + '%'", "labelFont": "monospace", "ticks": false, "values": [0, 25, 50, 75, 100]}, "field": "Porcentaje", "scale": {"domain": [0, 100]}, "title": null, "type": "quantitative"}, "y": {"axis": {"domain": false, "labelColor": "#F8EFD8", "labelFont": "Georgia", "labelFontSize": 14, "labelPadding": 15, "ticks": false}, "field": "Festival", "sort": ["Cannes", "Venecia", "Berl\u00edn", "BAFTA", "Globo de Oro"], "title": null, "type": "nominal"}}}, {"mark": {"type": "text", "align": "left", "color": "#F8EFD8", "dx": 16, "font": "monospace", "fontSize": 11}, "encoding": {"text": {"field": "Etiqueta", "type": "nominal"}, "x": {"field": "Porcentaje", "type": "quantitative"}, "y": {"axis": {"domain": false, "labelColor": "#F8EFD8", "labelFont": "Georgia", "labelFontSize": 14, "labelPadding": 15, "ticks": false}, "field": "Festival", "sort": ["Cannes", "Venecia", "Berl\u00edn", "BAFTA", "Globo de Oro"], "title": null, "type": "nominal"}}, "transform": [{"filter": "(datum.Porcentaje <= 50)"}]}, {"mark": {"type": "text", "align": "right", "color": "#F8EFD8", "dx": -16, "font": "monospace", "fontSize": 11}, "encoding": {"text": {"field": "Etiqueta", "type": "nominal"}, "x": {"field": "Porcentaje", "type": "quantitative"}, "y": {"axis": {"domain": false, "labelColor": "#F8EFD8", "labelFont": "Georgia", "labelFontSize": 14, "labelPadding": 15, "ticks": false}, "field": "Festival", "sort": ["Cannes", "Venecia", "Berl\u00edn", "BAFTA", "Globo de Oro"], "title": null, "type": "nominal"}}, "transform": [{"filter": "(datum.Porcentaje > 50)"}]}], "data": {"name": "data-a8fa600e66d80d76b680494d963cca3b"}, "height": 320, "title": {"text": "La distancia entre dos circuitos", "anchor": "start", "color": "#C69D22", "font": "Georgia", "fontSize": 22, "offset": 20, "subtitle": "De cada 100 premiados, \u00bfcu\u00e1ntos llegaron a ser nominados al \u00d3scar?", "subtitleColor": "#F8EFD8", "subtitleFont": "monospace", "subtitleFontSize": 12}, "width": 650, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-a8fa600e66d80d76b680494d963cca3b": [{"Festival": "Cannes", "Grupo": "FESTIVALES EUROPEOS", "Porcentaje": 22, "Etiqueta": "22%  (37 de 169)", "Color": "#F8EFD8"}, {"Festival": "Venecia", "Grupo": "FESTIVALES EUROPEOS", "Porcentaje": 21, "Etiqueta": "21%  (27 de 126)", "Color": "#F8EFD8"}, {"Festival": "Berl\u00edn", "Grupo": "FESTIVALES EUROPEOS", "Porcentaje": 17, "Etiqueta": "17%  (23 de 132)", "Color": "#F8EFD8"}, {"Festival": "BAFTA", "Grupo": "TEMPORADA ANGLOSAJONA", "Porcentaje": 74, "Etiqueta": "74%  (132 de 178)", "Color": "#C69D22"}, {"Festival": "Globo de Oro", "Grupo": "TEMPORADA ANGLOSAJONA", "Porcentaje": 79, "Etiqueta": "79%  (255 de 322)", "Color": "#C69D22"}]}};
