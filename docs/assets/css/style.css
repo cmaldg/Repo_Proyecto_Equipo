@@ -1546,3 +1546,8 @@ button {
   display: block;
   border: 0;
 }
+#vis_vale {
+  text-align: center;
+  margin: 0 auto 36px;
+  overflow-x: auto;
+}
