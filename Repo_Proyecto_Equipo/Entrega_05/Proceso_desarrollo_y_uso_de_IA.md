@@ -14,3 +14,8 @@
 También como apoyo extra, para solucionar dudas y errores, se recurrió a un estudiante de licenciatura en ingeneria en computación de la UC. Quien fue capaz de resolver problemas y confusiones de los códigos.
 
 - Para probar el funcionamiento de la página se abrió el [link directo de la misma](https://cmaldg.github.io/Repo_Proyecto_Equipo/) y se visualizaban los cambios en tiempo real. Además se visitó la página web en distintos dispositivos, como lo fue en tablet y celular.
+
+Además para crear nuevos gráficos en especifico el del bloque de Influencia de Festivales Internacionales, Claude genero los codigos los cuales fueron pegados en GoogleColab.
+
+Para el gráfico del bloque 1, se utilizo la IA incorporada en Google Colab para dejarlo con fondo transparente.
+Por último se utilizo Google AI Studio y Claude para centrar las visualizaciones.
