@@ -8,6 +8,7 @@
 - Se utilizó Google AI Studio para generar una baseesqueleto de lo que sería la página web y así nosotras poder pulirlo y adaptarlo a nuestra visión. 
 Nuestro primer baseesqueleto fue el generado en la clase, donde se dividió en 3 bloques e inventó información y elementos interactivos. Lo que sí logro en la priemra visualización es el telon inicial que se abre mediante el scroll. Sin eb¿mbargo el diseño inicial era un fondo completamente rojo, generando poco contraste con las letars. Por eso decidimos que al abrirse el telon se despliege una alfombra rojo con margenes negros, aportando así a la narrativa y lectura del reportaje.
 
+Tambien nos ayudo adapatar un gráfico en forma de podio. Pero nos falta verificar la información del podio.
 
 
 - Inicialmente habia problema en poder visualizar la página, ya que el link redirigia al README de presentación del repositorio. Lo cual se solucionó sacando la carpeta docs fuera de la carpeta principal del repositorio y aplicando material visto en clase, como seleccionando la rama main del repo y seleccionando la carpeta docs para la página. Otro problema para poder visualizar inicialmente la página era que los códigos que creó Google AI Studio no eran compatibles con el procesador Jekyll integrado en GitHub Pages para visualizar las páginas. Para solucionarlo se le pasó los códigos a la IA Claude y se le pidió adaptar los códigos js, css y html para que fuera compatible con GitHub. 
