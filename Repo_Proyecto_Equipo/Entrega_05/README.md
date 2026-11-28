@@ -4,10 +4,16 @@ Resumen: En la webstory se analiza casi un siglo de historia de los premios Osca
 
 Análisis de Hipótesis: Los datos confirman que existe una tendencia histórica hacia la internacionalización y un crecimiento sostenido del talento y las producciones fuera de Estados Unidos. Sin embargo, la investigación demuestra que esta apertura no responde únicamente a un efecto automático de la globalización, sino que sigue fuertemente mediada por la estructura de la industria estadounidense. Gran parte de la presencia extranjera se canaliza a través de coproducciones con financiamiento norteamericano, películas habladas en inglés o actores en primer lugar debieron debutar en el país norteamericano para que su nombre apareciera en la nómina.
 
-Tabla de autoría:
+## Tabla de autoría
 
-| Elemento               | C. Maldonado | V. Rivas     | I. Estay     |
-|:-----------------------|:-------------|:-------------|:-------------|
-| Crónica                |              |              |              |
-| Visualizaciónes        |              |              |              |
-| Programación pag. web  |              |              |              |
+| Elemento                            | C. Maldonado | V. Rivas | I. Estay |
+| :---------------------------------- | :----------: | :------: | :------: |
+| Crónica y redacción                 |      X       |    X     |    X     |
+| Estructura e hilo conductor         |              |    X     |          |
+| Visualizaciones y análisis de datos |      X       |    X     |    X     |
+| Ilustraciones de actores y logo     |              |          |    X     |
+| Edición de video (Jessie Buckley)   |              |    X     |          |
+| Programación página web y depuración|      X       |          |          |
+
+Cada una hizo su propia crónica. Valentina Rivas lo redacto en su conjunto y se encargo del hilo conductor y estructura del reportaje. Lo mismo ocurrió con las visualizaciones, cada una hizo sus propio gráficos e Ignacia Estay diseño las ilustraciones de los actores y logo. Constanza Maldonado se encargo de la programación de la página web y resolvió cada error que se presentaba. 
+Valentina Rivas edito el video de Jessie Buckley.
