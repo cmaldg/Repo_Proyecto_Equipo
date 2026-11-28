@@ -21,7 +21,7 @@
       {
         name: 'Timothée Chalamet',
         film: 'Marty Supreme',
-        nationality: 'Estadounidense / Francés',
+        nationality: 'Estadounidense',
         winner: false,
       },
       {
