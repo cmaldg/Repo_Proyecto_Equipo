@@ -17,6 +17,8 @@ Al lograr visualizar la página web en el Github web, tuvimos dificultades en su
 
 Finalmente tuvimos que hacer un baseesqueleto nuevo, ya que nuestra idea inicial de carrusel tenía la información en el javascript en vez de html. Entonces al intentar poner la información que se ecomplemente con nuestra estructura se eliminaba toda interacción y recurso de nuestra página, como la apertura de telon, el podio y el carrusel mismo.
 
+Por este problema en especifico llegamos a la decisión de dejar pendiente la publicación de otros dos gráficos en el bloque 3.
+
 - Para probar el funcionamiento de la página se abrió el [link directo de la misma](https://cmaldg.github.io/Repo_Proyecto_Equipo/) y se visualizaban los cambios en tiempo real. Además se visitó la página web en distintos dispositivos, como lo fue en tablet y celular.
 
 Además para crear nuevos gráficos en especifico el del bloque de Influencia de Festivales Internacionales, Claude genero los codigos los cuales fueron pegados en GoogleColab.
