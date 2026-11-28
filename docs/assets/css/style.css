@@ -1510,3 +1510,21 @@ button {
   margin: 0 auto 36px;
   overflow-x: auto;
 }
+/* Ampliar el recuadro de texto en Festivales al mismo ancho que el bloque superior */
+.festivals-split {
+  grid-template-columns: 1fr;
+  gap: 32px;
+}
+
+.festivals-split .editorial-frame-box--left {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 24px 28px;
+  box-sizing: border-box;
+}
+
+.festivals-split .chart-block {
+  margin-top: 0;
+  width: 100%;
+}
