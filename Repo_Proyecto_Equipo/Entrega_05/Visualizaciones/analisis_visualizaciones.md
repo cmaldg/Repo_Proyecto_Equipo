@@ -1,6 +1,4 @@
-## Análisis de los gráficos X,Y,Z.
-
-Con las diversas visualizaciones se busca ejemplificar y demostrarle al expectador de una forma gráfica la evolución de los actores nominados y sus origenes, también de las producciones de estas nominaciones. Además se busca presentar la cantidad de paises de producción para poder dimensionar la diferencia y predominancia estadounidense en la insdustria. 
+ 
 
 ## Análisis gráficos
 Uno de los gráficos se relaciona con los tipos de nominaciones a los Oscar (estadounidense con debut extranjero, extranjero con debut estadounidense, estadounidense con debut estadounidense y extranjero con debut extranjero). El gráfico busca mostrar cómo ha cambiado la composición de los nominados a través de las décadas. En él, se visualiza que en los años 60 hubo la mayor cantidad de nominados extranjeros a los premios de la Academia. La composición fue de 50 y 50, es decir, 50% estadounidenses y 50% extranjeros. 
