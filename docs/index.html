@@ -93,7 +93,6 @@
           <div class="carpet-viz-card" id="grafico-decadas">
             <div class="viz-header">
               <div>
-                <span class="chart-label">Gráfico 1 · Evolución por década (1920s–2020s)</span>
                 <h3 class="viz-title">Clasificación de nominaciones a los Oscar por década</h3>
                 <p class="viz-subtitle">
                   Proporción de nominados en Mejor Actor y Mejor Actriz según origen y país de debut cinematográfico
@@ -143,8 +142,7 @@
           <div class="carpet-viz-card flourish-card">
             <div class="viz-header">
               <div>
-                <span class="chart-label">Visualización interactiva · Flourish</span>
-                <h3 class="viz-title">Distribución histórica de nacionalidades y producciones</h3>
+                <h3 class="viz-title">Distribución de nominaciones y producciones</h3>
               </div>
             </div>
             <div class="flourish-embed flourish-chart" data-src="visualisation/31055227">
@@ -517,7 +515,27 @@ vegaEmbed("#grafico-nuevo", spec, embedOpt)
                La diferencia aparece al observar los resultados de cinco certámenes entre 1933 y 2026. La base reúne 927 registros de premios de actuación protagónica femenina y masculina, correspondientes a Cannes, Venecia, Berlín, los Globos de Oro y los BAFTA. De ese universo, los reconocimientos entregados por los tres grandes festivales europeos tuvieron un recorrido distinto al de los premios de la temporada anglosajona.
                En Cannes, Venecia y Berlín, cerca de dos de cada diez actuaciones premiadas consiguieron una nominación al Oscar. Entre los Globos de Oro y los BAFTA, en cambio, la proporción se acerca a ocho de cada diez. La distancia no es menor. Los festivales europeos pueden dar visibilidad internacional a una interpretación, pero ese reconocimiento no necesariamente se traduce en una candidatura en Hollywood.
               </p>
-              [GRAFICO]
+            
+             <div id="vis_vale"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300, "strokeWidth": 0}, "background": "#181818"}, "layer": [{"mark": {"type": "circle", "opacity": 1, "size": 350}, "encoding": {"color": {"field": "Color", "scale": null, "type": "nominal"}, "tooltip": [{"field": "Festival", "type": "nominal"}, {"field": "Grupo", "type": "nominal"}, {"field": "Etiqueta", "type": "nominal"}], "x": {"axis": {"domain": false, "format": "d", "grid": true, "gridColor": "#3A3A3A", "gridDash": [2, 2], "labelColor": "#CCCCCC", "labelExpr": "datum.value + '%'", "labelFont": "monospace", "ticks": false, "values": [0, 25, 50, 75, 100]}, "field": "Porcentaje", "scale": {"domain": [0, 100]}, "title": null, "type": "quantitative"}, "y": {"axis": {"domain": false, "labelColor": "#F8EFD8", "labelFont": "Georgia", "labelFontSize": 14, "labelPadding": 15, "ticks": false}, "field": "Festival", "sort": ["Cannes", "Venecia", "Berl\u00edn", "BAFTA", "Globo de Oro"], "title": null, "type": "nominal"}}}, {"mark": {"type": "text", "align": "left", "color": "#F8EFD8", "dx": 16, "font": "monospace", "fontSize": 11}, "encoding": {"text": {"field": "Etiqueta", "type": "nominal"}, "x": {"field": "Porcentaje", "type": "quantitative"}, "y": {"axis": {"domain": false, "labelColor": "#F8EFD8", "labelFont": "Georgia", "labelFontSize": 14, "labelPadding": 15, "ticks": false}, "field": "Festival", "sort": ["Cannes", "Venecia", "Berl\u00edn", "BAFTA", "Globo de Oro"], "title": null, "type": "nominal"}}, "transform": [{"filter": "(datum.Porcentaje <= 50)"}]}, {"mark": {"type": "text", "align": "right", "color": "#F8EFD8", "dx": -16, "font": "monospace", "fontSize": 11}, "encoding": {"text": {"field": "Etiqueta", "type": "nominal"}, "x": {"field": "Porcentaje", "type": "quantitative"}, "y": {"axis": {"domain": false, "labelColor": "#F8EFD8", "labelFont": "Georgia", "labelFontSize": 14, "labelPadding": 15, "ticks": false}, "field": "Festival", "sort": ["Cannes", "Venecia", "Berl\u00edn", "BAFTA", "Globo de Oro"], "title": null, "type": "nominal"}}, "transform": [{"filter": "(datum.Porcentaje > 50)"}]}], "data": {"name": "data-a8fa600e66d80d76b680494d963cca3b"}, "height": 320, "title": {"text": "La distancia entre dos circuitos", "anchor": "start", "color": "#C69D22", "font": "Georgia", "fontSize": 22, "offset": 20, "subtitle": "De cada 100 premiados, \u00bfcu\u00e1ntos llegaron a ser nominados al \u00d3scar?", "subtitleColor": "#F8EFD8", "subtitleFont": "monospace", "subtitleFontSize": 12}, "width": 650, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-a8fa600e66d80d76b680494d963cca3b": [{"Festival": "Cannes", "Grupo": "FESTIVALES EUROPEOS", "Porcentaje": 22, "Etiqueta": "22%  (37 de 169)", "Color": "#F8EFD8"}, {"Festival": "Venecia", "Grupo": "FESTIVALES EUROPEOS", "Porcentaje": 21, "Etiqueta": "21%  (27 de 126)", "Color": "#F8EFD8"}, {"Festival": "Berl\u00edn", "Grupo": "FESTIVALES EUROPEOS", "Porcentaje": 17, "Etiqueta": "17%  (23 de 132)", "Color": "#F8EFD8"}, {"Festival": "BAFTA", "Grupo": "TEMPORADA ANGLOSAJONA", "Porcentaje": 74, "Etiqueta": "74%  (132 de 178)", "Color": "#C69D22"}, {"Festival": "Globo de Oro", "Grupo": "TEMPORADA ANGLOSAJONA", "Porcentaje": 79, "Etiqueta": "79%  (255 de 322)", "Color": "#C69D22"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis_vale');
+      vegaEmbed("#vis_vale", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
               <p>
               La brecha también obliga a mirar qué tipo de actuaciones encuentran espacio en cada circuito. Cannes, Venecia y Berlín suelen reconocer películas que llegan desde distintas cinematografías y que no siempre están habladas en inglés. En sus premios conviven intérpretes de diferentes países y lenguas. Esa diversidad, sin embargo, no se refleja de la misma manera cuando las actuaciones llegan a la carrera por el Oscar.
               </p>
@@ -529,7 +547,6 @@ vegaEmbed("#grafico-nuevo", spec, embedOpt)
               <p>Las interpretaciones en inglés tienen una presencia mucho mayor entre las que consiguen una nominación al Oscar. En Cannes, Venecia y Berlín, entre un 38% y un 44% de las actuaciones premiadas en ese idioma llegó a la Academia. En las realizadas en otras lenguas, la proporción cae considerablemente. En esta última categoría también se incluyen las actuaciones bilingües.
               </p>
             </div>
-
 
           <!-- CONCLUSIÓN FINAL -->
           <div class="conclusion-box">
